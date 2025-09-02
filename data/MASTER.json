@@ -6,110 +6,489 @@
   "recipes": [
     {
       "recipe_id": 1,
-      "slug": "test-recipe",
-      "label": "Test Recipe",
-      "language": "en"
-    },
-    {
-      "recipe_id": 2,
-      "slug": "test-recipe-2",
-      "label": "Second Test Recipe",
-      "language": "en"
-    },
-    {
-      "recipe_id": 3,
-      "slug": "test-recipe-3",
-      "label": "Second Test Recipe",
-      "language": "en"
-    },
-    {
-      "recipe_id": 4,
-      "slug": "test-fix",
-      "label": "CI Fix Test"
+      "slug": "kyphi-rufus-damocrates",
+      "label": "κῦφι",
+      "source": "Rufus apud Damocrates via Galen, Antidosis 14.117.10-14.119.5",
+      "language": "grc"
     }
   ],
   "ingredients": [
     {
       "ingredient_id": 1,
-      "slug": "salt",
-      "label": "Salt",
-      "language": "en"
+      "slug": "stafida-leuke",
+      "label": "σταφὶς λευκή",
+      "language": "grc"
     },
     {
       "ingredient_id": 2,
-      "slug": "pepper",
-      "label": "Black Pepper",
-      "language": "en"
+      "slug": "terminthine-kekaumene",
+      "label": "τερμινθίνη κεκαυμένη",
+      "language": "grc"
     },
     {
       "ingredient_id": 3,
-      "slug": "ketchup",
-      "label": "Tomato Catsup",
-      "language": "en"
+      "slug": "smyrne",
+      "label": "σμύρνη",
+      "language": "grc"
     },
     {
       "ingredient_id": 4,
-      "slug": "test-ingredient",
-      "label": "Test Ingredient"
+      "slug": "kinnamomon",
+      "label": "κιννάμωμον",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 5,
+      "slug": "kardamomon-sperma",
+      "label": "καρδάμωμον σπέρμα",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 6,
+      "slug": "schoinos",
+      "label": "σχοῖνος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 7,
+      "slug": "krokos",
+      "label": "κρόκος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 8,
+      "slug": "bdellion",
+      "label": "βδέλλιον",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 9,
+      "slug": "onyx",
+      "label": "ὄνυξ",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 10,
+      "slug": "aspalathos",
+      "label": "ἀσπάλαθος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 11,
+      "slug": "nardostachys",
+      "label": "ναρδοστάχυς",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 12,
+      "slug": "kasia",
+      "label": "κασία",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 13,
+      "slug": "kypeiros",
+      "label": "κυπείρος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 14,
+      "slug": "arkevthides",
+      "label": "ἀρκευθίδες",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 15,
+      "slug": "kalamos-myrepsikou",
+      "label": "κάλαμος μυρεψικός",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 16,
+      "slug": "meli",
+      "label": "μέλι",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 17,
+      "slug": "oinos",
+      "label": "οἶνος",
+      "language": "grc"
     }
   ],
-  "aliases": [],
+  "aliases": [
+    {
+      "alias_id": 1,
+      "ingredient_id": 1,
+      "variant_label": "white raisins",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 2,
+      "ingredient_id": 1,
+      "variant_label": "white raisins (grapes)",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 3,
+      "ingredient_id": 2,
+      "variant_label": "roasted terebinth",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 4,
+      "ingredient_id": 2,
+      "variant_label": "terebinth resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 5,
+      "ingredient_id": 3,
+      "variant_label": "myrrh",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 6,
+      "ingredient_id": 4,
+      "variant_label": "cinnamon",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 7,
+      "ingredient_id": 5,
+      "variant_label": "cardamom seed",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 8,
+      "ingredient_id": 6,
+      "variant_label": "schoinos",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 9,
+      "ingredient_id": 7,
+      "variant_label": "saffron",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 10,
+      "ingredient_id": 8,
+      "variant_label": "bdellium",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 11,
+      "ingredient_id": 9,
+      "variant_label": "onycha",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 12,
+      "ingredient_id": 10,
+      "variant_label": "aspalathus",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 13,
+      "ingredient_id": 11,
+      "variant_label": "spikenard",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 14,
+      "ingredient_id": 12,
+      "variant_label": "cassia",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 15,
+      "ingredient_id": 13,
+      "variant_label": "cyperus",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 16,
+      "ingredient_id": 14,
+      "variant_label": "juniper berries",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 17,
+      "ingredient_id": 15,
+      "variant_label": "perfumer's calamus",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 18,
+      "ingredient_id": 16,
+      "variant_label": "honey",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 19,
+      "ingredient_id": 17,
+      "variant_label": "wine",
+      "language": "en",
+      "source": "translation"
+    }
+  ],
   "entries": [
     {
       "entry_id": 1,
       "recipe_id": 1,
       "ingredient_id": 1,
-      "amount_raw": "1 tsp",
-      "amount_value": null,
-      "amount_unit": null,
-      "preparation": null,
-      "notes": null,
-      "source_citation": null,
-      "source_span": null,
-      "added_at": "2025-09-02T13:28:17.713924",
-      "added_by": "test"
+      "amount_raw": "δραχμὰς Ἀττικὰς δὶς δώδεκα",
+      "amount_value": 24,
+      "amount_unit": "drachm",
+      "preparation": "remove skin and seeds, pound flesh thoroughly (λεοτριβήσαντες καλῶς)",
+      "notes": "λευκὴν τὴν λιπαρωτάτην - white, very oily raisins",
+      "source_citation": "Galen, Antidosis 14.117.15-14.118.2",
+      "source_span": "14.117.15-14.118.2",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
     },
     {
       "entry_id": 2,
-      "recipe_id": 2,
+      "recipe_id": 1,
       "ingredient_id": 2,
-      "amount_raw": "1/2 tsp",
-      "amount_value": null,
-      "amount_unit": null,
-      "preparation": null,
-      "notes": null,
-      "source_citation": null,
-      "source_span": null,
-      "added_at": "2025-09-02T14:42:24.548105",
-      "added_by": "ci"
+      "amount_raw": "ταὐτὸ τῆς κεκαυμένης",
+      "amount_value": 24,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "same amount as raisins; κεκαυμένης = roasted/burnt",
+      "source_citation": "Galen, Antidosis 14.118.3",
+      "source_span": "14.118.3",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
     },
     {
       "entry_id": 3,
-      "recipe_id": 3,
+      "recipe_id": 1,
       "ingredient_id": 3,
-      "amount_raw": "1/2 tsp",
-      "amount_value": null,
-      "amount_unit": null,
-      "preparation": null,
-      "notes": null,
-      "source_citation": null,
-      "source_span": null,
-      "added_at": "2025-09-02T14:42:24.605881",
-      "added_by": "ci"
+      "amount_raw": "ιβʹ",
+      "amount_value": 12,
+      "amount_unit": "drachm",
+      "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
+      "notes": "",
+      "source_citation": "Galen, Antidosis 14.118.4, 14.118.13-14",
+      "source_span": "14.118.4, 14.118.13-14",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
     },
     {
       "entry_id": 4,
-      "recipe_id": 4,
+      "recipe_id": 1,
       "ingredient_id": 4,
-      "amount_raw": "1 tsp",
+      "amount_raw": "δʹ",
+      "amount_value": 4,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "",
+      "source_citation": "Galen, Antidosis 14.118.4",
+      "source_span": "14.118.4",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 5,
+      "recipe_id": 1,
+      "ingredient_id": 5,
+      "amount_raw": "ταὐτὸ",
+      "amount_value": 4,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "variant substitution for cinnamon - some use this when cinnamon unavailable",
+      "source_citation": "Galen, Antidosis 14.119.3-4",
+      "source_span": "14.119.3-4",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 6,
+      "recipe_id": 1,
+      "ingredient_id": 6,
+      "amount_raw": "ιβʹ",
+      "amount_value": 12,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "",
+      "source_citation": "Galen, Antidosis 14.118.5",
+      "source_span": "14.118.5",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 7,
+      "recipe_id": 1,
+      "ingredient_id": 7,
+      "amount_raw": "μία",
+      "amount_value": 1,
+      "amount_unit": "unit",
+      "preparation": "",
+      "notes": "unit not specified - possibly drachma",
+      "source_citation": "Galen, Antidosis 14.118.5",
+      "source_span": "14.118.5",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 8,
+      "recipe_id": 1,
+      "ingredient_id": 8,
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "ground with myrrh and wine in mortar",
+      "notes": "mentioned together with onycha - possibly compound ingredient",
+      "source_citation": "Galen, Antidosis 14.118.5-6, 14.118.13",
+      "source_span": "14.118.5-6, 14.118.13",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 9,
+      "recipe_id": 1,
+      "ingredient_id": 9,
+      "amount_raw": "",
       "amount_value": null,
       "amount_unit": null,
-      "preparation": null,
-      "notes": null,
-      "source_citation": null,
-      "source_span": null,
-      "added_at": "2025-09-02T14:53:54.730812",
-      "added_by": "ci"
+      "preparation": "",
+      "notes": "ὄνυχας - mentioned with bdellium, unclear if separate ingredient or descriptor",
+      "source_citation": "Galen, Antidosis 14.118.6",
+      "source_span": "14.118.6",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 10,
+      "recipe_id": 1,
+      "ingredient_id": 10,
+      "amount_raw": "βʹ 𐅶ʹʹ",
+      "amount_value": 2,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "textual uncertainty - additional notation 𐅶ʹʹ unclear",
+      "source_citation": "Galen, Antidosis 14.118.6",
+      "source_span": "14.118.6",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 11,
+      "recipe_id": 1,
+      "ingredient_id": 11,
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "",
+      "source_citation": "Galen, Antidosis 14.118.7",
+      "source_span": "14.118.7",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 12,
+      "recipe_id": 1,
+      "ingredient_id": 12,
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety",
+      "source_citation": "Galen, Antidosis 14.118.7-8",
+      "source_span": "14.118.7-8",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 13,
+      "recipe_id": 1,
+      "ingredient_id": 13,
+      "amount_raw": "γʹ δραχμὰς",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "",
+      "source_citation": "Galen, Antidosis 14.118.8",
+      "source_span": "14.118.8",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 14,
+      "recipe_id": 1,
+      "ingredient_id": 14,
+      "amount_raw": "ταύταις ἴσας, Θʹ",
+      "amount_value": 9,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "ἐκ τῶν μεγίστων καὶ λιπαρῶν - from the largest and oiliest berries",
+      "source_citation": "Galen, Antidosis 14.118.8-10",
+      "source_span": "14.118.8-10",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 15,
+      "recipe_id": 1,
+      "ingredient_id": 15,
+      "amount_raw": "Θʹ δραχμὰς",
+      "amount_value": 9,
+      "amount_unit": "drachm",
+      "preparation": "",
+      "notes": "μυρεψικός - of the perfumer/unguent-maker",
+      "source_citation": "Galen, Antidosis 14.118.10",
+      "source_span": "14.118.10",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 16,
+      "recipe_id": 1,
+      "ingredient_id": 16,
+      "amount_raw": "τὸ μέτριον",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "added to adjust mixture consistency; mixed with ground raisins",
+      "notes": "moderate amount - used both in grinding process and final mixing",
+      "source_citation": "Galen, Antidosis 14.118.11, 14.118.15",
+      "source_span": "14.118.11, 14.118.15",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 17,
+      "recipe_id": 1,
+      "ingredient_id": 17,
+      "amount_raw": "παντελῶς βραχύ",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "used in grinding with bdellium and myrrh",
+      "notes": "very small amount - used in mortar grinding",
+      "source_citation": "Galen, Antidosis 14.118.11-13",
+      "source_span": "14.118.11-13",
+      "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
     }
   ]
 }

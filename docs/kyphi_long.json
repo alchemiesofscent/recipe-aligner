@@ -1,30 +1,121 @@
 [
   {
-    "recipe": "Test Recipe",
-    "ingredient": "Salt",
-    "amount": "1 tsp",
-    "preparation": null,
-    "notes": null
+    "recipe": "κῦφι",
+    "ingredient": "σταφὶς λευκή",
+    "amount": "δραχμὰς Ἀττικὰς δὶς δώδεκα",
+    "preparation": "remove skin and seeds, pound flesh thoroughly (λεοτριβήσαντες καλῶς)",
+    "notes": "λευκὴν τὴν λιπαρωτάτην - white, very oily raisins"
   },
   {
-    "recipe": "Second Test Recipe",
-    "ingredient": "Black Pepper",
-    "amount": "1/2 tsp",
-    "preparation": null,
-    "notes": null
+    "recipe": "κῦφι",
+    "ingredient": "τερμινθίνη κεκαυμένη",
+    "amount": "ταὐτὸ τῆς κεκαυμένης",
+    "preparation": "",
+    "notes": "same amount as raisins; κεκαυμένης = roasted/burnt"
   },
   {
-    "recipe": "Second Test Recipe",
-    "ingredient": "Tomato Catsup",
-    "amount": "1/2 tsp",
-    "preparation": null,
-    "notes": null
+    "recipe": "κῦφι",
+    "ingredient": "σμύρνη",
+    "amount": "ιβʹ",
+    "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
+    "notes": ""
   },
   {
-    "recipe": "CI Fix Test",
-    "ingredient": "Test Ingredient",
-    "amount": "1 tsp",
-    "preparation": null,
-    "notes": null
+    "recipe": "κῦφι",
+    "ingredient": "κιννάμωμον",
+    "amount": "δʹ",
+    "preparation": "",
+    "notes": ""
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "καρδάμωμον σπέρμα",
+    "amount": "ταὐτὸ",
+    "preparation": "",
+    "notes": "variant substitution for cinnamon - some use this when cinnamon unavailable"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "σχοῖνος",
+    "amount": "ιβʹ",
+    "preparation": "",
+    "notes": ""
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "κρόκος",
+    "amount": "μία",
+    "preparation": "",
+    "notes": "unit not specified - possibly drachma"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "βδέλλιον",
+    "amount": "γʹ",
+    "preparation": "ground with myrrh and wine in mortar",
+    "notes": "mentioned together with onycha - possibly compound ingredient"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "ὄνυξ",
+    "amount": "",
+    "preparation": "",
+    "notes": "ὄνυχας - mentioned with bdellium, unclear if separate ingredient or descriptor"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "ἀσπάλαθος",
+    "amount": "βʹ 𐅶ʹʹ",
+    "preparation": "",
+    "notes": "textual uncertainty - additional notation 𐅶ʹʹ unclear"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "ναρδοστάχυς",
+    "amount": "γʹ",
+    "preparation": "",
+    "notes": ""
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "κασία",
+    "amount": "γʹ",
+    "preparation": "",
+    "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "κυπείρος",
+    "amount": "γʹ δραχμὰς",
+    "preparation": "",
+    "notes": ""
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "ἀρκευθίδες",
+    "amount": "ταύταις ἴσας, Θʹ",
+    "preparation": "",
+    "notes": "ἐκ τῶν μεγίστων καὶ λιπαρῶν - from the largest and oiliest berries"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "κάλαμος μυρεψικός",
+    "amount": "Θʹ δραχμὰς",
+    "preparation": "",
+    "notes": "μυρεψικός - of the perfumer/unguent-maker"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "μέλι",
+    "amount": "τὸ μέτριον",
+    "preparation": "added to adjust mixture consistency; mixed with ground raisins",
+    "notes": "moderate amount - used both in grinding process and final mixing"
+  },
+  {
+    "recipe": "κῦφι",
+    "ingredient": "οἶνος",
+    "amount": "παντελῶς βραχύ",
+    "preparation": "used in grinding with bdellium and myrrh",
+    "notes": "very small amount - used in mortar grinding"
   }
 ]
