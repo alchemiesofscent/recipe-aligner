@@ -75,6 +75,13 @@ jobs:
             echo "Changes detected"
           fi
       
+      - name: Stage generated files
+        if: steps.check_files.outputs.files_exist == 'true'
+        run: |
+          git add -f docs/kyphi_long.json  # Force add ignored file
+          git add diffs/processed/  # Add processed files
+          git add data/MASTER.json  # Add updated master
+      
       - name: Commit changes
         if: steps.check_files.outputs.files_exist == 'true' && steps.check_changes.outputs.has_changes == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
