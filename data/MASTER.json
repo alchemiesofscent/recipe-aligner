@@ -9,6 +9,18 @@
       "slug": "test-recipe",
       "label": "Test Recipe",
       "language": "en"
+    },
+    {
+      "recipe_id": 2,
+      "slug": "test-recipe-2",
+      "label": "Second Test Recipe",
+      "language": "en"
+    },
+    {
+      "recipe_id": 3,
+      "slug": "test-recipe-3",
+      "label": "Second Test Recipe",
+      "language": "en"
     }
   ],
   "ingredients": [
@@ -16,6 +28,18 @@
       "ingredient_id": 1,
       "slug": "salt",
       "label": "Salt",
+      "language": "en"
+    },
+    {
+      "ingredient_id": 2,
+      "slug": "pepper",
+      "label": "Black Pepper",
+      "language": "en"
+    },
+    {
+      "ingredient_id": 3,
+      "slug": "ketchup",
+      "label": "Tomato Catsup",
       "language": "en"
     }
   ],
@@ -34,6 +58,34 @@
       "source_span": null,
       "added_at": "2025-09-02T13:28:17.713924",
       "added_by": "test"
+    },
+    {
+      "entry_id": 2,
+      "recipe_id": 2,
+      "ingredient_id": 2,
+      "amount_raw": "1/2 tsp",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T14:42:24.548105",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 3,
+      "recipe_id": 3,
+      "ingredient_id": 3,
+      "amount_raw": "1/2 tsp",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T14:42:24.605881",
+      "added_by": "ci"
     }
   ]
 }
