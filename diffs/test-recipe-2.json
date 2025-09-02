@@ -1,0 +1,18 @@
+{
+  "recipes": [{
+    "slug": "test-recipe-2",
+    "label": "Second Test Recipe", 
+    "language": "en"
+  }],
+  "ingredients": [{
+    "slug": "pepper",
+    "label": "Black Pepper",
+    "language": "en"
+  }],
+  "aliases": [],
+  "entries": [{
+    "recipe_slug": "test-recipe-2",
+    "ingredient_slug": "pepper",
+    "amount_raw": "1/2 tsp"
+  }]
+}
