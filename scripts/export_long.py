@@ -33,10 +33,21 @@ def export(master_path, out_path):
         sys.exit(1)
     
     # Build lookup tables
-    print("🏗️  Building lookup tables...")
+    print("🗂️  Building lookup tables...")
     recipes = {r["recipe_id"]: r for r in m.get("recipes", [])}
     ingredients = {i["ingredient_id"]: i for i in m.get("ingredients", [])}
     entries = m.get("entries", [])
+    
+    # Build alias lookup for ingredients
+    aliases = m.get("aliases", [])
+    ingredient_aliases = {}
+    for alias in aliases:
+        ingredient_id = alias["ingredient_id"]
+        if ingredient_id not in ingredient_aliases:
+            ingredient_aliases[ingredient_id] = []
+        # Collect English aliases for search
+        if alias.get("language") == "en":
+            ingredient_aliases[ingredient_id].append(alias["variant_label"])
     
     print(f"📊 Master contains:")
     print(f"   • {len(recipes)} recipes")
@@ -67,6 +78,17 @@ def export(master_path, out_path):
         
     print("✅ All references valid")
     
+    # Build alias lookup for ingredients
+    aliases = m.get("aliases", [])
+    ingredient_aliases = {}
+    for alias in aliases:
+        ingredient_id = alias["ingredient_id"]
+        if ingredient_id not in ingredient_aliases:
+            ingredient_aliases[ingredient_id] = []
+        # Collect English aliases for search
+        if alias.get("language") == "en":
+            ingredient_aliases[ingredient_id].append(alias["variant_label"])
+    
     # Build rows
     print("\n📝 Building long-format rows...")
     rows = []
@@ -77,12 +99,17 @@ def export(master_path, out_path):
         recipe = recipes[e["recipe_id"]]
         ingredient = ingredients[e["ingredient_id"]]
         
+        # Get English aliases for this ingredient
+        english_aliases = ingredient_aliases.get(ingredient["ingredient_id"], [])
+        aliases_text = ", ".join(english_aliases) if english_aliases else ""
+        
         rows.append({
             "recipe": recipe["label"],
             "ingredient": ingredient["label"],
             "amount": e.get("amount_raw"),
             "preparation": e.get("preparation"),
-            "notes": e.get("notes")
+            "notes": e.get("notes"),
+            "aliases": aliases_text
         })
         
         recipe_counts[recipe["label"]] += 1

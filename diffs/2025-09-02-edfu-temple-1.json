@@ -1,0 +1,101 @@
+{
+  "recipes": [
+    {
+      "slug": "kyphi-edfu-south-wall",
+      "label": "κῦφι (Edfu Laboratory)",
+      "source": "Edfu Temple Laboratory, south wall",
+      "language": "egy"
+    }
+  ],
+  "ingredients": [
+    {"slug": "gan", "label": "gan", "language": "egy"},
+    {"slug": "shut-nemti", "label": "šwt nmtj", "language": "egy"},
+    {"slug": "shebeb", "label": "šbb", "language": "egy"},
+    {"slug": "qedet", "label": "qd.t", "language": "egy"},
+    {"slug": "tishepes", "label": "tjšps", "language": "egy"},
+    {"slug": "agay", "label": "ogꜢy", "language": "egy"},
+    {"slug": "djebat", "label": "ḏbꜤ.t", "language": "egy"},
+    {"slug": "peresh", "label": "prš", "language": "egy"},
+    {"slug": "merehet-nar", "label": "mrḥ.t nꜤr", "language": "egy"},
+    {"slug": "merehet-en-ar", "label": "mrḥ.t n Ꜥr", "language": "egy"},
+    {"slug": "peqer", "label": "pqr", "language": "egy"},
+    {"slug": "sheben", "label": "šbn", "language": "egy"},
+    {"slug": "irep", "label": "jrp", "language": "egy"},
+    {"slug": "seshep-djesdjes", "label": "sSp m DsDs", "language": "egy"},
+    {"slug": "iter-heru-wedjat", "label": "jr.t Hr.w wḏ.t", "language": "egy"},
+    {"slug": "sentjer", "label": "snTr", "language": "egy"},
+    {"slug": "bit", "label": "bj.t", "language": "egy"},
+    {"slug": "khery", "label": "ḫrj", "language": "egy"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "gan", "variant_label": "styrax", "language": "en", "source": "Lüchtrath 1999"},
+    {"ingredient_slug": "gan", "variant_label": "storax", "language": "en", "source": "Lüchtrath 1999"},
+    {"ingredient_slug": "gan", "variant_label": "roseau aromatique", "language": "fr", "source": "Aufrère 2005"},
+    
+    {"ingredient_slug": "shut-nemti", "variant_label": "feather of Nemti", "language": "en", "source": "translation"},
+    {"ingredient_slug": "shut-nemti", "variant_label": "calamus", "language": "en", "source": "Lüchtrath 1999"},
+    {"ingredient_slug": "shut-nemti", "variant_label": "perfumer's calamus", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "shebeb", "variant_label": "mastix", "language": "en", "source": "Chassinat 1968"},
+    {"ingredient_slug": "shebeb", "variant_label": "mastic", "language": "en", "source": "Chassinat 1968"},
+    {"ingredient_slug": "shebeb", "variant_label": "lentisk", "language": "en", "source": "Chassinat 1968"},
+    
+    {"ingredient_slug": "qedet", "variant_label": "Aleppo pine resin", "language": "en", "source": "Charpentier 1981"},
+    {"ingredient_slug": "qedet", "variant_label": "coniferous resin", "language": "en", "source": "Lüchtrath 1999"},
+    
+    {"ingredient_slug": "tishepes", "variant_label": "cinnamon", "language": "en", "source": "Manniche 1999"},
+    {"ingredient_slug": "tishepes", "variant_label": "Ceylon cinnamon", "language": "en", "source": "Manniche 1999"},
+    {"ingredient_slug": "tishepes", "variant_label": "Chinese cinnamon", "language": "en", "source": "Loret 1892"},
+    {"ingredient_slug": "tishepes", "variant_label": "camphor", "language": "en", "source": "Lüchtrath 1988"},
+    
+    {"ingredient_slug": "agay", "variant_label": "gum arabic", "language": "en", "source": "Charpentier 1981"},
+    {"ingredient_slug": "agay", "variant_label": "tragacanth", "language": "en", "source": "Lüchtrath 1999"},
+    
+    {"ingredient_slug": "djebat", "variant_label": "sweet gum", "language": "en", "source": "Lüchtrath 1998"},
+    {"ingredient_slug": "djebat", "variant_label": "liquidambar", "language": "en", "source": "Lüchtrath 1998"},
+    {"ingredient_slug": "djebat", "variant_label": "charcoals", "language": "en", "source": "Wb V, 535"},
+    
+    {"ingredient_slug": "peresh", "variant_label": "juniper berries", "language": "en", "source": "Lüchtrath 1998"},
+    {"ingredient_slug": "peresh", "variant_label": "juniper", "language": "en", "source": "Lüchtrath 1998"},
+    
+    {"ingredient_slug": "merehet-nar", "variant_label": "nerium", "language": "en", "source": "Keimer 1924"},
+    {"ingredient_slug": "merehet-nar", "variant_label": "pomegranate", "language": "en", "source": "Newberry 1912"},
+    
+    {"ingredient_slug": "merehet-en-ar", "variant_label": "pistacia", "language": "en", "source": "Loret 1892"},
+    {"ingredient_slug": "merehet-en-ar", "variant_label": "juniper phoenicea", "language": "en", "source": "Lüchtrath 1998"},
+    
+    {"ingredient_slug": "sheben", "variant_label": "cyperus", "language": "en", "source": "Charpentier 1981"},
+    {"ingredient_slug": "sheben", "variant_label": "yellow nutsedge", "language": "en", "source": "Charpentier 1981"},
+    
+    {"ingredient_slug": "irep", "variant_label": "wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "seshep-djesdjes", "variant_label": "wine from Bahriya Oasis", "language": "en", "source": "translation"},
+    {"ingredient_slug": "iter-heru-wedjat", "variant_label": "green eye of Horus wine", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "sentjer", "variant_label": "frankincense", "language": "en", "source": "Germer 2008"},
+    {"ingredient_slug": "sentjer", "variant_label": "incense", "language": "en", "source": "Germer 2008"},
+    {"ingredient_slug": "sentjer", "variant_label": "terebinth resin", "language": "en", "source": "Loret 1949"},
+    
+    {"ingredient_slug": "bit", "variant_label": "honey", "language": "en", "source": "translation"},
+    {"ingredient_slug": "khery", "variant_label": "myrrh", "language": "en", "source": "identification"}
+  ],
+  "entries": [
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "gan", "amount_raw": null, "notes": "botanical identification uncertain"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "shut-nemti", "amount_raw": null, "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "shebeb", "amount_raw": null, "notes": "possible orthographical variant: fd"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "qedet", "amount_raw": null, "notes": "coniferous resin from Syria"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "tishepes", "amount_raw": null, "notes": "multiple botanical identifications proposed"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "agay", "amount_raw": null, "notes": "gum resin"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "djebat", "amount_raw": null, "notes": "possibly charcoals or sweet gum resin"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "peresh", "amount_raw": null, "notes": "also possibly red ochre/mineral substance"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "merehet-nar", "amount_raw": null, "notes": "reading variant 1: mrḥ.t nꜤr"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "merehet-en-ar", "amount_raw": null, "notes": "reading variant 2: mrḥ.t n Ꜥr - alternative reading of same hieroglyphic text"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "peqer", "amount_raw": null, "notes": "botanical identification not found"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "sheben", "amount_raw": null, "notes": "plant slime from cyperus rhizome"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "irep", "amount_raw": null, "notes": "generic wine"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "seshep-djesdjes", "amount_raw": null, "notes": "wine specifically from Bahriya Oasis"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "iter-heru-wedjat", "amount_raw": null, "notes": "green eye of Horus - type of wine"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "sentjer", "amount_raw": null, "notes": "frankincense or terebinth resin - identification debated"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "bit", "amount_raw": null, "notes": "standard honey"},
+    {"recipe_slug": "kyphi-edfu-south-wall", "ingredient_slug": "khery", "amount_raw": null, "notes": "identified as myrrh; type of antu"}
+  ]
+}

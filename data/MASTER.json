@@ -10,6 +10,13 @@
       "label": "κῦφι",
       "source": "Rufus apud Damocrates via Galen, Antidosis 14.117.10-14.119.5",
       "language": "grc"
+    },
+    {
+      "recipe_id": 2,
+      "slug": "kyphi-edfu-south-wall",
+      "label": "κῦφι (Edfu Laboratory)",
+      "source": "Edfu Temple Laboratory, south wall",
+      "language": "egy"
     }
   ],
   "ingredients": [
@@ -114,6 +121,114 @@
       "slug": "oinos",
       "label": "οἶνος",
       "language": "grc"
+    },
+    {
+      "ingredient_id": 18,
+      "slug": "gan",
+      "label": "gan",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 19,
+      "slug": "shut-nemti",
+      "label": "šwt nmtj",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 20,
+      "slug": "shebeb",
+      "label": "šbb",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 21,
+      "slug": "qedet",
+      "label": "qd.t",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 22,
+      "slug": "tishepes",
+      "label": "tjšps",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 23,
+      "slug": "agay",
+      "label": "ogꜢy",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 24,
+      "slug": "djebat",
+      "label": "ḏbꜤ.t",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 25,
+      "slug": "peresh",
+      "label": "prš",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 26,
+      "slug": "merehet-nar",
+      "label": "mrḥ.t nꜤr",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 27,
+      "slug": "merehet-en-ar",
+      "label": "mrḥ.t n Ꜥr",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 28,
+      "slug": "peqer",
+      "label": "pqr",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 29,
+      "slug": "sheben",
+      "label": "šbn",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 30,
+      "slug": "irep",
+      "label": "jrp",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 31,
+      "slug": "seshep-djesdjes",
+      "label": "sSp m DsDs",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 32,
+      "slug": "iter-heru-wedjat",
+      "label": "jr.t Hr.w wḏ.t",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 33,
+      "slug": "sentjer",
+      "label": "snTr",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 34,
+      "slug": "bit",
+      "label": "bj.t",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 35,
+      "slug": "khery",
+      "label": "ḫrj",
+      "language": "egy"
     }
   ],
   "aliases": [
@@ -249,6 +364,258 @@
       "variant_label": "wine",
       "language": "en",
       "source": "translation"
+    },
+    {
+      "alias_id": 20,
+      "ingredient_id": 18,
+      "variant_label": "styrax",
+      "language": "en",
+      "source": "Lüchtrath 1999"
+    },
+    {
+      "alias_id": 21,
+      "ingredient_id": 18,
+      "variant_label": "storax",
+      "language": "en",
+      "source": "Lüchtrath 1999"
+    },
+    {
+      "alias_id": 22,
+      "ingredient_id": 18,
+      "variant_label": "roseau aromatique",
+      "language": "fr",
+      "source": "Aufrère 2005"
+    },
+    {
+      "alias_id": 23,
+      "ingredient_id": 19,
+      "variant_label": "feather of Nemti",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 24,
+      "ingredient_id": 19,
+      "variant_label": "calamus",
+      "language": "en",
+      "source": "Lüchtrath 1999"
+    },
+    {
+      "alias_id": 25,
+      "ingredient_id": 19,
+      "variant_label": "perfumer's calamus",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "alias_id": 26,
+      "ingredient_id": 20,
+      "variant_label": "mastix",
+      "language": "en",
+      "source": "Chassinat 1968"
+    },
+    {
+      "alias_id": 27,
+      "ingredient_id": 20,
+      "variant_label": "mastic",
+      "language": "en",
+      "source": "Chassinat 1968"
+    },
+    {
+      "alias_id": 28,
+      "ingredient_id": 20,
+      "variant_label": "lentisk",
+      "language": "en",
+      "source": "Chassinat 1968"
+    },
+    {
+      "alias_id": 29,
+      "ingredient_id": 21,
+      "variant_label": "Aleppo pine resin",
+      "language": "en",
+      "source": "Charpentier 1981"
+    },
+    {
+      "alias_id": 30,
+      "ingredient_id": 21,
+      "variant_label": "coniferous resin",
+      "language": "en",
+      "source": "Lüchtrath 1999"
+    },
+    {
+      "alias_id": 31,
+      "ingredient_id": 22,
+      "variant_label": "cinnamon",
+      "language": "en",
+      "source": "Manniche 1999"
+    },
+    {
+      "alias_id": 32,
+      "ingredient_id": 22,
+      "variant_label": "Ceylon cinnamon",
+      "language": "en",
+      "source": "Manniche 1999"
+    },
+    {
+      "alias_id": 33,
+      "ingredient_id": 22,
+      "variant_label": "Chinese cinnamon",
+      "language": "en",
+      "source": "Loret 1892"
+    },
+    {
+      "alias_id": 34,
+      "ingredient_id": 22,
+      "variant_label": "camphor",
+      "language": "en",
+      "source": "Lüchtrath 1988"
+    },
+    {
+      "alias_id": 35,
+      "ingredient_id": 23,
+      "variant_label": "gum arabic",
+      "language": "en",
+      "source": "Charpentier 1981"
+    },
+    {
+      "alias_id": 36,
+      "ingredient_id": 23,
+      "variant_label": "tragacanth",
+      "language": "en",
+      "source": "Lüchtrath 1999"
+    },
+    {
+      "alias_id": 37,
+      "ingredient_id": 24,
+      "variant_label": "sweet gum",
+      "language": "en",
+      "source": "Lüchtrath 1998"
+    },
+    {
+      "alias_id": 38,
+      "ingredient_id": 24,
+      "variant_label": "liquidambar",
+      "language": "en",
+      "source": "Lüchtrath 1998"
+    },
+    {
+      "alias_id": 39,
+      "ingredient_id": 24,
+      "variant_label": "charcoals",
+      "language": "en",
+      "source": "Wb V, 535"
+    },
+    {
+      "alias_id": 40,
+      "ingredient_id": 25,
+      "variant_label": "juniper berries",
+      "language": "en",
+      "source": "Lüchtrath 1998"
+    },
+    {
+      "alias_id": 41,
+      "ingredient_id": 25,
+      "variant_label": "juniper",
+      "language": "en",
+      "source": "Lüchtrath 1998"
+    },
+    {
+      "alias_id": 42,
+      "ingredient_id": 26,
+      "variant_label": "nerium",
+      "language": "en",
+      "source": "Keimer 1924"
+    },
+    {
+      "alias_id": 43,
+      "ingredient_id": 26,
+      "variant_label": "pomegranate",
+      "language": "en",
+      "source": "Newberry 1912"
+    },
+    {
+      "alias_id": 44,
+      "ingredient_id": 27,
+      "variant_label": "pistacia",
+      "language": "en",
+      "source": "Loret 1892"
+    },
+    {
+      "alias_id": 45,
+      "ingredient_id": 27,
+      "variant_label": "juniper phoenicea",
+      "language": "en",
+      "source": "Lüchtrath 1998"
+    },
+    {
+      "alias_id": 46,
+      "ingredient_id": 29,
+      "variant_label": "cyperus",
+      "language": "en",
+      "source": "Charpentier 1981"
+    },
+    {
+      "alias_id": 47,
+      "ingredient_id": 29,
+      "variant_label": "yellow nutsedge",
+      "language": "en",
+      "source": "Charpentier 1981"
+    },
+    {
+      "alias_id": 48,
+      "ingredient_id": 30,
+      "variant_label": "wine",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 49,
+      "ingredient_id": 31,
+      "variant_label": "wine from Bahriya Oasis",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 50,
+      "ingredient_id": 32,
+      "variant_label": "green eye of Horus wine",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 51,
+      "ingredient_id": 33,
+      "variant_label": "frankincense",
+      "language": "en",
+      "source": "Germer 2008"
+    },
+    {
+      "alias_id": 52,
+      "ingredient_id": 33,
+      "variant_label": "incense",
+      "language": "en",
+      "source": "Germer 2008"
+    },
+    {
+      "alias_id": 53,
+      "ingredient_id": 33,
+      "variant_label": "terebinth resin",
+      "language": "en",
+      "source": "Loret 1949"
+    },
+    {
+      "alias_id": 54,
+      "ingredient_id": 34,
+      "variant_label": "honey",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 55,
+      "ingredient_id": 35,
+      "variant_label": "myrrh",
+      "language": "en",
+      "source": "identification"
     }
   ],
   "entries": [
@@ -488,6 +855,258 @@
       "source_citation": "Galen, Antidosis 14.118.11-13",
       "source_span": "14.118.11-13",
       "added_at": "2025-09-02T15:07:47.983972",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 18,
+      "recipe_id": 2,
+      "ingredient_id": 18,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "botanical identification uncertain",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 19,
+      "recipe_id": 2,
+      "ingredient_id": 19,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 20,
+      "recipe_id": 2,
+      "ingredient_id": 20,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "possible orthographical variant: fd",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 21,
+      "recipe_id": 2,
+      "ingredient_id": 21,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "coniferous resin from Syria",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 22,
+      "recipe_id": 2,
+      "ingredient_id": 22,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "multiple botanical identifications proposed",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 23,
+      "recipe_id": 2,
+      "ingredient_id": 23,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "gum resin",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.866154",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 24,
+      "recipe_id": 2,
+      "ingredient_id": 24,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "possibly charcoals or sweet gum resin",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 25,
+      "recipe_id": 2,
+      "ingredient_id": 25,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "also possibly red ochre/mineral substance",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 26,
+      "recipe_id": 2,
+      "ingredient_id": 26,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "reading variant 1: mrḥ.t nꜤr",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 27,
+      "recipe_id": 2,
+      "ingredient_id": 27,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "reading variant 2: mrḥ.t n Ꜥr - alternative reading of same hieroglyphic text",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 28,
+      "recipe_id": 2,
+      "ingredient_id": 28,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "botanical identification not found",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 29,
+      "recipe_id": 2,
+      "ingredient_id": 29,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "plant slime from cyperus rhizome",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 30,
+      "recipe_id": 2,
+      "ingredient_id": 30,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "generic wine",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 31,
+      "recipe_id": 2,
+      "ingredient_id": 31,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "wine specifically from Bahriya Oasis",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 32,
+      "recipe_id": 2,
+      "ingredient_id": 32,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "green eye of Horus - type of wine",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 33,
+      "recipe_id": 2,
+      "ingredient_id": 33,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "frankincense or terebinth resin - identification debated",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 34,
+      "recipe_id": 2,
+      "ingredient_id": 34,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "standard honey",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
+      "added_by": "manual"
+    },
+    {
+      "entry_id": 35,
+      "recipe_id": 2,
+      "ingredient_id": 35,
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "identified as myrrh; type of antu",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T15:16:05.879486",
       "added_by": "manual"
     }
   ]
