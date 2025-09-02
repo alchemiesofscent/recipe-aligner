@@ -1,3 +1,79 @@
 {
-  "equivalence_groups": []
+  "Myrrh": [
+    "σμύρνη",
+    "ḫrj", 
+    "myrrh"
+  ],
+  "Cinnamon": [
+    "κιννάμωμον",
+    "tjšps",
+    "cinnamon",
+    "Ceylon cinnamon", 
+    "Chinese cinnamon"
+  ],
+  "Honey": [
+    "μέλι", 
+    "bj.t",
+    "honey"
+  ],
+  "Wine": [
+    "οἶνος",
+    "jrp", 
+    "sSp m DsDs",
+    "jr.t Hr.w wḏ.t",
+    "wine",
+    "wine from Bahriya Oasis",
+    "green eye of Horus wine"
+  ],
+  "Juniper": [
+    "ἀρκευθίδες",
+    "prš",
+    "juniper berries",
+    "juniper"
+  ],
+  "Cyperus": [
+    "κυπείρος", 
+    "šbn",
+    "cyperus",
+    "yellow nutsedge"
+  ],
+  "Perfumer's Calamus": [
+    "κάλαμος μυρεψικός",
+    "šwt nmtj", 
+    "perfumer's calamus",
+    "calamus",
+    "feather of Nemti"
+  ],
+  "Resin": [
+    "τερμινθίνη κεκαυμένη",
+    "snTr",
+    "qd.t",
+    "roasted terebinth",
+    "terebinth resin", 
+    "frankincense",
+    "incense",
+    "Aleppo pine resin",
+    "coniferous resin"
+  ],
+  "Bdellium": [
+    "βδέλλιον",
+    "bdellium"
+  ],
+  "Cassia": [
+    "κασία",
+    "cassia"
+  ],
+  "Saffron": [
+    "κρόκος", 
+    "saffron"
+  ],
+  "Spikenard": [
+    "ναρδοστάχυς",
+    "spikenard" 
+  ],
+  "White Raisins": [
+    "σταφὶς λευκή",
+    "white raisins",
+    "white raisins (grapes)"
+  ]
 }
