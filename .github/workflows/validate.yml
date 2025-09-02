@@ -14,26 +14,69 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install jsonschema
+      
+      - name: Check for diff files
+        id: check_files
+        run: |
+          if ls diffs/*.json 1> /dev/null 2>&1; then
+            echo "files_exist=true" >> $GITHUB_OUTPUT
+            echo "Found JSON diff files to process"
+          else
+            echo "files_exist=false" >> $GITHUB_OUTPUT
+            echo "No JSON diff files found in diffs/"
+          fi
+      
       - name: Validate and merge diff files
+        if: steps.check_files.outputs.files_exist == 'true'
         run: |
           echo "Processing diff files..."
+          set -e  # Exit on any error
+          
           for file in diffs/*.json; do
             if [ -f "$file" ]; then
               echo "Validating: $file"
-              python scripts/validate_diff.py "$file"
+              if ! python scripts/validate_diff.py "$file"; then
+                echo "Validation failed for $file"
+                exit 1
+              fi
+              
               echo "Merging: $file"
-              python scripts/merge_diff.py data/MASTER.json "$file" "ci"
+              if ! python scripts/merge_diff.py data/MASTER.json "$file" "ci"; then
+                echo "Merge failed for $file"
+                exit 1
+              fi
+              
               echo "Moving to processed: $file"
               mkdir -p diffs/processed
               mv "$file" "diffs/processed/$(basename "$file" .json)_$(date +%Y%m%d_%H%M%S).json"
             fi
           done
           echo "Processing complete"
+      
       - name: Export web app data
+        if: steps.check_files.outputs.files_exist == 'true'
         run: |
           echo "Generating web app data..."
-          python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
+          if ! python scripts/export_long.py data/MASTER.json docs/kyphi_long.json; then
+            echo "Export failed"
+            exit 1
+          fi
+          echo "Export complete"
+      
+      - name: Check for changes
+        if: steps.check_files.outputs.files_exist == 'true'
+        id: check_changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+      
       - name: Commit changes
+        if: steps.check_files.outputs.files_exist == 'true' && steps.check_changes.outputs.has_changes == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "CI: process diffs and update web app data"
