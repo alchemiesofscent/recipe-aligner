@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kyphi Master Bundle",
+  "type": "object",
+  "required": ["meta", "recipes", "ingredients", "aliases", "entries"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "created_at": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["recipe_id", "slug", "label"],
+        "properties": {
+          "recipe_id": { "type": "integer", "minimum": 1 },
+          "slug": { "type": "string" },
+          "label": { "type": "string" },
+          "language": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ingredient_id", "slug", "label"],
+        "properties": {
+          "ingredient_id": { "type": "integer", "minimum": 1 },
+          "slug": { "type": "string" },
+          "label": { "type": "string" },
+          "language": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["alias_id", "ingredient_id", "variant_label"],
+        "properties": {
+          "alias_id": { "type": "integer", "minimum": 1 },
+          "ingredient_id": { "type": "integer", "minimum": 1 },
+          "variant_label": { "type": "string" },
+          "language": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entry_id", "recipe_id", "ingredient_id"],
+        "properties": {
+          "entry_id": { "type": "integer", "minimum": 1 },
+          "recipe_id": { "type": "integer", "minimum": 1 },
+          "ingredient_id": { "type": "integer", "minimum": 1 },
+          "amount_raw": { "type": ["string", "null"] },
+          "amount_value": { "type": ["number", "null"] },
+          "amount_unit": { "type": ["string", "null"] },
+          "preparation": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] },
+          "source_citation": { "type": ["string", "null"] },
+          "source_span": { "type": ["string", "null"] },
+          "added_at": { "type": ["string", "null"] },
+          "added_by": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

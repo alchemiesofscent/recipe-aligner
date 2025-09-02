@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build artefacts
+# ignore export except placeholder
+docs/kyphi_long.json
+!docs/kyphi_long.json.placeholder

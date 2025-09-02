@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kyphi Ingest Diff",
+  "type": "object",
+  "required": ["recipes", "ingredients", "aliases", "entries"],
+  "properties": {
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "label"],
+        "properties": {
+          "slug": { "type": "string" },
+          "label": { "type": "string" },
+          "language": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "label"],
+        "properties": {
+          "slug": { "type": "string" },
+          "label": { "type": "string" },
+          "language": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ingredient_slug", "variant_label"],
+        "properties": {
+          "ingredient_slug": { "type": "string" },
+          "variant_label": { "type": "string" },
+          "language": { "type": ["string", "null"] },
+          "source": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["recipe_slug", "ingredient_slug"],
+        "properties": {
+          "recipe_slug": { "type": "string" },
+          "ingredient_slug": { "type": "string" },
+          "amount_raw": { "type": ["string", "null"] },
+          "amount_value": { "type": ["number", "null"] },
+          "amount_unit": { "type": ["string", "null"] },
+          "preparation": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] },
+          "source_citation": { "type": ["string", "null"] },
+          "source_span": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
