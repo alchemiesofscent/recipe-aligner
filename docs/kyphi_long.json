@@ -4,118 +4,279 @@
     "ingredient": "σταφὶς λευκή",
     "amount": "δραχμὰς Ἀττικὰς δὶς δώδεκα",
     "preparation": "remove skin and seeds, pound flesh thoroughly (λεοτριβήσαντες καλῶς)",
-    "notes": "λευκὴν τὴν λιπαρωτάτην - white, very oily raisins"
+    "notes": "λευκὴν τὴν λιπαρωτάτην - white, very oily raisins",
+    "aliases": "white raisins, white raisins (grapes)"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "τερμινθίνη κεκαυμένη",
     "amount": "ταὐτὸ τῆς κεκαυμένης",
     "preparation": "",
-    "notes": "same amount as raisins; κεκαυμένης = roasted/burnt"
+    "notes": "same amount as raisins; κεκαυμένης = roasted/burnt",
+    "aliases": "roasted terebinth, terebinth resin"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "σμύρνη",
     "amount": "ιβʹ",
     "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
-    "notes": ""
+    "notes": "",
+    "aliases": "myrrh"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "κιννάμωμον",
     "amount": "δʹ",
     "preparation": "",
-    "notes": ""
+    "notes": "",
+    "aliases": "cinnamon"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "καρδάμωμον σπέρμα",
     "amount": "ταὐτὸ",
     "preparation": "",
-    "notes": "variant substitution for cinnamon - some use this when cinnamon unavailable"
+    "notes": "variant substitution for cinnamon - some use this when cinnamon unavailable",
+    "aliases": "cardamom seed"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "σχοῖνος",
     "amount": "ιβʹ",
     "preparation": "",
-    "notes": ""
+    "notes": "",
+    "aliases": "schoinos"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "κρόκος",
     "amount": "μία",
     "preparation": "",
-    "notes": "unit not specified - possibly drachma"
+    "notes": "unit not specified - possibly drachma",
+    "aliases": "saffron"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "βδέλλιον",
     "amount": "γʹ",
     "preparation": "ground with myrrh and wine in mortar",
-    "notes": "mentioned together with onycha - possibly compound ingredient"
+    "notes": "mentioned together with onycha - possibly compound ingredient",
+    "aliases": "bdellium"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "ὄνυξ",
     "amount": "",
     "preparation": "",
-    "notes": "ὄνυχας - mentioned with bdellium, unclear if separate ingredient or descriptor"
+    "notes": "ὄνυχας - mentioned with bdellium, unclear if separate ingredient or descriptor",
+    "aliases": "onycha"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "ἀσπάλαθος",
     "amount": "βʹ 𐅶ʹʹ",
     "preparation": "",
-    "notes": "textual uncertainty - additional notation 𐅶ʹʹ unclear"
+    "notes": "textual uncertainty - additional notation 𐅶ʹʹ unclear",
+    "aliases": "aspalathus"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "ναρδοστάχυς",
     "amount": "γʹ",
     "preparation": "",
-    "notes": ""
+    "notes": "",
+    "aliases": "spikenard"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "κασία",
     "amount": "γʹ",
     "preparation": "",
-    "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety"
+    "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety",
+    "aliases": "cassia"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "κυπείρος",
     "amount": "γʹ δραχμὰς",
     "preparation": "",
-    "notes": ""
+    "notes": "",
+    "aliases": "cyperus"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "ἀρκευθίδες",
     "amount": "ταύταις ἴσας, Θʹ",
     "preparation": "",
-    "notes": "ἐκ τῶν μεγίστων καὶ λιπαρῶν - from the largest and oiliest berries"
+    "notes": "ἐκ τῶν μεγίστων καὶ λιπαρῶν - from the largest and oiliest berries",
+    "aliases": "juniper berries"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "κάλαμος μυρεψικός",
     "amount": "Θʹ δραχμὰς",
     "preparation": "",
-    "notes": "μυρεψικός - of the perfumer/unguent-maker"
+    "notes": "μυρεψικός - of the perfumer/unguent-maker",
+    "aliases": "perfumer's calamus"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "μέλι",
     "amount": "τὸ μέτριον",
     "preparation": "added to adjust mixture consistency; mixed with ground raisins",
-    "notes": "moderate amount - used both in grinding process and final mixing"
+    "notes": "moderate amount - used both in grinding process and final mixing",
+    "aliases": "honey"
   },
   {
     "recipe": "κῦφι",
     "ingredient": "οἶνος",
     "amount": "παντελῶς βραχύ",
     "preparation": "used in grinding with bdellium and myrrh",
-    "notes": "very small amount - used in mortar grinding"
+    "notes": "very small amount - used in mortar grinding",
+    "aliases": "wine"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "gan",
+    "amount": null,
+    "preparation": null,
+    "notes": "botanical identification uncertain",
+    "aliases": "styrax, storax"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "šwt nmtj",
+    "amount": null,
+    "preparation": null,
+    "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'",
+    "aliases": "feather of Nemti, calamus, perfumer's calamus"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "šbb",
+    "amount": null,
+    "preparation": null,
+    "notes": "possible orthographical variant: fd",
+    "aliases": "mastix, mastic, lentisk"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "qd.t",
+    "amount": null,
+    "preparation": null,
+    "notes": "coniferous resin from Syria",
+    "aliases": "Aleppo pine resin, coniferous resin"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "tjšps",
+    "amount": null,
+    "preparation": null,
+    "notes": "multiple botanical identifications proposed",
+    "aliases": "cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "ogꜢy",
+    "amount": null,
+    "preparation": null,
+    "notes": "gum resin",
+    "aliases": "gum arabic, tragacanth"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "ḏbꜤ.t",
+    "amount": null,
+    "preparation": null,
+    "notes": "possibly charcoals or sweet gum resin",
+    "aliases": "sweet gum, liquidambar, charcoals"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "prš",
+    "amount": null,
+    "preparation": null,
+    "notes": "also possibly red ochre/mineral substance",
+    "aliases": "juniper berries, juniper"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "mrḥ.t nꜤr",
+    "amount": null,
+    "preparation": null,
+    "notes": "reading variant 1: mrḥ.t nꜤr",
+    "aliases": "nerium, pomegranate"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "mrḥ.t n Ꜥr",
+    "amount": null,
+    "preparation": null,
+    "notes": "reading variant 2: mrḥ.t n Ꜥr - alternative reading of same hieroglyphic text",
+    "aliases": "pistacia, juniper phoenicea"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "pqr",
+    "amount": null,
+    "preparation": null,
+    "notes": "botanical identification not found",
+    "aliases": ""
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "šbn",
+    "amount": null,
+    "preparation": null,
+    "notes": "plant slime from cyperus rhizome",
+    "aliases": "cyperus, yellow nutsedge"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "jrp",
+    "amount": null,
+    "preparation": null,
+    "notes": "generic wine",
+    "aliases": "wine"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "sSp m DsDs",
+    "amount": null,
+    "preparation": null,
+    "notes": "wine specifically from Bahriya Oasis",
+    "aliases": "wine from Bahriya Oasis"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "jr.t Hr.w wḏ.t",
+    "amount": null,
+    "preparation": null,
+    "notes": "green eye of Horus - type of wine",
+    "aliases": "green eye of Horus wine"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "snTr",
+    "amount": null,
+    "preparation": null,
+    "notes": "frankincense or terebinth resin - identification debated",
+    "aliases": "frankincense, incense, terebinth resin"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "bj.t",
+    "amount": null,
+    "preparation": null,
+    "notes": "standard honey",
+    "aliases": "honey"
+  },
+  {
+    "recipe": "κῦφι (Edfu Laboratory)",
+    "ingredient": "ḫrj",
+    "amount": null,
+    "preparation": null,
+    "notes": "identified as myrrh; type of antu",
+    "aliases": "myrrh"
   }
 ]

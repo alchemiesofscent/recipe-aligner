@@ -1,438 +1,422 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-<meta charset="utf-8">
-<title>Kyphi Ingredient Aligner</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 1.5rem; }
-  header { display:flex; align-items:baseline; gap:1rem; flex-wrap:wrap; }
-  h1 { font-size: 1.25rem; margin: 0; }
-  .panel { display:flex; gap:2rem; margin: 1rem 0; flex-wrap:wrap; }
-  .block { min-width: 280px; }
-  label { display:block; margin: .25rem 0; cursor: pointer; }
-  input[type="search"] { width: 100%; padding:.5rem; border: 2px solid #ddd; border-radius: .4rem; transition: border-color 0.2s; }
-  table { width:100%; border-collapse: collapse; margin-top: 1rem; }
-  th, td { border-bottom: 1px solid #ddd; padding: .5rem .6rem; vertical-align: top; }
-  th { position: sticky; top: 0; background: #fafafa; text-align:left; font-weight:600; }
-  tbody tr:hover { background: #f8f8ff; }
-  .pill { display:inline-block; padding:.1rem .4rem; border:1px solid #ccc; border-radius:999px; font-size:.75rem; margin-left:.25rem; }
-  .muted { color:#666; font-size:.9rem; }
-  .wrap { white-space: pre-wrap; }
-  .controls { display:flex; gap:.5rem; flex-wrap:wrap; }
-  .btn { padding:.45rem .7rem; border:1px solid #bbb; border-radius:.4rem; background:#fff; cursor:pointer; transition: transform 0.1s; }
-  .btn:active { transform: translateY(1px); }
-  .btn:hover { background: #f5f5f5; }
-  .small { font-size:.85rem; }
-  .note { color:#555; }
-  .badge { font-size:.75rem; border:1px solid #ddd; border-radius:.4rem; padding:.1rem .35rem; background: #f8f8f8; }
-  .badge.error { border-color: #ff6b6b; background: #ffe0e0; color: #d63031; }
-  .center { text-align: center; }
-  .message { padding: .5rem 1rem; margin: .5rem 0; border-radius: .4rem; font-size: .9rem; }
-  .message.info { background: #e3f2fd; border-left: 4px solid #2196f3; }
-  .message.success { background: #e8f5e8; border-left: 4px solid #51cf66; }
-  .message.warning { background: #fff3cd; border-left: 4px solid #ffc107; }
-  .message.error { background: #f8d7da; border-left: 4px solid #dc3545; }
-  
-  .alignment-mode { background: #e8f4fd; border: 1px solid #1976d2; border-radius: .4rem; padding: .5rem; margin: .5rem 0; }
-  .best-guess { background: #fff3e0; border-left: 3px solid #ff9800; }
-  .linked-ingredient { font-style: italic; opacity: 0.8; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kyphi Index — alias-aware</title>
+  <style>
+    :root{
+      --headerOffset: 0px;
+      --bg:#0f1115; --card:#171923; --muted:#8b93a7; --fg:#e6e9f2; --accent:#6ea8ff; --pill:#283048;
+      --ok:#7bd88f; --warn:#ffd479; --border:#24283b; --rowA:#10131a; --rowB:#0e1016; --link:#a0a6b9;
+      font-synthesis-weight:none; text-rendering:optimizeLegibility;
+    }
+    html[data-theme="light"]{
+      --bg:#f6f7fb; --card:#ffffff; --muted:#5b6478; --fg:#0b0d12; --accent:#0b57d0; --pill:#e8eefc;
+      --ok:#1e8e3e; --warn:#b06e00; --border:#e6e8f0; --rowA:#ffffff; --rowB:#fafbff; --link:#4a5370;
+    }
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--accent)}
+    .wrap{white-space:normal; word-break:break-word}
+    header{position:sticky;top:0;background:linear-gradient(180deg, color-mix(in oklab,var(--bg) 96%, transparent), color-mix(in oklab,var(--bg) 92%, transparent));backdrop-filter:saturate(120%) blur(8px);border-bottom:1px solid var(--border);z-index:5}
+    .container{max-width:1200px;margin:0 auto;padding:12px 16px}
+    h1{margin:0;font-size:18px;letter-spacing:.2px}
+    .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
+    .controls input[type="text"]{flex:1 1 260px;padding:9px 10px;border-radius:8px;border:1px solid var(--border);background:color-mix(in oklab, var(--bg) 90%, #0000);color:var(--fg)}
+    .switch, .btn{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+    .btn{border:1px solid var(--border);border-radius:10px;padding:6px 10px;cursor:pointer;user-select:none;background:var(--card);}
+    .btn:hover{filter:brightness(1.05)}
+    .btn-group{display:flex;gap:6px;flex-wrap:wrap}
+    .chip-list{display:flex;gap:8px;flex-wrap:wrap;max-height:86px;overflow:auto;padding:8px;border:1px dashed var(--border);border-radius:10px;background:color-mix(in oklab, var(--card) 92%, transparent)}
+    .chip{display:inline-flex;gap:6px;align-items:center;padding:4px 8px;border-radius:999px;border:1px solid var(--border);background:var(--card);}
+    .pill{display:inline-block;border-radius:999px;padding:2px 8px;background:var(--pill);color:color-mix(in oklab,var(--accent) 80%, var(--fg));margin-left:6px;font-size:12px}
+    .note{display:inline-block;margin-left:6px;color:var(--muted)}
+    .best-guess{border-left:3px solid var(--accent);padding-left:8px}
+    .muted{color:var(--muted)}
+    .small{font-size:12px}
+
+    /* Table: single scroll context (page), sticky header + first column */
+    table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed}
+    thead th{
+      position:sticky;top:var(--headerOffset);
+      background:var(--card);
+      z-index:6;
+      border-bottom:2px solid var(--border);
+      box-shadow:0 1px 0 var(--border);
+    }
+    thead th:first-child{z-index:7}
+    th,td{vertical-align:top;border-bottom:1px solid var(--border);padding:10px 12px;overflow:hidden;text-overflow:ellipsis}
+    th:first-child, td:first-child{
+      position:sticky;left:0;background:var(--card);z-index:5;box-shadow:1px 0 0 var(--border)
+    }
+    tbody tr:nth-child(odd) td{background:var(--rowA)}
+    tbody tr:nth-child(even) td{background:var(--rowB)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 12px}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .stat{color:var(--muted)}
+    footer{color:var(--muted);text-align:center;padding:22px}
+    .linked-ingredient{color:var(--link)}
+  </style>
 </head>
 <body>
-<header>
-  <h1>Kyphi Ingredient Aligner</h1>
-  <span class="muted">Data loads from <code>kyphi_long.json</code>.</span>
-</header>
-
-<div class="panel">
-  <div class="block">
-    <div class="controls">
-      <button id="selectAll" class="btn small">Select all</button>
-      <button id="selectNone" class="btn small">None</button>
-      <button id="exportCSV" class="btn small">Export CSV</button>
-      <button id="exportJSON" class="btn small">Export JSON</button>
+  <header>
+    <div class="container">
+      <div class="row" style="align-items:center; justify-content:space-between">
+        <h1>Kyphi Ingredient Index</h1>
+        <div class="row" style="align-items:center;gap:10px">
+          <div class="stat"><span id="countShown">0</span> shown • <span id="countTotal">0</span> total</div>
+          <button id="toggleTheme" class="btn" title="Toggle day/night">Toggle theme</button>
+        </div>
+      </div>
+      <div class="controls">
+        <input id="q" type="text" placeholder="Search ingredients, aliases (e.g., ‘myrrh’), notes, amounts…" />
+        <label class="switch"><input id="toggleSmart" type="checkbox" /> Smart alignment</label>
+        <label class="switch"><input id="toggleAmt" type="checkbox" checked /> Amounts</label>
+        <label class="switch"><input id="togglePrep" type="checkbox" checked /> Preparation</label>
+        <label class="switch"><input id="toggleNotes" type="checkbox" /> Notes</label>
+        <label class="switch"><input id="toggleShowAliases" type="checkbox" checked /> Show aliases under name</label>
+      </div>
+      <div class="row" style="align-items:flex-start; gap:12px; margin-top:10px">
+        <div class="btn-group">
+          <button id="btnAll" class="btn">Select all</button>
+          <button id="btnNone" class="btn">Select none</button>
+          <button id="btnExportCSV" class="btn">Export CSV</button>
+          <button id="btnExportJSON" class="btn">Export JSON</button>
+        </div>
+      </div>
+      <div class="chip-list" id="recipeChips" aria-label="Recipes"></div>
     </div>
-    <div id="recipeList" class="block" aria-label="Recipe selection"></div>
-  </div>
+  </header>
 
-  <div class="block">
-    <label>
-      Search ingredients / notes
-      <input id="search" type="search" placeholder="e.g., σμύρνης, ḫrj, juniper, honey…">
-    </label>
-    <label><input type="checkbox" id="showAmounts" checked> Show amounts</label>
-    <label><input type="checkbox" id="showPrep" checked> Show preparation</label>
-    <label><input type="checkbox" id="showNotes" checked> Show notes</label>
-    
-    <div class="alignment-mode">
-      <label><input type="checkbox" id="smartAlignment"> Smart Alignment Mode</label>
-      <div class="muted small">Groups likely equivalent ingredients (myrrh, juniper, etc.) across languages</div>
+  <main class="container" style="margin-top:10px">
+    <div class="card">
+      <table id="grid">
+        <thead><tr><th>Ingredient</th></tr></thead>
+        <tbody></tbody>
+      </table>
     </div>
-    
-    <div class="muted small">Data: <span id="dataStatus" class="badge">loading…</span></div>
-  </div>
-</div>
+  </main>
 
-<div id="alignmentWarning" class="message warning" style="display: none;">
-  Smart Alignment active: Ingredients are grouped by best-guess equivalences. This view is speculative.
-</div>
-
-<table id="grid" aria-label="Aligned ingredients table">
-  <thead id="thead"></thead>
-  <tbody id="tbody"></tbody>
-</table>
+  <footer>
+    Data: kyphi_long.json • equivalences.json
+  </footer>
 
 <script>
-const DATA_URL = 'kyphi_long.json';
-const EQUIVALENCES_URL = 'equivalences.json';  // Same directory as the web app
-const SAMPLE_DATA = [
-  {"recipe":"Philae","ingredient":"gnn","amount":null,"preparation":null,"notes":"unidentified"},
-  {"recipe":"Dioscorides","ingredient":"σμύρνης","amount":"δραχμὰς 12","preparation":null,"notes":"myrrh"}
-];
+(function(){
+  const $ = sel => document.querySelector(sel);
+  const nfkc = s => (s==null?"":String(s)).normalize("NFKC");
 
-let equivalenceGroups = {}; // Loaded from file
+  // Elements
+  const qInput = $('#q');
+  const toggleSmart = $('#toggleSmart');
+  const toggleAmt = $('#toggleAmt');
+  const togglePrep = $('#togglePrep');
+  const toggleNotes = $('#toggleNotes');
+  const toggleShowAliases = $('#toggleShowAliases');
+  const toggleThemeBtn = $('#toggleTheme');
+  const thead = document.querySelector('#grid thead');
+  const tbody = document.querySelector('#grid tbody');
+  const countShown = $('#countShown');
+  const countTotal = $('#countTotal');
+  const recipeChips = $('#recipeChips');
 
-async function loadEquivalences() {
-  try {
-    const r = await fetch(EQUIVALENCES_URL);
-    if (!r.ok) {
-      console.info('Equivalences file not found - smart alignment disabled');
-      return {};
+  // State
+  let rows = [];              // flattened entries from kyphi_long
+  let allRecipes = [];        // master list
+  let selectedRecipes = new Set();
+  let equivalences = {};      // alignment map
+  let searchIndex = [];       // [{row: <tr>, text: lowercased searchable blob}]
+  let filteredCount = 0;
+
+  // Sample fallback data
+  const sampleRows = [
+    { recipe:"Sample Rufus", ingredient:"σμύρνη", amount:"12", preparation:"ground", notes:"=myrrh", aliases:["myrrh"] },
+    { recipe:"Sample Rufus", ingredient:"μέλι", amount:"24", preparation:"", notes:"honey", aliases:["honey"] },
+    { recipe:"Sample Diosc.", ingredient:"σμύρνη", amount:"", preparation:"", notes:"alt source", aliases:["myrrh"] }
+  ];
+  const sampleEquivalences = { "Myrrh":["σμύρνη","smyrna","smyrne"] };
+
+  // Load data
+  Promise.all([
+    fetch('kyphi_long.json').then(r=>r.json()),
+    fetch('equivalences.json').then(r=>r.json()).catch(()=>({}))
+  ]).then(([longRows, eq])=>{
+    initWithData(longRows, eq);
+  }).catch(err=>{
+    console.warn('Falling back to sample data due to load error:', err);
+    initWithData(sampleRows, sampleEquivalences);
+  });
+
+  function initWithData(longRows, eq){
+    const validRows = longRows.filter(r => r && r.ingredient && r.recipe);
+    rows = validRows.map(r => ({
+      recipe: nfkc(r.recipe),
+      ingredient: nfkc(r.ingredient),
+      amount: r.amount ?? r.amount_raw ?? null,
+      preparation: r.preparation ?? null,
+      notes: r.notes ?? null,
+      aliases: normaliseAliases(r.aliases)
+    }));
+
+    allRecipes = Array.from(new Set(rows.map(r=>r.recipe)));
+    selectedRecipes = new Set(allRecipes);
+
+    equivalences = coerceEquivalences(eq);
+    toggleSmart.checked = Object.keys(equivalences).length > 0;
+
+    renderRecipeChips();
+    render();
+    attachEvents();
+    setHeaderOffset();
+    window.addEventListener('resize', setHeaderOffset);
+  }
+
+  function setHeaderOffset(){
+    const h = document.querySelector('header');
+    const top = (h?.offsetHeight || 0) + 'px';
+    document.documentElement.style.setProperty('--headerOffset', top);
+  }
+
+  function normaliseAliases(a){
+    if (!a) return [];
+    if (Array.isArray(a)) return a.map(s=>nfkc(s).trim()).filter(Boolean);
+    return String(a).split(',').map(s=>nfkc(s).trim()).filter(Boolean);
+  }
+
+  function coerceEquivalences(eq){
+    if (!eq) return {};
+    if (Array.isArray(eq)){
+      const out = {};
+      eq.forEach(e=>{
+        if(!e) return;
+        const key = nfkc(e.aligned || e.key || e.name || '').trim();
+        const vars = (e.variants || e.values || []).map(v=>nfkc(v).trim()).filter(Boolean);
+        if (key) out[key] = Array.from(new Set([key, ...vars]));
+      });
+      return out;
     }
-    const data = await r.json();
-    const groups = {};
-    data.equivalence_groups.forEach(group => {
-      groups[group.canonical_name] = group.ingredients;
-    });
-    console.log(`Loaded ${Object.keys(groups).length} equivalence groups`);
-    return groups;
-  } catch (error) {
-    console.warn('Could not load equivalences:', error.message);
+    if (typeof eq === 'object'){
+      const out = {};
+      for (const k in eq){
+        const key = nfkc(k).trim();
+        const vals = Array.isArray(eq[k]) ? eq[k] : (eq[k]?.variants || []);
+        out[key] = Array.from(new Set([key, ...vals.map(v=>nfkc(v).trim())]));
+      }
+      return out;
+    }
     return {};
   }
-}
 
-const nfkc = s => s && s.normalize ? s.normalize('NFKC') : s;
-function unique(arr){ return Array.from(new Set(arr)); }
+  function attachEvents(){
+    qInput.addEventListener('input', liveFilter);
+    toggleSmart.addEventListener('change', render);
+    toggleAmt.addEventListener('change', render);
+    togglePrep.addEventListener('change', render);
+    toggleNotes.addEventListener('change', render);
+    toggleShowAliases.addEventListener('change', render);
 
-function download(filename, text){
-  const a=document.createElement('a');
-  a.href=URL.createObjectURL(new Blob([text],{type:'text/plain'}));
-  a.download=filename;
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
+    $('#btnAll').addEventListener('click', ()=>{ selectedRecipes = new Set(allRecipes); updateChipChecks(true); render();});
+    $('#btnNone').addEventListener('click', ()=>{ selectedRecipes = new Set(); updateChipChecks(false); render();});
 
-function updateStatus(msg, isError = false) {
-  const badge = document.getElementById('dataStatus');
-  badge.textContent = msg;
-  badge.className = `badge ${isError ? 'error' : ''}`;
-}
+    $('#btnExportCSV').addEventListener('click', ()=> exportData('csv'));
+    $('#btnExportJSON').addEventListener('click', ()=> exportData('json'));
 
-function showMessage(msg, type = 'info') {
-  const existing = document.getElementById('message');
-  if (existing) existing.remove();
-  
-  const div = document.createElement('div');
-  div.id = 'message';
-  div.className = `message ${type}`;
-  div.textContent = msg;
-  document.querySelector('header').after(div);
-  
-  setTimeout(() => div.remove(), 3000);
-}
-
-function findEquivalenceGroup(ingredient) {
-  const normalized = nfkc(ingredient).toLowerCase();
-  for (const [groupName, variants] of Object.entries(equivalenceGroups)) {
-    for (const variant of variants) {
-      if (nfkc(variant).toLowerCase() === normalized || 
-          normalized.includes(nfkc(variant).toLowerCase()) ||
-          nfkc(variant).toLowerCase().includes(normalized)) {
-        return groupName;
-      }
-    }
-  }
-  return null;
-}
-
-function getAlignedIngredients(ingredients, smartAlignment) {
-  if (!smartAlignment) {
-    return ingredients.map(ing => ({original: ing, aligned: ing, group: null}));
-  }
-  
-  const grouped = {};
-  const ungrouped = [];
-  
-  ingredients.forEach(ing => {
-    const group = findEquivalenceGroup(ing);
-    if (group) {
-      if (!grouped[group]) grouped[group] = [];
-      grouped[group].push(ing);
-    } else {
-      ungrouped.push(ing);
-    }
-  });
-  
-  const result = [];
-  
-  // Add grouped ingredients
-  Object.entries(grouped).forEach(([groupName, ings]) => {
-    result.push({
-      original: ings,
-      aligned: groupName,
-      group: groupName,
-      variants: ings
+    toggleThemeBtn.addEventListener('click', ()=>{
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
     });
-  });
-  
-  // Add ungrouped ingredients
-  ungrouped.forEach(ing => {
-    result.push({original: ing, aligned: ing, group: null});
-  });
-  
-  return result.sort((a, b) => a.aligned.localeCompare(b.aligned));
-}
-
-let rows=[], recipes=[], selected=new Set(), show={amounts:true, prep:true, notes:true}, searchTerm='', filteredCount = 0, smartAlignment = false;
-
-async function loadJSON(url){
-  updateStatus('Loading...', false);
-  try { 
-    const r = await fetch(url); 
-    if (!r.ok) {
-      console.warn(`Failed to fetch ${url}: ${r.status} ${r.statusText}`);
-      return null;
-    }
-    const data = await r.json(); 
-    if (!Array.isArray(data)) {
-      throw new Error('Data is not an array');
-    }
-    return data;
-  } catch (error) {
-    console.warn(`Error loading ${url}:`, error.message);
-    return null;
   }
-}
 
-function renderRecipeList(){
-  const box=document.getElementById('recipeList'); box.innerHTML='';
-  recipes.forEach(name=>{
-    const id='r_'+name.replace(/\W+/g,'_');
-    const wrap=document.createElement('label');
-    wrap.innerHTML=`<input type="checkbox" id="${id}" ${selected.has(name)?'checked':''}> ${name}`;
-    box.appendChild(wrap);
-    wrap.querySelector('input').addEventListener('change', e=>{
-      e.target.checked?selected.add(name):selected.delete(name);
-      renderTable();
-    });
-  });
-  document.getElementById('selectAll').onclick=()=>{ selected=new Set(recipes); renderRecipeList(); renderTable(); };
-  document.getElementById('selectNone').onclick=()=>{ selected.clear(); renderRecipeList(); renderTable(); };
-}
-
-function renderTable(){
-  const thead=document.getElementById('thead');
-  const tbody=document.getElementById('tbody');
-  const active=recipes.filter(r=>selected.has(r));
-  const rawIngredients=unique(rows.map(r=>r.ingredient)).sort((a,b)=>a.localeCompare(b));
-  
-  // Show/hide alignment warning
-  const warning = document.getElementById('alignmentWarning');
-  warning.style.display = smartAlignment ? 'block' : 'none';
-  
-  if (active.length === 0) {
-    thead.innerHTML = '<tr><th>Ingredient</th><th class="muted">No recipes selected</th></tr>';
-    tbody.innerHTML = '<tr><td colspan="2" class="muted center">Select recipes from the left panel</td></tr>';
-    filteredCount = 0;
-    return;
-  }
-  
-  // Get aligned ingredients
-  const alignedIngredients = getAlignedIngredients(rawIngredients, smartAlignment);
-  
-  thead.innerHTML=`<tr><th>Ingredient${smartAlignment ? ' (Aligned)' : ''}</th>${active.map(r=>`<th>${r}</th>`).join('')}</tr>`;
-  tbody.innerHTML='';
-  const q=nfkc(searchTerm||'').toLowerCase();
-  filteredCount = 0;
-  
-  alignedIngredients.forEach(alignedIng => {
-    const tr=document.createElement('tr');
-    
-    // Build ingredient cell
-    let ingredientDisplay = '';
-    if (alignedIng.group) {
-      // Show grouped ingredient
-      ingredientDisplay = `<div class="wrap best-guess">
-        <strong>${alignedIng.aligned}</strong><br>
-        <small class="linked-ingredient">${alignedIng.variants.join(', ')}</small>
-      </div>`;
-    } else {
-      ingredientDisplay = `<div class="wrap">${alignedIng.aligned}</div>`;
-    }
-    
-    tr.innerHTML = `<td>${ingredientDisplay}</td>`;
-    
-    // Build recipe columns
-    active.forEach(rec => {
-      const relevantIngredients = alignedIng.group ? alignedIng.variants : [alignedIng.original];
-      const matches = rows.filter(r => relevantIngredients.includes(r.ingredient) && r.recipe === rec);
-      
-      if (!matches.length) { 
-        tr.innerHTML += `<td>—</td>`; 
-        return; 
-      }
-      
-      const cell = matches.map(m => {
-        const bits = [`<strong>${m.ingredient}</strong>`];
-        if (show.amounts && m.amount) bits.push(`<span class="pill">${m.amount}</span>`);
-        if (show.prep && m.preparation) bits.push(`<span class="pill">${m.preparation}</span>`);
-        if (show.notes && m.notes) bits.push(`<span class="note">${m.notes}</span>`);
-        return bits.join(' ');
-      }).join('<br>');
-      tr.innerHTML += `<td>${cell}</td>`;
-    });
-    
-    // Search filter
-    const textBlob = (alignedIng.aligned + ' ' + tr.textContent).toLowerCase();
-    if (q && !textBlob.includes(q)) return;
-    tbody.appendChild(tr);
-    filteredCount++;
-  });
-  
-  // Show search results feedback
-  const searchInput = document.getElementById('search');
-  if (q) {
-    const totalIngredients = alignedIngredients.length;
-    if (filteredCount === 0) {
-      searchInput.style.borderColor = '#ff6b6b';
-      showMessage(`No ingredients found matching "${searchTerm}"`, 'warning');
-    } else {
-      searchInput.style.borderColor = '#51cf66';
-      if (filteredCount < totalIngredients) {
-        showMessage(`Found ${filteredCount} of ${totalIngredients} ingredients`, 'success');
-      }
-    }
-  } else {
-    searchInput.style.borderColor = '#ddd';
-  }
-}
-
-addEventListener('DOMContentLoaded', async ()=>{
-  // Load equivalences first
-  equivalenceGroups = await loadEquivalences();
-  console.log(`Loaded ${Object.keys(equivalenceGroups).length} equivalence groups`);
-  
-  let data = await loadJSON(DATA_URL);
-  let statusMsg = '';
-  
-  if (!data) {
-    console.info('Using sample data (kyphi_long.json not found or invalid)');
-    data = SAMPLE_DATA;
-    statusMsg = 'sample data (file not found)';
-    updateStatus(statusMsg, true);
-    showMessage('Could not load kyphi_long.json - using sample data', 'warning');
-  } else {
-    statusMsg = `${data.length} entries loaded`;
-    updateStatus(statusMsg, false);
-    if (data.length === 0) {
-      showMessage('Data file is empty - add some diffs and rebuild!', 'info');
-    }
-  }
-  
-  // Validate and clean data
-  const validRows = [];
-  data.forEach((row, i) => {
-    if (!row.recipe || !row.ingredient) {
-      console.warn(`Skipping invalid row ${i}:`, row);
-      return;
-    }
-    validRows.push(row);
-  });
-  
-  if (validRows.length < data.length) {
-    showMessage(`Filtered out ${data.length - validRows.length} invalid rows`, 'warning');
-  }
-  
-  rows = validRows.map(r=>({
-    recipe: nfkc(r.recipe),
-    ingredient: nfkc(r.ingredient),
-    amount: r.amount ?? null,
-    preparation: r.preparation ?? null,
-    notes: r.notes ?? null
-  }));
-  
-  recipes = unique(rows.map(r=>r.recipe)).sort((a,b)=>a.localeCompare(b, undefined, {numeric:true}));
-  selected = new Set(recipes);
-  
-  document.getElementById('dataStatus').title = `${rows.length} total entries from ${recipes.length} recipes`;
-  
-  renderRecipeList();
-  renderTable();
-  
-  // Event listeners
-  document.getElementById('search').addEventListener('input', e=>{ 
-    searchTerm=e.target.value; 
-    renderTable(); 
-  });
-  
-  document.getElementById('showAmounts').addEventListener('change', e=>{ 
-    show.amounts=e.target.checked; 
-    renderTable(); 
-  });
-  
-  document.getElementById('showPrep').addEventListener('change', e=>{ 
-    show.prep=e.target.checked; 
-    renderTable(); 
-  });
-  
-  document.getElementById('showNotes').addEventListener('change', e=>{ 
-    show.notes=e.target.checked; 
-    renderTable(); 
-  });
-  
-  document.getElementById('smartAlignment').addEventListener('change', e=>{
-    smartAlignment = e.target.checked;
-    renderTable();
-    if (smartAlignment && Object.keys(equivalenceGroups).length === 0) {
-      showMessage('No equivalences loaded - add equivalences.json for smart alignment', 'warning');
-    } else if (smartAlignment) {
-      showMessage('Smart alignment activated - showing best-guess equivalences', 'info');
-    }
-  });
-  
-  // Fixed CSV export
-  document.getElementById('exportCSV').addEventListener('click', ()=>{
-    if (rows.length === 0) {
-      showMessage('No data to export', 'warning');
-      return;
-    }
-    
-    const headers = ['recipe', 'ingredient', 'amount', 'preparation', 'notes'];
-    const csvRows = [headers.join(',')];
-    
-    rows.forEach(row => {
-      const values = headers.map(header => {
-        const value = row[header] || '';
-        return /[,"\n\r]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
+  function renderRecipeChips(){
+    recipeChips.innerHTML = '';
+    allRecipes.forEach(rec => {
+      const id = 'rec_' + rec.replace(/[^a-z0-9]+/gi,'_');
+      const chip = document.createElement('label');
+      chip.className = 'chip';
+      chip.innerHTML = `<input type="checkbox" id="${id}" ${selectedRecipes.has(rec)?'checked':''}/> <span>${escapeHTML(rec)}</span>`;
+      chip.querySelector('input').addEventListener('change', (e)=>{
+        if (e.target.checked) selectedRecipes.add(rec); else selectedRecipes.delete(rec);
+        render();
       });
-      csvRows.push(values.join(','));
+      recipeChips.appendChild(chip);
     });
-    
-    download('kyphi_aligned.csv', csvRows.join('\n'));
-    showMessage(`Exported ${rows.length} rows to CSV`, 'success');
-  });
-  
-  document.getElementById('exportJSON').addEventListener('click', ()=>{ 
-    if (rows.length === 0) {
-      showMessage('No data to export', 'warning');
+  }
+
+  function updateChipChecks(val){
+    recipeChips.querySelectorAll('input[type="checkbox"]').forEach(cb=>{ cb.checked = val; });
+  }
+
+  function render(){
+    const smartAlignment = !!toggleSmart.checked && Object.keys(equivalences).length>0;
+    const show = { amounts: toggleAmt.checked, prep: togglePrep.checked, notes: toggleNotes.checked };
+
+    const activeRecipes = allRecipes.filter(r => selectedRecipes.has(r));
+
+    // Build aligned ingredient list from rows filtered by selected recipes
+    const filteredRowsByRecipe = rows.filter(r => selectedRecipes.has(r.recipe));
+    const rawIngredients = Array.from(new Set(filteredRowsByRecipe.map(r=>r.ingredient)));
+    const alignedIngredients = getAlignedIngredients(rawIngredients, smartAlignment);
+
+    // header
+    thead.innerHTML = `<tr><th>Ingredient${smartAlignment ? ' (Aligned)' : ''}</th>${activeRecipes.map(r=>`<th>${escapeHTML(r)}</th>`).join('')}</tr>`;
+
+    // reset
+    tbody.innerHTML = '';
+    searchIndex = [];
+    filteredCount = 0;
+
+    const query = nfkc(qInput.value || '').toLowerCase().trim();
+
+    alignedIngredients.forEach(alignedIng => {
+      const tr = document.createElement('tr');
+
+      // Ingredient cell
+      let ingredientDisplay = '';
+      if (alignedIng.group){
+        ingredientDisplay = `<div class="wrap best-guess">
+          <strong>${escapeHTML(alignedIng.aligned)}</strong><br>
+          <small class="linked-ingredient">${escapeHTML(alignedIng.variants.join(', '))}</small>
+        </div>`;
+      } else {
+        ingredientDisplay = `<div class="wrap"><strong>${escapeHTML(alignedIng.aligned)}</strong></div>`;
+      }
+
+      // Optional: show aliases merged from all matching rows under the name
+      const relevantIngredients = alignedIng.group ? alignedIng.variants : [alignedIng.original];
+      const aliasTokens = Array.from(new Set(
+        rows
+          .filter(r => selectedRecipes.has(r.recipe) && relevantIngredients.includes(r.ingredient))
+          .flatMap(r => r.aliases)
+          .map(s => s.toLowerCase())
+      ));
+      if (toggleShowAliases.checked && aliasTokens.length){
+        ingredientDisplay += `<div class="muted small">aliases: ${escapeHTML(aliasTokens.join(', '))}</div>`;
+      }
+
+      tr.innerHTML = `<td>${ingredientDisplay}</td>`;
+
+      // Recipe columns
+      activeRecipes.forEach(rec => {
+        const matches = rows.filter(r => selectedRecipes.has(r.recipe) && relevantIngredients.includes(r.ingredient) && r.recipe === rec);
+        if (!matches.length){
+          tr.innerHTML += `<td>—</td>`;
+          return;
+        }
+        const cell = matches.map(m => {
+          const bits = [`<strong>${escapeHTML(m.ingredient)}</strong>`];
+          if (show.amounts && m.amount) bits.push(`<span class="pill">${escapeHTML(m.amount)}</span>`);
+          if (show.prep && m.preparation) bits.push(`<span class="pill">${escapeHTML(m.preparation)}</span>`);
+          if (show.notes && m.notes) bits.push(`<span class="note">${escapeHTML(m.notes)}</span>`);
+          return bits.join(' ');
+        }).join('<br>');
+        tr.innerHTML += `<td>${cell}</td>`;
+      });
+
+      // Build searchable text including aliases
+      const textBlob = (
+        nfkc(alignedIng.aligned) + ' ' +
+        nfkc(tr.textContent) + ' ' +
+        aliasTokens.join(' ')
+      ).toLowerCase();
+
+      // Filter visibility
+      const matchesSearch = !query || textBlob.includes(query);
+      tr.style.display = matchesSearch ? '' : 'none';
+      if (matchesSearch) filteredCount++;
+
+      tbody.appendChild(tr);
+      searchIndex.push({ row: tr, text: textBlob });
+    });
+
+    countTotal.textContent = String(alignedIngredients.length);
+    countShown.textContent = String(filteredCount);
+  }
+
+  function liveFilter(){
+    const q = nfkc(qInput.value || '').toLowerCase().trim();
+    filteredCount = 0;
+    searchIndex.forEach(({row, text}) => {
+      const visible = !q || text.includes(q);
+      row.style.display = visible ? '' : 'none';
+      if (visible) filteredCount++;
+    });
+    countShown.textContent = String(filteredCount);
+  }
+
+  // Export current view (respecting selected recipes and search query)
+  function exportData(kind){
+    const q = nfkc(qInput.value || '').toLowerCase().trim();
+    const inSelectedRecipes = r => selectedRecipes.has(r.recipe);
+    const rowBlob = r => [r.ingredient, r.amount||'', r.preparation||'', r.notes||'', (r.aliases||[]).join(' '), r.recipe].join(' ').toLowerCase();
+    const filtered = rows.filter(r => inSelectedRecipes(r) && (!q || rowBlob(r).includes(q)));
+
+    if (kind === 'json'){
+      const data = JSON.stringify(filtered, null, 2);
+      downloadFile('kyphi_filtered.json', data, 'application/json');
       return;
     }
-    download('kyphi_long.json', JSON.stringify(rows, null, 2)); 
-    showMessage(`Exported ${rows.length} rows to JSON`, 'success');
-  });
-});
+    // csv
+    const header = ['recipe','ingredient','amount','preparation','notes','aliases'];
+    const lines = [header.join(',')].concat(filtered.map(r => [
+      csvEsc(r.recipe), csvEsc(r.ingredient), csvEsc(r.amount||''), csvEsc(r.preparation||''), csvEsc(r.notes||''), csvEsc((r.aliases||[]).join('; '))
+    ].join(',')));
+    downloadFile('kyphi_filtered.csv', lines.join('\n'), 'text/csv');
+  }
+
+  function csvEsc(v){
+    const s = String(v).replaceAll('"', '""');
+    return /[",\n]/.test(s) ? '"'+s+'"' : s;
+  }
+
+  function downloadFile(filename, data, type){
+    const blob = new Blob([data], {type});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename; a.click();
+    setTimeout(()=> URL.revokeObjectURL(url), 1000);
+  }
+
+  // Grouping/alignment helper
+  function getAlignedIngredients(rawList, smart){
+    if (!smart){
+      return rawList.map(name => ({ aligned: name, original: name, group: false }));
+    }
+    const used = new Set();
+    const res = [];
+
+    // Create variant -> aligned map
+    const variantToAligned = new Map();
+    for (const aligned in equivalences){
+      const variants = equivalences[aligned] || [];
+      const canonAligned = nfkc(aligned);
+      variants.concat([aligned]).forEach(v => variantToAligned.set(nfkc(v), canonAligned));
+    }
+
+    for (const name of rawList){
+      if (used.has(name)) continue;
+      const aligned = variantToAligned.get(name) || name;
+
+      // collect all variants present in dataset that map to same aligned
+      const variantsHere = rawList.filter(n => (variantToAligned.get(n)||n) === aligned);
+      variantsHere.forEach(v=>used.add(v));
+
+      if (variantsHere.length > 1 || aligned !== variantsHere[0]){
+        res.push({ aligned, variants: variantsHere, original: variantsHere[0], group: true });
+      } else {
+        res.push({ aligned: name, original: name, group: false });
+      }
+    }
+    // sort alphabetically by aligned
+    res.sort((a,b)=>a.aligned.localeCompare(b.aligned));
+    return res;
+  }
+
+  function escapeHTML(s){
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+  }
+})();
 </script>
 </body>
 </html>
