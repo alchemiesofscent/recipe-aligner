@@ -3,8 +3,37 @@
     "version": "1",
     "created_at": "2025-09-02T00:00:00Z"
   },
-  "recipes": [],
-  "ingredients": [],
+  "recipes": [
+    {
+      "recipe_id": 1,
+      "slug": "test-recipe",
+      "label": "Test Recipe",
+      "language": "en"
+    }
+  ],
+  "ingredients": [
+    {
+      "ingredient_id": 1,
+      "slug": "salt",
+      "label": "Salt",
+      "language": "en"
+    }
+  ],
   "aliases": [],
-  "entries": []
+  "entries": [
+    {
+      "entry_id": 1,
+      "recipe_id": 1,
+      "ingredient_id": 1,
+      "amount_raw": "1 tsp",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T13:28:17.713924",
+      "added_by": "test"
+    }
+  ]
 }
