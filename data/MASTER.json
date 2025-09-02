@@ -21,6 +21,11 @@
       "slug": "test-recipe-3",
       "label": "Second Test Recipe",
       "language": "en"
+    },
+    {
+      "recipe_id": 4,
+      "slug": "test-fix",
+      "label": "CI Fix Test"
     }
   ],
   "ingredients": [
@@ -41,6 +46,11 @@
       "slug": "ketchup",
       "label": "Tomato Catsup",
       "language": "en"
+    },
+    {
+      "ingredient_id": 4,
+      "slug": "test-ingredient",
+      "label": "Test Ingredient"
     }
   ],
   "aliases": [],
@@ -85,6 +95,20 @@
       "source_citation": null,
       "source_span": null,
       "added_at": "2025-09-02T14:42:24.605881",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 4,
+      "recipe_id": 4,
+      "ingredient_id": 4,
+      "amount_raw": "1 tsp",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-09-02T14:53:54.730812",
       "added_by": "ci"
     }
   ]
