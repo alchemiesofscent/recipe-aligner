@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kyphi Index — alias-aware</title>
+  <title>Kyphi Index – alias-aware</title>
   <style>
     :root{
-      --headerOffset: 0px;
+      --headerOffset: 160px; /* Default fallback, will be updated by JS */
       --bg:#0f1115; --card:#171923; --muted:#8b93a7; --fg:#e6e9f2; --accent:#6ea8ff; --pill:#283048;
       --ok:#7bd88f; --warn:#ffd479; --border:#24283b; --rowA:#10131a; --rowB:#0e1016; --link:#a0a6b9;
       font-synthesis-weight:none; text-rendering:optimizeLegibility;
@@ -19,7 +19,15 @@
     body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji","Segoe UI Emoji"}
     a{color:var(--accent)}
     .wrap{white-space:normal; word-break:break-word}
-    header{position:sticky;top:0;background:linear-gradient(180deg, color-mix(in oklab,var(--bg) 96%, transparent), color-mix(in oklab,var(--bg) 92%, transparent));backdrop-filter:saturate(120%) blur(8px);border-bottom:1px solid var(--border);z-index:5}
+    
+    header{
+      position:sticky;
+      top:0;
+      background:linear-gradient(180deg, color-mix(in oklab,var(--bg) 96%, transparent), color-mix(in oklab,var(--bg) 92%, transparent));
+      backdrop-filter:saturate(120%) blur(8px);
+      border-bottom:1px solid var(--border);
+      z-index:100;
+    }
     .container{max-width:1200px;margin:0 auto;padding:12px 16px}
     h1{margin:0;font-size:18px;letter-spacing:.2px}
     .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px}
@@ -36,23 +44,74 @@
     .muted{color:var(--muted)}
     .small{font-size:12px}
 
-    /* Table: single scroll context (page), sticky header + first column */
-    table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed}
-    thead th{
-      position:sticky;top:var(--headerOffset);
+    /* Table container - no overflow hidden to allow sticky positioning */
+    .table-container{
       background:var(--card);
-      z-index:6;
+      border:1px solid var(--border);
+      border-radius:14px;
+      overflow:visible; /* Changed from hidden to visible */
+      position:relative;
+    }
+
+    /* Table: properly layered sticky positioning */
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      table-layout:fixed;
+      margin:0;
+    }
+    
+    /* Sticky table header */
+    thead th{
+      position:sticky;
+      top:var(--headerOffset);
+      background:var(--card);
       border-bottom:2px solid var(--border);
-      box-shadow:0 1px 0 var(--border);
+      z-index:10; /* Higher than body cells */
+      box-shadow:0 2px 4px rgba(0,0,0,0.1);
     }
-    thead th:first-child{z-index:7}
-    th,td{vertical-align:top;border-bottom:1px solid var(--border);padding:10px 12px;overflow:hidden;text-overflow:ellipsis}
-    th:first-child, td:first-child{
-      position:sticky;left:0;background:var(--card);z-index:5;box-shadow:1px 0 0 var(--border)
+    
+    /* First header cell (top-left corner) gets highest z-index */
+    thead th:first-child{
+      z-index:12; /* Highest - sits above both sticky row and column */
+      position:sticky;
+      left:0;
+      box-shadow:2px 2px 4px rgba(0,0,0,0.1);
     }
+    
+    /* Regular table cells */
+    th,td{
+      vertical-align:top;
+      border-bottom:1px solid var(--border);
+      padding:10px 12px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    
+    /* Sticky first column */
+    tbody td:first-child{
+      position:sticky;
+      left:0;
+      background:var(--card);
+      z-index:8; /* Lower than header but higher than regular cells */
+      box-shadow:2px 0 4px rgba(0,0,0,0.05);
+      border-right:1px solid var(--border);
+    }
+    
+    /* Regular body cells */
+    tbody td:not(:first-child){
+      z-index:1;
+    }
+    
+    /* Row striping */
     tbody tr:nth-child(odd) td{background:var(--rowA)}
     tbody tr:nth-child(even) td{background:var(--rowB)}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:10px 12px}
+    
+    /* Ensure sticky first column maintains row striping */
+    tbody tr:nth-child(odd) td:first-child{background:var(--rowA)}
+    tbody tr:nth-child(even) td:first-child{background:var(--rowB)}
+
     .row{display:flex;gap:12px;flex-wrap:wrap}
     .stat{color:var(--muted)}
     footer{color:var(--muted);text-align:center;padding:22px}
@@ -70,7 +129,7 @@
         </div>
       </div>
       <div class="controls">
-        <input id="q" type="text" placeholder="Search ingredients, aliases (e.g., ‘myrrh’), notes, amounts…" />
+        <input id="q" type="text" placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts…" />
         <label class="switch"><input id="toggleSmart" type="checkbox" /> Smart alignment</label>
         <label class="switch"><input id="toggleAmt" type="checkbox" checked /> Amounts</label>
         <label class="switch"><input id="togglePrep" type="checkbox" checked /> Preparation</label>
@@ -90,7 +149,7 @@
   </header>
 
   <main class="container" style="margin-top:10px">
-    <div class="card">
+    <div class="table-container">
       <table id="grid">
         <thead><tr><th>Ingredient</th></tr></thead>
         <tbody></tbody>
@@ -168,14 +227,21 @@
     renderRecipeChips();
     render();
     attachEvents();
-    setHeaderOffset();
-    window.addEventListener('resize', setHeaderOffset);
+    updateHeaderOffset();
+    
+    // Update header offset on resize and after content changes
+    window.addEventListener('resize', updateHeaderOffset);
+    // Also update after a short delay to handle dynamic content
+    setTimeout(updateHeaderOffset, 100);
   }
 
-  function setHeaderOffset(){
-    const h = document.querySelector('header');
-    const top = (h?.offsetHeight || 0) + 'px';
-    document.documentElement.style.setProperty('--headerOffset', top);
+  function updateHeaderOffset(){
+    const header = document.querySelector('header');
+    if (header) {
+      const height = header.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--headerOffset', height + 'px');
+      console.log('Header offset updated to:', height + 'px'); // Debug log
+    }
   }
 
   function normaliseAliases(a){
@@ -332,6 +398,9 @@
 
     countTotal.textContent = String(alignedIngredients.length);
     countShown.textContent = String(filteredCount);
+    
+    // Update header offset after render in case content height changed
+    setTimeout(updateHeaderOffset, 50);
   }
 
   function liveFilter(){
