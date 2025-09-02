@@ -17,8 +17,10 @@ jobs:
       - name: Validate diff files
         run: |
           echo "Looking for diff files to validate..."
-          find diffs -name "*.json" -not -path "diffs/processed/*" | while read file; do
-            echo "Validating: \"
-            python scripts/validate_diff.py "\"
+          for file in diffs/*.json; do
+            if [ -f "$file" ]; then
+              echo "Validating: $file"
+              python scripts/validate_diff.py "$file"
+            fi
           done
           echo "Validation complete"
