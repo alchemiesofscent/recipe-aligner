@@ -1,0 +1,6 @@
+{
+  "recipes": [{"slug": "test-fix", "label": "CI Fix Test"}],
+  "ingredients": [{"slug": "test-ingredient", "label": "Test Ingredient"}], 
+  "aliases": [],
+  "entries": [{"recipe_slug": "test-fix", "ingredient_slug": "test-ingredient", "amount_raw": "1 tsp"}]
+}
