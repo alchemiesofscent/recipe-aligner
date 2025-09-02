@@ -1,12 +1,12 @@
-name: Validate Files
+name: Validate and Merge
 on:
   push:
     branches: [main]
     paths: ['diffs/**/*.json']
 permissions:
-  contents: read
+  contents: write
 jobs:
-  validate:
+  process:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,13 +14,26 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install jsonschema
-      - name: Validate diff files
+      - name: Validate and merge diff files
         run: |
-          echo "Looking for diff files to validate..."
+          echo "Processing diff files..."
           for file in diffs/*.json; do
             if [ -f "$file" ]; then
               echo "Validating: $file"
               python scripts/validate_diff.py "$file"
+              echo "Merging: $file"
+              python scripts/merge_diff.py data/MASTER.json "$file" "ci"
+              echo "Moving to processed: $file"
+              mkdir -p diffs/processed
+              mv "$file" "diffs/processed/$(basename "$file" .json)_$(date +%Y%m%d_%H%M%S).json"
             fi
           done
-          echo "Validation complete"
+          echo "Processing complete"
+      - name: Export web app data
+        run: |
+          echo "Generating web app data..."
+          python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "CI: process diffs and update web app data"
