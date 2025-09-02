@@ -1,0 +1,18 @@
+{
+  "recipes": [{
+    "slug": "test-recipe-3",
+    "label": "Second Test Recipe", 
+    "language": "en"
+  }],
+  "ingredients": [{
+    "slug": "ketchup",
+    "label": "Tomato Catsup",
+    "language": "en"
+  }],
+  "aliases": [],
+  "entries": [{
+    "recipe_slug": "test-recipe-2",
+    "ingredient_slug": "ketchup",
+    "amount_raw": "1/2 tsp"
+  }]
+}
