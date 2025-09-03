@@ -1,67 +1,105 @@
 {
   "Myrrh": [
     "σμύρνη",
-    "ḫrj", 
-    "myrrh"
+    "ḫrj",
+    "ªntj.w-šw", 
+    "myrrh",
+    "dried myrrh",
+	"antjw-shw",
+	"ꜥntj.w-šw"
   ],
-  "Cinnamon": [
+  "Cinnamon / Camphor": [
     "κιννάμωμον",
-    "tjšps",
+    "tj-šps",
     "cinnamon",
     "Ceylon cinnamon", 
-    "Chinese cinnamon"
+    "Chinese cinnamon",
+    "east african camphor wood",
+    "camphor wood"
   ],
   "Honey": [
     "μέλι", 
     "bj.t",
     "honey"
   ],
-  "Wine": [
+  "Generic Wine": [
     "οἶνος",
-    "jrp", 
-    "sSp m DsDs",
+    "jrp",
+    "wine"
+  ],
+  "Specialty Wines": [
     "jr.t Hr.w wḏ.t",
-    "wine",
     "wine from Bahriya Oasis",
     "green eye of Horus wine"
   ],
-  "Juniper": [
+  "Raisins / Grapes": [
+    "sSp m DsDs",
+    "σταφὶς λευκή",
+    "white raisins",
+    "fatty raisins",
+    "raisins",
+    "grapes from Bahriya Oasis"
+  ],
+  "Juniper Berries": [
     "ἀρκευθίδες",
     "prš",
+    "pr.t-šnj",
     "juniper berries",
-    "juniper"
+    "juniper",
+    "phoenician juniper berries"
   ],
   "Cyperus": [
-    "κυπείρος", 
+    "κύπειρος", 
     "šbn",
     "cyperus",
     "yellow nutsedge"
   ],
-  "Perfumer's Calamus": [
+  "Calamus": [
     "κάλαμος μυρεψικός",
     "šwt nmtj", 
     "perfumer's calamus",
     "calamus",
     "feather of Nemti"
   ],
-  "Resin": [
-    "τερμινθίνη κεκαυμένη",
-    "snTr",
-    "qd.t",
-    "roasted terebinth",
-    "terebinth resin", 
+  "Terebinth / Frankincense": [
+    "snṯr",
     "frankincense",
     "incense",
+    "τερμινθίνη κεκαυμένη",
+    "roasted terebinth resin",
+    "terebinth resin"
+  ],
+  "Pine Resin": [
+    "qd.t",
     "Aleppo pine resin",
-    "coniferous resin"
+    "coniferous resin",
+    "pine resin"
+  ],
+  "Mastix": [
+    "šb.t",
+    "šbb",
+    "mastix",
+    "mastic",
+    "lentisk"
+  ],
+  "Storax (very uncertain)": [
+    "gnn",
+    "styrax",
+    "storax",
+	"gnn n(.j) njywbn šwi̯"
   ],
   "Bdellium": [
     "βδέλλιον",
     "bdellium"
   ],
+  "Onycha": [
+    "ὄνυξ", 
+    "onycha"
+  ],
   "Cassia": [
     "κασία",
-    "cassia"
+    "cassia",
+    "cinnamon bark"
   ],
   "Saffron": [
     "κρόκος", 
@@ -69,11 +107,22 @@
   ],
   "Spikenard": [
     "ναρδοστάχυς",
-    "spikenard" 
+    "spikenard",
+    "nard"
   ],
-  "White Raisins": [
-    "σταφὶς λευκή",
-    "white raisins",
-    "white raisins (grapes)"
+  "Rush": [
+    "σχοῖνος",
+    "schoinos",
+    "rush"
+  ],
+  "Cardamom": [
+    "καρδάμωμον σπέρμα",
+    "cardamom seed",
+    "cardamom"
+  ],
+  "Aspalathus": [
+    "ἀσπάλαθος",
+    "aspalathus",
+    "thorny broom"
   ]
 }
