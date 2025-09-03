@@ -1,0 +1,176 @@
+{
+  "recipes": [
+    {
+      "slug": "ebers-papyrus-852",
+      "label": "Ebers Papyrus, Recipe 852",
+      "source": "Ebers Papyrus 98,12-98,14b",
+      "language": "egy"
+    }
+  ],
+  "ingredients": [
+    {"slug": "antjw-shw", "label": "ꜥntj.w-šw", "language": "egy"},
+    {"slug": "prt-snj", "label": "pr.t-šnj", "language": "egy"},
+    {"slug": "sntr", "label": "snṯr", "language": "egy"},
+    {"slug": "gjw", "label": "gj.w", "language": "egy"},
+    {"slug": "tjsps", "label": "tj-šps", "language": "egy"},
+    {"slug": "sbt", "label": "šb{.t}", "language": "egy"},
+    {"slug": "nbjt-djhj", "label": "nbj.t n(.j).t Ḏꜣhj", "language": "egy"},
+    {"slug": "ynktwn", "label": "ynktwn", "language": "egy"},
+    {"slug": "djmtn", "label": "ḏmtn", "language": "egy"},
+    {"slug": "gnn-njywbn", "label": "gnn n(.j) njywbn šwi̯", "language": "egy"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "antjw-shw", "variant_label": "dried myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "antjw-shw", "variant_label": "getrocknete Myrrhe", "language": "de", "source": "translation"},
+    {"ingredient_slug": "antjw-shw", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "prt-snj", "variant_label": "phoenician juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "prt-snj", "variant_label": "Beeren vom Phönizischen Wacholder", "language": "de", "source": "translation"},
+    {"ingredient_slug": "prt-snj", "variant_label": "juniper berries", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "sntr", "variant_label": "frankincense", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sntr", "variant_label": "Weihrauch", "language": "de", "source": "translation"},
+    {"ingredient_slug": "sntr", "variant_label": "incense", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "gjw", "variant_label": "gw-grass", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gjw", "variant_label": "gw-Gras", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "tjsps", "variant_label": "east african camphor wood", "language": "en", "source": "translation"},
+    {"ingredient_slug": "tjsps", "variant_label": "Holz vom Ostafrikanischen Kampfer", "language": "de", "source": "translation"},
+    {"ingredient_slug": "tjsps", "variant_label": "camphor wood", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "sbt", "variant_label": "mastix", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "mash", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "Mastix", "language": "de", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "Maische", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "syrian reed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "Schilfrohr aus Syrien-Palästina", "language": "de", "source": "translation"},
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "reed", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "ynktwn", "variant_label": "ynktwn-drug", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ynktwn", "variant_label": "ynktwn-Droge", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "djmtn", "variant_label": "djmtn-drug", "language": "en", "source": "translation"},
+    {"ingredient_slug": "djmtn", "variant_label": "ḏmtn-Droge", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "storax resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "Storaxbaum-Harz", "language": "de", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "gnn", "language": "egy", "source": "variant"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "gan", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "styrax", "language": "en", "source": "identification"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "antjw-shw",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "dried myrrh",
+      "source_citation": "Ebers 98,13a",
+      "source_span": "98,13a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "prt-snj",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "phoenician juniper berries",
+      "source_citation": "Ebers 98,14a",
+      "source_span": "98,14a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "sntr",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "frankincense",
+      "source_citation": "Ebers 98,15a",
+      "source_span": "98,15a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "gjw",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "gw-grass - unidentified plant",
+      "source_citation": "Ebers 98,16a",
+      "source_span": "98,16a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "tjsps",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "in recipe as ḫt n(.j) tj-šps (wood of tjsps); cinnamon or east african camphor wood (?)",
+      "source_citation": "Ebers 98,17a",
+      "source_span": "98,17a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "sbt",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "mastix or mash",
+      "source_citation": "Ebers 98,18a",
+      "source_span": "98,18a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "nbjt-djhj",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "reed from Syria-Palestine",
+      "source_citation": "Ebers 98,19a",
+      "source_span": "98,19a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "ynktwn",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "unknown substance",
+      "source_citation": "Ebers 98,20a",
+      "source_span": "98,20a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "djmtn",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "unknown substance",
+      "source_citation": "Ebers 98,21a",
+      "source_span": "98,21a"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-852",
+      "ingredient_slug": "gnn-njywbn",
+      "amount_raw": "null",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "gnn with uncertain qualifier njywbn šwi̯; some identify with nnjb and so identify with storax",
+      "source_citation": "Ebers 98,13b",
+      "source_span": "98,13b"
+    }
+  ]
+}

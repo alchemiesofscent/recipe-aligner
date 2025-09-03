@@ -1,0 +1,287 @@
+{
+  "recipes": [
+    {
+      "slug": "edfu-south-wall",
+      "label": "Edfu, South Wall",
+      "source": "Edfu Temple Laboratory, south wall",
+      "language": "egy"
+    }
+  ],
+  "ingredients": [
+    {"slug": "jrp", "label": "jrp", "language": "egy"},
+    {"slug": "swt-nmtj", "label": "šwt nmtj", "language": "egy"},
+    {"slug": "gnn", "label": "gnn", "language": "egy"},
+    {"slug": "djbt", "label": "ḏbꜤ.t", "language": "egy"},
+    {"slug": "sbb", "label": "šbb", "language": "egy"},
+    {"slug": "agy", "label": "ogꜢy", "language": "egy"},
+    {"slug": "qdt", "label": "qd.t", "language": "egy"},
+    {"slug": "tjsps", "label": "tj-šps", "language": "egy"},
+    {"slug": "prs", "label": "prš", "language": "egy"},
+    {"slug": "mrht-nr", "label": "mrḥ.t nꜤr", "language": "egy"},
+    {"slug": "pqr", "label": "pqr", "language": "egy"},
+    {"slug": "sbn", "label": "šbn", "language": "egy"},
+    {"slug": "ssp-djsdjs", "label": "sSp m DsDs", "language": "egy"},
+    {"slug": "sntr", "label": "snṯr", "language": "egy"},
+    {"slug": "bjt", "label": "bj.t", "language": "egy"},
+    {"slug": "xrj", "label": "ḫrj", "language": "egy"},
+    {"slug": "jrt-hr-wdt", "label": "jr.t Hr.w wḏ.t", "language": "egy"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "jrp", "variant_label": "wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "jrp", "variant_label": "jrp", "language": "egy", "source": "transliteration"},
+    
+    {"ingredient_slug": "swt-nmtj", "variant_label": "feather of Nemti", "language": "en", "source": "translation"},
+    {"ingredient_slug": "swt-nmtj", "variant_label": "calamus", "language": "en", "source": "identification"},
+    {"ingredient_slug": "swt-nmtj", "variant_label": "perfumer's calamus", "language": "en", "source": "identification"},
+    {"ingredient_slug": "swt-nmtj", "variant_label": "creeping cinquefoil", "language": "en", "source": "identification"},
+    {"ingredient_slug": "swt-nmtj", "variant_label": "camel grass", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "gnn", "variant_label": "styrax", "language": "en", "source": "identification"},
+    {"ingredient_slug": "gnn", "variant_label": "storax", "language": "en", "source": "identification"},
+    {"ingredient_slug": "gnn", "variant_label": "gan", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "gnn", "variant_label": "roseau aromatique", "language": "fr", "source": "identification"},
+    
+    {"ingredient_slug": "djbt", "variant_label": "sweet gum", "language": "en", "source": "identification"},
+    {"ingredient_slug": "djbt", "variant_label": "liquidambar", "language": "en", "source": "identification"},
+    {"ingredient_slug": "djbt", "variant_label": "charcoals", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "sbb", "variant_label": "mastix", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sbb", "variant_label": "mastic", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sbb", "variant_label": "lentisk", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sbb", "variant_label": "šb", "language": "egy", "source": "variant"},
+    
+    {"ingredient_slug": "agy", "variant_label": "gum arabic", "language": "en", "source": "identification"},
+    {"ingredient_slug": "agy", "variant_label": "tragacanth", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "qdt", "variant_label": "Aleppo pine resin", "language": "en", "source": "identification"},
+    {"ingredient_slug": "qdt", "variant_label": "coniferous resin", "language": "en", "source": "identification"},
+    {"ingredient_slug": "qdt", "variant_label": "pine resin", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "tjsps", "variant_label": "cinnamon", "language": "en", "source": "identification"},
+    {"ingredient_slug": "tjsps", "variant_label": "Ceylon cinnamon", "language": "en", "source": "identification"},
+    {"ingredient_slug": "tjsps", "variant_label": "Chinese cinnamon", "language": "en", "source": "identification"},
+    {"ingredient_slug": "tjsps", "variant_label": "camphor", "language": "en", "source": "identification"},
+    {"ingredient_slug": "tjsps", "variant_label": "east african camphor", "language": "en", "source": "identification"},
+    {"ingredient_slug": "tjsps", "variant_label": "tj-šps", "language": "egy", "source": "variant"},
+    
+    {"ingredient_slug": "prs", "variant_label": "juniper berries", "language": "en", "source": "identification"},
+    {"ingredient_slug": "prs", "variant_label": "juniper", "language": "en", "source": "identification"},
+    {"ingredient_slug": "prs", "variant_label": "fir tree cone", "language": "en", "source": "identification"},
+    {"ingredient_slug": "prs", "variant_label": "red ochre", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "mrht-nr", "variant_label": "nerium", "language": "en", "source": "identification"},
+    {"ingredient_slug": "mrht-nr", "variant_label": "pomegranate", "language": "en", "source": "identification"},
+    {"ingredient_slug": "mrht-nr", "variant_label": "parasol pine", "language": "en", "source": "identification"},
+    {"ingredient_slug": "mrht-nr", "variant_label": "pistacia", "language": "en", "source": "identification"},
+    {"ingredient_slug": "mrht-nr", "variant_label": "juniper phoenicea", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "sbn", "variant_label": "cyperus", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sbn", "variant_label": "yellow nutsedge", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "ssp-djsdjs", "variant_label": "wine from Bahriya Oasis", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ssp-djsdjs", "variant_label": "grapes from Bahriya Oasis", "language": "en", "source": "identification"},
+    {"ingredient_slug": "ssp-djsdjs", "variant_label": "raisins", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "sntr", "variant_label": "frankincense", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sntr", "variant_label": "incense", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sntr", "variant_label": "terebinth resin", "language": "en", "source": "identification"},
+    {"ingredient_slug": "sntr", "variant_label": "snṯr", "language": "egy", "source": "variant"},
+    
+    {"ingredient_slug": "bjt", "variant_label": "honey", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "xrj", "variant_label": "myrrh", "language": "en", "source": "identification"},
+    {"ingredient_slug": "xrj", "variant_label": "ḫrj", "language": "egy", "source": "transliteration"},
+    
+    {"ingredient_slug": "jrt-hr-wdt", "variant_label": "green eye of Horus wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "jrt-hr-wdt", "variant_label": "wine", "language": "en", "source": "identification"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "jrp",
+      "amount_raw": "10 hin/50 dbn",
+      "amount_value": 50,
+      "amount_unit": "dbn",
+      "preparation": "used for diluting ground aromatics mass",
+      "notes": "generic wine - step 11 in process",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 11"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "swt-nmtj",
+      "amount_raw": "3 dbn",
+      "amount_value": 3,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "gnn",
+      "amount_raw": "3 dbn",
+      "amount_value": 3,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "botanical identification uncertain",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "djbt",
+      "amount_raw": "3 dbn",
+      "amount_value": 3,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "possibly charcoals or sweet gum resin",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "sbb",
+      "amount_raw": "3 dbn",
+      "amount_value": 3,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "possible orthographical variant: fd",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "agy",
+      "amount_raw": "3 dbn",
+      "amount_value": 3,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "gum resin",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "qdt",
+      "amount_raw": "3 dbn 3 1/3 qdt",
+      "amount_value": 3.33,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "coniferous resin from Syria",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "tjsps",
+      "amount_raw": "3 dbn 3 1/3 qdt",
+      "amount_value": 3.33,
+      "amount_unit": "dbn",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "multiple botanical identifications proposed",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 1"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "prs",
+      "amount_raw": "3 hin",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": "added with additional aromatics in step 6",
+      "notes": "from the largest and oiliest berries; also possibly red ochre/mineral substance",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 6"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "mrht-nr",
+      "amount_raw": "3 hin",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": "added with additional aromatics in step 7",
+      "notes": "reading variant 1: mrḥ.t nꜤr",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 7"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "pqr",
+      "amount_raw": "3 hin",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": "added with additional aromatics in step 8",
+      "notes": "botanical identification not found",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 8"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "sbn",
+      "amount_raw": "3 hin",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": "added with additional aromatics in step 9",
+      "notes": "plant slime from cyperus rhizome",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 9"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "ssp-djsdjs",
+      "amount_raw": "11 2/3 hin",
+      "amount_value": 11.67,
+      "amount_unit": "hin",
+      "preparation": "added as raisins/grapes in step 12",
+      "notes": "wine specifically from Bahriya Oasis",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 12"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "jrt-hr-wdt",
+      "amount_raw": "5 hin",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": "added as fresh wine in step 13",
+      "notes": "green eye of Horus - type of wine",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 13"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "sntr",
+      "amount_raw": "13 dbn 3 1/3 qdt",
+      "amount_value": 13.33,
+      "amount_unit": "dbn",
+      "preparation": "added in step 19 after filtering",
+      "notes": "frankincense or terebinth resin - identification debated",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 19"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "bjt",
+      "amount_raw": "11 2/3 hin",
+      "amount_value": 11.67,
+      "amount_unit": "hin",
+      "preparation": "added in step 20, boiled to reduce by 1/5",
+      "notes": "standard honey",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 20-23"
+    },
+    {
+      "recipe_slug": "edfu-south-wall",
+      "ingredient_slug": "xrj",
+      "amount_raw": "12 dbn 7 qdt",
+      "amount_value": 12.58,
+      "amount_unit": "dbn",
+      "preparation": "added as final ingredient in step 28, 3rd quality",
+      "notes": "identified as myrrh; type of antu",
+      "source_citation": "Edfu South Wall",
+      "source_span": "step 28"
+    }
+  ]
+}

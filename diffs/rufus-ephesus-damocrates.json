@@ -1,0 +1,273 @@
+{
+  "recipes": [
+    {
+      "slug": "rufus-ephesus-kyphi",
+      "label": "Rufus of Ephesus, via Damocrates and Galen",
+      "source": "Rufus apud Damocrates via Galen, Antidosis 14.117.10-14.119.5",
+      "language": "grc"
+    }
+  ],
+  "ingredients": [
+    {"slug": "stafis-leuke", "label": "σταφὶς λευκή", "language": "grc"},
+    {"slug": "terminthine-kekaumene", "label": "τερμινθίνη κεκαυμένη", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "kinnamomon", "label": "κιννάμωμον", "language": "grc"},
+    {"slug": "schoinos", "label": "σχοῖνος", "language": "grc"},
+    {"slug": "krokos", "label": "κρόκος", "language": "grc"},
+    {"slug": "onyx", "label": "ὄνυξ", "language": "grc"},
+	{"slug": "bdellion", "label": "βδέλλιον", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "nardostachys", "label": "ναρδοστάχυς", "language": "grc"},
+    {"slug": "kasia", "label": "κασία", "language": "grc"},
+    {"slug": "kypeiros", "label": "κύπειρος", "language": "grc"},
+    {"slug": "arkevthides", "label": "ἀρκευθίδες", "language": "grc"},
+    {"slug": "kalamos-myrepsikou", "label": "κάλαμος μυρεψικός", "language": "grc"},
+    {"slug": "meli", "label": "μέλι", "language": "grc"},
+    {"slug": "oinos", "label": "οἶνος", "language": "grc"},
+    {"slug": "kardamomon-sperma", "label": "καρδάμωμον σπέρμα", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "stafis-leuke", "variant_label": "white raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "stafis-leuke", "variant_label": "fatty raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "stafis-leuke", "variant_label": "raisins", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "terminthine-kekaumene", "variant_label": "roasted terebinth resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "terminthine-kekaumene", "variant_label": "terebinth resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "terminthine-kekaumene", "variant_label": "resin", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "smyrne", "variant_label": "ḫrj", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "kinnamomon", "variant_label": "cinnamon", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kinnamomon", "variant_label": "tjšps", "language": "egy", "source": "cross_reference"},
+    {"ingredient_slug": "kinnamomon", "variant_label": "tj-šps", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "schoinos", "variant_label": "schoinos", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "schoinos", "variant_label": "rush", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "krokos", "variant_label": "saffron", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "bdellion", "variant_label": "bdellium", "language": "en", "source": "translation"},
+	
+    {"ingredient_slug": "onyx", "variant_label": "onycha", "language": "en", "source": "translation"},
+      
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "aspalathos", "variant_label": "thorny broom", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "nardostachys", "variant_label": "spikenard", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nardostachys", "variant_label": "nard", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "kasia", "variant_label": "cassia", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kasia", "variant_label": "cinnamon bark", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kypeiros", "variant_label": "cyperus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kypeiros", "variant_label": "šbn", "language": "egy", "source": "cross_reference"},
+    {"ingredient_slug": "kypeiros", "variant_label": "yellow nutsedge", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "arkevthides", "variant_label": "juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkevthides", "variant_label": "juniper", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkevthides", "variant_label": "prš", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "kalamos-myrepsikou", "variant_label": "perfumer's calamus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kalamos-myrepsikou", "variant_label": "calamus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kalamos-myrepsikou", "variant_label": "šwt nmtj", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "meli", "variant_label": "honey", "language": "en", "source": "translation"},
+    {"ingredient_slug": "meli", "variant_label": "bj.t", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "oinos", "variant_label": "wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos", "variant_label": "jrp", "language": "egy", "source": "cross_reference"},
+    
+    {"ingredient_slug": "kardamomon-sperma", "variant_label": "cardamom seed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kardamomon-sperma", "variant_label": "cardamom", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "stafis-leuke",
+      "amount_raw": "δραχμὰς Ἀττικὰς δὶς δώδεκα",
+      "amount_value": 24,
+      "amount_unit": "drachm",
+      "preparation": "remove skin and seeds, pound flesh thoroughly",
+      "notes": "the fattiest white raisins",
+      "source_citation": "Galen, Antidosis 14.117.15-14.118.2",
+      "source_span": "14.117.15-14.118.2"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "terminthine-kekaumene",
+      "amount_raw": "ταὐτὸ τῆς κεκαυμένης",
+      "amount_value": 24,
+      "amount_unit": "drachm",
+      "preparation": "same preparation as other dry ingredients",
+      "notes": "same amount as raisins; roasted terebinth resin",
+      "source_citation": "Galen, Antidosis 14.118.3",
+      "source_span": "14.118.3"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "ιβʹ",
+      "amount_value": 12,
+      "amount_unit": "drachm",
+      "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
+      "notes": "key ingredient in wet grinding stage",
+      "source_citation": "Galen, Antidosis 14.118.4, 14.118.12-14",
+      "source_span": "14.118.4, 14.118.12-14"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "kinnamomon",
+      "amount_raw": "δʹ",
+      "amount_value": 4,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "can be substituted with cardamom seed if unavailable",
+      "source_citation": "Galen, Antidosis 14.118.4, 14.119.3-4",
+      "source_span": "14.118.4, 14.119.3-4"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "schoinos",
+      "amount_raw": "ιβʹ",
+      "amount_value": 12,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "aromatic rush",
+      "source_citation": "Galen, Antidosis 14.118.5",
+      "source_span": "14.118.5"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "krokos",
+      "amount_raw": "μία",
+      "amount_value": 1,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "smallest amount of any ingredient",
+      "source_citation": "Galen, Antidosis 14.118.5",
+      "source_span": "14.118.5"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "bdellion",
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "ground with myrrh and wine in mortar",
+      "notes": "identification uncertain",
+      "source_citation": "Galen, Antidosis 14.118.5-6, 14.118.12",
+      "source_span": "14.118.5, 14.118.12"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "onyx",
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "ground with myrrh and wine in mortar",
+      "notes": "identification uncertain",
+      "source_citation": "Galen, Antidosis 14.118.5-6, 14.118.12",
+      "source_span": "14.118.6"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "βʹ 𐅶ʹʹ",
+      "amount_value": 2.5,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "textual uncertainty - additional notation unclear",
+      "source_citation": "Galen, Antidosis 14.118.6",
+      "source_span": "14.118.6"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "nardostachys",
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "aromatic root",
+      "source_citation": "Galen, Antidosis 14.118.7",
+      "source_span": "14.118.7"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "kasia",
+      "amount_raw": "γʹ",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety",
+      "source_citation": "Galen, Antidosis 14.118.7-8",
+      "source_span": "14.118.7-8"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "kypeiros",
+      "amount_raw": "γʹ δραχμὰς",
+      "amount_value": 3,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "sedge plant",
+      "source_citation": "Galen, Antidosis 14.118.8",
+      "source_span": "14.118.8"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "arkevthides",
+      "amount_raw": "ταύταις ἴσας, Θʹ",
+      "amount_value": 9,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "from the largest and oiliest berries",
+      "source_citation": "Galen, Antidosis 14.118.8-10",
+      "source_span": "14.118.8-10"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "kalamos-myrepsikou",
+      "amount_raw": "Θʹ δραχμὰς",
+      "amount_value": 9,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "specialized for perfume making",
+      "source_citation": "Galen, Antidosis 14.118.10",
+      "source_span": "14.118.10"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "meli",
+      "amount_raw": "τὸ μέτριον",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "added to adjust mixture consistency, mixed with ground raisins",
+      "notes": "moderate amount - used in both grinding and final mixing",
+      "source_citation": "Galen, Antidosis 14.118.11, 14.118.14-15",
+      "source_span": "14.118.11, 14.118.14-15"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "oinos",
+      "amount_raw": "παντελῶς βραχὺ",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "used in grinding with bdellium and myrrh",
+      "notes": "very small amount - used in mortar grinding",
+      "source_citation": "Galen, Antidosis 14.118.11-13",
+      "source_span": "14.118.11-13"
+    },
+    {
+      "recipe_slug": "rufus-ephesus-kyphi",
+      "ingredient_slug": "kardamomon-sperma",
+      "amount_raw": "ταὐτὸ",
+      "amount_value": 4,
+      "amount_unit": "drachm",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "variant substitution for cinnamon when unavailable",
+      "source_citation": "Galen, Antidosis 14.119.3-4",
+      "source_span": "14.119.3-4"
+    }
+  ]
+}

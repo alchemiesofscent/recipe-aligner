@@ -1,0 +1,595 @@
+#Ebers Papyrus 852 (v1)
+
+Eb 852 98,12 kꜣp.t
+jrr.t.PL r snḏm stj pr ḥbs rʾ-pw (vacat: Rest der Zeile leergelassen) 
+Was zu tun ist, um den Geruch eines Hauses oder von Kleidung angenehm zu machen:
+
+98,13a ꜥntj.w-šw 98,14a pr.t-šnj 98,15a sntr 98,16a gj.w 98,17a ḫt n(.j) tj-šps 98,18a šb{.t} 98,19a nbj.t n(.j).t Ḏꜣhj 98,20a ynktwn 98,21a ḏmtn 98,13b gnn n(.j) njywbn šwi̯
+Getrocknete Myrrhe: ∅, Beeren vom Phönizischen Wacholder: ∅, Weihrauch: ∅, gw-Gras: ∅, Holz vom Ostafrikanischen Kampfer (?): ∅, Mastix (oder: Maische): ∅, Schilfrohr aus Syrien-Palästina: ∅, ynktwn-Droge: ∅, ḏmtn-Droge: ∅, Storaxbaum-Harz (?): ∅.
+
+nḏ snꜥꜥ
+Werde fein zermahlen.
+
+jri̯ m 98,14b (j)ḫ.t wꜥ.t
+Werde zu einer homogenen Masse verarbeitet.
+
+rḏi̯ jm ḥr ḫ.t
+Davon werde (etwas) aufs Feuer gestellt.
+
+#Ebers Papyrus 853 (v2)
+ky jrr ḥm.t.PL r =s 
+Ein anderes (Mittel), etwas, was Frauen diesbezüglich bereiten:
+Eb 853a 98,15b rḏi̯.t nn-n pẖr.t mj sšm pn ḥr bj.t
+Dieses (eben genannten) Heilmittel entsprechend dieser (eben genannten) Anweisung in Honig geben.
+
+[98,16b] psi̯
+Werde gekocht;
+
+ꜣmj.w
+werde vermengt;
+
+jri̯ m jpp.wt.PL
+werde zu Kügelchen verarbeitet.
+
+kꜣp.ḫr 98,17b =sn jm =sn
+Sie (d.h. die Frauen) räuchern folglich mit ihnen.
+
+jw gr.t jri̯ =sn dp.t rʾ jm =sn 98,18b r snḏm st(j) rʾ.PL =sn (vacat: Rest der Zeile leergelassen) (vacat: Rest der Halbkolumne leergelassen)
+Sie bereiten ferner „Mundgeschmack“ (d.h. Pillen?) aus ihnen, um den Duft ihrer Münder angenehm zu machen.
+
+
+#Edfu Laboratory, South Wall
+
+##wine	10 hin/50 dbn
+wine (irep, jrp)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/29740
+Botanical identification:  wine, generally accepted (Wb 1, 115.5-8)
+
+##Sw.t nmtj (“Feather plant”)	3 dbn
+feather of Nemti (shut nemti)
+šwt nmtj 
+TLA: https://thesaurus-linguae-aegyptiae.de/lemma/861518
+Botanical identification: 
+potentilla reptans L. (Dawson 1934: 186; EN:  creeping cinquefoil, CZ: mochna plazivá); based on older reading, invalid now (Germer 2008: 129)
+cymbopogon schoenanthus (L.) Spreng. (Loret 1892: 25, Nr. 22; EN: camel grass, CZ: voňatka šašinová), based on identification with the reeds of Kush, not verifiable (Germer 2008: 129)
+calamus (Lüchtrath 1999, 112-115, with further references)
+Possible synonym: qmA kAS (“reeds of Kush”)
+Note taken from TLA:
+šw.t-Nmt.j: In einer Glosse in Edfu II 211,7 als Bezeichnung für „Rohr aus Kusch“ genannt, das aber bislang nicht identifiziert ist. Früher wurde der Name „Thots Feder“ gelesen, mit dem Pflanzennamen πτερόν ἴβεως, „Ibisfeder“, des Pseudo-Apuleius verglichen, dem πεντάφυλλον des Dioskurides, und als Kriechendes Fünffingerkraut identifiziert (ähnlicher Name und ähnlicher Gebrauch, vgl. Dawson, in: JEA 20, 1934, 186). Zu der neuen Lesung als „Feder des Nemti“ s. Graefe, in: GM 18, 1975, 15-20. Die Gleichung mit dem πτερόν ἴβεως ist damit nicht mehr möglich, weil die Assoziation „Thot“ = „Ibis“ entfällt. Westendorf, Handbuch Medizin, 306-307 hält es dagegen für denkbar, dass es aufgrund der Schreibvarianten in der Spätzeit zu Verwechslungen von Thots und Nemtis Namen gekommen sein könnte und daher die Identifizierung mit πτερόν ἴβεως nicht ganz auszuschließen ist.
+Bibliography:
+Dawson, Warren R. 1934. Pettigrew's demonstrations upon mummies: a chapter in the history of Egyptology. Journal of Egyptian Archaeology 20 (3/4), 170-182.
+Germer, Renate 2008. Handbuch der altägyptischen Heilpflanzen. Philippika 21. Wiesbaden: Harrassowitz.
+Loret, Victor. La flore pharaonique d’après les documents hiéroglyphiques et les spécimens découverts dans les tombes. 2. Aufl. Paris: Leroux, 1892.
+Lüchtrath, Agnes 1999. Das Kyphirezept. In Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##gnn	3 dbn
+gan (gen(en)); (g(#)n/gn/gnn)
+styrax/storax (Lücjtrath 1999, 112).
+roseau aromatique (Aufrère 2005: 248)
+Botanical identification: ?
+Bibliography:
+Aufrère, S.H. (ed.), 2005, Encyclopédie religieuse de l’univers végétal: croyances phytoreligieuses de l’Égypte ancienne, Vol. 3, OM 15.
+Lüchtrath, Agnes 1999. Das Kyphirezept. In: Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##ḏob.t  (brugundy?)	3 dbn
+djebat (ḏbꜤ.t)
+TLA:
+https://thesaurus-linguae-aegyptiae.de/lemma/183490
+Botanical identification: 
+Liquidambar styraciflua (Lüchtrath 1998: 12); EN: sweet gum; CZ: ambroň západní
+charcoals (Wb V, 535; Daressy 1916 225, VII, 6)
+Bibliography:
+Daressy, Georges 1916. Une inscription d'Achmoun et la géographie du nome libyque. Annales du Service des Antiquités de l'Égypte 16, 221-246.
+Erman, Adolf and Hermann Grapow (eds) 1931. Wörterbuch der aegyptischen Sprache im Auftrage der Deutschen Akademien: fünfter Band. Leipzig: J. C. Hinrichs
+Lüchtrath, Agnes 1988. tj-Sps, der Kampferbaum Ostafrikas. Göttinger Miszellen 101, 43-48.
+
+##Sb	3 dbn
+sheb(eb)  (šb/šbb)
+TLA:
+https://thesaurus-linguae-aegyptiae.de/lemma/153220
+Botanical identification: 
+mastix/Pistacia Lentiscus L. (resin); (Chassinat 1968, I: 394–395; Lüchtrath 1999: 117ff.)); EN: lentisk, mastic, CZ: řečík lentišek, masticha
+something from cucurbitaceae (melon) (Germer 2008: 130–131)
+Possible synonym: fd (maybe an orthographical variant)
+Bibliography:
+Chassinat, Émile 1968. Le mystère d'Osiris au mois de Khoiak (fascicule II). Le Caire: Institut français d'archéologie orientale
+Germer, Renate 2008. Handbuch der altägyptischen Heilpflanzen. Philippika 21. Wiesbaden: Harrassowitz.
+Lüchtrath, Agnes 1999. Das Kyphirezept. In Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##og#jw	3 dbn
+agay (ogꜢy)
+TLA:
+https://thesaurus-linguae-aegyptiae.de/lemma/862831
+Botanical identification: 
+Gummi arabicum (Charpentier 1981: Nr. 278; Lüchtrath 1999: 122ff.) , EN: gum arabic, CZ: arabská guma
+Tragant - Astragalus gummifer Labill. or gummi arabicum (Lüchtrath 1999, 122-124).
+Bibliography:
+Charpentier, Gérard [1981]. Recueil de matériaux épigraphiques relatifs à la botanique de l'Égypte antique. Paris: Trismégiste
+Lüchtrath, Agnes 1999. Das Kyphirezept. In Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##ḏt n qdt/ ḏdꜢ n qdt (pine resin, Aleppo pine)	3 dbn
+qedet, (djeda en) qed(et); (qd(.t), Dd# n qd.t)
+TLA:
+https://thesaurus-linguae-aegyptiae.de/lemma/162480
+Botanical identification: 
+Pinus Halepensis (Charpentier 1981: 736-737; Chassinat, Choiak II, 381-387), EN: Aleppo pine, CZ: borovice halepská, D (Harz der) Aleppokiefer
+coniferous resin from Syria (Lüchtrath 1999: 120)
+Bibliography:
+Charpentier, Gérard [1981]. Recueil de matériaux épigraphiques relatifs à la botanique de l'Égypte antique. Paris: Trismégiste
+Chassinat, Émile. Le mystère d’Osiris au mois de Khoiak II. Le Caire: Inst. Français d’Archéologie Orientale, 1968.
+Lüchtrath, Agnes 1999. Das Kyphirezept. In Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##tjSps	3 dbn
+tishepes (tjšps)
+TLA: https://thesaurus-linguae-aegyptiae.de/lemma/169810
+Botanical identification: 
+silphium (unidentified; Vikentiev1956: 124)
+Ocotea usambarensis (Lüchtrath 1988: 43–48; Manniche 199: 88); EN: East-African camphor, CZ: východoafrický kafr
+Cinnamonium zeylanicum (Manniche 1999: 88), EN: (Ceylon) cinnamon tree, CZ: skořicovník pravý
+Cinnamonium camphora (Manniche 1999: 88), EN: camphor tree, CZ: kafrovník lékařský
+Laurus cassia/Cinnamonum cassia (Loret 1887: 115;  Loret 1892, 51); EN: Chinese cinnamon, CZ: skořicovník čínský
+Aloe dichotoma (Moldenke 1886: 147), EN: quiver tree, CZ: aloe rozsochatá
+Bibliography:
+Loret, Victor 1887. Le kyphi, parfum sacré des anciens Égyptiens. Journal asiatique sér. 8, 10, 76-132. 
+Loret, Victor. La flore pharaonique d’après les documents hiéroglyphiques et les spécimens découverts dans les tombes. 2. Aufl. Paris: Leroux, 1892.
+Lüchtrath, Agnes 1988. tj-Sps, der Kampferbaum Ostafrikas. Göttinger Miszellen 101, 43-48.
+Manniche, Lise 1999. An ancient Egyptian herbal. London: The British Museum Press.
+Moldenke, Charles E. 1886. Über die in altägyptischen Texten erwähnten Bäume und deren Verwerthung. Leipzig: Breitkopf & Härtel.
+Vikentiev, Vladimir 1954-1955. Le Silphium et le rite du renouvellement de la vigueur. Bulletin de l'Institut d'Égypte 37 (1), 123-150.
+
+##prš	3 hin (3 x 0,475l)=1,425 l
+peresh (prš)
+TLA:
+https://thesaurus-linguae-aegyptiae.de/lemma/61260
+Botanical identification: 
+Juniperus communis (WbDrog 129; Lüchtrath 1998, 126-127; Aufrère 2005: 239, Germer 2008: 50ff, (pr.t wꜥn, juniperus oxycedrus); wꜥn: Maniche 1999, 110ff ); EN: junipper berries, CZ: jalovcové bobule
+fruit of conifer (Keimer 1924: I, 41)
+Fir tree cone (Wilson 1997, 360)
+Red ocre/red mineral substance (WbDrog 203; Wb I, 532, 8-10)
+Bibliography:
+Aufrère, S.H. (ed.), 2005, Encyclopédie religieuse de l’univers végétal: croyances phytoreligieuses de l’Égypte ancienne, Vol. 3, OM 15.
+Deines, H. von, Grapow, H., 1959, Wörterbuch der ägyptischen Drogennnamen. Gr.Md. 6.
+Erman, Adolf and Hermann Grapow (eds) 1931. Wörterbuch der aegyptischen Sprache im Auftrage der Deutschen Akademien: fünfter Band. Leipzig: J. C. Hinrichs
+Germer, Renate. Handbuch der altägyptischen Heilpflanzen. Bd. 21. Wiesbaden: Harrassowitz, 2008. Print. Philippika.
+Keimer, Ludwig 1924. Die Gartenpflanzen im alten Ägypten: ägyptologische Studien. Mit einem Geleitwort von Georg Schweinfurth. Hamburg; Berlin: Hoffmann und Campe.
+Lüchtrath, Agnes 1988. tj-Sps, der Kampferbaum Ostafrikas. Göttinger Miszellen 101, 43-48.
+Manniche, Lise 1999. An ancient Egyptian herbal. London: The British Museum Press.
+Wilson, P., 1997, A Ptolemaic Lexicon: A Lexicographical Study of the Texts in the Temple of Edfu, OLA 78.
+
+##mrḥ.t nꜤr: 2. Sort juniper 3 hin (3x 0,475 l)=1,425 l 
+merehet nar (mrḥ.t nꜤr), or merehet en ar (mrḥ.t n Ꜥr)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/80580  (?)
+https://thesaurus-linguae-aegyptiae.de/lemma/39430 (?)
+fruther? 
+Botanical identification: 
+for nar:
+	Nereum oleander (Keimer 1924, I: 142), EN: nerium, CZ: oleandr obecný
+	Punica granatum (Newberry 1912: 78-79), EN: pomegrante, CZ: granátové jablko
+	parasol pine (Charpentier 1981: 374-375)
+for ar:
+	Pistacia (atlantica?) (Loret 1892: 41. Nr. 51)
+	Juniperus phoenicea L. (Lüchtrath 1998, 127-130)
+Possible synonym: arw-tree as a variant for wan-junipper (Loret 1892: 41. Nr. 51) 
+Bibliography:
+Charpentier, Gérard [1981]. Recueil de matériaux épigraphiques relatifs à la botanique de l'Égypte antique. Paris: Trismégiste
+Keimer, Ludwig 1924. Die Gartenpflanzen im alten Ägypten: ägyptologische Studien. Mit einem Geleitwort von Georg Schweinfurth. Hamburg; Berlin: Hoffmann und Campe.
+Loret, Victor. La flore pharaonique d’après les documents hiéroglyphiques et les spécimens découverts dans les tombes. 2. Aufl. Paris: Leroux, 1892.
+Lüchtrath, Agnes 1988. tj-Sps, der Kampferbaum Ostafrikas. Göttinger Miszellen 101, 43-48.
+Newberry, Percy E. 1912. The tree of the Herakleopolite nome. Zeitschrift für ägyptische Sprache und Altertumskunde 50, 78-79.
+
+##pqr	3 hin (3x 0,475 l)=1,425 l
+peqer (pqr)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/62720
+Botanical identification: 
+none found
+not identified
+
+##Sbn	3 hin (3x 0,475 l)=1,425 l
+sheben (šbn)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/153520
+Botanical identification: 
+Cyperus esculentus (Charpentier 1981; 1089, 666-667), EN: yellow nutsedge, CZ: šáchor jedlý, zemní mandle
+Cyperus esculentus - plant slime based on cyperus rhizome (Lüchtrath 1999, 117-119)
+Bibliography:
+Charpentier, Gérard [1981]. Recueil de matériaux épigraphiques relatifs à la botanique de l'Égypte antique. Paris: Trismégiste.
+Lüchtrath, Agnes 1999. Das Kyphirezept. In Kurth, Dieter (ed.), Edfu: Bericht über drei Surveys; Materialien und Studien, 97-145. Wiesbaden: Harrassowitz
+
+##sSp n Dsds raisins/grapes (?)	11 2/3 hin (20 dbn)
+grapes/wine from Bahriya Oasis (seshep (em) djesdjes, sSp (m) DsDs)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/29800
+Botanical identification: 
+grapes/wine from Bahriya Oasis, generally accepted (Wb 5, 618.1)
+
+##snTr Senetjer (frankincense or terebinth resin) 	13 dbn 3 1/3 qdt
+sentjer (snTr)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/138670
+Botanical identification: 
+frankincense resin from various Boswellia species (Germer 2008: 121), EN: incense, CZ: kadidlo
+Pistacia terebinthus L. (Loret 1949, Lucas 1962: 118-119; Baum 1994: 17ff.), based on its similar look, EN: terebinth, CZ: terebint (or terebintová pryskyřice)
+Bibliography:
+Baum, Nathalie 1994. snTr: une révision. Revue d'égyptologie 45, 17-39.
+Germer, Renate 2008. Handbuch der altägyptischen Heilpflanzen. Philippika 21. Wiesbaden: Harrassowitz.
+Loret, Victor 1949. La résine de Térébinthe (sonter) chez les anciens Égyptiens. Recherches d'archéologie, de philologie et d'histoire 19. Le Caire: L'Institut français d'archéologie orientale
+Lucas, A. 1962. Ancient Egyptian materials and industries, 4th ed. Edited by J. R. Harris. London: Edward Arnold.
+
+##bj.t honey	11 hin 2/3 /33 dbn 3 1/3 qdt
+honey (bit, bj.t)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/54210
+Botanical identification: 
+honey, generally accepted (Wb 1, 434.6-12)
+
+##green eye of Horus, i. e. (a type of?) wine (iter heru wedjat, jr.t Hr.w wd#.t)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/859662
+Botanical identification: 
+wine  (Wb 1, 107.19; Wilson 1997: 99)
+
+##Xrj Myrrh	12 dbn 7 qdt
+kher(y) (ḫrj)
+TLA: 
+https://thesaurus-linguae-aegyptiae.de/lemma/119870
+Botanical identification: 
+a type of antu (Wb 3, 323.21)
+ „Myrrhe“
+ 
+Step Number	Original Language	Modern Language
+1.			the first 7 ingredients mentioned are to be ground finely.
+2.		
+	sieving the powder of these ingredients.
+3.		taking the remaining mass of 12 dbn 6 qdt
+4.			taking from this powder an amount of
+1/3 + 1/15 (= 6/15) = 8 dbn [and 4 qdr].
+5.			adding more aromatic substances:
+6.			adding juniper 1st sort (3 dbn)
+7.			adding juniper 2nd sort (3 dbn)
+8.			adding pqr-resin (3 dbn)
+9.			adding Sheben-plant (3 dbn)
+10.			concluding: these are 12 hin, corresponding 20 dbn+3 qdt
+11.			dilute the mass with wine 5 hin (25 dbn) 
+12.			adding raisins/grapes (according to Aufrère)
+13.			adding again 5 hin wine (fresh, Eye of Horus)
+14.			conclusion: this is a mass/weigh of 45 dbn,
+15.			to be ground finely
+16.			pressing through a sieve 
+17.			taking away the seeds (of the fruits)
+18.			concluding: this is a mass of 15 dbn, remaining 2/3 for processing the Kyphi: representing a mass of 30 dbn for making 62 dbn +9 qdt 
+19.			adding 
+Senetjer (frankincense or terebinth resin) 13 dbn 3 1/3 qdt
+20.			adding
+honey 11 2/3 hin 
+21.			conclusion: this is a mass of 46 dbn 6 2/3 qdt
+22.			putting the mass in a cauldron
+23.			boiling 2/3 of the mass to reduce by 1/5 by the heat 
+24.			conclusion: it remains a mass of 37 dbn 3 1/3 qdt 
+25.			adding the mass of 62 dbn 9 qdt of Kyphi
+26.			reducing by boiling (heat) by 1/5 of the mass
+27.			it remains mass of 50 dbn 3 qdt
+28.			adding Xrj Cheri-Myrrh 3rd quality 
+1/10 + 1/30 + 1/90 (= 13/90), corresponding12 dbn und 7 qdt,1/3 +
+29.			conclusion: this makes a mass of 100 dbn 3 1/3 qdt
+of this excellent kyphi with which one performs the rites for Horus of Edfu, the great god, lord of the sky, Hathor, lady of Dendara and of all the goddesses at the beginning of each year for the liturgical acts.
+
+
+
+
+
+#Edfu Laboratory, West Wall
+Ingredient	Amounts and Units
+wine	10 hin/50 dbn 
+Sw.t nmtj (“Feather plant”)	2 dbn 5qdt = g
+gnn	2 dbn 5qdt = g
+ḏbo.t  (brugundy?, called Drm djerem)	1 dbn= g
+Sb (called fedu-plant)	2 dbn= g
+og#jw (called nkpt, translated by Aufrère as mint)	2 dbn 5qdt = g
+ḏt n qdt/ ḏdꜢ n qdt (pine resin, Aleppo pine)	3 dbn 3 1/3 qdt
+tjSps (explained in this recipe version wood of the nedje.tree)	3 dbn 3 1/3 qdt
+prš	2 hin (2 x 0,475l)= 0,95 l
+mrḥ.t nꜤr: 2. Sort juniper
+2 hin (2 x 0,475l)= 0,95 l
+pqr	2 hin (2 x 0,475l)= 0,95 l
+Sbn	3 hin (3x 0,475 l)=1,425 l
+sSp n Dsds raisins/grapes (?)	20 hin 
+snTr Senetjer (frankincense or terebinth resin) 	10 dbn 
+bj.t honey	5 hin/1 hin=37 dbn 5 qdt
+Xrj Myrrh	12 dbn 7 qdt
+
+Firstly, 7 ingredients are combined to a mass, very likely to be ground, as described in the South wall version (Kyphi 1).
+In a further step, more ingredients were added: In the next step, this mixture was soaked with wine and left to rest overnight so that the particles of the ground aromata and could settle to the bottom and absorb the wine. This process caused the mass to swell, which explains the large amount of wine, originally around 2.5 l, which was then reduced to around 1.25 l. The excess wine was then poured off and further ingredients were added to the remaining mass: jr.t-Or w#D.t and Ssp(t) n DsDs (grape seeds or substance from grape seeds).
+Only after five days of rest were Senetjer and honey (bj.t or date honey jr.t Or bnrw) added.
+The mixture was then boiled until a certain amount of the weight had evaporated (1/10) and after boiling it was to rest until the next morning. Finally, crushed, sieved "myrrh" was added to the kyphi mass, which is referred to as Xrj in this recipe, and as "Antu 3rd category" in the other recipe on the west wall. Further processing into a form that can be dosed, e.g. incense balls, is not described in the recipe text. In contrast to the recipes for making ointments, the preparation process for this incense is completed after a few days.
+
+
+1.			the first 7 ingredients mentioned: 17 dbn 1 2/3 qdt
+are to be put in a mortar and to be ground.
+2.		
+	From them, 1/3 (= 3/15) + 1/15 (= 6/15) of the mass of residual remains in them is extracted, which represents a mass of 6 debens, 8 qites and 2/3. A fine powder remains, constituting a mass of 10 debens and 3 qites.
+3.		adding more aromatic substances
+4.			adding juniper 1st sort (2 hin)
+5.			adding juniper 2nd sort (2 hin)
+6.			adding pqr-resin (2 hin)
+7.			concluding: these are 6 hin ergibt, corresponding 6 dbn
+
+8.			adding gaiu-plant (2 hin), corresponding 3 dbn
+9.			concluding: to obtain 11 powdered ingredients brought to the state of a powder constituting a mass of 19
+dbn and 3 qdt
+10.			dilute the mass with wine 5 hin (25 dbn)
+11.			concluding the foreseeable loss: 12 Debens and 5 Qites for half to make a mass of 31 Debens and 8 Qites Kyphi in liquid state
+12.			the mass is left to rest until dawn
+13.			adding raisins/grapes (according to Aufrère): 20 hin
+14.			conclusion one third of the mass, namely 4 debens of graters, from which 8 debens remain
+15.			adding again 5 hin/25 dbn wine (fresh, Eye of Horus)
+16.			They are put in the large sieve, namely the sieve
+to filter these aromatics in the liquid state, for
+(obtaining a mass of) 60 dbn, 6 1/3 qdt kyphi,
+17.			left to rest until the fifth day.
+18.			adding more aromatics: 
+19.			adding 
+Senetjer (frankincense or terebinth resin) 10 dbn 
+20.			which is reduced by a 1/4 to be bound
+21.			The loss is 1 dbn, 1 qdt and
+1/9th, namely a mass of 1/9 for the loss, it remains 8 dbn 9 qdt
+22.			adding
+honey 5 hin, corresponding 37 dbn 5 qdt
+23.			conclusion: 1/6 of the mass of the loss is due to reduction by heat, namely 6 dbn, 2 ½ qdt, which brings the total to 31 dbn, 10 1/2 qdt.
+24.			They provide a mass of 100 dbn and 12 qdt and some of liquid kyphi thanks to their elements
+25.			Summary: 1/10 of the mass of the loss, namely 10 debens and some. from which there remains 90 dbn and 7 qdt
+
+#Philae Laboratory
+Ingredient	Amounts and Units
+gnn	3 dbn
+Sw.t nmtj (“Feather of Nemti”)	3 dbn
+Sbb	3 dbn
+DdA n qd.t (“fat”, i.e. resin? of qd.t-tree)	3 dbn
+tjSps	3 dbn 
+agAj	3 dbn
+DbA	3 dbn
+prš (junipper)	3 hin (3 x 0,475l)= 1, 425 l
+mrḥ.t n.t nꜤr (oil/fat of catfish (Wels ))
+3 hin (3 x 0,475l)= 1, 425 l
+pqr	3 hin (3 x 0,475l)= 1, 425 l
+Sb.w-plant	3 hin (3 x 0,475l)= 1, 425 l
+wine	5 hin/25 dbn (5 x 0, 475) = 2, 375 l
+sSp n Dsds (wine from Bahrija oasis)	6 ⅔ hin / 20 dbn
+[jr.t Hrw] wAD.t (the green/fresh eye of Horus = wine/resin ?)
+5 hin/25 dbn (5 x 0, 475) = 2, 375 l
+snTr Senetjer (frankincense or terebinth resin) 	13 dbn 3 ⅓ qdt
+jr.t Hr.w bnr.t (the sweet Eye of Horus) = honey?	6 ⅔ hin
+Step Number	Original Language	Modern Language
+1.		nD-sna	1st phase:
+Grind the first 7 ingredients (21 debens together) 
+2.		nqr	Sieve (½ and 1/10 is residual remains/ waste, i. E. 12 dbn 6 qdt)
+3.		
+Sdj	Take  ⅓ + 1/15 of the grinded mass, which is 8 dbn 3 qdt. 
+
+3.		2nd phase:
+prš (junipper), mrḥ.t n.t nꜤr, pqr, Sb.w : together 12 hin 12 dbn, i.e. 20 dbn 4 qdt
+4.		sfj m jrp	mix/soften with wine
+5.			Loss of 12 dbn 5 qdt of wine for the half
+6.			Weight of product (kyphi): 32 dbn 9 qdt
+7.			3rd phase:
+add(?) wine of Bahrija(?): 20 dbn
+8.			add jr.t-Hr.w wDA.t (?) (the green/fresh Eye of Horus): 25 dbn
+Both together: 45 dbn
+9.			⅓ of it remains as residues (waste): 25 hin (sic)
+10.			Take ⅔ of it as kyphi, i.e. 30 dbn
+11.		jr.t kAp	Making of kyphi: 62 dbn 9 qdt
+
+12.			(add) 
+Senetjer (frankincense or terebinth resin) 13 dbn 3 ⅓ qdt
+13.			(add)
+Sweet Eye of Horus 6 ⅔ hin
+Together: 33 dbn 3 ⅓ qdt
+All together: 46 hin 6 ⅔ qdt
+14.		rdj.t r wxA.t bjA	Put into the bronze/metal/ cauldron
+15.		psj	Boil, until it is reduced to ⅔; ⅕ is consumed by heat
+16.			conclusion: it remains a mass of 37 dbn 3 1/3 qdt 
+17.			adding the mass of 62 dbn 9 qdt of Kyphi
+18.		reducing by boiling (heat) by 1/5 of the mass 
+
+19.		Which (the reduced ⅕) makes: 12 dbn 6 qdt
+
+20.		it remains mass of 50 dbn 3 qdt
+21. 		The final amount: 93 dbn 6 ⅓ qdt
+
+#Dioscorides 1.25 (28,18-29,8 Wellmann)
+Recipe Text and Translation
+Original Language
+[1] κῦφι θυμιάματός ἐστι σκευασία κεχαρισμένη θεοῖς· χρῶνται δὲ αὐτῷ κατακόρως οἱ ἐν Αἰγύπτῳ ἱερεῖς. μείγνυται δὲ καὶ ἀντιδότοις, καὶ ἀσθματικοῖς δίδοται ἐν ποτήμασι. σκευασίαι δὲ αὐτοῦ ἐμφέρονται πλείονες, ἐν αἷς ἐστι καὶ αὕτη· κυπέρου ἡμίξεστον, ἀρκευθίδος ἁδρᾶς τὸ αὐτό, σταφίδος λιπαρᾶς ἐκγεγιγαρτισμένης μνᾶς δεκαδύο, ῥητίνης ἀποκεκαθαρμένης μνᾶς πέντε, καλάμου ἀρωματίκου, ἀσπαλάθου, σχοίνου, ἑκάστου μνᾶν μίαν, σμύρνης δραχμὰς δεκαδύο, οἴνου παλαιοῦ ξέστας ἐννέα, μέλιτος μνᾶς δύο.
+[2] ἐκγιγαρτίσας τὴν σταφίδα κόψον καὶ λέανον μετὰ τοῦ οἴνου καὶ τῆς σμύρνης καὶ τὰ ἄλλα κόψας καὶ σήσας μεῖξον τούτοις ἔασόν τε συμπιεῖν ἡμέραν μίαν· εἶτα ἑψήσας τὸ μέλι ἄχρι κολλώδους συστάσεως μεῖξον ἐπιμελῶς τὴν ῥητίνην τετηκυῖαν, εἶτα τὰ λοιπὰ συνανατρίψας ἐπιμελῶς ἀποτίθεσο εἰς ἀγγεῖον ὀστράκινον.
+Translation
+[1] Kyphi is an incense preparation beloved by the gods, and it is extensively used by the priests in Egypt. It is also mixed in antidotes and given in potions to those with asthma. There are several preparations of it, including this one: half a pint [weight] of cyperus, the same amount of full-grown juniper berries, twelve mina of fatty raisins with seeds removed, five mina of purified resin, one mina each of aromatic calamus, aspalathus, and schoinos, twelve drachmas of myrrh, nine pints of aged wine, and two mina of honey.
+[2] After deseeding the raisins, chop and grind them together with the wine and myrrh; chop and sift the other ingredients, mix them in, and let them infuse together for one day. Then, boil the honey until it thickens to a gluey consistency and carefully mix in the resin after it has been melted. Then, after carefully needing in the remaining ingredients, store the mixture in an earthenware vessel.
+
+Ingredients
+Provide an extracted list of ingredients with their measures:
+Ingredient
+Amounts and Units
+cyperus
+Half a pint [weight]
+Full-grown Juniper berries
+Half a pint [weight]
+Fatty raisins with seeds removed
+12 mina
+Purified resin
+5 mina
+calamus
+1 mina
+aspalathus
+1 mina
+Schoinos
+1 mina
+Myrrh
+12 drachmas
+Aged wine
+9 pints
+Honey
+2 mina
+
+#Plutarch, Isis and Osiris
+τὸ δὲ κῦφι μῖγμα μὲν ἑκκαίδεκα μερῶν συντιθεμένων ἐστί, μέλιτος καὶ οἴνου καὶ σταφίδος καὶ κυπέρου ῥητίνης τε καὶ σμύρνης καὶ ἀσπαλάθου καὶ σεσέλεως, ἔτι δὲ σχίνου τε καὶ ἀσφάλτου καὶ θρύου καὶ λαπάθου, πρὸς δὲ τούτοις ἀρκευθίδων ἀμφοῖν (ὧν τὴν μὲν μείζονα τὴν δ' ἐλάττονα καλοῦσι) καὶ καρδαμώμου καὶ καλάμου. συντίθενται δ' οὐχ ὅπως ἔτυχεν, ἀλλὰ γραμμάτων ἱερῶν τοῖς μυρεψοῖς, ὅταν ταῦτα μιγνύωσιν, ἀναγιγνωσκομένων. 
+
+τὸν δ' ἀριθμόν, εἰ καὶ πάνυ δοκεῖ τετράγωνος ἀπὸ τετραγώνου καὶ μόνος ἔχων τῶν ἴσων ἰσάκις ἀριθμῶν τῷ χωρίῳ τὴν περίμετρον ἴσην ἄγασθαι προσηκόντως, ἐλάχιστα ῥητέον εἴς γε τοῦτο συνεργεῖν, ἀλλὰ <τὰ> πλεῖστα τῶν συλλαμβανομένων ἀρωματικὰς ἔχοντα δυνάμεις γλυκὺ πνεῦμα καὶ χρηστὴν μεθίησιν ἀναθυμίασιν, ὑφ' ἧς ὅ τ' ἀὴρ τρεπόμενος καὶ τὸ σῶμα διὰ τῆς πνοῆς κινούμενον λείως καὶ προσηνῶς ὕπνου τε κρᾶσιν ἐπαγωγὸν ἴσχει καὶ τὰ λυπηρὰ καὶ σύντονα τῶν μεθημερινῶν φροντίδων ἄνευ μέθης οἷον ἅμματα χαλᾷ καὶ διαλύει· καὶ τὸ φανταστικὸν καὶ δεκτικὸν ὀνείρων μόριον ὥσπερ κάτοπτρον ἀπολεαίνει καὶ ποιεῖ καθαρώτερον οὐδὲν ἧττον ἢ τὰ κρούματα τῆς λύρας, οἷς ἐχρῶντο πρὸ τῶν ὕπνων οἱ Πυθαγόρειοι, τὸ ἐμπαθὲς καὶ ἄλογον τῆς ψυχῆς ἐξεπᾴδοντες οὕτω καὶ θεραπεύοντες.
+
+τὰ γὰρ ὀσφραντὰ πολλάκις μὲν τὴν αἴσθησιν ἀπολείπουσαν ἀνακαλεῖται, πολλάκις δὲ πάλιν ἀμβλύνει καὶ κατηρεμίζει διαχεομένων ἐν τῷ σώματι τῶν ἀναλωμάτων ὑπὸ λειότητος· ὥσπερ ἔνιοι τῶν ἰατρῶν τὸν ὕπνον ἐγγίνεσθαι λέγουσιν, ὅταν ἡ τῆς τροφῆς ἀναθυμίασις οἷον ἕρπουσα λείως περὶ τὰ σπλάγχνα καὶ ψηλαφῶσα ποιῇ τινα γαργαλισμόν.
+
+τῷ δὲ κῦφι χρῶνται καὶ πόματι καὶ χρίματι· πινόμενον γὰρ δοκεῖ τὰ ἐντὸς καθαίρειν ὡς χρὴ μαλακτικὸν ὂν. ἄνευ δὲ τούτων ῥητίνη μέν ἐστιν ἔργον ἡλίου καὶ σμύρνα πρὸς τὴν εἵλην τῶν φυτῶν ἐκδακρυόντων, τῶν δὲ τὸ κῦφι συντιθέντων ἔστιν ἃ νυκτὶ χαίρει μᾶλλον, ὥσπερ ὅσα πνεύμασι ψυχροῖς καὶ σκιαῖς καὶ δρόσοις καὶ ὑγρότησι τρέφεσθαι πέφυκεν· ἐπεὶ τὸ τῆς ἡμέρας φῶς ἓν μέν ἐστι καὶ ἁπλοῦν καὶ τὸν ἥλιον ὁ Πίνδαρος ὁρᾶσθαί φησιν ‘ἐρήμης δι' αἰθέρος’, ὁ δὲ νυκτερινὸς ἀὴρ κρᾶμα καὶ σύμμιγμα πολλῶν γέγονε φώτων καὶ δυνάμεων οἷον σπερμάτων εἰς ἓν ἀπὸ παντὸς ἄστρου καταρρεόντων. εἰκότως οὖν ἐκεῖνα μὲν ὡς ἁπλᾶ καὶ ἀφ' ἡλίου τὴν γένεσιν ἔχοντα δι' ἡμέρας, ταῦτα δ' ὡς μικτὰ καὶ παντοδαπὰ ταῖς ποιότησιν ἀρχομένης νυκτὸς ἐπιθυμιῶσι.
+
+Translation
+Kyphi is a mixture composed of sixteen ingredients: honey, wine, raisins, cyperus , resin and myrrh, aspalathus and seseli; moreover, mastic and bitumen, rush, patience dock, and in addition to these both of the junipers (one of which they call larger, the other smaller), cardamom and calamus. These are not, however, combined in just any way, but while the sacred writings are being read to the perfumers as they mix them. 
+As for the number of ingredients, because it is a square of a square [i.e. 4 x 4] and the only even number whose perimeter is equal to its area, it is completely appropriate that it is an object of wonder; even so, it must be said that this fact contributes very little to the recipe. Rather, most of the ingredients have aromatic properties that give off a sweet and pleasant exhalation because of which the air is changed and the body, by being moved softly and gently by the stream of air, takes on a balance of elements that brings on sleep; and these aromatic properties also relax and loosen without wine the pain and stress of our everyday worries as if loosening a knot. And they brighten the imagination and the part of us that receives dreams as if polishing a mirror, and they are as purifying to it as the melodies of the lyre which the Pythagoreans used to play before going to sleep in order to charm the emotional and irrational feelings in the soul and in this way heal it.
+For scents often restore our consciousness when it is weakened; often again they smooth and calm it when there are material disturbances spread because of their smoothness throughout the body, as some doctors say sleep comes about when the exhalations from our food slip smoothly, as it were, around our vital organs, touching them and producing a sort of tickling sensation.
+They use kyphi as a potion and a perfumed oil, for when taken as a drink, it seems to purify the inside of the body, since it is emollient. In addition to this, resin and myrrh are the work of the sun, when their plants exude their tears in response to its warmth; but the ingredients of kyphi delight more in the night, as do all those whose nature is nourished by cold winds and shadows and dew and moisture. Whereas the light of the daytime is unitary and simple and the sun shows itself, as Pindar says, ‘through a deserted aether,’ the nighttime air is a blend and mixture of many lights and forces, as if seeds from every star streamed down onto one place. And so it is fitting that they make incense offerings of the former [i.e. resin and myrrh] in the daytime, since they are simple and are born from the sun; while this one [i.e. kyphi], since it is a mixture of so many different qualities, they offer at nightfall.
+
+Ingredients
+Provide an extracted list of ingredients with their measures:
+Ingredient
+Amounts and Units
+μέλι (meli): honey 
+οἶνος (oinos): wine
+σταφίς (staphis): raisins
+κύπερον (kyperon): cyperus, probably Cyperus rotundus L.
+ῥητίνη (rhetine): resin, probably some kind of pine resin
+σμύρνα (smyrna): myrrh, Commiphora myrrha Engl.
+ἀσπάλαθος (aspalathos): possibly camelthorn, Alhagi maurorum L.; or thorny trefoil, Calycotome villosa Link; or Genista, Genista acanthoclada DC
+σέσελι (seseli): hartwort, Tordylium officinale L.
+σχῖνος (skhinos): mastic: Pistacia lentiscus L.
+ἄσφαλτος (asphaltos): bitumen
+θρύον (thryon): rush
+λάπαθον (lapathon): patience dock, Rumex patientia L.
+ἄρκευθος μείζων (arkeythos meizon): larger juniper, Juniperus macrocarpa L.
+ἄρκευθος ἐλάττων (akreythos elatton): smaller juniper, Juniperus communis L.
+καρδάμωμον (karadmomon): cardamom, Elettaria cardamomum Maton
+κάλαμος (kalamos): calamus, Acorus calamus L.
+
+#Rufus of Ephesus apud Damocrates via Galen's Antidosis
+
+14.117.10
+Ἐπεὶ οὖν κύφεως ἐμνημόνευσεν ὁ Δαμοκράτης, ὃ καὶ αὐτὸς
+κατασκευάζεται, διὰ τοῦτο καλῶς ἐποίησε, προσγράψας αὐ-
+τοῦ τὴν κατασκευὴν, ἐφεξῆς γεγραμμένην.
+ Τὸ κῦφι δ' οὐδέν ἐστιν οὐδὲ μίγμ' ἁπλοῦν,
+ Οὐδ' αὐτὸ γῆ φέρει τις, οὐδ' ὀπίζεται.
+14.117.15
+ Αἰγύπτιοι δὲ τοῦτο τῶν θεῶν τισιν
+ Ἐπιθυμιῶσι σκευάσαντες, ὡς φράσω.
+ Λευκὴν λαβόντες σταφίδα τὴν λιπαρωτάτην,
+ Αἴρουσι τὸν φλοιόν τε καὶ τὸ σπέρμ' ἅπαν.  
+14.118.1
+ Τὴν σάρκα δ' αὐτῆς λεοτριβήσαντες καλῶς
+ Ἱστᾶσι δραχμὰς Ἀττικὰς δὶς δώδεκα,
+ Τερμινθίνης τε ταὐτὸ τῆς κεκαυμένης,
+ Σμύρνης τε ιβʹ. κινναμώμου δʹ.
+14.118.5
+ Σχοίνου ιβʹ. καὶ κρόκου μία, βδελλίου
+ Ὄνυχας δραχ. γʹ. ἀσπαλάθου βʹ 𐅶ʹʹ.
+ Ναρδοστάχυος γʹ. καὶ κασίας γʹ. τῆς καλῆς
+ Καθαρᾶς, κυπείρου γʹ. δραχμὰς, ἀρκευθίδων
+ Ἐκ τῶν μεγίστων καὶ λιπαρῶν ταύταις ἴσας,
+14.118.10
+ Θʹ. δὲ καλάμου τοῦ μυρεψικοῦ δραχμὰς,
+ Μέλιτος τὸ μέτριον, παντελῶς οἴνου βραχὺ,
+ Βδέλλιον, οἶνον, σμύρναν εἰς θυΐδιον
+ Βαλόντες, εὖ τρίβουσιν ὡς μέλιτος πάχος
+ Ὑγροῦ ποιῆσαι, καὶ προσαποδόντες μέλι
+14.118.15
+ Τὴν σταφίδα συντρίβουσιν, εἶτα λεῖα δὲ
+ Ἅπαντα καταμίξαντες ἐκ τούτου κύκλους
+ Βραχεῖς ποιοῦντες θυμιῶσι τοῖς θεοῖς.  
+14.119.1
+ Ῥοῦφος μὲν οὕτω δεῖν ἔφασκε σκευάσαι,
+ Ἀνὴρ ἄριστος ἑκτικός τ' ἐν τῇ τέχνῃ.
+ Ἔνιοι δὲ κιννάμωμον οὐ σχόντες βαλεῖν
+ Μίσγουσι ταὐτὸ καρδαμώμου σπέρματος.
+14.119.5
+ Χρῶνται δ' ὁμοίως τῇ πρὸ ταύτης συνθέσει.
+ Τινὲς δὲ καὶ τοῖς ἧπαρ ἢ τὸν πνεύμονα,
+ Ἢ καί τι ἕτερον σπλάγχνον ἐξηλκωμένοις
+ Πίνειν διδόασιν, ὡς δραχμὴν τοῦ φαρμάκου. 
+ 
+ Since Damocrates has mentioned kyphi, which he himself also prepares, it was good of him to append its preparation, written out in sequence:
+
+Kyphi is neither a simple substance nor a simple mixture,
+Nor does anyone dig it from the earth, nor is it harvested.
+But the Egyptians, having prepared it as an offering to certain gods 
+in accordance with their desires, did so in the following way:
+They take the fattiest white raisins,
+Remove both the skin and all the seeds.
+Then they thoroughly pound the flesh,
+And weigh out twenty-four Attic drachmas.
+The same amount of roasted terebinth resin,
+Twelve drachmas of myrrh, and four of cinnamon.
+
+Twelve of schoinos, and one of saffron,
+Three drachmas of bdellium, two of aspalathus,
+
+Three of spikenard, and three of the fine, pure cassia,
+Three drachmas of cyperus, and of the largest, oiliest juniper berries,
+An equal amount—nine drachmas of each.
+
+Of the perfumer’s calamus, nine drachmas,
+A moderate amount of honey, and a little wine in all.
+
+Having added bdellium, wine, and myrrh to a little mortar,
+They grind thoroughly until the mixture reaches the thickness of honey.
+
+Then, adding more honey,
+They grind with it the raisins, then
+Mix everything together smoothly.
+
+From this, they shape small spheres,
+Which they burn as incense to the gods.
+
+Rufus said it should be prepared in this way—
+A man most skilled and experienced in the art.
+
+Some, however, not having cinnamon to add,
+Mix in instead the seed of cardamom.
+
+They use the composition in the same manner as the one before.
+
+And some give it even to those suffering ulceration
+Of the liver, lungs, or any other organ,
+To drink—about one drachma of the drug.
+
+#Paul of Aegina, Solar Kyphi 
+<Κῦφι τὸ μέγα τὸ διὰ τῶν <λϛ>, ὃ καλοῦσιν ἡλιακόν.>
+
+ Στύρακος, σμύρνης, βδελλίου, λαδάνου, ἀσπαλάθου, ἑλενίου ἀνὰ
+𐆄 <ζ>, νάρδου Κελτικῆς, φύλλου, κυπαρίσσου σπέρματος, ἀμμωνιακοῦ θυ-
+μιάματος, στροβίλου, σπλάγχνου ἢ ἀντ' αὐτοῦ ὀνύχων μεγάλων <β>,
+7.22.4.5
+καρποβαλσάμου ἀνὰ 𐆄 <γ>, κασσίας, ἴρεως, σεσέλεως, σφάγνου, κυπέρου,
+καρδαμώμου, καλάμου ἀρωματικοῦ ἀνὰ 𐆄 <ε>, ῥόδων ξηρῶν, κρόκου, ναρ-
+δοστάχυος, βράθυος, ἀσφοδέλου ῥίζης (οἱ δὲ χυλοῦ) ἀνὰ 𐆄 <δ>, νακάφθου
+(ἔστι δὲ φλοιὸς πίτυος ἢ ἑτέρου τινὸς δένδρου) 𐆄 <θ>, κόστου, σχοίνου  
+ἄνθους ἀνὰ 𐆄 <β>, ἀρκευθίδας μεγάλας <μ> καὶ μικρὰς <ν>, ἀμώμου, τερε-
+7.22.4.10
+βινθίνης, φοινίκων καθαρῶν ἀνὰ λι. <α>, ἰσχάδων [ἀγιγάρτων], σταφίδων
+ἀγιγάρτων ἀνὰ λι. <β>, μέλιτος ἀπηφρισμένου λι. <ε>· ὁ Ποσειδώνιος καὶ
+οἴνου εὐώδους ξ̸ <γ>.
+7.22.4.12
+Styrax, myrrh, bdellium, labdanum, aspalathus, calamint, 7 ounces each; Celtic nard, leaves, cypress seed, ammoniac resin, storax, intestines or large onyx (2 ounces); balm fruit, 3 ounces each; cassia, iris, celery seed, sphagnum moss, cyperus, cardamom, aromatic calamus, 5 ounces each; dried roses, saffron, spikenard, tamarisk, asphodel root or juice, 4 ounces each; nakaphthos (pine or another tree bark), 9 ounces; costus, schoinos flower, 2 ounces each; large juniper berries, 40; small juniper berries, 50; amomum, turpentine, clean dates, 1 pound each; dried figs [stone-free raisins], stoneless raisins, 2 pounds each; refined honey, 5 pounds. Posidonius also adds fragrant wine, 3 pints.
+
+
+#Paul of Aegina, Lunar Kyphi 
+7.22.5.1
+ <Ἄλλο κῦφι τὸ διὰ τῶν <κη>, σεληνιακὸν καλούμενον.>
+
+ Βδελλίου, ἑλενίου ἀνὰ 𐆄 <ζ>, σχοίνου 𐆄 <β>, σφάγνου 𐆄 <ε>, ἀρκευθίδας
+μικρὰς <ν>, καρδαμώμου 𐆄 <ε>, ἀσπαλάθου 𐆄 <ζ>, κασσίας σύριγγος 𐆄 <ε>, ναρ-
+δοστάχυος 𐆄 <β>, κυπέρου 𐆄 <ε>, ἀσφοδέλου ῥίζης, βράθυος ἀνὰ 𐆄 <δ>, κυπα-
+7.22.5.5
+ρίσσου σπέρματος, νάρδου Κελτικῆς, μαλαβάθρου μετὰ τῶν φύλλων,
+ῥόδων ξηρῶν ἀνὰ 𐆄 <γ>, κόστου, κρόκου ἀνὰ 𐆄 <β>, λαδάνου, σμύρνης ἀνὰ
+𐆄 <ζ>, ἰσχάδων λιπαρῶν, σταφίδων ἐκγιγαρτισθεισῶν ἀνὰ λι. <β>, στροβί-
+λων 𐆄 <η>, τερεβινθίνης λι. <α>, στύρακος 𐆄 <ζ>, φοινίκων λιπαρῶν λι. <α>, μέ-
+λιτος λι. <ε>, οἴνου εὐώδους τὸ ἀρκοῦν.
+7.22.5.9
+Bdellium, calamint, 7 ounces each; schoinos, 2 ounces; sphagnum moss, 5 ounces; small juniper berries, 50; cardamom, 5 ounces; aspalathus, 7 ounces; cassia of Syria, 5 ounces; spikenard, 2 ounces; cyperus, 5 ounces; asphodel root, tamarisk, 4 ounces each; cypress seed, Celtic nard, malabathrum with leaves, dried roses, 3 ounces each; costus, saffron, 2 ounces each; labdanum, myrrh, 7 ounces each; fatty figs, stoneless raisins, 2 pounds each; storax, 8 ounces; turpentine, 1 pound; liquid styrax, 7 ounces; fatty dates, 1 pound; refined honey, 5 pounds; sufficient fragrant wine.

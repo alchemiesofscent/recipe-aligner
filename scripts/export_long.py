@@ -103,14 +103,29 @@ def export(master_path, out_path):
         english_aliases = ingredient_aliases.get(ingredient["ingredient_id"], [])
         aliases_text = ", ".join(english_aliases) if english_aliases else ""
         
+        # Build hybrid amount display
+        amount_display = ""
+        amount_value = e.get("amount_value")
+        amount_unit = e.get("amount_unit") 
+        amount_raw = e.get("amount_raw")
+
+        if amount_value is not None and amount_unit and amount_raw:
+           amount_display = f"{amount_value} {amount_unit} ({amount_raw})"
+        elif amount_value is not None and amount_unit:
+            amount_display = f"{amount_value} {amount_unit}"
+        elif amount_raw:
+            amount_display = amount_raw
+        else:
+            amount_display = None
+
         rows.append({
             "recipe": recipe["label"],
             "ingredient": ingredient["label"],
-            "amount": e.get("amount_raw"),
+            "amount": amount_display,
             "preparation": e.get("preparation"),
             "notes": e.get("notes"),
             "aliases": aliases_text
-        })
+})
         
         recipe_counts[recipe["label"]] += 1
         ingredient_counts[ingredient["label"]] += 1
