@@ -1,0 +1,600 @@
+{
+  "recipes": [
+    {
+      "slug": "paul-aegina-solar-kyphi",
+      "label": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "source": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "language": "grc",
+      "date": 650
+    }
+  ],
+  "ingredients": [
+    {"slug": "styrax", "label": "στύραξ", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "bdellion", "label": "βδέλλιον", "language": "grc"},
+    {"slug": "ladanon", "label": "λάδανον", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "helenion", "label": "ἑλένιον", "language": "grc"},
+    {"slug": "nardos-keltike", "label": "νάρδος Κελτική", "language": "grc"},
+    {"slug": "phyllon", "label": "φύλλον", "language": "grc"},
+    {"slug": "kyparissos-sperma", "label": "κυπάρισσος σπέρμα", "language": "grc"},
+    {"slug": "ammoniakos-thymiama", "label": "ἀμμωνιακὸς θυμίαμα", "language": "grc"},
+    {"slug": "strobilos", "label": "στρόβιλος", "language": "grc"},
+    {"slug": "splagchnon", "label": "σπλάγχνον", "language": "grc"},
+    {"slug": "onyches-megaloi", "label": "ὄνυχες μεγάλοι", "language": "grc"},
+    {"slug": "karpobalsamom", "label": "καρποβάλσαμον", "language": "grc"},
+    {"slug": "kassia", "label": "κασσία", "language": "grc"},
+    {"slug": "iris", "label": "ἴρις", "language": "grc"},
+    {"slug": "seseli", "label": "σέσελι", "language": "grc"},
+    {"slug": "sphagnon", "label": "σφάγνον", "language": "grc"},
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "kardamomon", "label": "καρδάμωμον", "language": "grc"},
+    {"slug": "kalamos-aromatikos", "label": "κάλαμος ἀρωματικός", "language": "grc"},
+    {"slug": "rhoda-xera", "label": "ῥόδα ξηρά", "language": "grc"},
+    {"slug": "krokos", "label": "κρόκος", "language": "grc"},
+    {"slug": "nardostachys", "label": "ναρδόσταχυς", "language": "grc"},
+    {"slug": "brathys", "label": "βράθυς", "language": "grc"},
+    {"slug": "asphodelos-rhiza", "label": "ἀσφόδελος ῥίζα", "language": "grc"},
+    {"slug": "nakaphthos", "label": "νακάφθου", "language": "grc"},
+    {"slug": "kostos", "label": "κόστος", "language": "grc"},
+    {"slug": "schoinos-anthos", "label": "σχοῖνος ἄνθος", "language": "grc"},
+    {"slug": "arkeuthides-megalai", "label": "ἀρκευθίδες μεγάλαι", "language": "grc"},
+    {"slug": "arkeuthides-mikrai", "label": "ἀρκευθίδες μικραί", "language": "grc"},
+    {"slug": "amomos", "label": "ἄμωμος", "language": "grc"},
+    {"slug": "terebinthine", "label": "τερεβινθίνη", "language": "grc"},
+    {"slug": "phoinikes-katharoi", "label": "φοίνικες καθαροί", "language": "grc"},
+    {"slug": "ischades", "label": "ἰσχάδες", "language": "grc"},
+    {"slug": "staphis-agigartos", "label": "σταφὶς ἀγίγαρτος", "language": "grc"},
+    {"slug": "meli-apephrismenon", "label": "μέλι ἀπηφρισμένον", "language": "grc"},
+    {"slug": "oinos-euodes", "label": "οἶνος εὐώδης", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "styrax", "variant_label": "styrax", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "styrax", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "styrax", "variant_label": "Sy", "language": "la", "source": "identification"},
+	{"ingredient_slug": "styrax", "variant_label": "Liquidambar orientalis", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "smyrne", "variant_label": "Commiphora myrrha", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "bdellion", "variant_label": "bdellium", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "bdellion", "variant_label": "Commiphora africana", "language": "la", "source": "identification"},
+    {"ingredient_slug": "bdellion", "variant_label": "African myrrh", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "ladanon", "variant_label": "labdanum", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "ladanon", "variant_label": "Cistus ladanifer", "language": "la", "source": "identification"},
+    {"ingredient_slug": "ladanon", "variant_label": "rockrose resin", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "aspalathos", "variant_label": "camelthorn", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "thorny trefoil", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "helenion", "variant_label": "calamint", "language": "en", "source": "translation"},
+    {"ingredient_slug": "helenion", "variant_label": "elecampane", "language": "en", "source": "identification"},
+    {"ingredient_slug": "helenion", "variant_label": "Inula helenium", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Celtic nard", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Valeriana celtica", "language": "la", "source": "identification"},
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Alpine valerian", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "phyllon", "variant_label": "leaves", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phyllon", "variant_label": "malabathrum", "language": "en", "source": "identification"},
+    {"ingredient_slug": "phyllon", "variant_label": "Cinnamomum tamala", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "cypress seed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "Cupressus sempervirens", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "ammoniakos-thymiama", "variant_label": "ammoniac resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ammoniakos-thymiama", "variant_label": "gum ammoniac", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ammoniakos-thymiama", "variant_label": "Dorema ammoniacum", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "strobilos", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "strobilos", "variant_label": "pine cone", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "splagchnon", "variant_label": "bryon", "language": "en", "source": "translation"},
+    {"ingredient_slug": "splagchnon", "variant_label": "tree-moss", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "onyches-megaloi", "variant_label": "large onyx", "language": "en", "source": "translation"},
+    {"ingredient_slug": "onyches-megaloi", "variant_label": "opercula", "language": "en", "source": "identification"},
+    {"ingredient_slug": "onyches-megaloi", "variant_label": "shell operculum", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "karpobalsamom", "variant_label": "balm fruit", "language": "en", "source": "translation"},
+    {"ingredient_slug": "karpobalsamom", "variant_label": "balsam fruit", "language": "en", "source": "translation"},
+    {"ingredient_slug": "karpobalsamom", "variant_label": "Commiphora gileadensis", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "kassia", "variant_label": "cassia", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kassia", "variant_label": "Cinnamomum cassia", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "iris", "variant_label": "iris", "language": "en", "source": "translation"},
+    {"ingredient_slug": "iris", "variant_label": "Iris germanica", "language": "la", "source": "identification"},
+    {"ingredient_slug": "iris", "variant_label": "orris root", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "seseli", "variant_label": "celery seed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "seseli", "variant_label": "seseli", "language": "en", "source": "transliteration"},
+    
+    {"ingredient_slug": "sphagnon", "variant_label": "sphagnum moss", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sphagnon", "variant_label": "moss", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyperos", "variant_label": "galingale", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kardamomon", "variant_label": "cardamom", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kardamomon", "variant_label": "Elettaria cardamomum", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "kalamos-aromatikos", "variant_label": "aromatic calamus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kalamos-aromatikos", "variant_label": "sweet flag", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "rhoda-xera", "variant_label": "dried roses", "language": "en", "source": "translation"},
+    {"ingredient_slug": "rhoda-xera", "variant_label": "Rosa damascena", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "krokos", "variant_label": "saffron", "language": "en", "source": "translation"},
+    {"ingredient_slug": "krokos", "variant_label": "Crocus sativus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "nardostachys", "variant_label": "spikenard", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nardostachys", "variant_label": "Nardostachys jatamansi", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "brathys", "variant_label": "tamarisk", "language": "en", "source": "translation"},
+    {"ingredient_slug": "brathys", "variant_label": "Tamarix species", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "asphodel root", "language": "en", "source": "translation"},
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "Asphodelus ramosus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "nakaphthos", "variant_label": "nakaphthos", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "nakaphthos", "variant_label": "pine bark", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nakaphthos", "variant_label": "tree bark", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "kostos", "variant_label": "costus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kostos", "variant_label": "Saussurea costus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "schoinos-anthos", "variant_label": "schoinos flower", "language": "en", "source": "translation"},
+    {"ingredient_slug": "schoinos-anthos", "variant_label": "rush flower", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthides-megalai", "variant_label": "large juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthides-megalai", "variant_label": "Juniperus macrocarpa", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "small juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "Juniperus communis", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "amomos", "variant_label": "amomum", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "amomos", "variant_label": "Amomum subulatum", "language": "la", "source": "identification"},
+    {"ingredient_slug": "amomos", "variant_label": "black cardamom", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "terebinthine", "variant_label": "turpentine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "terebinthine", "variant_label": "Pistacia terebinthus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "phoinikes-katharoi", "variant_label": "clean dates", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phoinikes-katharoi", "variant_label": "Phoenix dactylifera", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "ischades", "variant_label": "dried figs", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ischades", "variant_label": "Ficus carica", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "staphis-agigartos", "variant_label": "stoneless raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis-agigartos", "variant_label": "seedless grapes", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "meli-apephrismenon", "variant_label": "refined honey", "language": "en", "source": "translation"},
+    {"ingredient_slug": "meli-apephrismenon", "variant_label": "clarified honey", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "oinos-euodes", "variant_label": "fragrant wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos-euodes", "variant_label": "aromatic wine", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "styrax",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "storax resin, 7 ounces with other primary aromatics",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "myrrh resin, 7 ounces with other primary aromatics",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "bdellion",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "bdellium gum, African myrrh relative, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "ladanon",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "labdanum rockrose resin, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "helenion",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "calamint/elecampane, aromatic herb, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.1"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "nardos-keltike",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "Celtic nard, Alpine valerian, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "phyllon",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "aromatic leaves, possibly malabathrum, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kyparissos-sperma",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cypress seeds, aromatic tree seeds, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "ammoniakos-thymiama",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "gum ammoniac, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "strobilos",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "storax/pine cone, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "splagchnon",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "alternative to large onyx",
+      "notes": "possibly related to bryony, LSJ gives tree moss, liverwort, catkin, marsh plant or sea lettuce",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "onyches-megaloi",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "alternative to splagchnon",
+      "notes": "large onyx shells (opercula), marine component, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "karpobalsamom",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "balsam fruit, precious aromatic, 3 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.4"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kassia",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cassia bark, cinnamon family spice, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "iris",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "iris root, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "seseli",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "seseli/celery seed, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "sphagnon",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "sphagnum moss, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kyperos",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cyperus sedge, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kardamomon",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cardamom spice, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kalamos-aromatikos",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "aromatic calamus, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "rhoda-xera",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "dried roses, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "krokos",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "saffron spice, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "nardostachys",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "spikenard, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "brathys",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "tamarisk, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "asphodelos-rhiza",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "root or juice alternative",
+      "notes": "asphodel root, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "nakaphthos",
+      "amount_raw": "𐆄 θ",
+      "amount_value": 9,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "pine/tree bark, 9 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.7"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "kostos",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "costus root, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "schoinos-anthos",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "schoinos flowers, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "arkeuthides-megalai",
+      "amount_raw": "μ",
+      "amount_value": 40,
+      "amount_unit": "pieces",
+      "preparation": "counted individually",
+      "notes": "large juniper berries, 40 pieces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "arkeuthides-mikrai",
+      "amount_raw": "ν",
+      "amount_value": 50,
+      "amount_unit": "pieces",
+      "preparation": "counted individually",
+      "notes": "small juniper berries, 50 pieces",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "amomos",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "amomum spice, 1 pound",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.9"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "terebinthine",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "turpentine resin, 1 pound",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.9"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "phoinikes-katharoi",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": "cleaned preparation",
+      "notes": "clean dates, 1 pound",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.10"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "ischades",
+      "amount_raw": "λι. β",
+      "amount_value": 2,
+      "amount_unit": "pound",
+      "preparation": "dried preparation",
+      "notes": "dried figs, 2 pounds",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.10"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "staphis-agigartos",
+      "amount_raw": "λι. β",
+      "amount_value": 2,
+      "amount_unit": "pound",
+      "preparation": "seedless preparation",
+      "notes": "stoneless raisins, 2 pounds",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.10"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "meli-apephrismenon",
+      "amount_raw": "λι. ε",
+      "amount_value": 5,
+      "amount_unit": "pound",
+      "preparation": "refined and clarified",
+      "notes": "refined honey, 5 pounds",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.11"
+    },
+    {
+      "recipe_slug": "paul-aegina-solar-kyphi",
+      "ingredient_slug": "oinos-euodes",
+      "amount_raw": "ξ̸ γ",
+      "amount_value": 3,
+      "amount_unit": "pint",
+      "preparation": "Posidonius variation",
+      "notes": "fragrant wine, optional addition, 3 pints",
+      "source_citation": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "source_span": "7.22.4.12"
+    }
+  ]
+}

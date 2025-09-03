@@ -13,10 +13,10 @@ import json, sys, os
 from collections import Counter
 
 def export(master_path, out_path):
-    print("🔄 Kyphi Long Export")
+    print("📄 Kyphi Long Export")
     print("=" * 50)
     
-    print(f"📁 Loading master: {master_path}")
+    print(f"📂 Loading master: {master_path}")
     
     if not os.path.exists(master_path):
         print(f"❌ Error: Master file not found: {master_path}")
@@ -33,7 +33,7 @@ def export(master_path, out_path):
         sys.exit(1)
     
     # Build lookup tables
-    print("🗂️  Building lookup tables...")
+    print("🗂️ Building lookup tables...")
     recipes = {r["recipe_id"]: r for r in m.get("recipes", [])}
     ingredients = {i["ingredient_id"]: i for i in m.get("ingredients", [])}
     entries = m.get("entries", [])
@@ -56,7 +56,7 @@ def export(master_path, out_path):
     print(f"   • {len(entries)} entries")
     
     if len(entries) == 0:
-        print("⚠️  Warning: No entries found - output will be empty")
+        print("⚠️ Warning: No entries found - output will be empty")
     
     # Check for missing references
     missing_recipes = []
@@ -78,22 +78,21 @@ def export(master_path, out_path):
         
     print("✅ All references valid")
     
-    # Build alias lookup for ingredients
-    aliases = m.get("aliases", [])
-    ingredient_aliases = {}
-    for alias in aliases:
-        ingredient_id = alias["ingredient_id"]
-        if ingredient_id not in ingredient_aliases:
-            ingredient_aliases[ingredient_id] = []
-        # Collect English aliases for search
-        if alias.get("language") == "en":
-            ingredient_aliases[ingredient_id].append(alias["variant_label"])
-    
     # Build rows
-    print("\n📝 Building long-format rows...")
+    print("\n🔨 Building long-format rows...")
     rows = []
     recipe_counts = Counter()
     ingredient_counts = Counter()
+    
+    # NEW: Build recipe metadata for chronological sorting (simplified date field)
+    recipe_metadata = {}
+    for recipe_id, recipe in recipes.items():
+        recipe_metadata[recipe["label"]] = {
+            "date": recipe.get("date"),  # Single integer field: negative=BCE, positive=CE
+            "slug": recipe["slug"],
+            "source": recipe.get("source"),
+            "language": recipe.get("language")
+        }
     
     for e in entries:
         recipe = recipes[e["recipe_id"]]
@@ -125,7 +124,7 @@ def export(master_path, out_path):
             "preparation": e.get("preparation"),
             "notes": e.get("notes"),
             "aliases": aliases_text
-})
+        })
         
         recipe_counts[recipe["label"]] += 1
         ingredient_counts[ingredient["label"]] += 1
@@ -148,17 +147,23 @@ def export(master_path, out_path):
     # Create output directory if needed
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     
+    # NEW: Create output structure with recipe metadata
+    output_data = {
+        "rows": rows,
+        "recipe_metadata": recipe_metadata
+    }
+    
     # Write output
     print(f"\n💾 Writing to: {out_path}")
     
     try:
         with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(rows, f, ensure_ascii=False, indent=2)
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
         
         # Check file size
         file_size = os.path.getsize(out_path)
         if file_size < 100:
-            print(f"⚠️  Warning: Output file is very small ({file_size} bytes)")
+            print(f"⚠️ Warning: Output file is very small ({file_size} bytes)")
         else:
             print(f"✅ Wrote {file_size:,} bytes")
             
@@ -174,6 +179,31 @@ def export(master_path, out_path):
             display_value = value if value else "(empty)"
             print(f"   • {key}: {display_value}")
     
+    # Show chronological info (updated for simplified date field)
+    chronological_recipes = []
+    for recipe_name, metadata in recipe_metadata.items():
+        if metadata["date"] is not None:
+            # Convert integer date to display string
+            date_int = metadata["date"]
+            if date_int < 0:
+                date_display = f"c. {abs(date_int)} BCE"
+            else:
+                date_display = f"c. {date_int} CE"
+            
+            chronological_recipes.append({
+                "name": recipe_name,
+                "date": date_int,
+                "date_display": date_display,
+                "slug": metadata["slug"]
+            })
+    
+    if chronological_recipes:
+        # Sort by date (ascending: older first)
+        sorted_recipes = sorted(chronological_recipes, key=lambda x: x["date"])
+        print(f"\n🕰️ Chronological order (oldest to newest):")
+        for r in sorted_recipes:
+            print(f"   • {r['date_display']}: {r['name']}")
+    
     print(f"\n🎉 Export complete! Ready for web app.")
     print(f"💡 Test locally: cd docs && python -m http.server 8000")
 
@@ -185,7 +215,7 @@ if __name__ == "__main__":
     try:
         export(sys.argv[1], sys.argv[2])
     except KeyboardInterrupt:
-        print(f"\n⚠️  Export cancelled by user")
+        print(f"\n⚠️ Export cancelled by user")
         sys.exit(1)
     except Exception as e:
         print(f"\n💥 Unexpected error: {e}")

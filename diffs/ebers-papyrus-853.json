@@ -1,0 +1,192 @@
+{
+  "recipes": [
+    {
+      "slug": "ebers-papyrus-853",
+      "label": "Ebers Papyrus, Recipe 853",
+      "source": "Ebers Papyrus 98,15b-98,18b",
+      "language": "egy",
+      "date": -1550
+    }
+  ],
+  "ingredients": [
+    {"slug": "antjw-shw", "label": "ꜥntj.w-šw", "language": "egy"},
+    {"slug": "prt-snj", "label": "pr.t-šnj", "language": "egy"},
+    {"slug": "sntr", "label": "snṯr", "language": "egy"},
+    {"slug": "gjw", "label": "gj.w", "language": "egy"},
+    {"slug": "tjsps", "label": "tj-šps", "language": "egy"},
+    {"slug": "sbt", "label": "šb{.t}", "language": "egy"},
+    {"slug": "nbjt-djhj", "label": "nbj.t n(.j).t Ḏꜣhj", "language": "egy"},
+    {"slug": "ynktwn", "label": "ynktwn", "language": "egy"},
+    {"slug": "djmtn", "label": "ḏmtn", "language": "egy"},
+    {"slug": "gnn-njywbn", "label": "gnn n(.j) njywbn šwi̯", "language": "egy"},
+    {"slug": "bjt", "label": "bj.t", "language": "egy"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "antjw-shw", "variant_label": "dried myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "antjw-shw", "variant_label": "getrocknete Myrrhe", "language": "de", "source": "translation"},
+    {"ingredient_slug": "antjw-shw", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "prt-snj", "variant_label": "phoenician juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "prt-snj", "variant_label": "Beeren vom Phönizischen Wacholder", "language": "de", "source": "translation"},
+    {"ingredient_slug": "prt-snj", "variant_label": "juniper berries", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "sntr", "variant_label": "frankincense", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sntr", "variant_label": "Weihrauch", "language": "de", "source": "translation"},
+    {"ingredient_slug": "sntr", "variant_label": "incense", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "gjw", "variant_label": "gw-grass", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gjw", "variant_label": "gw-Gras", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "tjsps", "variant_label": "east african camphor wood", "language": "en", "source": "translation"},
+    {"ingredient_slug": "tjsps", "variant_label": "Holz vom Ostafrikanischen Kampfer", "language": "de", "source": "translation"},
+    {"ingredient_slug": "tjsps", "variant_label": "camphor wood", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "sbt", "variant_label": "mastix", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "mash", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "Mastix", "language": "de", "source": "translation"},
+    {"ingredient_slug": "sbt", "variant_label": "Maische", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "syrian reed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "Schilfrohr aus Syrien-Palästina", "language": "de", "source": "translation"},
+    {"ingredient_slug": "nbjt-djhj", "variant_label": "reed", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "ynktwn", "variant_label": "ynktwn-drug", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ynktwn", "variant_label": "ynktwn-Droge", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "djmtn", "variant_label": "djmtn-drug", "language": "en", "source": "translation"},
+    {"ingredient_slug": "djmtn", "variant_label": "ḏmtn-Droge", "language": "de", "source": "translation"},
+    
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "storax resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "Storaxbaum-Harz", "language": "de", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "gnn", "language": "egy", "source": "variant"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "gan", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "gnn-njywbn", "variant_label": "styrax", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "bjt", "variant_label": "honey", "language": "en", "source": "translation"},
+    {"ingredient_slug": "bjt", "variant_label": "Honig", "language": "de", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "antjw-shw",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "prt-snj",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "sntr",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "gjw",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "tjsps",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "sbt",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "nbjt-djhj",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "ynktwn",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "djmtn",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "gnn-njywbn",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "source_citation": "Ebers 98,15b-98,16b",
+      "source_span": "98,15b-98,16b"
+    },
+    {
+      "recipe_slug": "ebers-papyrus-853",
+      "ingredient_slug": "bjt",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "used as medium for cooking other ingredients",
+      "notes": "honey used as binding agent and cooking medium",
+      "source_citation": "Ebers 98,15b",
+      "source_span": "98,15b"
+    }
+  ]
+}

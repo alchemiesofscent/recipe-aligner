@@ -13,7 +13,8 @@
           "slug": { "type": "string" },
           "label": { "type": "string" },
           "language": { "type": ["string", "null"] },
-          "source": { "type": ["string", "null"] }
+          "source": { "type": ["string", "null"] },
+          "date": { "type": ["number", "null"] }
         },
         "additionalProperties": false
       }

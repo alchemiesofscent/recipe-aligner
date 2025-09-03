@@ -6,7 +6,8 @@
     "myrrh",
     "dried myrrh",
 	"antjw-shw",
-	"ꜥntj.w-šw"
+	"ꜥntj.w-šw",
+	"σμύρνα"
   ],
   "Cinnamon / Camphor": [
     "κιννάμωμον",
@@ -20,14 +21,15 @@
   "Honey": [
     "μέλι", 
     "bj.t",
-    "honey"
+    "honey",
+	"μέλι ἀπηφρισμένον"
   ],
   "Generic Wine": [
     "οἶνος",
     "jrp",
-    "wine"
-  ],
-  "Specialty Wines": [
+    "wine",
+	"οἶνος εὐώδης",
+	"οἶνος παλαιός",
     "jr.t Hr.w wḏ.t",
     "wine from Bahriya Oasis",
     "green eye of Horus wine"
@@ -38,7 +40,10 @@
     "white raisins",
     "fatty raisins",
     "raisins",
-    "grapes from Bahriya Oasis"
+    "grapes from Bahriya Oasis",
+	"σταφὶς ἐκγιγαρτισθεῖσα",
+	"σταφίς",
+	"σταφὶς ἀγίγαρτος"
   ],
   "Juniper Berries": [
     "ἀρκευθίδες",
@@ -46,20 +51,28 @@
     "pr.t-šnj",
     "juniper berries",
     "juniper",
-    "phoenician juniper berries"
+    "phoenician juniper berries",
+	"ἀρκευθίς",
+	"ἀρκευθίδες μικραί",
+	"ἀρκευθίδες μεγάλαι",
+	"ἄρκευθος ἐλάττων",
+	"ἄρκευθος μείζων"	
   ],
   "Cyperus": [
     "κύπειρος", 
     "šbn",
     "cyperus",
-    "yellow nutsedge"
+    "yellow nutsedge",
+	"κύπερος"
   ],
   "Calamus": [
     "κάλαμος μυρεψικός",
     "šwt nmtj", 
     "perfumer's calamus",
     "calamus",
-    "feather of Nemti"
+    "feather of Nemti",
+	"κάλαμος ἀρωματικός",
+	"κάλαμος"
   ],
   "Terebinth / Frankincense": [
     "snṯr",
@@ -67,7 +80,9 @@
     "incense",
     "τερμινθίνη κεκαυμένη",
     "roasted terebinth resin",
-    "terebinth resin"
+    "terebinth resin",
+	"ῥητίνη",
+	"τερεβινθίνη"
   ],
   "Pine Resin": [
     "qd.t",
@@ -81,13 +96,15 @@
     "šbb",
     "mastix",
     "mastic",
-    "lentisk"
+    "lentisk",
+	"σχῖνος"
   ],
   "Storax (very uncertain)": [
     "gnn",
     "styrax",
     "storax",
-	"gnn n(.j) njywbn šwi̯"
+	"gnn n(.j) njywbn šwi̯",
+	"στύραξ"
   ],
   "Bdellium": [
     "βδέλλιον",
@@ -95,12 +112,15 @@
   ],
   "Onycha": [
     "ὄνυξ", 
-    "onycha"
+    "onycha",
+	"ὄνυχες μεγάλοι"
   ],
   "Cassia": [
     "κασία",
     "cassia",
-    "cinnamon bark"
+    "cinnamon bark",
+	"κασσία σύριγξ",
+	"κασσία"
   ],
   "Saffron": [
     "κρόκος", 
@@ -109,21 +129,75 @@
   "Spikenard": [
     "ναρδοστάχυς",
     "spikenard",
-    "nard"
+    "nard",
+	"ναρδοστάχυς"
   ],
   "Rush": [
     "σχοῖνος",
     "schoinos",
-    "rush"
+    "rush",
+	"σχοῖνος ἄνθος",
+	"nbj.t n(.j).t Ḏꜣhj"
   ],
   "Cardamom": [
     "καρδάμωμον σπέρμα",
     "cardamom seed",
-    "cardamom"
+    "cardamom",
+	"καρδάμωμον"
   ],
   "Aspalathus": [
     "ἀσπάλαθος",
     "aspalathus",
     "thorny broom"
+  ],
+  "Costus": [
+    "κόστος"
+  ],
+  "Figs": [
+    "ἰσχάδες",
+	"ἰσχάδες λιπαραί"
+  ],
+  "Malabathrum / Leaf (?)": [
+    "φύλλον",
+	"μαλάβαθρον μετὰ τῶν φύλλων"
+  ],
+  "Asphodel": [
+	"ἀσφόδελος ῥίζα"
+  ],
+  "Brathus (?)": [
+	"βράθυς"
+  ],
+  "Helenion": [
+	"ἑλένιον"
+  ],
+  "Cypress": [
+    "κυπάρισσος σπέρμα"
+  ],
+  "Labdanum": [
+    "λάδανον"
+  ],
+  "Celtic Nard": [
+    "νάρδος Κελτική"
+  ],
+  "Rose": [
+    "ῥόδα ξηρά"
+  ],
+  "Seseli": [
+    "σέσελι",
+	"σέσελι"
+  ],
+  "Sphagnum Moss": [
+    "σφάγνον"
+  ],
+  "Dates": [
+    "φοίνικες καθαροί",
+	"φοίνικες λιπαροί"
+  ],
+  "Strobilos (uncertain)": [
+	"στρόβιλοι",
+	"στρόβιλος"
+  ],
+  "Gum Arabic (?)": [
+    "ogꜢy"
   ]
 }

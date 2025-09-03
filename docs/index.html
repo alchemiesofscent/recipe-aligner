@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kyphi Index – alias-aware</title>
+  <title>Kyphi Recipe Index</title>
   <style>
+    /* [CSS unchanged - keeping existing styles] */
     :root {
       --bg: #0f1115; --card: #171923; --muted: #8b93a7; --fg: #e6e9f2; 
       --accent: #6ea8ff; --pill: #283048; --ok: #7bd88f; --warn: #ffd479; 
@@ -25,15 +26,16 @@
       display: flex; flex-direction: column;
     }
 
-    /* Header - fixed height, no sticky complications */
-    .header {
-      background: linear-gradient(180deg, 
-        color-mix(in oklab, var(--bg) 98%, transparent), 
-        color-mix(in oklab, var(--bg) 95%, transparent));
-      backdrop-filter: saturate(120%) blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 16px; flex-shrink: 0;
-    }
+/* Header - fixed on desktop, static on mobile */
+.header {
+  background: linear-gradient(180deg, 
+    color-mix(in oklab, var(--bg) 98%, transparent), 
+    color-mix(in oklab, var(--bg) 95%, transparent));
+  backdrop-filter: saturate(120%) blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 16px; 
+  flex-shrink: 0;
+}
 
     .header-content {
       max-width: 1200px; margin: 0 auto;
@@ -74,11 +76,77 @@
     }
     .btn:hover { filter: brightness(1.1); }
 
-    .chip-container {
-      display: flex; gap: 8px; flex-wrap: wrap; max-height: 80px; overflow-y: auto;
-      padding: 8px; border: 1px dashed var(--border); border-radius: 8px;
-      background: color-mix(in oklab, var(--card) 50%, transparent);
-    }
+.chip-container {
+  display: flex; gap: 8px; flex-wrap: wrap; 
+  padding: 8px; border: 1px dashed var(--border); border-radius: 8px;
+  background: color-mix(in oklab, var(--card) 50%, transparent);
+  position: relative;
+  /* Mobile first: collapsed state */
+  max-height: 80px; overflow-y: auto;
+  transition: max-height 0.3s ease;
+}
+
+/* Desktop: More space, no scrolling needed for reasonable number of recipes */
+@media (min-width: 768px) {
+  .chip-container {
+    max-height: 160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chip-container {
+    max-height: 200px;
+  }
+}
+
+/* Expanded state for mobile */
+.chip-container.expanded {
+  max-height: 300px;
+}
+
+/* Expand toggle button */
+.chip-expand-toggle {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+  display: none;
+  z-index: 1;
+  line-height: 1;
+}
+
+/* Only show expand button on mobile when content would overflow */
+@media (max-width: 767px) {
+  .chip-expand-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Hide button if container doesn't need scrolling */
+  .chip-container:not(.needs-expansion) .chip-expand-toggle {
+    display: none;
+  }
+}
+
+.chip-expand-toggle:hover {
+  background: var(--ok);
+  transform: scale(1.1);
+}
+
+.chip-expand-toggle:active {
+  transform: scale(0.95);
+}
 
     .chip {
       display: flex; align-items: center; gap: 6px; padding: 4px 8px;
@@ -165,11 +233,55 @@
 
     .note { color: var(--muted); margin-left: 6px; font-size: 12px; }
 
+    /* NEW: Chronological header styling */
+    .chronological-header {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: normal;
+      display: block;
+      margin-top: 2px;
+    }
+
     /* Footer */
     .footer {
       text-align: center; padding: 16px; color: var(--muted); font-size: 12px;
       border-top: 1px solid var(--border);
     }
+	/* Mobile-specific layout fixes */
+@media (max-width: 767px) {
+  /* Since header is not fixed anymore, add basic header styling */
+  .header {
+    background: linear-gradient(180deg, 
+      color-mix(in oklab, var(--bg) 98%, transparent), 
+      color-mix(in oklab, var(--bg) 95%, transparent));
+    border-bottom: 1px solid var(--border);
+    padding: 12px; /* Reduced from 16px */
+  }
+  
+  /* Reduce main content padding */
+  .main {
+    padding: 8px; /* Reduced from 16px */
+  }
+  
+  /* Table container uses more of the viewport */
+  .table-container {
+    min-height: 70vh; /* Use viewport height instead of fixed 400px */
+    max-height: 80vh; /* Prevent it from being too tall */
+  }
+  
+  /* Reduce font sizes slightly on mobile */
+  h1 {
+    font-size: 16px; /* Reduced from 18px */
+  }
+  
+  .controls {
+    gap: 8px; /* Reduced from 12px */
+  }
+  
+  .toggle-group {
+    gap: 12px; /* Reduced from 16px */
+  }
+}
   </style>
 </head>
 <body>
@@ -180,7 +292,7 @@
         <h1>Kyphi Ingredient Index</h1>
         <div class="stats">
           <span id="countShown">0</span> shown • <span id="countTotal">0</span> total
-          <button id="themeToggle" class="btn" style="margin-left: 12px;">Toggle theme</button>
+          <button id="themeToggle" class="btn" style="margin-left: 12px;"><span id="themeIcon">☀️</span></button>
         </div>
       </div>
 
@@ -203,6 +315,9 @@
           </label>
           <label class="toggle">
             <input type="checkbox" id="showAliases" checked /> Show aliases
+          </label>
+          <label class="toggle">
+            <input type="checkbox" id="showDates" checked /> Show dates
           </label>
         </div>
 
@@ -254,6 +369,7 @@
   const showPrep = $('#showPrep');
   const showNotes = $('#showNotes');
   const showAliases = $('#showAliases');
+  const showDates = $('#showDates');
   const themeToggle = $('#themeToggle');
   const tableHead = $('#dataTable thead tr');
   const tableBody = $('#dataTable tbody');
@@ -263,18 +379,22 @@
 
   // State
   let rows = [];
+  let recipeMetadata = {};
   let allRecipes = [];
   let selectedRecipes = new Set();
   let equivalences = {};
   let searchIndex = [];
   let filteredCount = 0;
 
-  // Sample data for testing
-  const sampleData = [
-    { recipe: "Sample Rufus", ingredient: "σμύρνη", amount: "12", preparation: "ground", notes: "=myrrh", aliases: ["myrrh"] },
-    { recipe: "Sample Rufus", ingredient: "μέλι", amount: "24", preparation: "", notes: "honey", aliases: ["honey"] },
-    { recipe: "Sample Diosc.", ingredient: "σμύρνη", amount: "", preparation: "", notes: "alt source", aliases: ["myrrh"] }
-  ];
+  // Sample data for testing (backward compatibility)
+  const sampleData = {
+    rows: [
+      { recipe: "Sample Rufus", ingredient: "σμύρνη", amount: "12", preparation: "ground", notes: "=myrrh", aliases: "myrrh" },
+      { recipe: "Sample Rufus", ingredient: "μέλι", amount: "24", preparation: "", notes: "honey", aliases: "honey" },
+      { recipe: "Sample Diosc.", ingredient: "σμύρνη", amount: "", preparation: "", notes: "alt source", aliases: "myrrh" }
+    ],
+    recipe_metadata: {}
+  };
   const sampleEquivalences = { "Myrrh": ["σμύρνη", "smyrna", "smyrne"] };
 
   // Initialize
@@ -285,13 +405,25 @@
       return sampleEquivalences;
     })
   ]).then(([data, eq]) => {
+    console.log('Loaded data:', data);
     console.log('Loaded equivalences:', eq);
     initializeApp(data, eq);
   });
 
   function initializeApp(data, eq) {
+    // Handle both old and new data formats
+    if (Array.isArray(data)) {
+      // Old format - just array of rows
+      rows = data;
+      recipeMetadata = {};
+    } else {
+      // New format - object with rows and recipe_metadata
+      rows = data.rows || [];
+      recipeMetadata = data.recipe_metadata || {};
+    }
+
     // Process data
-    const validRows = data.filter(r => r && r.ingredient && r.recipe);
+    const validRows = rows.filter(r => r && r.ingredient && r.recipe);
     rows = validRows.map(r => ({
       recipe: nfkc(r.recipe),
       ingredient: nfkc(r.ingredient),
@@ -314,6 +446,7 @@
     attachEvents();
 
     console.log('App initialized with', rows.length, 'rows and', allRecipes.length, 'recipes');
+    console.log('Recipe metadata:', recipeMetadata);
   }
 
   function normalizeAliases(aliases) {
@@ -356,6 +489,10 @@
     showPrep.addEventListener('change', render);
     showNotes.addEventListener('change', render);
     showAliases.addEventListener('change', render);
+    showDates.addEventListener('change', () => {
+      renderRecipeChips(); // Update chips when date display changes
+      render();
+    });
 
     $('#selectAll').addEventListener('click', () => {
       selectedRecipes = new Set(allRecipes);
@@ -372,39 +509,124 @@
     $('#exportCSV').addEventListener('click', () => exportData('csv'));
     $('#exportJSON').addEventListener('click', () => exportData('json'));
 
-    themeToggle.addEventListener('click', () => {
-      const html = document.documentElement;
-      const current = html.getAttribute('data-theme');
-      html.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
-    });
+themeToggle.addEventListener('click', () => {
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme');
+  const newTheme = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', newTheme);
+  $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+});
   }
 
-  function renderRecipeChips() {
-    recipeChips.innerHTML = '';
-    allRecipes.forEach(recipe => {
-      const chip = document.createElement('label');
-      chip.className = 'chip';
-      chip.innerHTML = `
-        <input type="checkbox" ${selectedRecipes.has(recipe) ? 'checked' : ''} />
-        <span>${escapeHTML(recipe)}</span>
-      `;
-      
-      chip.querySelector('input').addEventListener('change', (e) => {
-        if (e.target.checked) {
-          selectedRecipes.add(recipe);
-        } else {
-          selectedRecipes.delete(recipe);
-        }
-        render();
-      });
-      
-      recipeChips.appendChild(chip);
+function renderRecipeChips() {
+  recipeChips.innerHTML = '';
+  
+  // NEW: Sort recipes chronologically for chips
+  const sortedRecipes = getSortedRecipes(allRecipes);
+  
+  // Add expand toggle button (will be hidden on desktop via CSS)
+  const expandToggle = document.createElement('button');
+  expandToggle.className = 'chip-expand-toggle';
+  expandToggle.textContent = '▼';
+  expandToggle.title = 'Expand recipe list';
+  
+  expandToggle.addEventListener('click', (e) => {
+    e.preventDefault();
+    const container = recipeChips;
+    const isExpanded = container.classList.contains('expanded');
+    
+    if (isExpanded) {
+      container.classList.remove('expanded');
+      expandToggle.textContent = '▼';
+      expandToggle.title = 'Expand recipe list';
+    } else {
+      container.classList.add('expanded');
+      expandToggle.textContent = '▲';
+      expandToggle.title = 'Collapse recipe list';
+    }
+  });
+  
+  recipeChips.appendChild(expandToggle);
+  
+  sortedRecipes.forEach(recipe => {
+    const chip = document.createElement('label');
+    chip.className = 'chip';
+    
+    // Add date info to chip if available and showDates is checked
+    const metadata = recipeMetadata[recipe];
+    const dateStr = metadata && metadata.date != null ? formatDateDisplay(metadata.date) : '';
+    const chipText = dateStr && showDates.checked ? `${recipe} (${dateStr})` : recipe;
+    
+    chip.innerHTML = `
+      <input type="checkbox" ${selectedRecipes.has(recipe) ? 'checked' : ''} />
+      <span title="${escapeHTML(chipText)}">${escapeHTML(recipe)}</span>
+    `;
+    
+    chip.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) {
+        selectedRecipes.add(recipe);
+      } else {
+        selectedRecipes.delete(recipe);
+      }
+      render();
     });
-  }
+    
+    recipeChips.appendChild(chip);
+  });
+
+  // Check if expansion button is needed (mobile only)
+  setTimeout(() => {
+    const containerHeight = recipeChips.scrollHeight;
+    const visibleHeight = recipeChips.clientHeight;
+    
+    if (containerHeight > visibleHeight) {
+      recipeChips.classList.add('needs-expansion');
+    } else {
+      recipeChips.classList.remove('needs-expansion');
+    }
+  }, 0);
+}
 
   function updateRecipeChips() {
-    recipeChips.querySelectorAll('input').forEach((input, i) => {
-      input.checked = selectedRecipes.has(allRecipes[i]);
+  // Skip the first element (expand toggle button) when updating checkboxes
+  const inputs = recipeChips.querySelectorAll('label input');
+  const sortedRecipes = getSortedRecipes(allRecipes);
+  inputs.forEach((input, i) => {
+    input.checked = selectedRecipes.has(sortedRecipes[i]);
+  });
+}
+
+  // NEW: Function to format date integer as display string
+  function formatDateDisplay(dateInt) {
+    if (dateInt == null) return '';
+    if (dateInt < 0) {
+      return `c. ${Math.abs(dateInt)} BCE`;
+    } else {
+      return `c. ${dateInt} CE`;
+    }
+  }
+
+  // NEW: Function to sort recipes chronologically (simplified with single date field)
+  function getSortedRecipes(recipeList) {
+    return recipeList.slice().sort((a, b) => {
+      const metaA = recipeMetadata[a];
+      const metaB = recipeMetadata[b];
+      
+      // Get date values
+      const dateA = metaA?.date;
+      const dateB = metaB?.date;
+      
+      // If both have dates, sort chronologically (ascending: older first)
+      if (dateA != null && dateB != null) {
+        return dateA - dateB; // -1550, -200, 100
+      }
+      
+      // If only one has a date, put dated ones first
+      if (dateA != null) return -1;
+      if (dateB != null) return 1;
+      
+      // Fall back to alphabetical
+      return a.localeCompare(b);
     });
   }
 
@@ -412,7 +634,8 @@
     const useSmartAlignment = smartAlignment.checked && Object.keys(equivalences).length > 0;
     console.log('Rendering with smart alignment:', useSmartAlignment, 'equivalences count:', Object.keys(equivalences).length);
     
-    const activeRecipes = allRecipes.filter(r => selectedRecipes.has(r));
+    // NEW: Sort recipes chronologically instead of alphabetically
+    const activeRecipes = getSortedRecipes(allRecipes.filter(r => selectedRecipes.has(r)));
 
     // Get ingredients for selected recipes
     const filteredRows = rows.filter(r => selectedRecipes.has(r.recipe));
@@ -422,11 +645,22 @@
     const alignedIngredients = getAlignedIngredients(rawIngredients, useSmartAlignment);
     console.log('Aligned ingredients after processing:', alignedIngredients);
 
-    // Update table header
-    tableHead.innerHTML = `
-      <th>Ingredient${useSmartAlignment ? ' (Aligned)' : ''}</th>
-      ${activeRecipes.map(r => `<th>${escapeHTML(r)}</th>`).join('')}
-    `;
+    // Update table header - NEW: Add chronological info
+    const headerCells = ['<th>Ingredient' + (useSmartAlignment ? ' (Aligned)' : '') + '</th>'];
+    
+    activeRecipes.forEach(recipeName => {
+      const metadata = recipeMetadata[recipeName];
+      let headerContent = escapeHTML(recipeName);
+      
+      if (showDates.checked && metadata?.date != null) {
+        const dateDisplay = formatDateDisplay(metadata.date);
+        headerContent += `<span class="chronological-header">${escapeHTML(dateDisplay)}</span>`;
+      }
+      
+      headerCells.push(`<th>${headerContent}</th>`);
+    });
+    
+    tableHead.innerHTML = headerCells.join('');
 
     // Clear and rebuild table body
     tableBody.innerHTML = '';

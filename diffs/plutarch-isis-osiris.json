@@ -1,0 +1,288 @@
+{
+  "recipes": [
+    {
+      "slug": "plutarch-isis-osiris",
+      "label": "Plutarch, Isis and Osiris 383E-384C",
+      "source": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "language": "grc",
+      "date": 80
+    }
+  ],
+  "ingredients": [
+    {"slug": "meli", "label": "μέλι", "language": "grc"},
+    {"slug": "oinos", "label": "οἶνος", "language": "grc"},
+    {"slug": "staphis", "label": "σταφίς", "language": "grc"},
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "rhetine", "label": "ῥητίνη", "language": "grc"},
+    {"slug": "smyrna", "label": "σμύρνα", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "seseli", "label": "σέσελι", "language": "grc"},
+    {"slug": "schinos", "label": "σχῖνος", "language": "grc"},
+    {"slug": "asphaltos", "label": "ἄσφαλτος", "language": "grc"},
+    {"slug": "thryon", "label": "θρύον", "language": "grc"},
+    {"slug": "lapathon", "label": "λάπαθον", "language": "grc"},
+    {"slug": "arkeuthos-meizon", "label": "ἄρκευθος μείζων", "language": "grc"},
+    {"slug": "arkeuthos-elatton", "label": "ἄρκευθος ἐλάττων", "language": "grc"},
+    {"slug": "kardamomon", "label": "καρδάμωμον", "language": "grc"},
+    {"slug": "kalamos", "label": "κάλαμος", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "meli", "variant_label": "honey", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "oinos", "variant_label": "wine", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "staphis", "variant_label": "raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis", "variant_label": "grapes", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyperos", "variant_label": "Cyperus rotundus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "galingale", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "nut sedge", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "tiger nut", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "rhetine", "variant_label": "resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "rhetine", "variant_label": "pine resin", "language": "en", "source": "identification"},
+    {"ingredient_slug": "rhetine", "variant_label": "turpentine", "language": "en", "source": "identification"},
+    {"ingredient_slug": "rhetine", "variant_label": "colophony", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "smyrna", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "smyrna", "variant_label": "Commiphora myrrha", "language": "la", "source": "identification"},
+    {"ingredient_slug": "smyrna", "variant_label": "Commiphora species", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "aspalathos", "variant_label": "camelthorn", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "Alhagi maurorum", "language": "la", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "thorny trefoil", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "Calycotome villosa", "language": "la", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "Genista acanthoclada", "language": "la", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "rooibos", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "broom species", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "seseli", "variant_label": "seseli", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "seseli", "variant_label": "hartwort", "language": "en", "source": "identification"},
+    {"ingredient_slug": "seseli", "variant_label": "Tordylium officinale", "language": "la", "source": "identification"},
+    {"ingredient_slug": "seseli", "variant_label": "Seseli species", "language": "la", "source": "identification"},
+    {"ingredient_slug": "seseli", "variant_label": "carrot family", "language": "en", "source": "identification"},
+    {"ingredient_slug": "seseli", "variant_label": "Apiaceae", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "schinos", "variant_label": "mastic", "language": "en", "source": "translation"},
+    {"ingredient_slug": "schinos", "variant_label": "Pistacia lentiscus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "schinos", "variant_label": "lentisk", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "asphaltos", "variant_label": "bitumen", "language": "en", "source": "translation"},
+    {"ingredient_slug": "asphaltos", "variant_label": "asphalt", "language": "en", "source": "translation"},
+    {"ingredient_slug": "asphaltos", "variant_label": "petroleum pitch", "language": "en", "source": "identification"},
+    {"ingredient_slug": "asphaltos", "variant_label": "natural tar", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "thryon", "variant_label": "rush", "language": "en", "source": "translation"},
+    {"ingredient_slug": "thryon", "variant_label": "juncus", "language": "en", "source": "identification"},
+    {"ingredient_slug": "thryon", "variant_label": "bulrush", "language": "en", "source": "identification"},
+    {"ingredient_slug": "thryon", "variant_label": "Juncus effusus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "thryon", "variant_label": "Juncus species", "language": "la", "source": "identification"},
+    {"ingredient_slug": "thryon", "variant_label": "sedge", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "lapathon", "variant_label": "patience dock", "language": "en", "source": "translation"},
+    {"ingredient_slug": "lapathon", "variant_label": "Rumex patientia", "language": "la", "source": "identification"},
+    {"ingredient_slug": "lapathon", "variant_label": "dock", "language": "en", "source": "translation"},
+    {"ingredient_slug": "lapathon", "variant_label": "sorrel", "language": "en", "source": "identification"},
+    {"ingredient_slug": "lapathon", "variant_label": "Rumex species", "language": "la", "source": "identification"},
+    {"ingredient_slug": "lapathon", "variant_label": "Polygonaceae", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthos-meizon", "variant_label": "larger juniper", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthos-meizon", "variant_label": "Juniperus macrocarpa", "language": "la", "source": "identification"},
+    {"ingredient_slug": "arkeuthos-meizon", "variant_label": "large-fruited juniper", "language": "en", "source": "identification"},
+    {"ingredient_slug": "arkeuthos-meizon", "variant_label": "Phoenician juniper", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthos-elatton", "variant_label": "smaller juniper", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthos-elatton", "variant_label": "Juniperus communis", "language": "la", "source": "identification"},
+    {"ingredient_slug": "arkeuthos-elatton", "variant_label": "common juniper", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kardamomon", "variant_label": "cardamom", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kardamomon", "variant_label": "Elettaria cardamomum", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kardamomon", "variant_label": "green cardamom", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kardamomon", "variant_label": "Amomum species", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "kalamos", "variant_label": "calamus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kalamos", "variant_label": "Acorus calamus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kalamos", "variant_label": "sweet flag", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kalamos", "variant_label": "sweet root", "language": "en", "source": "identification"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "meli",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, no specific quantity given by Plutarch",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "oinos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, no specific quantity given by Plutarch",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "staphis",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, dried grapes/raisins, no specific quantity given",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "kyperos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "sedge family plant, possibly Cyperus rotundus or related species, valued aromatic root",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "rhetine",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "described as 'work of the sun', pine resin or similar coniferous exudate, solar association",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "smyrna",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "described as 'work of the sun', plant tears from solar warmth, Commiphora species",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.1"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "multiple botanical identifications: camelthorn (Alhagi), thorny trefoil (Calycotome), Genista species, or rooibos",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.2"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "seseli",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "uncertain Apiaceae identification: hartwort (Tordylium), Seseli genus, or other carrot family plants",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.2"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "schinos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "mastic tree (Pistacia lentiscus), Mediterranean resinous tree, clear identification",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.3"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "asphaltos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "mineral component, natural petroleum-based bitumen, unusual non-botanical ingredient in incense",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.3"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "thryon",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "wetland plant identification uncertain: rush (Juncus), bulrush, or sedge species",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.3"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "lapathon",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "dock family (Polygonaceae): Rumex patientia, other dock/sorrel species, leafy medicinal plants",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.4"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "arkeuthos-meizon",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "larger juniper variety, possibly Juniperus macrocarpa or Phoenician juniper, berries used",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.5"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "arkeuthos-elatton",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "smaller juniper variety, likely Juniperus communis (common juniper), berries used",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.5"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "kardamomon",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "cardamom spice, possibly Elettaria cardamomum or Amomum species, imported aromatic",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.6"
+    },
+    {
+      "recipe_slug": "plutarch-isis-osiris",
+      "ingredient_slug": "kalamos",
+      "amount_raw": null,
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "aromatic root, likely Acorus calamus (sweet flag), used for fragrance and medicine",
+      "source_citation": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "source_span": "383E.6"
+    }
+  ]
+}

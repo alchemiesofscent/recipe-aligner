@@ -1,0 +1,466 @@
+{
+  "recipes": [
+    {
+      "slug": "paul-aegina-lunar-kyphi",
+      "label": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "source": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "language": "grc",
+      "date": 650
+    }
+  ],
+  "ingredients": [
+    {"slug": "bdellion", "label": "βδέλλιον", "language": "grc"},
+    {"slug": "helenion", "label": "ἑλένιον", "language": "grc"},
+    {"slug": "schoinos", "label": "σχοῖνος", "language": "grc"},
+    {"slug": "sphagnon", "label": "σφάγνον", "language": "grc"},
+    {"slug": "arkeuthides-mikrai", "label": "ἀρκευθίδες μικραί", "language": "grc"},
+    {"slug": "kardamomon", "label": "καρδάμωμον", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "kassia-syrigx", "label": "κασσία σύριγξ", "language": "grc"},
+    {"slug": "nardostachys", "label": "ναρδόσταχυς", "language": "grc"},
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "asphodelos-rhiza", "label": "ἀσφόδελος ῥίζα", "language": "grc"},
+    {"slug": "brathys", "label": "βράθυς", "language": "grc"},
+    {"slug": "kyparissos-sperma", "label": "κυπάρισσος σπέρμα", "language": "grc"},
+    {"slug": "nardos-keltike", "label": "νάρδος Κελτική", "language": "grc"},
+    {"slug": "malabathron-phylla", "label": "μαλάβαθρον μετὰ τῶν φύλλων", "language": "grc"},
+    {"slug": "rhoda-xera", "label": "ῥόδα ξηρά", "language": "grc"},
+    {"slug": "kostos", "label": "κόστος", "language": "grc"},
+    {"slug": "krokos", "label": "κρόκος", "language": "grc"},
+    {"slug": "ladanon", "label": "λάδανον", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "ischades-liparai", "label": "ἰσχάδες λιπαραί", "language": "grc"},
+    {"slug": "staphis-ekgigartos", "label": "σταφὶς ἐκγιγαρτισθεῖσα", "language": "grc"},
+    {"slug": "strobiloi", "label": "στρόβιλοι", "language": "grc"},
+    {"slug": "terebinthine", "label": "τερεβινθίνη", "language": "grc"},
+    {"slug": "styrax", "label": "στύραξ", "language": "grc"},
+    {"slug": "phoinikes-liparoi", "label": "φοίνικες λιπαροί", "language": "grc"},
+    {"slug": "meli-apephrismenon", "label": "μέλι ἀπηφρισμένον", "language": "grc"},
+    {"slug": "oinos-euodes", "label": "οἶνος εὐώδης", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "bdellion", "variant_label": "bdellium", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "bdellion", "variant_label": "Commiphora africana", "language": "la", "source": "identification"},
+    {"ingredient_slug": "bdellion", "variant_label": "African myrrh", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "helenion", "variant_label": "calamint", "language": "en", "source": "translation"},
+    {"ingredient_slug": "helenion", "variant_label": "elecampane", "language": "en", "source": "identification"},
+    {"ingredient_slug": "helenion", "variant_label": "Inula helenium", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "schoinos", "variant_label": "schoinos", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "schoinos", "variant_label": "rush", "language": "en", "source": "identification"},
+    {"ingredient_slug": "schoinos", "variant_label": "lemongrass", "language": "en", "source": "identification"},
+    {"ingredient_slug": "schoinos", "variant_label": "Cymbopogon schoenanthus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "sphagnon", "variant_label": "sphagnum moss", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sphagnon", "variant_label": "moss", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sphagnon", "variant_label": "Sphagnum species", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "small juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "Juniperus communis", "language": "la", "source": "identification"},
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "common juniper", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kardamomon", "variant_label": "cardamom", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kardamomon", "variant_label": "Elettaria cardamomum", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kardamomon", "variant_label": "green cardamom", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "aspalathos", "variant_label": "camelthorn", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "thorny trefoil", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "broom species", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kassia-syrigx", "variant_label": "cassia quill", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kassia-syrigx", "variant_label": "quill of cassia", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kassia-syrigx", "variant_label": "Cinnamomum cassia", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kassia-syrigx", "variant_label": "cassia bark", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "nardostachys", "variant_label": "spikenard", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nardostachys", "variant_label": "Nardostachys jatamansi", "language": "la", "source": "identification"},
+    {"ingredient_slug": "nardostachys", "variant_label": "Himalayan spikenard", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyperos", "variant_label": "galingale", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "Cyperus rotundus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "nut sedge", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "asphodel root", "language": "en", "source": "translation"},
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "Asphodelus ramosus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "white asphodel", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "brathys", "variant_label": "tamarisk", "language": "en", "source": "translation"},
+    {"ingredient_slug": "brathys", "variant_label": "Tamarix species", "language": "la", "source": "identification"},
+    {"ingredient_slug": "brathys", "variant_label": "salt cedar", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "cypress seed", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "Cupressus sempervirens", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "Mediterranean cypress", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Celtic nard", "language": "en", "source": "translation"},
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Valeriana celtica", "language": "la", "source": "identification"},
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Alpine valerian", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "malabathron-phylla", "variant_label": "malabathrum with leaves", "language": "en", "source": "translation"},
+    {"ingredient_slug": "malabathron-phylla", "variant_label": "Cinnamomum tamala", "language": "la", "source": "identification"},
+    {"ingredient_slug": "malabathron-phylla", "variant_label": "Indian bay leaf", "language": "en", "source": "identification"},
+    {"ingredient_slug": "malabathron-phylla", "variant_label": "tejpat", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "rhoda-xera", "variant_label": "dried roses", "language": "en", "source": "translation"},
+    {"ingredient_slug": "rhoda-xera", "variant_label": "Rosa damascena", "language": "la", "source": "identification"},
+    {"ingredient_slug": "rhoda-xera", "variant_label": "rose petals", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kostos", "variant_label": "costus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kostos", "variant_label": "Saussurea costus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "kostos", "variant_label": "costus root", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "krokos", "variant_label": "saffron", "language": "en", "source": "translation"},
+    {"ingredient_slug": "krokos", "variant_label": "Crocus sativus", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "ladanon", "variant_label": "labdanum", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "ladanon", "variant_label": "Cistus ladanifer", "language": "la", "source": "identification"},
+    {"ingredient_slug": "ladanon", "variant_label": "rockrose resin", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "smyrne", "variant_label": "Commiphora myrrha", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "ischades-liparai", "variant_label": "fatty figs", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ischades-liparai", "variant_label": "rich figs", "language": "en", "source": "translation"},
+    {"ingredient_slug": "ischades-liparai", "variant_label": "Ficus carica", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "staphis-ekgigartos", "variant_label": "stoneless raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis-ekgigartos", "variant_label": "seedless grapes", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis-ekgigartos", "variant_label": "pitted raisins", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "strobiloi", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "strobiloi", "variant_label": "pine cones", "language": "en", "source": "identification"},
+    {"ingredient_slug": "strobiloi", "variant_label": "conifer cones", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "terebinthine", "variant_label": "turpentine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "terebinthine", "variant_label": "Pistacia terebinthus", "language": "la", "source": "identification"},
+    {"ingredient_slug": "terebinthine", "variant_label": "terebinth resin", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "styrax", "variant_label": "styrax", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "styrax", "variant_label": "storax", "language": "en", "source": "translation"},
+    {"ingredient_slug": "styrax", "variant_label": "Liquidambar orientalis", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "fatty dates", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "rich dates", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "Phoenix dactylifera", "language": "la", "source": "identification"},
+    
+    {"ingredient_slug": "meli-apephrismenon", "variant_label": "refined honey", "language": "en", "source": "translation"},
+    {"ingredient_slug": "meli-apephrismenon", "variant_label": "clarified honey", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "oinos-euodes", "variant_label": "fragrant wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos-euodes", "variant_label": "aromatic wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos-euodes", "variant_label": "perfumed wine", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "bdellion",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "bdellium gum, African myrrh relative, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "helenion",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "calamint/elecampane, aromatic herb, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "schoinos",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "rush/lemongrass, wetland aromatic, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "sphagnon",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "sphagnum moss, unique botanical component, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "arkeuthides-mikrai",
+      "amount_raw": "ν",
+      "amount_value": 50,
+      "amount_unit": "pieces",
+      "preparation": "counted individually",
+      "notes": "small juniper berries, counted rather than weighed, 50 pieces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.2"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "kardamomon",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cardamom spice, imported aromatic, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "kassia-syrigx",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cassia quill, likely variety of cinnamon bark, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "nardostachys",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "spikenard, Himalayan aromatic root, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.3"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "kyperos",
+      "amount_raw": "𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cyperus sedge, aromatic root, 5 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.4"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "asphodelos-rhiza",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "asphodel root, Mediterranean bulb plant, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.4"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "brathys",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "tamarisk, salt-tolerant shrub, 4 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.4"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "kyparissos-sperma",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cypress seeds, aromatic tree seeds, 3 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "nardos-keltike",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "Celtic nard, Alpine valerian, 3 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "malabathron-phylla",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "includes leaves with aromatic",
+      "notes": "malabathrum with leaves, Indian bay leaf (tejpat), 3 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.5"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "rhoda-xera",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "dried floral component",
+      "notes": "dried roses, floral aromatic, 3 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "kostos",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "costus root, Himalayan aromatic, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "krokos",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "saffron spice, precious coloring agent, 2 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "ladanon",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "labdanum rockrose resin, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "myrrh resin, classic kyphi ingredient, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.6"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "ischades-liparai",
+      "amount_raw": "λι. β",
+      "amount_value": 2,
+      "amount_unit": "pound",
+      "preparation": "fatty/rich preparation",
+      "notes": "fatty figs, sweet binding component, 2 pounds",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.7"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "staphis-ekgigartos",
+      "amount_raw": "λι. β",
+      "amount_value": 2,
+      "amount_unit": "pound",
+      "preparation": "seeds removed",
+      "notes": "stoneless raisins, processed grape sweetener, 2 pounds",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.7"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "strobiloi",
+      "amount_raw": "𐆄 η",
+      "amount_value": 8,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "storax/pine cones, coniferous aromatic, 8 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.7"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "terebinthine",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "turpentine resin, terebinth tree exudate, 1 pound",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "styrax",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "styrax resin, aromatic tree exudate, 7 ounces",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "phoinikes-liparoi",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": "fatty/rich preparation",
+      "notes": "fatty dates, rich sweet fruit component, 1 pound",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.8"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "meli-apephrismenon",
+      "amount_raw": "λι. ε",
+      "amount_value": 5,
+      "amount_unit": "pound",
+      "preparation": "refined and clarified",
+      "notes": "refined honey, primary binding agent, 5 pounds",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.9"
+    },
+    {
+      "recipe_slug": "paul-aegina-lunar-kyphi",
+      "ingredient_slug": "oinos-euodes",
+      "amount_raw": "τὸ ἀρκοῦν",
+      "amount_value": null,
+      "amount_unit": "sufficient",
+      "preparation": "processing medium",
+      "notes": "fragrant wine, sufficient quantity for processing, amount determined by consistency needs",
+      "source_citation": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "source_span": "7.22.5.9"
+    }
+  ]
+}

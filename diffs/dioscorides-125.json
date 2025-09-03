@@ -1,0 +1,173 @@
+{
+  "recipes": [
+    {
+      "slug": "dioscorides-125",
+      "label": "Dioscorides, De Materia Medica 1.25",
+      "source": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "language": "grc",
+      "date": 70
+    }
+  ],
+  "ingredients": [
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "arkeuthis", "label": "ἀρκευθίς", "language": "grc"},
+    {"slug": "staphis", "label": "σταφίς", "language": "grc"},
+    {"slug": "rhetine", "label": "ῥητίνη", "language": "grc"},
+    {"slug": "kalamos-aromatikos", "label": "κάλαμος ἀρωματικός", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "schoinos", "label": "σχοῖνος", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "oinos-palaios", "label": "οἶνος παλαιός", "language": "grc"},
+    {"slug": "meli", "label": "μέλι", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kyperos", "variant_label": "galingale", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kyperos", "variant_label": "nut sedge", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "arkeuthis", "variant_label": "juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthis", "variant_label": "full-grown juniper berries", "language": "en", "source": "translation"},
+    {"ingredient_slug": "arkeuthis", "variant_label": "arkeuthos", "language": "en", "source": "transliteration"},
+    
+    {"ingredient_slug": "staphis", "variant_label": "raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis", "variant_label": "fatty raisins", "language": "en", "source": "translation"},
+    {"ingredient_slug": "staphis", "variant_label": "grapes", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "rhetine", "variant_label": "resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "rhetine", "variant_label": "purified resin", "language": "en", "source": "translation"},
+    {"ingredient_slug": "rhetine", "variant_label": "pine resin", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "kalamos-aromatikos", "variant_label": "aromatic calamus", "language": "en", "source": "translation"},
+    {"ingredient_slug": "kalamos-aromatikos", "variant_label": "sweet flag", "language": "en", "source": "identification"},
+    {"ingredient_slug": "kalamos-aromatikos", "variant_label": "calamus", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "aspalathos", "variant_label": "thorny broom", "language": "en", "source": "identification"},
+    {"ingredient_slug": "aspalathos", "variant_label": "rooibos", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "schoinos", "variant_label": "schoinos", "language": "en", "source": "transliteration"},
+    {"ingredient_slug": "schoinos", "variant_label": "rush", "language": "en", "source": "identification"},
+    {"ingredient_slug": "schoinos", "variant_label": "lemongrass", "language": "en", "source": "identification"},
+    
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+    {"ingredient_slug": "smyrne", "variant_label": "σμύρνα", "language": "grc", "source": "variant"},
+    
+    {"ingredient_slug": "oinos-palaios", "variant_label": "aged wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos-palaios", "variant_label": "old wine", "language": "en", "source": "translation"},
+    {"ingredient_slug": "oinos-palaios", "variant_label": "wine", "language": "en", "source": "translation"},
+    
+    {"ingredient_slug": "meli", "variant_label": "honey", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "kyperos",
+      "amount_raw": "ἡμίξεστον",
+      "amount_value": 0.5,
+      "amount_unit": "xestes",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "half a pint by weight",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "arkeuthis",
+      "amount_raw": "ἡμίξεστον",
+      "amount_value": 0.5,
+      "amount_unit": "xestes",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "full-grown berries, same amount as cyperus",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "staphis",
+      "amount_raw": "μνᾶς δεκαδύο",
+      "amount_value": 12,
+      "amount_unit": "mina",
+      "preparation": "deseed, chop and grind with wine and myrrh first",
+      "notes": "fatty raisins with seeds removed, forms base paste",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "rhetine",
+      "amount_raw": "μνᾶς πέντε",
+      "amount_value": 5,
+      "amount_unit": "mina",
+      "preparation": "melt and mix carefully into boiled honey",
+      "notes": "purified resin, added to honey at gluey consistency stage",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "kalamos-aromatikos",
+      "amount_raw": "μνᾶν μίαν",
+      "amount_value": 1,
+      "amount_unit": "mina",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "aromatic calamus, one mina",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "μνᾶν μίαν",
+      "amount_value": 1,
+      "amount_unit": "mina",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "aspalathus, one mina",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "schoinos",
+      "amount_raw": "μνᾶν μίαν",
+      "amount_value": 1,
+      "amount_unit": "mina",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "schoinos, one mina",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "δραχμὰς δεκαδύο",
+      "amount_value": 12,
+      "amount_unit": "drachm",
+      "preparation": "grind with raisins and wine first, forms base paste",
+      "notes": "myrrh, twelve drachmas, processed with raisins and wine",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "oinos-palaios",
+      "amount_raw": "ξέστας ἐννέα",
+      "amount_value": 9,
+      "amount_unit": "xestes",
+      "preparation": "used to grind raisins and myrrh, let infuse for one day",
+      "notes": "aged wine, nine pints, maceration medium",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    },
+    {
+      "recipe_slug": "dioscorides-125",
+      "ingredient_slug": "meli",
+      "amount_raw": "μνᾶς δύο",
+      "amount_value": 2,
+      "amount_unit": "mina",
+      "preparation": "boil until gluey consistency, then mix with melted resin",
+      "notes": "honey, two mina, binding agent boiled to proper consistency",
+      "source_citation": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "source_span": "28,18-29,8"
+    }
+  ]
+}

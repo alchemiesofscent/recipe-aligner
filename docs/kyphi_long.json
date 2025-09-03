@@ -1,354 +1,1230 @@
-[
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "ꜥntj.w-šw",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "dried myrrh",
-    "aliases": "dried myrrh, myrrh"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "pr.t-šnj",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "phoenician juniper berries",
-    "aliases": "phoenician juniper berries, juniper berries"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "snṯr",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "frankincense",
-    "aliases": "frankincense, incense, terebinth resin"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "gj.w",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "gw-grass - unidentified plant",
-    "aliases": "gw-grass"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "tj-šps",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "in recipe as ḫt n(.j) tj-šps (wood of tjsps); cinnamon or east african camphor wood (?)",
-    "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "šb{.t}",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "mastix or mash",
-    "aliases": "mastix, mash"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "nbj.t n(.j).t Ḏꜣhj",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "reed from Syria-Palestine",
-    "aliases": "syrian reed, reed"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "ynktwn",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "unknown substance",
-    "aliases": "ynktwn-drug"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "ḏmtn",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "unknown substance",
-    "aliases": "djmtn-drug"
-  },
-  {
-    "recipe": "Ebers Papyrus, Recipe 852",
-    "ingredient": "gnn n(.j) njywbn šwi̯",
-    "amount": "null",
-    "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
-    "notes": "gnn with uncertain qualifier njywbn šwi̯; some identify with nnjb and so identify with storax",
-    "aliases": "storax resin, storax, gan, styrax"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "jrp",
-    "amount": "50 dbn (10 hin/50 dbn)",
-    "preparation": "used for diluting ground aromatics mass",
-    "notes": "generic wine - step 11 in process",
-    "aliases": "wine"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "šwt nmtj",
-    "amount": "3 dbn (3 dbn)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'",
-    "aliases": "feather of Nemti, calamus, perfumer's calamus, creeping cinquefoil, camel grass"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "gnn",
-    "amount": "3 dbn (3 dbn)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "botanical identification uncertain",
-    "aliases": "styrax, storax, gan"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "ḏbꜤ.t",
-    "amount": "3 dbn (3 dbn)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "possibly charcoals or sweet gum resin",
-    "aliases": "sweet gum, liquidambar, charcoals"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "šbb",
-    "amount": "3 dbn (3 dbn)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "possible orthographical variant: fd",
-    "aliases": "mastix, mastic, lentisk"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "ogꜢy",
-    "amount": "3 dbn (3 dbn)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "gum resin",
-    "aliases": "gum arabic, tragacanth"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "qd.t",
-    "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "coniferous resin from Syria",
-    "aliases": "Aleppo pine resin, coniferous resin, pine resin"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "tj-šps",
-    "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
-    "preparation": "ground finely with first 7 ingredients",
-    "notes": "multiple botanical identifications proposed",
-    "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "prš",
-    "amount": "3 hin (3 hin)",
-    "preparation": "added with additional aromatics in step 6",
-    "notes": "from the largest and oiliest berries; also possibly red ochre/mineral substance",
-    "aliases": "juniper berries, juniper, fir tree cone, red ochre"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "mrḥ.t nꜤr",
-    "amount": "3 hin (3 hin)",
-    "preparation": "added with additional aromatics in step 7",
-    "notes": "reading variant 1: mrḥ.t nꜤr",
-    "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "pqr",
-    "amount": "3 hin (3 hin)",
-    "preparation": "added with additional aromatics in step 8",
-    "notes": "botanical identification not found",
-    "aliases": ""
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "šbn",
-    "amount": "3 hin (3 hin)",
-    "preparation": "added with additional aromatics in step 9",
-    "notes": "plant slime from cyperus rhizome",
-    "aliases": "cyperus, yellow nutsedge"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "sSp m DsDs",
-    "amount": "11.67 hin (11 2/3 hin)",
-    "preparation": "added as raisins/grapes in step 12",
-    "notes": "wine specifically from Bahriya Oasis",
-    "aliases": "wine from Bahriya Oasis, grapes from Bahriya Oasis, raisins"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "jr.t Hr.w wḏ.t",
-    "amount": "5 hin (5 hin)",
-    "preparation": "added as fresh wine in step 13",
-    "notes": "green eye of Horus - type of wine",
-    "aliases": "green eye of Horus wine, wine"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "snṯr",
-    "amount": "13.33 dbn (13 dbn 3 1/3 qdt)",
-    "preparation": "added in step 19 after filtering",
-    "notes": "frankincense or terebinth resin - identification debated",
-    "aliases": "frankincense, incense, terebinth resin"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "bj.t",
-    "amount": "11.67 hin (11 2/3 hin)",
-    "preparation": "added in step 20, boiled to reduce by 1/5",
-    "notes": "standard honey",
-    "aliases": "honey"
-  },
-  {
-    "recipe": "Edfu, South Wall",
-    "ingredient": "ḫrj",
-    "amount": "12.58 dbn (12 dbn 7 qdt)",
-    "preparation": "added as final ingredient in step 28, 3rd quality",
-    "notes": "identified as myrrh; type of antu",
-    "aliases": "myrrh"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "σταφὶς λευκή",
-    "amount": "24 drachm (δραχμὰς Ἀττικὰς δὶς δώδεκα)",
-    "preparation": "remove skin and seeds, pound flesh thoroughly",
-    "notes": "the fattiest white raisins",
-    "aliases": "white raisins, fatty raisins, raisins"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "τερμινθίνη κεκαυμένη",
-    "amount": "24 drachm (ταὐτὸ τῆς κεκαυμένης)",
-    "preparation": "same preparation as other dry ingredients",
-    "notes": "same amount as raisins; roasted terebinth resin",
-    "aliases": "roasted terebinth resin, terebinth resin, resin"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "σμύρνη",
-    "amount": "12 drachm (ιβʹ)",
-    "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
-    "notes": "key ingredient in wet grinding stage",
-    "aliases": "myrrh"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "κιννάμωμον",
-    "amount": "4 drachm (δʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "can be substituted with cardamom seed if unavailable",
-    "aliases": "cinnamon"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "σχοῖνος",
-    "amount": "12 drachm (ιβʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "aromatic rush",
-    "aliases": "schoinos, rush"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "κρόκος",
-    "amount": "1 drachm (μία)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "smallest amount of any ingredient",
-    "aliases": "saffron"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "βδέλλιον",
-    "amount": "3 drachm (γʹ)",
-    "preparation": "ground with myrrh and wine in mortar",
-    "notes": "identification uncertain",
-    "aliases": "bdellium"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "ὄνυξ",
-    "amount": "3 drachm (γʹ)",
-    "preparation": "ground with myrrh and wine in mortar",
-    "notes": "identification uncertain",
-    "aliases": "onycha"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "ἀσπάλαθος",
-    "amount": "2.5 drachm (βʹ 𐅶ʹʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "textual uncertainty - additional notation unclear",
-    "aliases": "aspalathus, thorny broom"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "ναρδοστάχυς",
-    "amount": "3 drachm (γʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "aromatic root",
-    "aliases": "spikenard, nard"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "κασία",
-    "amount": "3 drachm (γʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety",
-    "aliases": "cassia, cinnamon bark"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "κύπειρος",
-    "amount": "3 drachm (γʹ δραχμὰς)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "sedge plant",
-    "aliases": "cyperus, yellow nutsedge"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "ἀρκευθίδες",
-    "amount": "9 drachm (ταύταις ἴσας, Θʹ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "from the largest and oiliest berries",
-    "aliases": "juniper berries, juniper"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "κάλαμος μυρεψικός",
-    "amount": "9 drachm (Θʹ δραχμὰς)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "specialized for perfume making",
-    "aliases": "perfumer's calamus, calamus"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "μέλι",
-    "amount": "τὸ μέτριον",
-    "preparation": "added to adjust mixture consistency, mixed with ground raisins",
-    "notes": "moderate amount - used in both grinding and final mixing",
-    "aliases": "honey"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "οἶνος",
-    "amount": "παντελῶς βραχὺ",
-    "preparation": "used in grinding with bdellium and myrrh",
-    "notes": "very small amount - used in mortar grinding",
-    "aliases": "wine"
-  },
-  {
-    "recipe": "Rufus of Ephesus, via Damocrates and Galen",
-    "ingredient": "καρδάμωμον σπέρμα",
-    "amount": "4 drachm (ταὐτὸ)",
-    "preparation": "mixed with other dry ingredients",
-    "notes": "variant substitution for cinnamon when unavailable",
-    "aliases": "cardamom seed, cardamom"
+{
+  "rows": [
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "ꜥntj.w-šw",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "dried myrrh",
+      "aliases": "dried myrrh, myrrh"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "pr.t-šnj",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "phoenician juniper berries",
+      "aliases": "phoenician juniper berries, juniper berries"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "snṯr",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "frankincense",
+      "aliases": "frankincense, incense, terebinth resin"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "gj.w",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "gw-grass - unidentified plant",
+      "aliases": "gw-grass"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "tj-šps",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "in recipe as ḫt n(.j) tj-šps (wood of tjsps); cinnamon or east african camphor wood (?)",
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "šb{.t}",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "mastix or mash",
+      "aliases": "mastix, mash"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "nbj.t n(.j).t Ḏꜣhj",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "reed from Syria-Palestine",
+      "aliases": "syrian reed, reed"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "ynktwn",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "unknown substance",
+      "aliases": "ynktwn-drug"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "ḏmtn",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "unknown substance",
+      "aliases": "djmtn-drug"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 852",
+      "ingredient": "gnn n(.j) njywbn šwi̯",
+      "amount": "null",
+      "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
+      "notes": "gnn with uncertain qualifier njywbn šwi̯; some identify with nnjb and so identify with storax",
+      "aliases": "storax resin, storax, gan, styrax"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "jrp",
+      "amount": "50 dbn (10 hin/50 dbn)",
+      "preparation": "used for diluting ground aromatics mass",
+      "notes": "generic wine - step 11 in process",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "šwt nmtj",
+      "amount": "3 dbn (3 dbn)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "formerly read as 'Thot's feather'; now 'feather of Nemti'",
+      "aliases": "feather of Nemti, calamus, perfumer's calamus, creeping cinquefoil, camel grass"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "gnn",
+      "amount": "3 dbn (3 dbn)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "botanical identification uncertain",
+      "aliases": "styrax, storax, gan"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "ḏbꜤ.t",
+      "amount": "3 dbn (3 dbn)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "possibly charcoals or sweet gum resin",
+      "aliases": "sweet gum, liquidambar, charcoals"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "šbb",
+      "amount": "3 dbn (3 dbn)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "possible orthographical variant: fd",
+      "aliases": "mastix, mastic, lentisk"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "ogꜢy",
+      "amount": "3 dbn (3 dbn)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "gum resin",
+      "aliases": "gum arabic, tragacanth"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "qd.t",
+      "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "coniferous resin from Syria",
+      "aliases": "Aleppo pine resin, coniferous resin, pine resin"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "tj-šps",
+      "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
+      "preparation": "ground finely with first 7 ingredients",
+      "notes": "multiple botanical identifications proposed",
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "prš",
+      "amount": "3 hin (3 hin)",
+      "preparation": "added with additional aromatics in step 6",
+      "notes": "from the largest and oiliest berries; also possibly red ochre/mineral substance",
+      "aliases": "juniper berries, juniper, fir tree cone, red ochre"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "mrḥ.t nꜤr",
+      "amount": "3 hin (3 hin)",
+      "preparation": "added with additional aromatics in step 7",
+      "notes": "reading variant 1: mrḥ.t nꜤr",
+      "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "pqr",
+      "amount": "3 hin (3 hin)",
+      "preparation": "added with additional aromatics in step 8",
+      "notes": "botanical identification not found",
+      "aliases": ""
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "šbn",
+      "amount": "3 hin (3 hin)",
+      "preparation": "added with additional aromatics in step 9",
+      "notes": "plant slime from cyperus rhizome",
+      "aliases": "cyperus, yellow nutsedge"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "sSp m DsDs",
+      "amount": "11.67 hin (11 2/3 hin)",
+      "preparation": "added as raisins/grapes in step 12",
+      "notes": "wine specifically from Bahriya Oasis",
+      "aliases": "wine from Bahriya Oasis, grapes from Bahriya Oasis, raisins"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "jr.t Hr.w wḏ.t",
+      "amount": "5 hin (5 hin)",
+      "preparation": "added as fresh wine in step 13",
+      "notes": "green eye of Horus - type of wine",
+      "aliases": "green eye of Horus wine, wine"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "snṯr",
+      "amount": "13.33 dbn (13 dbn 3 1/3 qdt)",
+      "preparation": "added in step 19 after filtering",
+      "notes": "frankincense or terebinth resin - identification debated",
+      "aliases": "frankincense, incense, terebinth resin"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "bj.t",
+      "amount": "11.67 hin (11 2/3 hin)",
+      "preparation": "added in step 20, boiled to reduce by 1/5",
+      "notes": "standard honey",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Edfu, South Wall",
+      "ingredient": "ḫrj",
+      "amount": "12.58 dbn (12 dbn 7 qdt)",
+      "preparation": "added as final ingredient in step 28, 3rd quality",
+      "notes": "identified as myrrh; type of antu",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "σταφὶς λευκή",
+      "amount": "24 drachm (δραχμὰς Ἀττικὰς δὶς δώδεκα)",
+      "preparation": "remove skin and seeds, pound flesh thoroughly",
+      "notes": "the fattiest white raisins",
+      "aliases": "white raisins, fatty raisins, raisins"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "τερμινθίνη κεκαυμένη",
+      "amount": "24 drachm (ταὐτὸ τῆς κεκαυμένης)",
+      "preparation": "same preparation as other dry ingredients",
+      "notes": "same amount as raisins; roasted terebinth resin",
+      "aliases": "roasted terebinth resin, terebinth resin, resin"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "σμύρνη",
+      "amount": "12 drachm (ιβʹ)",
+      "preparation": "ground with bdellium and wine in mortar to honey-like thickness",
+      "notes": "key ingredient in wet grinding stage",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "κιννάμωμον",
+      "amount": "4 drachm (δʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "can be substituted with cardamom seed if unavailable",
+      "aliases": "cinnamon"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "σχοῖνος",
+      "amount": "12 drachm (ιβʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "aromatic rush",
+      "aliases": "schoinos, rush, lemongrass"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "κρόκος",
+      "amount": "1 drachm (μία)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "smallest amount of any ingredient",
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "βδέλλιον",
+      "amount": "3 drachm (γʹ)",
+      "preparation": "ground with myrrh and wine in mortar",
+      "notes": "identification uncertain",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "ὄνυξ",
+      "amount": "3 drachm (γʹ)",
+      "preparation": "ground with myrrh and wine in mortar",
+      "notes": "identification uncertain",
+      "aliases": "onycha"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "2.5 drachm (βʹ 𐅶ʹʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "textual uncertainty - additional notation unclear",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "3 drachm (γʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "aromatic root",
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "κασία",
+      "amount": "3 drachm (γʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "τῆς καλῆς καθαρᾶς - of the fine, pure variety",
+      "aliases": "cassia, cinnamon bark"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "κύπειρος",
+      "amount": "3 drachm (γʹ δραχμὰς)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "sedge plant",
+      "aliases": "cyperus, yellow nutsedge"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "ἀρκευθίδες",
+      "amount": "9 drachm (ταύταις ἴσας, Θʹ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "from the largest and oiliest berries",
+      "aliases": "juniper berries, juniper"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "κάλαμος μυρεψικός",
+      "amount": "9 drachm (Θʹ δραχμὰς)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "specialized for perfume making",
+      "aliases": "perfumer's calamus, calamus"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "μέλι",
+      "amount": "τὸ μέτριον",
+      "preparation": "added to adjust mixture consistency, mixed with ground raisins",
+      "notes": "moderate amount - used in both grinding and final mixing",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "οἶνος",
+      "amount": "παντελῶς βραχὺ",
+      "preparation": "used in grinding with bdellium and myrrh",
+      "notes": "very small amount - used in mortar grinding",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Rufus of Ephesus, via Damocrates and Galen",
+      "ingredient": "καρδάμωμον σπέρμα",
+      "amount": "4 drachm (ταὐτὸ)",
+      "preparation": "mixed with other dry ingredients",
+      "notes": "variant substitution for cinnamon when unavailable",
+      "aliases": "cardamom seed, cardamom"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "ꜥntj.w-šw",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "dried myrrh, myrrh"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "pr.t-šnj",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "phoenician juniper berries, juniper berries"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "snṯr",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "frankincense, incense, terebinth resin"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "gj.w",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "gw-grass"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "tj-šps",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "šb{.t}",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "mastix, mash"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "nbj.t n(.j).t Ḏꜣhj",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "syrian reed, reed"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "ynktwn",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "ynktwn-drug"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "ḏmtn",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "djmtn-drug"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "gnn n(.j) njywbn šwi̯",
+      "amount": null,
+      "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
+      "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
+      "aliases": "storax resin, storax, gan, styrax"
+    },
+    {
+      "recipe": "Ebers Papyrus, Recipe 853",
+      "ingredient": "bj.t",
+      "amount": null,
+      "preparation": "used as medium for cooking other ingredients",
+      "notes": "honey used as binding agent and cooking medium",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "κύπερος",
+      "amount": "0.5 xestes (ἡμίξεστον)",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "half a pint by weight",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "ἀρκευθίς",
+      "amount": "0.5 xestes (ἡμίξεστον)",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "full-grown berries, same amount as cyperus",
+      "aliases": "juniper berries, full-grown juniper berries, arkeuthos"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "σταφίς",
+      "amount": "12 mina (μνᾶς δεκαδύο)",
+      "preparation": "deseed, chop and grind with wine and myrrh first",
+      "notes": "fatty raisins with seeds removed, forms base paste",
+      "aliases": "raisins, fatty raisins, grapes"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "ῥητίνη",
+      "amount": "5 mina (μνᾶς πέντε)",
+      "preparation": "melt and mix carefully into boiled honey",
+      "notes": "purified resin, added to honey at gluey consistency stage",
+      "aliases": "resin, purified resin, pine resin, turpentine, colophony"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "κάλαμος ἀρωματικός",
+      "amount": "1 mina (μνᾶν μίαν)",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "aromatic calamus, one mina",
+      "aliases": "aromatic calamus, sweet flag, calamus"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "1 mina (μνᾶν μίαν)",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "aspalathus, one mina",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "σχοῖνος",
+      "amount": "1 mina (μνᾶν μίαν)",
+      "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
+      "notes": "schoinos, one mina",
+      "aliases": "schoinos, rush, lemongrass"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "σμύρνη",
+      "amount": "12 drachm (δραχμὰς δεκαδύο)",
+      "preparation": "grind with raisins and wine first, forms base paste",
+      "notes": "myrrh, twelve drachmas, processed with raisins and wine",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "οἶνος παλαιός",
+      "amount": "9 xestes (ξέστας ἐννέα)",
+      "preparation": "used to grind raisins and myrrh, let infuse for one day",
+      "notes": "aged wine, nine pints, maceration medium",
+      "aliases": "aged wine, old wine, wine"
+    },
+    {
+      "recipe": "Dioscorides, De Materia Medica 1.25",
+      "ingredient": "μέλι",
+      "amount": "2 mina (μνᾶς δύο)",
+      "preparation": "boil until gluey consistency, then mix with melted resin",
+      "notes": "honey, two mina, binding agent boiled to proper consistency",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "βδέλλιον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "bdellium gum, African myrrh relative, 7 ounces",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ἑλένιον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "calamint/elecampane, aromatic herb, 7 ounces",
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "σχοῖνος",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "rush/lemongrass, wetland aromatic, 2 ounces",
+      "aliases": "schoinos, rush, lemongrass"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "σφάγνον",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "sphagnum moss, unique botanical component, 5 ounces",
+      "aliases": "sphagnum moss, moss"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ἀρκευθίδες μικραί",
+      "amount": "50 pieces (ν)",
+      "preparation": "counted individually",
+      "notes": "small juniper berries, counted rather than weighed, 50 pieces",
+      "aliases": "small juniper berries, common juniper"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "καρδάμωμον",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cardamom spice, imported aromatic, 5 ounces",
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "κασσία σύριγξ",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cassia quill, likely variety of cinnamon bark, 5 ounces",
+      "aliases": "cassia quill, quill of cassia, cassia bark"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "spikenard, Himalayan aromatic root, 2 ounces",
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "κύπερος",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cyperus sedge, aromatic root, 5 ounces",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "asphodel root, Mediterranean bulb plant, 4 ounces",
+      "aliases": "asphodel root, white asphodel"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "βράθυς",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "tamarisk, salt-tolerant shrub, 4 ounces",
+      "aliases": "tamarisk, salt cedar"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "cypress seeds, aromatic tree seeds, 3 ounces",
+      "aliases": "cypress seed, Mediterranean cypress"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "Celtic nard, Alpine valerian, 3 ounces",
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "μαλάβαθρον μετὰ τῶν φύλλων",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": "includes leaves with aromatic",
+      "notes": "malabathrum with leaves, Indian bay leaf (tejpat), 3 ounces",
+      "aliases": "malabathrum with leaves, Indian bay leaf, tejpat"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ῥόδα ξηρά",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": "dried floral component",
+      "notes": "dried roses, floral aromatic, 3 ounces",
+      "aliases": "dried roses, rose petals"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "κόστος",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "costus root, Himalayan aromatic, 2 ounces",
+      "aliases": "costus, costus root"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "κρόκος",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "saffron spice, precious coloring agent, 2 ounces",
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "λάδανον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "labdanum rockrose resin, 7 ounces",
+      "aliases": "labdanum, rockrose resin"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "σμύρνη",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "myrrh resin, classic kyphi ingredient, 7 ounces",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "ἰσχάδες λιπαραί",
+      "amount": "2 pound (λι. β)",
+      "preparation": "fatty/rich preparation",
+      "notes": "fatty figs, sweet binding component, 2 pounds",
+      "aliases": "fatty figs, rich figs"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "σταφὶς ἐκγιγαρτισθεῖσα",
+      "amount": "2 pound (λι. β)",
+      "preparation": "seeds removed",
+      "notes": "stoneless raisins, processed grape sweetener, 2 pounds",
+      "aliases": "stoneless raisins, seedless grapes, pitted raisins"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "στρόβιλοι",
+      "amount": "8 ounce (𐆄 η)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "storax/pine cones, coniferous aromatic, 8 ounces",
+      "aliases": "storax, pine cones, conifer cones"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "τερεβινθίνη",
+      "amount": "1 pound (λι. α)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "turpentine resin, terebinth tree exudate, 1 pound",
+      "aliases": "turpentine, terebinth resin"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "στύραξ",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 28 lunar ingredients",
+      "notes": "styrax resin, aromatic tree exudate, 7 ounces",
+      "aliases": "styrax, storax"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "φοίνικες λιπαροί",
+      "amount": "1 pound (λι. α)",
+      "preparation": "fatty/rich preparation",
+      "notes": "fatty dates, rich sweet fruit component, 1 pound",
+      "aliases": "fatty dates, rich dates"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "μέλι ἀπηφρισμένον",
+      "amount": "5 pound (λι. ε)",
+      "preparation": "refined and clarified",
+      "notes": "refined honey, primary binding agent, 5 pounds",
+      "aliases": "refined honey, clarified honey"
+    },
+    {
+      "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
+      "ingredient": "οἶνος εὐώδης",
+      "amount": "τὸ ἀρκοῦν",
+      "preparation": "processing medium",
+      "notes": "fragrant wine, sufficient quantity for processing, amount determined by consistency needs",
+      "aliases": "fragrant wine, aromatic wine, perfumed wine"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "στύραξ",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "storax resin, 7 ounces with other primary aromatics",
+      "aliases": "styrax, storax"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σμύρνη",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "myrrh resin, 7 ounces with other primary aromatics",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "βδέλλιον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "bdellium gum, African myrrh relative, 7 ounces",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "λάδανον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "labdanum rockrose resin, 7 ounces",
+      "aliases": "labdanum, rockrose resin"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἑλένιον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "calamint/elecampane, aromatic herb, 7 ounces",
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "Celtic nard, Alpine valerian, 7 ounces",
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "φύλλον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "aromatic leaves, possibly malabathrum, 7 ounces",
+      "aliases": "leaves, malabathrum"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cypress seeds, aromatic tree seeds, 7 ounces",
+      "aliases": "cypress seed, Mediterranean cypress"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἀμμωνιακὸς θυμίαμα",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "gum ammoniac, 7 ounces",
+      "aliases": "ammoniac resin, gum ammoniac"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "στρόβιλος",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "storax/pine cone, 7 ounces",
+      "aliases": "storax, pine cone"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σπλάγχνον",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "alternative to large onyx",
+      "notes": "possibly related to bryony, LSJ gives tree moss, liverwort, catkin, marsh plant or sea lettuce",
+      "aliases": "bryon, tree-moss"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ὄνυχες μεγάλοι",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "alternative to splagchnon",
+      "notes": "large onyx shells (opercula), marine component, 2 ounces",
+      "aliases": "large onyx, opercula, shell operculum"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "καρποβάλσαμον",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "balsam fruit, precious aromatic, 3 ounces",
+      "aliases": "balm fruit, balsam fruit"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κασσία",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cassia bark, cinnamon family spice, 5 ounces",
+      "aliases": "cassia"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἴρις",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "iris root, 5 ounces",
+      "aliases": "iris, orris root"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σέσελι",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "seseli/celery seed, 5 ounces",
+      "aliases": "celery seed, seseli, hartwort, carrot family"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σφάγνον",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "sphagnum moss, 5 ounces",
+      "aliases": "sphagnum moss, moss"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κύπερος",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cyperus sedge, 5 ounces",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "καρδάμωμον",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "cardamom spice, 5 ounces",
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κάλαμος ἀρωματικός",
+      "amount": "5 ounce (𐆄 ε)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "aromatic calamus, 5 ounces",
+      "aliases": "aromatic calamus, sweet flag, calamus"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ῥόδα ξηρά",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "dried roses, 4 ounces",
+      "aliases": "dried roses, rose petals"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κρόκος",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "saffron spice, 4 ounces",
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "spikenard, 4 ounces",
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "βράθυς",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "tamarisk, 4 ounces",
+      "aliases": "tamarisk, salt cedar"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": "root or juice alternative",
+      "notes": "asphodel root, 4 ounces",
+      "aliases": "asphodel root, white asphodel"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "νακάφθου",
+      "amount": "9 ounce (𐆄 θ)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "pine/tree bark, 9 ounces",
+      "aliases": "nakaphthos, pine bark, tree bark"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "κόστος",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "costus root, 2 ounces",
+      "aliases": "costus, costus root"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σχοῖνος ἄνθος",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "schoinos flowers, 2 ounces",
+      "aliases": "schoinos flower, rush flower"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἀρκευθίδες μεγάλαι",
+      "amount": "40 pieces (μ)",
+      "preparation": "counted individually",
+      "notes": "large juniper berries, 40 pieces",
+      "aliases": "large juniper berries"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἀρκευθίδες μικραί",
+      "amount": "50 pieces (ν)",
+      "preparation": "counted individually",
+      "notes": "small juniper berries, 50 pieces",
+      "aliases": "small juniper berries, common juniper"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἄμωμος",
+      "amount": "1 pound (λι. α)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "amomum spice, 1 pound",
+      "aliases": "amomum, black cardamom"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "τερεβινθίνη",
+      "amount": "1 pound (λι. α)",
+      "preparation": "one of the 36 solar ingredients",
+      "notes": "turpentine resin, 1 pound",
+      "aliases": "turpentine, terebinth resin"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "φοίνικες καθαροί",
+      "amount": "1 pound (λι. α)",
+      "preparation": "cleaned preparation",
+      "notes": "clean dates, 1 pound",
+      "aliases": "clean dates"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "ἰσχάδες",
+      "amount": "2 pound (λι. β)",
+      "preparation": "dried preparation",
+      "notes": "dried figs, 2 pounds",
+      "aliases": "dried figs"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "σταφὶς ἀγίγαρτος",
+      "amount": "2 pound (λι. β)",
+      "preparation": "seedless preparation",
+      "notes": "stoneless raisins, 2 pounds",
+      "aliases": "stoneless raisins, seedless grapes"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "μέλι ἀπηφρισμένον",
+      "amount": "5 pound (λι. ε)",
+      "preparation": "refined and clarified",
+      "notes": "refined honey, 5 pounds",
+      "aliases": "refined honey, clarified honey"
+    },
+    {
+      "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
+      "ingredient": "οἶνος εὐώδης",
+      "amount": "3 pint (ξ̸ γ)",
+      "preparation": "Posidonius variation",
+      "notes": "fragrant wine, optional addition, 3 pints",
+      "aliases": "fragrant wine, aromatic wine, perfumed wine"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "μέλι",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, no specific quantity given by Plutarch",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "οἶνος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, no specific quantity given by Plutarch",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "σταφίς",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "one of sixteen ingredients, dried grapes/raisins, no specific quantity given",
+      "aliases": "raisins, fatty raisins, grapes"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "κύπερος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "sedge family plant, possibly Cyperus rotundus or related species, valued aromatic root",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "ῥητίνη",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "described as 'work of the sun', pine resin or similar coniferous exudate, solar association",
+      "aliases": "resin, purified resin, pine resin, turpentine, colophony"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "σμύρνα",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "described as 'work of the sun', plant tears from solar warmth, Commiphora species",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "ἀσπάλαθος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "multiple botanical identifications: camelthorn (Alhagi), thorny trefoil (Calycotome), Genista species, or rooibos",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "σέσελι",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "uncertain Apiaceae identification: hartwort (Tordylium), Seseli genus, or other carrot family plants",
+      "aliases": "celery seed, seseli, hartwort, carrot family"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "σχῖνος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "mastic tree (Pistacia lentiscus), Mediterranean resinous tree, clear identification",
+      "aliases": "mastic, lentisk"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "ἄσφαλτος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "mineral component, natural petroleum-based bitumen, unusual non-botanical ingredient in incense",
+      "aliases": "bitumen, asphalt, petroleum pitch, natural tar"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "θρύον",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "wetland plant identification uncertain: rush (Juncus), bulrush, or sedge species",
+      "aliases": "rush, juncus, bulrush, sedge"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "λάπαθον",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "dock family (Polygonaceae): Rumex patientia, other dock/sorrel species, leafy medicinal plants",
+      "aliases": "patience dock, dock, sorrel"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "ἄρκευθος μείζων",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "larger juniper variety, possibly Juniperus macrocarpa or Phoenician juniper, berries used",
+      "aliases": "larger juniper, large-fruited juniper, Phoenician juniper"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "ἄρκευθος ἐλάττων",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "smaller juniper variety, likely Juniperus communis (common juniper), berries used",
+      "aliases": "smaller juniper, common juniper"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "καρδάμωμον",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "cardamom spice, possibly Elettaria cardamomum or Amomum species, imported aromatic",
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Plutarch, Isis and Osiris 383E-384C",
+      "ingredient": "κάλαμος",
+      "amount": null,
+      "preparation": "mixed with sacred writings read during preparation",
+      "notes": "aromatic root, likely Acorus calamus (sweet flag), used for fragrance and medicine",
+      "aliases": "calamus, sweet flag, sweet root"
+    }
+  ],
+  "recipe_metadata": {
+    "Ebers Papyrus, Recipe 852": {
+      "date": -1550,
+      "slug": "ebers-papyrus-852",
+      "source": "Ebers Papyrus 98,12-98,14b",
+      "language": "egy"
+    },
+    "Edfu, South Wall": {
+      "date": -200,
+      "slug": "edfu-south-wall",
+      "source": "Edfu Temple Laboratory, south wall",
+      "language": "egy"
+    },
+    "Rufus of Ephesus, via Damocrates and Galen": {
+      "date": 100,
+      "slug": "rufus-ephesus-kyphi",
+      "source": "Rufus apud Damocrates via Galen, Antidosis 14.117.10-14.119.5",
+      "language": "grc"
+    },
+    "Ebers Papyrus, Recipe 853": {
+      "date": -1550,
+      "slug": "ebers-papyrus-853",
+      "source": "Ebers Papyrus 98,15b-98,18b",
+      "language": "egy"
+    },
+    "Dioscorides, De Materia Medica 1.25": {
+      "date": 70,
+      "slug": "dioscorides-125",
+      "source": "Dioscorides 1.25 (28,18-29,8 Wellmann)",
+      "language": "grc"
+    },
+    "Paul of Aegina, Lunar Kyphi (28 ingredients)": {
+      "date": 650,
+      "slug": "paul-aegina-lunar-kyphi",
+      "source": "Paul of Aegina 7.22.5.1-7.22.5.9",
+      "language": "grc"
+    },
+    "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)": {
+      "date": 650,
+      "slug": "paul-aegina-solar-kyphi",
+      "source": "Paul of Aegina 7.22.4.1-7.22.4.12",
+      "language": "grc"
+    },
+    "Plutarch, Isis and Osiris 383E-384C": {
+      "date": 80,
+      "slug": "plutarch-isis-osiris",
+      "source": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "language": "grc"
+    }
   }
-]
+}
