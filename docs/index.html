@@ -652,14 +652,23 @@ function renderRecipeChips() {
       const metadata = recipeMetadata[recipeName];
       let headerContent = escapeHTML(recipeName);
       
+      // Count ingredients for this recipe
+      const ingredientCount = rows.filter(r => 
+        selectedRecipes.has(r.recipe) && r.recipe === recipeName
+      ).length;
+  
       if (showDates.checked && metadata?.date != null) {
         const dateDisplay = formatDateDisplay(metadata.date);
         headerContent += `<span class="chronological-header">${escapeHTML(dateDisplay)}</span>`;
       }
-      
-      headerCells.push(`<th>${headerContent}</th>`);
+  
+        // Add ingredient count
+        headerContent += `<span class="chronological-header">${ingredientCount} ingredients</span>`;
+  
+    headerCells.push(`<th>${headerContent}</th>`);
     });
-    
+
+  
     tableHead.innerHTML = headerCells.join('');
 
     // Clear and rebuild table body
