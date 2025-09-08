@@ -56,13 +56,29 @@ h1{ margin:0; font-size:18px; letter-spacing:.2px; }
 }
 .btn:hover{ filter:brightness(1.1); }
 
-/* Chips — desktop: wrap; mobile: horizontal scroll (no collapse UI) */
+/* Chips — desktop: wrap; mobile: dropdown in single column */
 .chip-container{
   display:flex; gap:8px; flex-wrap:wrap;
   padding:8px; border:1px dashed var(--border); border-radius:8px;
   background:color-mix(in oklab, var(--card) 50%, transparent);
   position:relative;
   overflow:visible;
+}
+
+/* Mobile: Transform chips to single column dropdown */
+@media (max-width: 768px) {
+  .chip-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 120px;
+    overflow-y: auto;
+    overflow-x: visible;
+  }
+  
+  .chip {
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
 .chip{ display:flex; align-items:center; gap:6px; padding:4px 8px;
   border-radius:999px; border:1px solid var(--border); background:var(--card); font-size:12px; }
@@ -105,8 +121,8 @@ th:first-child, td:first-child{
   z-index:5;
   border-right:1px solid var(--border);
 }
-/* Corner cell priority */
-thead th:first-child{ z-index:15; }
+/* Corner cell priority - needs higher z-index than sticky columns */
+thead th:first-child{ z-index:1001; }
 
 td{ padding:12px; border-bottom:1px solid var(--border); vertical-align:top; overflow:hidden; }
 
