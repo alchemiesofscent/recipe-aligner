@@ -1,424 +1,174 @@
 <!doctype html>
 <html lang="en" data-theme="light">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kyphi Recipe Index</title>
   <style>
     /* [CSS unchanged - keeping existing styles] */
-    :root {
-      --bg: #0f1115;
-      --card: #171923;
-      --muted: #8b93a7;
-      --fg: #e6e9f2;
-      --accent: #6ea8ff;
-      --pill: #283048;
-      --ok: #7bd88f;
-      --warn: #ffd479;
-      --border: #24283b;
-      --rowA: #10131a;
-      --rowB: #0e1016;
-      --link: #a0a6b9;
-      font-synthesis-weight: none;
-      text-rendering: optimizeLegibility;
-    }
+:root {
+  --bg:#0f1115; --card:#171923; --muted:#8b93a7; --fg:#e6e9f2;
+  --accent:#6ea8ff; --pill:#283048; --ok:#7bd88f; --warn:#ffd479;
+  --border:#24283b; --rowA:#10131a; --rowB:#0e1016; --link:#a0a6b9;
+  font-synthesis-weight:none; text-rendering:optimizeLegibility;
+}
+html[data-theme="light"]{
+  --bg:#f6f7fb; --card:#ffffff; --muted:#5b6478; --fg:#0b0d12;
+  --accent:#0b57d0; --pill:#e8eefc; --ok:#1e8e3e; --warn:#b06e00;
+  --border:#e6e8f0; --rowA:#ffffff; --rowB:#fafbff; --link:#4a5370;
+}
 
-    html[data-theme="light"] {
-      --bg: #f6f7fb;
-      --card: #ffffff;
-      --muted: #5b6478;
-      --fg: #0b0d12;
-      --accent: #0b57d0;
-      --pill: #e8eefc;
-      --ok: #1e8e3e;
-      --warn: #b06e00;
-      --border: #e6e8f0;
-      --rowA: #ffffff;
-      --rowB: #fafbff;
-      --link: #4a5370;
-    }
+*{ box-sizing:border-box; }
+html,body{ height:100%; margin:0; padding:0; }
+body{
+  background:var(--bg); color:var(--fg);
+  font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial;
+  display:flex; flex-direction:column;
+}
 
-    * {
-      box-sizing: border-box;
-    }
+/* Header */
+.header{
+  background:linear-gradient(180deg,
+    color-mix(in oklab, var(--bg) 98%, transparent),
+    color-mix(in oklab, var(--bg) 95%, transparent));
+  backdrop-filter:saturate(120%) blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:16px; 
+  flex-shrink:0;
+}
+.header-content{ max-width:1200px; margin:0 auto; }
+.title-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+h1{ margin:0; font-size:18px; letter-spacing:.2px; }
+.stats{ color:var(--muted); font-size:12px; }
+.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+.search-input{
+  flex:1 1 300px; padding:10px 12px; border-radius:8px;
+  border:1px solid var(--border); background:var(--card); color:var(--fg);
+  font-size:14px;
+}
+.toggle-group{ display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+.toggle{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); cursor:pointer; }
+.btn{
+  display:inline-flex; align-items:center; gap:6px; padding:8px 12px;
+  border:1px solid var(--border); border-radius:8px; background:var(--card);
+  color:var(--muted); cursor:pointer; user-select:none; font-size:12px;
+  transition:filter .1s;
+}
+.btn:hover{ filter:brightness(1.1); }
 
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+/* Chips — desktop: wrap; mobile: horizontal scroll (no collapse UI) */
+.chip-container{
+  display:flex; gap:8px; flex-wrap:wrap;
+  padding:8px; border:1px dashed var(--border); border-radius:8px;
+  background:color-mix(in oklab, var(--card) 50%, transparent);
+  position:relative;
+  overflow:visible;
+}
+.chip{ display:flex; align-items:center; gap:6px; padding:4px 8px;
+  border-radius:999px; border:1px solid var(--border); background:var(--card); font-size:12px; }
 
-    body {
-      background: var(--bg);
-      color: var(--fg);
-      font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial;
-      display: flex;
-      flex-direction: column;
-    }
+/* Remove old collapse UI */
+.chip-expand-toggle{ display:none !important; }
+.chip-container.expanded{ max-height:none; }
 
-    /* Header */
-    .header {
-      background: linear-gradient(180deg,
-          color-mix(in oklab, var(--bg) 98%, transparent),
-          color-mix(in oklab, var(--bg) 95%, transparent));
-      backdrop-filter: saturate(120%) blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 16px;
-      flex-shrink: 0;
-    }
+/* Main content */
+.main{ flex:1; padding:16px; display:flex; flex-direction:column; min-height:0; }
+.main-content{ max-width:1200px; margin:0 auto; width:100%; flex:1; display:flex; flex-direction:column; min-height:0; }
 
-    .header-content {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+/* Table wrapper */
+.table-container{
+  flex:1;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:var(--card);
+  position:relative;
+  min-height:400px;
+  overflow-y:visible; /* page handles vertical scroll */
+}
 
-    .title-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
-    }
+/* Table + sticky header */
+table{ border-collapse:separate; width:100%; }
+thead th{
+  position:sticky; top:0;
+  background:var(--card);
+  z-index:1000;
+  border-bottom:2px solid var(--border);
+  padding:12px;
+  text-align:left; font-weight:600;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);
+}
 
-    h1 {
-      margin: 0;
-      font-size: 18px;
-      letter-spacing: .2px;
-    }
+/* First column sticky (desktop) */
+th:first-child, td:first-child{
+  position:sticky; left:0;
+  background:var(--card);
+  z-index:5;
+  border-right:1px solid var(--border);
+}
+/* Corner cell priority */
+thead th:first-child{ z-index:15; }
 
-    .stats {
-      color: var(--muted);
-      font-size: 12px;
-    }
+td{ padding:12px; border-bottom:1px solid var(--border); vertical-align:top; overflow:hidden; }
 
-    .controls {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-bottom: 12px;
-    }
+/* Row striping */
+tbody tr:nth-child(odd) td{ background:var(--rowA); }
+tbody tr:nth-child(even) td{ background:var(--rowB); }
+tbody tr:nth-child(odd) td:first-child{ background:var(--rowA); }
+tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 
-    .search-input {
-      flex: 1 1 300px;
-      padding: 10px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: var(--card);
-      color: var(--fg);
-      font-size: 14px;
-    }
+/* Content styling */
+.ingredient-cell{ line-height:1.4; }
+.aligned-ingredient{
+  border-left:4px solid var(--accent);
+  padding-left:12px; margin-bottom:6px;
+  background:color-mix(in oklab, var(--accent) 8%, transparent);
+  border-radius:4px; padding:8px 12px;
+}
+.aligned-ingredient strong{ color:var(--accent); font-weight:700; }
+.variants{ color:var(--link); font-size:12px; font-style:italic; margin-top:4px; padding-left:4px; }
+.aliases{ color:var(--muted); font-size:11px; margin-top:4px; }
+.pill{ display:inline-block; padding:2px 8px; margin-left:6px; background:var(--pill); color:var(--accent); border-radius:12px; font-size:11px; }
+.note{ color:var(--muted); margin-left:6px; font-size:12px; }
 
-    .toggle-group {
-      display: flex;
-      gap: 16px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
+/* Chronological header */
+.chronological-header{ font-size:11px; color:var(--muted); font-weight:normal; display:block; margin-top:2px; }
 
-    .toggle {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      color: var(--muted);
-      cursor: pointer;
-    }
+/* Footer */
+.footer{ text-align:center; padding:16px; color:var(--muted); font-size:12px; border-top:1px solid var(--border); }
+/* Mobile */
+@media (max-width: 767px) {
+  /* allow horizontal scroll only */
+  .table-container {
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+  }
 
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 12px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--card);
-      color: var(--muted);
-      cursor: pointer;
-      user-select: none;
-      font-size: 12px;
-      transition: filter .1s;
-    }
+  /* ensure a scrollable width so columns don't squash */
+  table {
+    min-width: 720px; /* adjust to your column count */
+  }
 
-    .btn:hover {
-      filter: brightness(1.1);
-    }
-
-    /* Chips — desktop: wrap; mobile: horizontal scroll (no collapse UI) */
-    .chip-container {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      padding: 8px;
-      border: 1px dashed var(--border);
-      border-radius: 8px;
-      background: color-mix(in oklab, var(--card) 50%, transparent);
-      position: relative;
-      overflow: visible;
-      align-items: center;
-    }
-
-    .chip {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 8px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: var(--card);
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
-    /* Expansion toggle (hidden on desktop) */
-    .chip-expand-toggle {
-      display: none; /* shown on mobile only when needed */
-      position: absolute;
-      right: 8px;
-      top: 8px;
-      border: 0;
-      background: var(--card);
-      color: var(--muted);
-      padding: 6px 8px;
-      border-radius: 6px;
-      cursor: pointer;
-      z-index: 20;
-      align-items: center;
-      justify-content: center;
-      line-height: 1;
-    }
-
-    .chip-container.expanded {
-      max-height: none;
-    }
-
-    /* Main content */
-    .main {
-      flex: 1;
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      min-height: 0;
-    }
-
-    .main-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      width: 100%;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-height: 0;
-    }
-
-    /* Table wrapper */
-    .table-container {
-      flex: 1;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: var(--card);
-      position: relative;
-      min-height: 400px;
-      overflow-y: visible;
-      /* page handles vertical scroll */
-    }
-
-    /* Table + sticky header */
-    table {
-      border-collapse: separate;
-      width: 100%;
-    }
-
-    thead th {
-      position: sticky;
-      top: 0;
-      background: var(--card);
-      z-index: 1000;
-      border-bottom: 2px solid var(--border);
-      padding: 12px;
-      text-align: left;
-      font-weight: 600;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
-    }
-
-    /* First column sticky (desktop) */
-    th:first-child,
-    td:first-child {
-      position: sticky;
-      left: 0;
-      background: var(--card);
-      z-index: 5;
-      border-right: 1px solid var(--border);
-    }
-
-    /* Corner cell priority */
-    thead th:first-child {
-      z-index: 15;
-    }
-
-    td {
-      padding: 12px;
-      border-bottom: 1px solid var(--border);
-      vertical-align: top;
-      overflow: hidden;
-    }
-
-    /* Row striping */
-    tbody tr:nth-child(odd) td {
-      background: var(--rowA);
-    }
-
-    tbody tr:nth-child(even) td {
-      background: var(--rowB);
-    }
-
-    tbody tr:nth-child(odd) td:first-child {
-      background: var(--rowA);
-    }
-
-    tbody tr:nth-child(even) td:first-child {
-      background: var(--rowB);
-    }
-
-    /* Content styling */
-    .ingredient-cell {
-      line-height: 1.4;
-    }
-
-    .aligned-ingredient {
-      border-left: 4px solid var(--accent);
-      padding-left: 12px;
-      margin-bottom: 6px;
-      background: color-mix(in oklab, var(--accent) 8%, transparent);
-      border-radius: 4px;
-      padding: 8px 12px;
-    }
-
-    .aligned-ingredient strong {
-      color: var(--accent);
-      font-weight: 700;
-    }
-
-    .variants {
-      color: var(--link);
-      font-size: 12px;
-      font-style: italic;
-      margin-top: 4px;
-      padding-left: 4px;
-    }
-
-    .aliases {
-      color: var(--muted);
-      font-size: 11px;
-      margin-top: 4px;
-    }
-
-    .pill {
-      display: inline-block;
-      padding: 2px 8px;
-      margin-left: 6px;
-      background: var(--pill);
-      color: var(--accent);
-      border-radius: 12px;
-      font-size: 11px;
-    }
-
-    .note {
-      color: var(--muted);
-      margin-left: 6px;
-      font-size: 12px;
-    }
-
-    /* Chronological header */
-    .chronological-header {
-      font-size: 11px;
-      color: var(--muted);
-      font-weight: normal;
-      display: block;
-      margin-top: 2px;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      padding: 16px;
-      color: var(--muted);
-      font-size: 12px;
-      border-top: 1px solid var(--border);
-    }
-
-    /* Mobile */
-    @media (max-width: 767px) {
-      /* collapsed: single-row horizontal scroll */
-      .chip-container {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        overflow-y: hidden;
-        -webkit-overflow-scrolling: touch;
-        align-items: center;
-      }
-
-      /* show toggle only when we marked it as needing expansion */
-      .chip-container.needs-expansion .chip-expand-toggle {
-        display: inline-flex;
-      }
-
-      /* when expanded: vertical stacked list, full-width chips */
-      .chip-container.expanded {
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: stretch;
-        max-height: 60vh;               /* limit expanded height */
-        overflow: auto;                 /* allow chip list to scroll */
-        padding: 8px;
-      }
-
-      .chip-container.expanded .chip {
-        width: 100%;
-        border-radius: 8px;
-      }
-
-      /* visual tweak for the toggle on mobile */
-      .chip-expand-toggle {
-        box-shadow: 0 2px 6px rgba(0,0,0,0.12);
-      }
-    
-      /* allow horizontal scroll only */
-      .table-container {
-        overflow-x: auto;
-        overflow-y: visible;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* ensure a scrollable width so columns don't squash */
-      table {
-        min-width: 720px;
-        /* adjust to your column count */
-      }
-
-      /* larger tap targets for the sticky header */
-      thead th {
-        padding: 14px 12px;
-        /* was 12px */
-        line-height: 1.3;
-        /* header remains sticky to viewport via your existing
+  /* larger tap targets for the sticky header */
+  thead th {
+    padding: 14px 12px;   /* was 12px */
+    line-height: 1.3;
+    /* header remains sticky to viewport via your existing
        position: sticky; top: 0; rules */
-      }
+  }
 
-      /* drop sticky first column on small screens */
-      th:first-child,
-      td:first-child {
-        position: static;
-        left: auto;
-        z-index: auto;
-        background: inherit;
-        border-right: none;
-      }
-    }
-  </style>
+  /* drop sticky first column on small screens */
+  th:first-child,
+  td:first-child {
+    position: static;
+    left: auto;
+    z-index: auto;
+    background: inherit;
+    border-right: none;
+  }
+}
+</style>
 </head>
-
 <body>
   <!-- Fixed Header -->
   <div class="header">
@@ -432,9 +182,9 @@
       </div>
 
       <div class="controls">
-        <input id="searchInput" class="search-input"
-          placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts..." />
-
+        <input id="searchInput" class="search-input" 
+               placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts..." />
+        
         <div class="toggle-group">
           <label class="toggle">
             <input type="checkbox" id="smartAlignment" /> Smart alignment
@@ -474,9 +224,7 @@
       <div class="table-container">
         <table id="dataTable">
           <thead>
-            <tr>
-              <th>Ingredient</th>
-            </tr>
+            <tr><th>Ingredient</th></tr>
           </thead>
           <tbody></tbody>
         </table>
@@ -489,350 +237,350 @@
     Data: kyphi_long.json • equivalences.json
   </div>
 
-  <script>
-    (function () {
-      'use strict';
-      const table = document.querySelector('.table-container table');
-      if (!table) return;
+<script>
+(function() {
+  'use strict';
+  const table = document.querySelector('.table-container table');
+  if (!table) return;
 
-      // Count header cells (fallback to first row if no thead)
-      const cols = (table.tHead && table.tHead.rows[0].cells.length) ||
-        (table.rows[0] ? table.rows[0].cells.length : 0);
+  // Count header cells (fallback to first row if no thead)
+  const cols = (table.tHead && table.tHead.rows[0].cells.length) ||
+               (table.rows[0] ? table.rows[0].cells.length : 0);
 
-      // Minimum width per column (tune this)
-      const minPerCol = 220; // px
+  // Minimum width per column (tune this)
+  const minPerCol = 220; // px
 
-      // Set min-width so columns don’t squash on mobile
-      if (cols > 0) table.style.minWidth = `calc(${cols} * ${minPerCol}px)`;
-      // Utility functions
-      const $ = sel => document.querySelector(sel);
-      const nfkc = s => (s == null ? "" : String(s)).normalize("NFKC");
-      const escapeHTML = s => String(s).replace(/[&<>"']/g, c =>
-        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;' }[c]));
+  // Set min-width so columns don’t squash on mobile
+  if (cols > 0) table.style.minWidth = `calc(${cols} * ${minPerCol}px)`;
+  // Utility functions
+  const $ = sel => document.querySelector(sel);
+  const nfkc = s => (s == null ? "" : String(s)).normalize("NFKC");
+  const escapeHTML = s => String(s).replace(/[&<>"']/g, c => 
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
 
-      // Elements
-      const searchInput = $('#searchInput');
-      const smartAlignment = $('#smartAlignment');
-      const showAmounts = $('#showAmounts');
-      const showPrep = $('#showPrep');
-      const showNotes = $('#showNotes');
-      const showAliases = $('#showAliases');
-      const showDates = $('#showDates');
-      const themeToggle = $('#themeToggle');
-      const tableHead = $('#dataTable thead tr');
-      const tableBody = $('#dataTable tbody');
-      const countShown = $('#countShown');
-      const countTotal = $('#countTotal');
-      const recipeChips = $('#recipeChips');
+  // Elements
+  const searchInput = $('#searchInput');
+  const smartAlignment = $('#smartAlignment');
+  const showAmounts = $('#showAmounts');
+  const showPrep = $('#showPrep');
+  const showNotes = $('#showNotes');
+  const showAliases = $('#showAliases');
+  const showDates = $('#showDates');
+  const themeToggle = $('#themeToggle');
+  const tableHead = $('#dataTable thead tr');
+  const tableBody = $('#dataTable tbody');
+  const countShown = $('#countShown');
+  const countTotal = $('#countTotal');
+  const recipeChips = $('#recipeChips');
 
-      // State
-      let rows = [];
-      let recipeMetadata = {};
-      let allRecipes = [];
-      let selectedRecipes = new Set();
-      let equivalences = {};
-      let searchIndex = [];
-      let filteredCount = 0;
+  // State
+  let rows = [];
+  let recipeMetadata = {};
+  let allRecipes = [];
+  let selectedRecipes = new Set();
+  let equivalences = {};
+  let searchIndex = [];
+  let filteredCount = 0;
 
-      // Sample data for testing (backward compatibility)
-      const sampleData = {
-        rows: [
-          { recipe: "Sample Rufus", ingredient: "σμύρνη", amount: "12", preparation: "ground", notes: "=myrrh", aliases: "myrrh" },
-          { recipe: "Sample Rufus", ingredient: "μέλι", amount: "24", preparation: "", notes: "honey", aliases: "honey" },
-          { recipe: "Sample Diosc.", ingredient: "σμύρνη", amount: "", preparation: "", notes: "alt source", aliases: "myrrh" }
-        ],
-        recipe_metadata: {}
-      };
-      const sampleEquivalences = { "Myrrh": ["σμύρνη", "smyrna", "smyrne"] };
+  // Sample data for testing (backward compatibility)
+  const sampleData = {
+    rows: [
+      { recipe: "Sample Rufus", ingredient: "σμύρνη", amount: "12", preparation: "ground", notes: "=myrrh", aliases: "myrrh" },
+      { recipe: "Sample Rufus", ingredient: "μέλι", amount: "24", preparation: "", notes: "honey", aliases: "honey" },
+      { recipe: "Sample Diosc.", ingredient: "σμύρνη", amount: "", preparation: "", notes: "alt source", aliases: "myrrh" }
+    ],
+    recipe_metadata: {}
+  };
+  const sampleEquivalences = { "Myrrh": ["σμύρνη", "smyrna", "smyrne"] };
 
-      // Initialize
-      Promise.all([
-        fetch('kyphi_long.json').then(r => r.json()).catch(() => sampleData),
-        fetch('equivalences.json').then(r => r.json()).catch((err) => {
-          console.log('Equivalences fetch failed:', err);
-          return sampleEquivalences;
-        })
-      ]).then(([data, eq]) => {
-        console.log('Loaded data:', data);
-        console.log('Loaded equivalences:', eq);
-        initializeApp(data, eq);
+  // Initialize
+  Promise.all([
+    fetch('kyphi_long.json').then(r => r.json()).catch(() => sampleData),
+    fetch('equivalences.json').then(r => r.json()).catch((err) => {
+      console.log('Equivalences fetch failed:', err);
+      return sampleEquivalences;
+    })
+  ]).then(([data, eq]) => {
+    console.log('Loaded data:', data);
+    console.log('Loaded equivalences:', eq);
+    initializeApp(data, eq);
+  });
+
+  function initializeApp(data, eq) {
+    // Handle both old and new data formats
+    if (Array.isArray(data)) {
+      // Old format - just array of rows
+      rows = data;
+      recipeMetadata = {};
+    } else {
+      // New format - object with rows and recipe_metadata
+      rows = data.rows || [];
+      recipeMetadata = data.recipe_metadata || {};
+    }
+
+    // Process data
+    const validRows = rows.filter(r => r && r.ingredient && r.recipe);
+    rows = validRows.map(r => ({
+      recipe: nfkc(r.recipe),
+      ingredient: nfkc(r.ingredient),
+      amount: r.amount ?? r.amount_raw ?? null,
+      preparation: r.preparation ?? null,
+      notes: r.notes ?? null,
+      aliases: normalizeAliases(r.aliases)
+    }));
+
+    allRecipes = Array.from(new Set(rows.map(r => r.recipe)));
+    selectedRecipes = new Set(allRecipes);
+    equivalences = processEquivalences(eq);
+
+    // Set initial state
+    smartAlignment.checked = Object.keys(equivalences).length > 0;
+
+    // Render and attach events
+    renderRecipeChips();
+    render();
+    attachEvents();
+
+    console.log('App initialized with', rows.length, 'rows and', allRecipes.length, 'recipes');
+    console.log('Recipe metadata:', recipeMetadata);
+  }
+
+  function normalizeAliases(aliases) {
+    if (!aliases) return [];
+    if (Array.isArray(aliases)) return aliases.map(s => nfkc(s).trim()).filter(Boolean);
+    return String(aliases).split(',').map(s => nfkc(s).trim()).filter(Boolean);
+  }
+
+  function processEquivalences(eq) {
+    console.log('Processing equivalences:', eq);
+    if (!eq || typeof eq !== 'object') return {};
+    
+    const result = {};
+    if (Array.isArray(eq)) {
+      eq.forEach(item => {
+        if (!item) return;
+        const key = nfkc(item.aligned || item.key || item.name || '').trim();
+        const variants = (item.variants || item.values || []).map(v => nfkc(v).trim()).filter(Boolean);
+        if (key) result[key] = Array.from(new Set([key, ...variants]));
       });
-
-      function initializeApp(data, eq) {
-        // Handle both old and new data formats
-        if (Array.isArray(data)) {
-          // Old format - just array of rows
-          rows = data;
-          recipeMetadata = {};
-        } else {
-          // New format - object with rows and recipe_metadata
-          rows = data.rows || [];
-          recipeMetadata = data.recipe_metadata || {};
-        }
-
-        // Process data
-        const validRows = rows.filter(r => r && r.ingredient && r.recipe);
-        rows = validRows.map(r => ({
-          recipe: nfkc(r.recipe),
-          ingredient: nfkc(r.ingredient),
-          amount: r.amount ?? r.amount_raw ?? null,
-          preparation: r.preparation ?? null,
-          notes: r.notes ?? null,
-          aliases: normalizeAliases(r.aliases)
-        }));
-
-        allRecipes = Array.from(new Set(rows.map(r => r.recipe)));
-        selectedRecipes = new Set(allRecipes);
-        equivalences = processEquivalences(eq);
-
-        // Set initial state
-        smartAlignment.checked = Object.keys(equivalences).length > 0;
-
-        // Render and attach events
-        renderRecipeChips();
-        render();
-        attachEvents();
-
-        console.log('App initialized with', rows.length, 'rows and', allRecipes.length, 'recipes');
-        console.log('Recipe metadata:', recipeMetadata);
+    } else {
+      for (const k in eq) {
+        const key = nfkc(k).trim();
+        const vals = Array.isArray(eq[k]) ? eq[k] : (eq[k]?.variants || []);
+        result[key] = Array.from(new Set([key, ...vals.map(v => nfkc(v).trim())]));
       }
+    }
+    console.log('Processed equivalences result:', result);
+    return result;
+  }
 
-      function normalizeAliases(aliases) {
-        if (!aliases) return [];
-        if (Array.isArray(aliases)) return aliases.map(s => nfkc(s).trim()).filter(Boolean);
-        return String(aliases).split(',').map(s => nfkc(s).trim()).filter(Boolean);
-      }
+  function attachEvents() {
+    searchInput.addEventListener('input', handleSearch);
+    smartAlignment.addEventListener('change', () => {
+      console.log('Smart alignment toggled:', smartAlignment.checked);
+      console.log('Current equivalences:', equivalences);
+      render();
+    });
+    showAmounts.addEventListener('change', render);
+    showPrep.addEventListener('change', render);
+    showNotes.addEventListener('change', render);
+    showAliases.addEventListener('change', render);
+    showDates.addEventListener('change', () => {
+      renderRecipeChips(); // Update chips when date display changes
+      render();
+    });
 
-      function processEquivalences(eq) {
-        console.log('Processing equivalences:', eq);
-        if (!eq || typeof eq !== 'object') return {};
+    $('#selectAll').addEventListener('click', () => {
+      selectedRecipes = new Set(allRecipes);
+      updateRecipeChips();
+      render();
+    });
 
-        const result = {};
-        if (Array.isArray(eq)) {
-          eq.forEach(item => {
-            if (!item) return;
-            const key = nfkc(item.aligned || item.key || item.name || '').trim();
-            const variants = (item.variants || item.values || []).map(v => nfkc(v).trim()).filter(Boolean);
-            if (key) result[key] = Array.from(new Set([key, ...variants]));
-          });
-        } else {
-          for (const k in eq) {
-            const key = nfkc(k).trim();
-            const vals = Array.isArray(eq[k]) ? eq[k] : (eq[k]?.variants || []);
-            result[key] = Array.from(new Set([key, ...vals.map(v => nfkc(v).trim())]));
-          }
-        }
-        console.log('Processed equivalences result:', result);
-        return result;
-      }
+    $('#selectNone').addEventListener('click', () => {
+      selectedRecipes = new Set();
+      updateRecipeChips();
+      render();
+    });
 
-      function attachEvents() {
-        searchInput.addEventListener('input', handleSearch);
-        smartAlignment.addEventListener('change', () => {
-          console.log('Smart alignment toggled:', smartAlignment.checked);
-          console.log('Current equivalences:', equivalences);
-          render();
-        });
-        showAmounts.addEventListener('change', render);
-        showPrep.addEventListener('change', render);
-        showNotes.addEventListener('change', render);
-        showAliases.addEventListener('change', render);
-        showDates.addEventListener('change', () => {
-          renderRecipeChips(); // Update chips when date display changes
-          render();
-        });
+    $('#exportCSV').addEventListener('click', () => exportData('csv'));
+    $('#exportJSON').addEventListener('click', () => exportData('json'));
 
-        $('#selectAll').addEventListener('click', () => {
-          selectedRecipes = new Set(allRecipes);
-          updateRecipeChips();
-          render();
-        });
+themeToggle.addEventListener('click', () => {
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme');
+  const newTheme = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', newTheme);
+  $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+});
+  }
 
-        $('#selectNone').addEventListener('click', () => {
-          selectedRecipes = new Set();
-          updateRecipeChips();
-          render();
-        });
-
-        $('#exportCSV').addEventListener('click', () => exportData('csv'));
-        $('#exportJSON').addEventListener('click', () => exportData('json'));
-
-        themeToggle.addEventListener('click', () => {
-          const html = document.documentElement;
-          const current = html.getAttribute('data-theme');
-          const newTheme = current === 'dark' ? 'light' : 'dark';
-          html.setAttribute('data-theme', newTheme);
-          $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
-        });
-      }
-
-      function renderRecipeChips() {
-        recipeChips.innerHTML = '';
-
-        // NEW: Sort recipes chronologically for chips
-        const sortedRecipes = getSortedRecipes(allRecipes);
-
-        // Add expand toggle button (will be hidden on desktop via CSS)
-        const expandToggle = document.createElement('button');
-        expandToggle.className = 'chip-expand-toggle';
-        expandToggle.textContent = '▼';
-        expandToggle.title = 'Expand recipe list';
-
-        expandToggle.addEventListener('click', (e) => {
-          e.preventDefault();
-          const container = recipeChips;
-          const isExpanded = container.classList.contains('expanded');
-
-          if (isExpanded) {
-            container.classList.remove('expanded');
-            expandToggle.textContent = '▼';
-            expandToggle.title = 'Expand recipe list';
-          } else {
-            container.classList.add('expanded');
-            expandToggle.textContent = '▲';
-            expandToggle.title = 'Collapse recipe list';
-          }
-        });
-
-        recipeChips.appendChild(expandToggle);
-
-        sortedRecipes.forEach(recipe => {
-          const chip = document.createElement('label');
-          chip.className = 'chip';
-
-          // Add date info to chip if available and showDates is checked
-          const metadata = recipeMetadata[recipe];
-          const dateStr = metadata && metadata.date != null ? formatDateDisplay(metadata.date) : '';
-          const chipText = dateStr && showDates.checked ? `${recipe} (${dateStr})` : recipe;
-
-          chip.innerHTML = `
+function renderRecipeChips() {
+  recipeChips.innerHTML = '';
+  
+  // NEW: Sort recipes chronologically for chips
+  const sortedRecipes = getSortedRecipes(allRecipes);
+  
+  // Add expand toggle button (will be hidden on desktop via CSS)
+  const expandToggle = document.createElement('button');
+  expandToggle.className = 'chip-expand-toggle';
+  expandToggle.textContent = '▼';
+  expandToggle.title = 'Expand recipe list';
+  
+  expandToggle.addEventListener('click', (e) => {
+    e.preventDefault();
+    const container = recipeChips;
+    const isExpanded = container.classList.contains('expanded');
+    
+    if (isExpanded) {
+      container.classList.remove('expanded');
+      expandToggle.textContent = '▼';
+      expandToggle.title = 'Expand recipe list';
+    } else {
+      container.classList.add('expanded');
+      expandToggle.textContent = '▲';
+      expandToggle.title = 'Collapse recipe list';
+    }
+  });
+  
+  recipeChips.appendChild(expandToggle);
+  
+  sortedRecipes.forEach(recipe => {
+    const chip = document.createElement('label');
+    chip.className = 'chip';
+    
+    // Add date info to chip if available and showDates is checked
+    const metadata = recipeMetadata[recipe];
+    const dateStr = metadata && metadata.date != null ? formatDateDisplay(metadata.date) : '';
+    const chipText = dateStr && showDates.checked ? `${recipe} (${dateStr})` : recipe;
+    
+    chip.innerHTML = `
       <input type="checkbox" ${selectedRecipes.has(recipe) ? 'checked' : ''} />
       <span title="${escapeHTML(chipText)}">${escapeHTML(recipe)}</span>
     `;
-
-          chip.querySelector('input').addEventListener('change', (e) => {
-            if (e.target.checked) {
-              selectedRecipes.add(recipe);
-            } else {
-              selectedRecipes.delete(recipe);
-            }
-            render();
-          });
-
-          recipeChips.appendChild(chip);
-        });
-
-        // Check if expansion button is needed (mobile only)
-        setTimeout(() => {
-          const containerHeight = recipeChips.scrollHeight;
-          const visibleHeight = recipeChips.clientHeight;
-
-          if (containerHeight > visibleHeight) {
-            recipeChips.classList.add('needs-expansion');
-          } else {
-            recipeChips.classList.remove('needs-expansion');
-          }
-        }, 0);
+    
+    chip.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) {
+        selectedRecipes.add(recipe);
+      } else {
+        selectedRecipes.delete(recipe);
       }
+      render();
+    });
+    
+    recipeChips.appendChild(chip);
+  });
 
-      function updateRecipeChips() {
-        // Skip the first element (expand toggle button) when updating checkboxes
-        const inputs = recipeChips.querySelectorAll('label input');
-        const sortedRecipes = getSortedRecipes(allRecipes);
-        inputs.forEach((input, i) => {
-          input.checked = selectedRecipes.has(sortedRecipes[i]);
-        });
+  // Check if expansion button is needed (mobile only)
+  setTimeout(() => {
+    const containerHeight = recipeChips.scrollHeight;
+    const visibleHeight = recipeChips.clientHeight;
+    
+    if (containerHeight > visibleHeight) {
+      recipeChips.classList.add('needs-expansion');
+    } else {
+      recipeChips.classList.remove('needs-expansion');
+    }
+  }, 0);
+}
+
+  function updateRecipeChips() {
+  // Skip the first element (expand toggle button) when updating checkboxes
+  const inputs = recipeChips.querySelectorAll('label input');
+  const sortedRecipes = getSortedRecipes(allRecipes);
+  inputs.forEach((input, i) => {
+    input.checked = selectedRecipes.has(sortedRecipes[i]);
+  });
+}
+
+  // NEW: Function to format date integer as display string
+  function formatDateDisplay(dateInt) {
+    if (dateInt == null) return '';
+    if (dateInt < 0) {
+      return `c. ${Math.abs(dateInt)} BCE`;
+    } else {
+      return `c. ${dateInt} CE`;
+    }
+  }
+
+  // NEW: Function to sort recipes chronologically (simplified with single date field)
+  function getSortedRecipes(recipeList) {
+    return recipeList.slice().sort((a, b) => {
+      const metaA = recipeMetadata[a];
+      const metaB = recipeMetadata[b];
+      
+      // Get date values
+      const dateA = metaA?.date;
+      const dateB = metaB?.date;
+      
+      // If both have dates, sort chronologically (ascending: older first)
+      if (dateA != null && dateB != null) {
+        return dateA - dateB; // -1550, -200, 100
       }
+      
+      // If only one has a date, put dated ones first
+      if (dateA != null) return -1;
+      if (dateB != null) return 1;
+      
+      // Fall back to alphabetical
+      return a.localeCompare(b);
+    });
+  }
 
-      // NEW: Function to format date integer as display string
-      function formatDateDisplay(dateInt) {
-        if (dateInt == null) return '';
-        if (dateInt < 0) {
-          return `c. ${Math.abs(dateInt)} BCE`;
-        } else {
-          return `c. ${dateInt} CE`;
-        }
+  function render() {
+    const useSmartAlignment = smartAlignment.checked && Object.keys(equivalences).length > 0;
+    console.log('Rendering with smart alignment:', useSmartAlignment, 'equivalences count:', Object.keys(equivalences).length);
+    
+    // NEW: Sort recipes chronologically instead of alphabetically
+    const activeRecipes = getSortedRecipes(allRecipes.filter(r => selectedRecipes.has(r)));
+
+    // Get ingredients for selected recipes
+    const filteredRows = rows.filter(r => selectedRecipes.has(r.recipe));
+    const rawIngredients = Array.from(new Set(filteredRows.map(r => r.ingredient)));
+    console.log('Raw ingredients before alignment:', rawIngredients);
+    
+    const alignedIngredients = getAlignedIngredients(rawIngredients, useSmartAlignment);
+    console.log('Aligned ingredients after processing:', alignedIngredients);
+
+    // Update table header - NEW: Add chronological info
+    const headerCells = ['<th>Ingredient' + (useSmartAlignment ? ' (Aligned)' : '') + '</th>'];
+    
+    activeRecipes.forEach(recipeName => {
+      const metadata = recipeMetadata[recipeName];
+      let headerContent = escapeHTML(recipeName);
+      
+      // Count ingredients for this recipe
+      const ingredientCount = rows.filter(r => 
+        selectedRecipes.has(r.recipe) && r.recipe === recipeName
+      ).length;
+  
+      if (showDates.checked && metadata?.date != null) {
+        const dateDisplay = formatDateDisplay(metadata.date);
+        headerContent += `<span class="chronological-header">${escapeHTML(dateDisplay)}</span>`;
       }
+  
+        // Add ingredient count
+        headerContent += `<span class="chronological-header">${ingredientCount} ingredients</span>`;
+  
+    headerCells.push(`<th>${headerContent}</th>`);
+    });
 
-      // NEW: Function to sort recipes chronologically (simplified with single date field)
-      function getSortedRecipes(recipeList) {
-        return recipeList.slice().sort((a, b) => {
-          const metaA = recipeMetadata[a];
-          const metaB = recipeMetadata[b];
+  
+    tableHead.innerHTML = headerCells.join('');
 
-          // Get date values
-          const dateA = metaA?.date;
-          const dateB = metaB?.date;
+    // Clear and rebuild table body
+    tableBody.innerHTML = '';
+    searchIndex = [];
+    filteredCount = 0;
 
-          // If both have dates, sort chronologically (ascending: older first)
-          if (dateA != null && dateB != null) {
-            return dateA - dateB; // -1550, -200, 100
-          }
+    const query = nfkc(searchInput.value || '').toLowerCase().trim();
 
-          // If only one has a date, put dated ones first
-          if (dateA != null) return -1;
-          if (dateB != null) return 1;
+    alignedIngredients.forEach(alignedIng => {
+      const row = document.createElement('tr');
 
-          // Fall back to alphabetical
-          return a.localeCompare(b);
-        });
-      }
-
-      function render() {
-        const useSmartAlignment = smartAlignment.checked && Object.keys(equivalences).length > 0;
-        console.log('Rendering with smart alignment:', useSmartAlignment, 'equivalences count:', Object.keys(equivalences).length);
-
-        // NEW: Sort recipes chronologically instead of alphabetically
-        const activeRecipes = getSortedRecipes(allRecipes.filter(r => selectedRecipes.has(r)));
-
-        // Get ingredients for selected recipes
-        const filteredRows = rows.filter(r => selectedRecipes.has(r.recipe));
-        const rawIngredients = Array.from(new Set(filteredRows.map(r => r.ingredient)));
-        console.log('Raw ingredients before alignment:', rawIngredients);
-
-        const alignedIngredients = getAlignedIngredients(rawIngredients, useSmartAlignment);
-        console.log('Aligned ingredients after processing:', alignedIngredients);
-
-        // Update table header - NEW: Add chronological info
-        const headerCells = ['<th>Ingredient' + (useSmartAlignment ? ' (Aligned)' : '') + '</th>'];
-
-        activeRecipes.forEach(recipeName => {
-          const metadata = recipeMetadata[recipeName];
-          let headerContent = escapeHTML(recipeName);
-
-          // Count ingredients for this recipe
-          const ingredientCount = rows.filter(r =>
-            selectedRecipes.has(r.recipe) && r.recipe === recipeName
-          ).length;
-
-          if (showDates.checked && metadata?.date != null) {
-            const dateDisplay = formatDateDisplay(metadata.date);
-            headerContent += `<span class="chronological-header">${escapeHTML(dateDisplay)}</span>`;
-          }
-
-          // Add ingredient count
-          headerContent += `<span class="chronological-header">${ingredientCount} ingredients</span>`;
-
-          headerCells.push(`<th>${headerContent}</th>`);
-        });
-
-
-        tableHead.innerHTML = headerCells.join('');
-
-        // Clear and rebuild table body
-        tableBody.innerHTML = '';
-        searchIndex = [];
-        filteredCount = 0;
-
-        const query = nfkc(searchInput.value || '').toLowerCase().trim();
-
-        alignedIngredients.forEach(alignedIng => {
-          const row = document.createElement('tr');
-
-          // Build ingredient cell
-          let ingredientHtml = '';
-          if (alignedIng.group) {
-            ingredientHtml = `
+      // Build ingredient cell
+      let ingredientHtml = '';
+      if (alignedIng.group) {
+        ingredientHtml = `
           <div class="ingredient-cell">
             <div class="aligned-ingredient">
               <strong>${escapeHTML(alignedIng.aligned)}</strong>
@@ -840,181 +588,180 @@
             <div class="variants">${escapeHTML(alignedIng.variants.join(', '))}</div>
           </div>
         `;
-          } else {
-            ingredientHtml = `
+      } else {
+        ingredientHtml = `
           <div class="ingredient-cell">
             <strong>${escapeHTML(alignedIng.aligned)}</strong>
           </div>
         `;
-          }
-
-          // Add aliases if enabled
-          const relevantIngredients = alignedIng.group ? alignedIng.variants : [alignedIng.original];
-          const aliasesForIngredient = Array.from(new Set(
-            rows
-              .filter(r => selectedRecipes.has(r.recipe) && relevantIngredients.includes(r.ingredient))
-              .flatMap(r => r.aliases)
-              .filter(Boolean)
-          ));
-
-          if (showAliases.checked && aliasesForIngredient.length) {
-            ingredientHtml += `<div class="aliases">aliases: ${escapeHTML(aliasesForIngredient.join(', '))}</div>`;
-          }
-
-          row.innerHTML = `<td>${ingredientHtml}</td>`;
-
-          // Add recipe columns
-          activeRecipes.forEach(recipe => {
-            const matches = rows.filter(r =>
-              selectedRecipes.has(r.recipe) &&
-              relevantIngredients.includes(r.ingredient) &&
-              r.recipe === recipe
-            );
-
-            if (matches.length === 0) {
-              row.innerHTML += '<td>—</td>';
-              return;
-            }
-
-            const cellContent = matches.map(match => {
-              const parts = [`<strong>${escapeHTML(match.ingredient)}</strong>`];
-              if (showAmounts.checked && match.amount) {
-                parts.push(`<span class="pill">${escapeHTML(match.amount)}</span>`);
-              }
-              if (showPrep.checked && match.preparation) {
-                parts.push(`<span class="pill">${escapeHTML(match.preparation)}</span>`);
-              }
-              if (showNotes.checked && match.notes) {
-                parts.push(`<span class="note">${escapeHTML(match.notes)}</span>`);
-              }
-              return parts.join(' ');
-            }).join('<br>');
-
-            row.innerHTML += `<td>${cellContent}</td>`;
-          });
-
-          // Build search text
-          const searchText = (
-            nfkc(alignedIng.aligned) + ' ' +
-            nfkc(row.textContent) + ' ' +
-            aliasesForIngredient.join(' ')
-          ).toLowerCase();
-
-          // Apply search filter
-          const matches = !query || searchText.includes(query);
-          row.style.display = matches ? '' : 'none';
-          if (matches) filteredCount++;
-
-          tableBody.appendChild(row);
-          searchIndex.push({ row, text: searchText });
-        });
-
-        // Update counts
-        countTotal.textContent = alignedIngredients.length;
-        countShown.textContent = filteredCount;
       }
 
-      function handleSearch() {
-        const query = nfkc(searchInput.value || '').toLowerCase().trim();
-        filteredCount = 0;
+      // Add aliases if enabled
+      const relevantIngredients = alignedIng.group ? alignedIng.variants : [alignedIng.original];
+      const aliasesForIngredient = Array.from(new Set(
+        rows
+          .filter(r => selectedRecipes.has(r.recipe) && relevantIngredients.includes(r.ingredient))
+          .flatMap(r => r.aliases)
+          .filter(Boolean)
+      ));
 
-        searchIndex.forEach(({ row, text }) => {
-          const matches = !query || text.includes(query);
-          row.style.display = matches ? '' : 'none';
-          if (matches) filteredCount++;
-        });
-
-        countShown.textContent = filteredCount;
+      if (showAliases.checked && aliasesForIngredient.length) {
+        ingredientHtml += `<div class="aliases">aliases: ${escapeHTML(aliasesForIngredient.join(', '))}</div>`;
       }
 
-      function getAlignedIngredients(rawIngredients, useAlignment) {
-        if (!useAlignment) {
-          return rawIngredients.map(name => ({
-            aligned: name, original: name, group: false
-          }));
+      row.innerHTML = `<td>${ingredientHtml}</td>`;
+
+      // Add recipe columns
+      activeRecipes.forEach(recipe => {
+        const matches = rows.filter(r => 
+          selectedRecipes.has(r.recipe) && 
+          relevantIngredients.includes(r.ingredient) && 
+          r.recipe === recipe
+        );
+
+        if (matches.length === 0) {
+          row.innerHTML += '<td>—</td>';
+          return;
         }
 
-        const used = new Set();
-        const result = [];
-
-        // Create variant mapping
-        const variantMap = new Map();
-        for (const aligned in equivalences) {
-          const variants = equivalences[aligned] || [];
-          const canonicalAligned = nfkc(aligned);
-          [aligned, ...variants].forEach(variant => {
-            variantMap.set(nfkc(variant), canonicalAligned);
-          });
-        }
-
-        // Process ingredients
-        rawIngredients.forEach(ingredient => {
-          if (used.has(ingredient)) return;
-
-          const aligned = variantMap.get(ingredient) || ingredient;
-          const matchingVariants = rawIngredients.filter(ing =>
-            (variantMap.get(ing) || ing) === aligned
-          );
-
-          matchingVariants.forEach(v => used.add(v));
-
-          if (matchingVariants.length > 1 || aligned !== matchingVariants[0]) {
-            result.push({
-              aligned,
-              variants: matchingVariants,
-              original: matchingVariants[0],
-              group: true
-            });
-          } else {
-            result.push({
-              aligned: ingredient,
-              original: ingredient,
-              group: false
-            });
+        const cellContent = matches.map(match => {
+          const parts = [`<strong>${escapeHTML(match.ingredient)}</strong>`];
+          if (showAmounts.checked && match.amount) {
+            parts.push(`<span class="pill">${escapeHTML(match.amount)}</span>`);
           }
+          if (showPrep.checked && match.preparation) {
+            parts.push(`<span class="pill">${escapeHTML(match.preparation)}</span>`);
+          }
+          if (showNotes.checked && match.notes) {
+            parts.push(`<span class="note">${escapeHTML(match.notes)}</span>`);
+          }
+          return parts.join(' ');
+        }).join('<br>');
+
+        row.innerHTML += `<td>${cellContent}</td>`;
+      });
+
+      // Build search text
+      const searchText = (
+        nfkc(alignedIng.aligned) + ' ' +
+        nfkc(row.textContent) + ' ' +
+        aliasesForIngredient.join(' ')
+      ).toLowerCase();
+
+      // Apply search filter
+      const matches = !query || searchText.includes(query);
+      row.style.display = matches ? '' : 'none';
+      if (matches) filteredCount++;
+
+      tableBody.appendChild(row);
+      searchIndex.push({ row, text: searchText });
+    });
+
+    // Update counts
+    countTotal.textContent = alignedIngredients.length;
+    countShown.textContent = filteredCount;
+  }
+
+  function handleSearch() {
+    const query = nfkc(searchInput.value || '').toLowerCase().trim();
+    filteredCount = 0;
+
+    searchIndex.forEach(({ row, text }) => {
+      const matches = !query || text.includes(query);
+      row.style.display = matches ? '' : 'none';
+      if (matches) filteredCount++;
+    });
+
+    countShown.textContent = filteredCount;
+  }
+
+  function getAlignedIngredients(rawIngredients, useAlignment) {
+    if (!useAlignment) {
+      return rawIngredients.map(name => ({ 
+        aligned: name, original: name, group: false 
+      }));
+    }
+
+    const used = new Set();
+    const result = [];
+
+    // Create variant mapping
+    const variantMap = new Map();
+    for (const aligned in equivalences) {
+      const variants = equivalences[aligned] || [];
+      const canonicalAligned = nfkc(aligned);
+      [aligned, ...variants].forEach(variant => {
+        variantMap.set(nfkc(variant), canonicalAligned);
+      });
+    }
+
+    // Process ingredients
+    rawIngredients.forEach(ingredient => {
+      if (used.has(ingredient)) return;
+
+      const aligned = variantMap.get(ingredient) || ingredient;
+      const matchingVariants = rawIngredients.filter(ing => 
+        (variantMap.get(ing) || ing) === aligned
+      );
+
+      matchingVariants.forEach(v => used.add(v));
+
+      if (matchingVariants.length > 1 || aligned !== matchingVariants[0]) {
+        result.push({
+          aligned,
+          variants: matchingVariants,
+          original: matchingVariants[0],
+          group: true
         });
-
-        return result.sort((a, b) => a.aligned.localeCompare(b.aligned));
-      }
-
-      function exportData(format) {
-        const query = nfkc(searchInput.value || '').toLowerCase().trim();
-        const filtered = rows.filter(r => {
-          if (!selectedRecipes.has(r.recipe)) return false;
-          if (!query) return true;
-          const searchText = [r.ingredient, r.amount || '', r.preparation || '', r.notes || '', (r.aliases || []).join(' '), r.recipe].join(' ').toLowerCase();
-          return searchText.includes(query);
+      } else {
+        result.push({
+          aligned: ingredient,
+          original: ingredient,
+          group: false
         });
-
-        if (format === 'json') {
-          downloadFile('kyphi_filtered.json', JSON.stringify(filtered, null, 2), 'application/json');
-        } else {
-          const header = 'recipe,ingredient,amount,preparation,notes,aliases';
-          const csvRows = filtered.map(r => [
-            csvEscape(r.recipe), csvEscape(r.ingredient), csvEscape(r.amount || ''),
-            csvEscape(r.preparation || ''), csvEscape(r.notes || ''), csvEscape((r.aliases || []).join('; '))
-          ].join(','));
-          downloadFile('kyphi_filtered.csv', [header, ...csvRows].join('\n'), 'text/csv');
-        }
       }
+    });
 
-      function csvEscape(value) {
-        const str = String(value).replace(/"/g, '""');
-        return /[",\n]/.test(str) ? `"${str}"` : str;
-      }
+    return result.sort((a, b) => a.aligned.localeCompare(b.aligned));
+  }
 
-      function downloadFile(filename, data, type) {
-        const blob = new Blob([data], { type });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        a.click();
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
-      }
+  function exportData(format) {
+    const query = nfkc(searchInput.value || '').toLowerCase().trim();
+    const filtered = rows.filter(r => {
+      if (!selectedRecipes.has(r.recipe)) return false;
+      if (!query) return true;
+      const searchText = [r.ingredient, r.amount||'', r.preparation||'', r.notes||'', (r.aliases||[]).join(' '), r.recipe].join(' ').toLowerCase();
+      return searchText.includes(query);
+    });
 
-    })();
-  </script>
+    if (format === 'json') {
+      downloadFile('kyphi_filtered.json', JSON.stringify(filtered, null, 2), 'application/json');
+    } else {
+      const header = 'recipe,ingredient,amount,preparation,notes,aliases';
+      const csvRows = filtered.map(r => [
+        csvEscape(r.recipe), csvEscape(r.ingredient), csvEscape(r.amount||''),
+        csvEscape(r.preparation||''), csvEscape(r.notes||''), csvEscape((r.aliases||[]).join('; '))
+      ].join(','));
+      downloadFile('kyphi_filtered.csv', [header, ...csvRows].join('\n'), 'text/csv');
+    }
+  }
+
+  function csvEscape(value) {
+    const str = String(value).replace(/"/g, '""');
+    return /[",\n]/.test(str) ? `"${str}"` : str;
+  }
+
+  function downloadFile(filename, data, type) {
+    const blob = new Blob([data], { type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+  
+})();
+</script>
 </body>
-
 </html>
