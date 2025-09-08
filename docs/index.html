@@ -415,22 +415,6 @@
         background: inherit;
         border-right: none;
       }
-            /* drop sticky for body first column only; keep header first cell sticky */
-      td:first-child {
-        position: static;
-        left: auto;
-        z-index: auto;
-        background: inherit;
-        border-right: none;
-      }
-
-      /* ensure the first header cell stays positioned and above other headers */
-      thead th:first-child {
-        position: sticky; /* required for z-index to take effect */
-        top: 0;            /* same top as other headers */
-        z-index: 1100;    /* higher than thead th (1000) */
-        background: var(--card);
-      }
     }
   </style>
 </head>
