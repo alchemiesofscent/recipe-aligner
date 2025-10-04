@@ -286,7 +286,7 @@
       "amount": "2.5 drachm (βʹ 𐅶ʹʹ)",
       "preparation": "mixed with other dry ingredients",
       "notes": "textual uncertainty - additional notation unclear",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Rufus of Ephesus, via Damocrates and Galen",
@@ -486,7 +486,7 @@
       "amount": "1 mina (μνᾶν μίαν)",
       "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
       "notes": "aspalathus, one mina",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Dioscorides, De Materia Medica 1.25",
@@ -574,7 +574,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -782,7 +782,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -806,7 +806,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "aromatic leaves, possibly malabathrum, 7 ounces",
-      "aliases": "leaves, malabathrum"
+      "aliases": "leaves, malabathrum, phyllon"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -1102,7 +1102,7 @@
       "amount": null,
       "preparation": "mixed with sacred writings read during preparation",
       "notes": "multiple botanical identifications: camelthorn (Alhagi), thorny trefoil (Calycotome), Genista species, or rooibos",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Plutarch, Isis and Osiris 383E-384C",
@@ -1175,6 +1175,742 @@
       "preparation": "mixed with sacred writings read during preparation",
       "notes": "aromatic root, likely Acorus calamus (sweet flag), used for fragrance and medicine",
       "aliases": "calamus, sweet flag, sweet root"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "Βδελλίου",
+      "amount": "7 oz (7 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "bdellium"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ἑλενίου",
+      "amount": "7 oz (7 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "elecampane"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "σχίνου ἄνθους",
+      "amount": "2 oz (2 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "flower of schoinos"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "σφάγνου",
+      "amount": "5 oz (5 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "sphagnon moss"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ἀρκευθίδας",
+      "amount": "50 units (50 units)",
+      "preparation": null,
+      "notes": "small berries",
+      "aliases": "juniper berries (small), juniper berries (large and small), juniper berries"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "1 pound (1 pound)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "καρδαμώμου",
+      "amount": "5 oz (5 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cardamom"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "κασίας σύριγγος",
+      "amount": "5 oz (5 oz.)",
+      "preparation": null,
+      "notes": "in tubes",
+      "aliases": "cassia (in tubes)"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "νάρδου στάχυος",
+      "amount": "2 oz (2 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "spikenard"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "κυπέρου",
+      "amount": "9 oz (9 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cyperus"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ἀσφοδέλου ῥίζης",
+      "amount": "4 oz (4 oz.)",
+      "preparation": null,
+      "notes": "root",
+      "aliases": "asphodel root"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "κυπαρίσσου σπέρματος",
+      "amount": "3 oz (3 oz.)",
+      "preparation": null,
+      "notes": "seed",
+      "aliases": "seed of cypress, cypress seed"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "βράθυος",
+      "amount": "4 oz (4 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "brathyos"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "νάρδου Κελτικῆς",
+      "amount": "3 oz (3 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Celtic nard"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "κόστου",
+      "amount": "2 oz (2 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "costus"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "σμύρνης",
+      "amount": "7 oz (7 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ἰσχάδων λιπαρῶν",
+      "amount": "2 pint (2 pints)",
+      "preparation": null,
+      "notes": "rich",
+      "aliases": "rich figs, fat figs"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "σταφίδων ἐκγιγαρτισμένων",
+      "amount": "2 pint (2 pints)",
+      "preparation": null,
+      "notes": "deseeded",
+      "aliases": "deseeded raisins"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "στροβιλίων",
+      "amount": "3 oz (3 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "pinecones"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "τερμινθίνης",
+      "amount": "1 pint (1 pint)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "terebinth resin"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "ῥόδων ξηρῶν",
+      "amount": "3 oz (3 oz.)",
+      "preparation": null,
+      "notes": "dried",
+      "aliases": "dried roses"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "στύρακος",
+      "amount": "7 oz (7 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "storax, liquid storax"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "φοινίκων λιπαρῶν",
+      "amount": "1 pint (1 pint)",
+      "preparation": null,
+      "notes": "rich",
+      "aliases": "rich dates, fat dates"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "μέλιτος",
+      "amount": "5 pint (5 pints)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "οἴνου εὐώδους",
+      "amount": "to sufficiency (fragrant wine)",
+      "preparation": null,
+      "notes": "as much as suffices",
+      "aliases": "fragrant wine"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "thus",
+      "amount": "6 oz (6 ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "frankincense"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "στύρακος",
+      "amount": "1 pound (1 pound (liquid storax))",
+      "preparation": null,
+      "notes": null,
+      "aliases": "storax, liquid storax"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "σμύρνης",
+      "amount": "4 oz (4 ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "φύλλον",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "leaves, malabathrum, phyllon"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "κόστου",
+      "amount": "4 oz (4 ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "costus"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "amomi",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "amomum"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "νάρδου στάχυος",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "spikenard"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "casiae",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cassia"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "sabinae",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "savin"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "καρδαμώμου",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cardamom"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ammoniaci thymiamatis",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "ammoniacum (fragrant resin)"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ἴρις",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "iris, orris root"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "carpobalsami",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "carpobalsamum"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "νάρδου Κελτικῆς",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Celtic nard"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ἑλενίου",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "elecampane"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "hypni",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "moss (hypnum)"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "floris iunci odorati",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "sweet rush flower"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "mastiches",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "mastic"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ladani",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "ladanum"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ἀρκευθίδας",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": "large and small",
+      "aliases": "juniper berries (small), juniper berries (large and small), juniper berries"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "Βδελλίου",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "bdellium"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "seselis",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "seselis"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "κυπέρου",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cyperus"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "croci",
+      "amount": "4 oz (4 ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "κυπαρίσσου σπέρματος",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "seed of cypress, cypress seed"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "allii",
+      "amount": "1 drachma (1 drachma (optional))",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "garlic"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "calami aromatici",
+      "amount": "4 drachma (4 drachmas (optional))",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "aromatic calamus"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "rosas virides",
+      "amount": "500 count (500 (by count))",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fresh roses"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "terebinthinae depuratae",
+      "amount": "1.5 oz (one and a half ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "refined turpentine"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "ἰσχάδων λιπαρῶν",
+      "amount": "6 oz (6 ounces)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "rich figs, fat figs"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "φοινίκων λιπαρῶν",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "rich dates, fat dates"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "carunculae uvarum passarum",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "raisin pulp"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "nucum pinearum",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "pine nuts"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "succi hastulae regiae",
+      "amount": "1 oz (1 ounce)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "extract of the royal reed"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "μέλιτος",
+      "amount": "1.5 pound (one and a half pounds)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXXVI",
+      "ingredient": "οἴνου εὐώδους",
+      "amount": "to sufficiency (fragrant wine)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fragrant wine"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "Βδελλίου",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "bdellium"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "ἑλενίου",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "elecampane"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "ladani",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "ladanum"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "στύρακος",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "storax, liquid storax"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "σμύρνης",
+      "amount": "7 drachma (7 drachmas)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "ἀρκευθίδας",
+      "amount": "100 count (50 large + 50 small (count))",
+      "preparation": null,
+      "notes": "50 large and 50 small berries",
+      "aliases": "juniper berries (small), juniper berries (large and small), juniper berries"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "succi hastulae regiae",
+      "amount": "one third",
+      "preparation": null,
+      "notes": null,
+      "aliases": "extract of the royal reed"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "sabinae",
+      "amount": "one third",
+      "preparation": null,
+      "notes": null,
+      "aliases": "savin"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "croci",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "κόστου",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "costus"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "καρδαμώμου",
+      "amount": "five twelfths",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cardamom"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "κυπέρου",
+      "amount": "five twelfths",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cyperus"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "κυπαρίσσου σπέρματος",
+      "amount": "one quarter",
+      "preparation": null,
+      "notes": null,
+      "aliases": "seed of cypress, cypress seed"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "νάρδου Κελτικῆς",
+      "amount": "one tenth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Celtic nard"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "casiae",
+      "amount": "one sixth (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "cassia"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "sphagni siue hypni",
+      "amount": "five twelfths (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "sphagnum or hypnum (moss)"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "amomi",
+      "amount": "one sixth (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "amomum"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "νάρδου στάχυος",
+      "amount": "one sixth (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "spikenard"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "rosarum siccarum",
+      "amount": "one quarter (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "dried roses"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "floris iunci odorati",
+      "amount": "one sixth (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "sweet rush flower"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "nucum pinearum",
+      "amount": "one quarter (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "pine nuts"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "φύλλον",
+      "amount": "one quarter (optional)",
+      "preparation": null,
+      "notes": "optional (some)",
+      "aliases": "leaves, malabathrum, phyllon"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "caricarum",
+      "amount": "2 pound (2 pounds)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "figs"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "uvarum passarum pinguium",
+      "amount": "one sixth",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fat raisins"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "τερμινθίνης",
+      "amount": "1 pound (1 pound)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "terebinth resin"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "Chiaeque",
+      "amount": "1 pound (1 pound)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Chian resin"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "palmularum pinguium carunculae",
+      "amount": "1 pound (1 pound)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "date pulp"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "μέλιτος",
+      "amount": "5 pound (5 pounds)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Cyphi ex rebus XXVIII",
+      "ingredient": "vini",
+      "amount": "2 pint (2 pints (sextarii))",
+      "preparation": null,
+      "notes": null,
+      "aliases": "wine"
     }
   ],
   "recipe_metadata": {
@@ -1225,6 +1961,24 @@
       "slug": "plutarch-isis-osiris",
       "source": "Plutarch, Isis and Osiris 383E.1-384C.1",
       "language": "grc"
+    },
+    "Κῦφι τὸ σεληνιακόν": {
+      "date": null,
+      "slug": "oribasius-lunar-kyphi",
+      "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220, Section t, Line 1",
+      "language": "grc"
+    },
+    "Cyphi ex rebus XXXVI": {
+      "date": null,
+      "slug": "aetius-kyphi-36",
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVI (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425",
+      "language": "la"
+    },
+    "Cyphi ex rebus XXVIII": {
+      "date": null,
+      "slug": "aetius-kyphi-28",
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVII (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425",
+      "language": "la"
     }
   }
 }

@@ -67,6 +67,27 @@
       "source": "Plutarch, Isis and Osiris 383E.1-384C.1",
       "language": "grc",
       "date": 80
+    },
+    {
+      "recipe_id": 9,
+      "slug": "oribasius-lunar-kyphi",
+      "label": "Κῦφι τὸ σεληνιακόν",
+      "language": "grc",
+      "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220, Section t, Line 1"
+    },
+    {
+      "recipe_id": 10,
+      "slug": "aetius-kyphi-36",
+      "label": "Cyphi ex rebus XXXVI",
+      "language": "la",
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVI (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425"
+    },
+    {
+      "recipe_id": 11,
+      "slug": "aetius-kyphi-28",
+      "label": "Cyphi ex rebus XXVIII",
+      "language": "la",
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVII (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425"
     }
   ],
   "ingredients": [
@@ -627,6 +648,306 @@
       "slug": "kalamos",
       "label": "κάλαμος",
       "language": "grc"
+    },
+    {
+      "ingredient_id": 94,
+      "slug": "bdellium",
+      "label": "Βδελλίου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 95,
+      "slug": "elecampane",
+      "label": "ἑλενίου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 96,
+      "slug": "schoinos-flower",
+      "label": "σχίνου ἄνθους",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 97,
+      "slug": "sphagnon-moss",
+      "label": "σφάγνου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 98,
+      "slug": "juniper-berries",
+      "label": "ἀρκευθίδας",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 99,
+      "slug": "cardamom",
+      "label": "καρδαμώμου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 100,
+      "slug": "cassia-tubes",
+      "label": "κασίας σύριγγος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 101,
+      "slug": "spikenard",
+      "label": "νάρδου στάχυος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 102,
+      "slug": "cyperus",
+      "label": "κυπέρου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 103,
+      "slug": "asphodel-root",
+      "label": "ἀσφοδέλου ῥίζης",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 104,
+      "slug": "cypress-seed",
+      "label": "κυπαρίσσου σπέρματος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 105,
+      "slug": "brathyos",
+      "label": "βράθυος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 106,
+      "slug": "celtic-nard",
+      "label": "νάρδου Κελτικῆς",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 107,
+      "slug": "costus",
+      "label": "κόστου",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 108,
+      "slug": "myrrh",
+      "label": "σμύρνης",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 109,
+      "slug": "figs-rich",
+      "label": "ἰσχάδων λιπαρῶν",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 110,
+      "slug": "raisins-deseeded",
+      "label": "σταφίδων ἐκγιγαρτισμένων",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 111,
+      "slug": "pinecones",
+      "label": "στροβιλίων",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 112,
+      "slug": "terebinth-resin",
+      "label": "τερμινθίνης",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 113,
+      "slug": "roses-dried",
+      "label": "ῥόδων ξηρῶν",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 114,
+      "slug": "storax",
+      "label": "στύρακος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 115,
+      "slug": "dates-rich",
+      "label": "φοινίκων λιπαρῶν",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 116,
+      "slug": "honey",
+      "label": "μέλιτος",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 117,
+      "slug": "wine-fragrant",
+      "label": "οἴνου εὐώδους",
+      "language": "grc"
+    },
+    {
+      "ingredient_id": 118,
+      "slug": "frankincense",
+      "label": "thus",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 119,
+      "slug": "amomum",
+      "label": "amomi",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 120,
+      "slug": "cassia",
+      "label": "casiae",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 121,
+      "slug": "savin",
+      "label": "sabinae",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 122,
+      "slug": "ammoniacum",
+      "label": "ammoniaci thymiamatis",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 123,
+      "slug": "carpobalsamum",
+      "label": "carpobalsami",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 124,
+      "slug": "hypnum-moss",
+      "label": "hypni",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 125,
+      "slug": "sweet-rush-flower",
+      "label": "floris iunci odorati",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 126,
+      "slug": "mastic",
+      "label": "mastiches",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 127,
+      "slug": "ladanum",
+      "label": "ladani",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 128,
+      "slug": "seselis",
+      "label": "seselis",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 129,
+      "slug": "saffron",
+      "label": "croci",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 130,
+      "slug": "garlic",
+      "label": "allii",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 131,
+      "slug": "aromatic-calamus",
+      "label": "calami aromatici",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 132,
+      "slug": "fresh-roses",
+      "label": "rosas virides",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 133,
+      "slug": "turpentine-refined",
+      "label": "terebinthinae depuratae",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 134,
+      "slug": "raisin-pulp",
+      "label": "carunculae uvarum passarum",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 135,
+      "slug": "pine-nuts",
+      "label": "nucum pinearum",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 136,
+      "slug": "royal-reed-extract",
+      "label": "succi hastulae regiae",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 137,
+      "slug": "sphagnum-hypnum",
+      "label": "sphagni siue hypni",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 138,
+      "slug": "dried-roses",
+      "label": "rosarum siccarum",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 139,
+      "slug": "figs",
+      "label": "caricarum",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 140,
+      "slug": "raisins-fat",
+      "label": "uvarum passarum pinguium",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 141,
+      "slug": "chian-resin",
+      "label": "Chiaeque",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 142,
+      "slug": "date-pulp",
+      "label": "palmularum pinguium carunculae",
+      "language": "la"
+    },
+    {
+      "ingredient_id": 143,
+      "slug": "wine",
+      "label": "vini",
+      "language": "la"
     }
   ],
   "aliases": [
@@ -2729,6 +3050,412 @@
       "variant_label": "sweet root",
       "language": "en",
       "source": "identification"
+    },
+    {
+      "alias_id": 301,
+      "ingredient_id": 94,
+      "variant_label": "bdellium",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 302,
+      "ingredient_id": 95,
+      "variant_label": "elecampane",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 303,
+      "ingredient_id": 96,
+      "variant_label": "flower of schoinos",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 304,
+      "ingredient_id": 97,
+      "variant_label": "sphagnon moss",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 305,
+      "ingredient_id": 98,
+      "variant_label": "juniper berries (small)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 306,
+      "ingredient_id": 34,
+      "variant_label": "aspalathos",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 307,
+      "ingredient_id": 99,
+      "variant_label": "cardamom",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 308,
+      "ingredient_id": 100,
+      "variant_label": "cassia (in tubes)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 309,
+      "ingredient_id": 101,
+      "variant_label": "spikenard",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 310,
+      "ingredient_id": 102,
+      "variant_label": "cyperus",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 311,
+      "ingredient_id": 103,
+      "variant_label": "asphodel root",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 312,
+      "ingredient_id": 104,
+      "variant_label": "seed of cypress",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 313,
+      "ingredient_id": 105,
+      "variant_label": "brathyos",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 314,
+      "ingredient_id": 106,
+      "variant_label": "Celtic nard",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 315,
+      "ingredient_id": 107,
+      "variant_label": "costus",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 316,
+      "ingredient_id": 108,
+      "variant_label": "myrrh",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 317,
+      "ingredient_id": 109,
+      "variant_label": "rich figs",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 318,
+      "ingredient_id": 110,
+      "variant_label": "deseeded raisins",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 319,
+      "ingredient_id": 111,
+      "variant_label": "pinecones",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 320,
+      "ingredient_id": 112,
+      "variant_label": "terebinth resin",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 321,
+      "ingredient_id": 113,
+      "variant_label": "dried roses",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 322,
+      "ingredient_id": 114,
+      "variant_label": "storax",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 323,
+      "ingredient_id": 115,
+      "variant_label": "rich dates",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 324,
+      "ingredient_id": 116,
+      "variant_label": "honey",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 325,
+      "ingredient_id": 117,
+      "variant_label": "fragrant wine",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 326,
+      "ingredient_id": 118,
+      "variant_label": "frankincense",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 327,
+      "ingredient_id": 114,
+      "variant_label": "liquid storax",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 328,
+      "ingredient_id": 70,
+      "variant_label": "phyllon",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 329,
+      "ingredient_id": 119,
+      "variant_label": "amomum",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 330,
+      "ingredient_id": 120,
+      "variant_label": "cassia",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 331,
+      "ingredient_id": 121,
+      "variant_label": "savin",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 332,
+      "ingredient_id": 122,
+      "variant_label": "ammoniacum (fragrant resin)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 333,
+      "ingredient_id": 123,
+      "variant_label": "carpobalsamum",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 334,
+      "ingredient_id": 124,
+      "variant_label": "moss (hypnum)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 335,
+      "ingredient_id": 125,
+      "variant_label": "sweet rush flower",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 336,
+      "ingredient_id": 126,
+      "variant_label": "mastic",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 337,
+      "ingredient_id": 127,
+      "variant_label": "ladanum",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 338,
+      "ingredient_id": 98,
+      "variant_label": "juniper berries (large and small)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 339,
+      "ingredient_id": 128,
+      "variant_label": "seselis",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 340,
+      "ingredient_id": 129,
+      "variant_label": "saffron",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 341,
+      "ingredient_id": 104,
+      "variant_label": "cypress seed",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 342,
+      "ingredient_id": 130,
+      "variant_label": "garlic",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 343,
+      "ingredient_id": 131,
+      "variant_label": "aromatic calamus",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 344,
+      "ingredient_id": 132,
+      "variant_label": "fresh roses",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 345,
+      "ingredient_id": 133,
+      "variant_label": "refined turpentine",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 346,
+      "ingredient_id": 109,
+      "variant_label": "fat figs",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 347,
+      "ingredient_id": 115,
+      "variant_label": "fat dates",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 348,
+      "ingredient_id": 134,
+      "variant_label": "raisin pulp",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 349,
+      "ingredient_id": 135,
+      "variant_label": "pine nuts",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 350,
+      "ingredient_id": 136,
+      "variant_label": "extract of the royal reed",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 351,
+      "ingredient_id": 98,
+      "variant_label": "juniper berries",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 352,
+      "ingredient_id": 137,
+      "variant_label": "sphagnum or hypnum (moss)",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 353,
+      "ingredient_id": 138,
+      "variant_label": "dried roses",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 354,
+      "ingredient_id": 139,
+      "variant_label": "figs",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 355,
+      "ingredient_id": 140,
+      "variant_label": "fat raisins",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 356,
+      "ingredient_id": 141,
+      "variant_label": "Chian resin",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 357,
+      "ingredient_id": 142,
+      "variant_label": "date pulp",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 358,
+      "ingredient_id": 143,
+      "variant_label": "wine",
+      "language": "en",
+      "source": null
     }
   ],
   "entries": [
@@ -4789,6 +5516,1294 @@
       "source_span": "383E.6",
       "added_at": "2025-09-03T16:52:42.673845",
       "added_by": "Greek Kyphis"
+    },
+    {
+      "entry_id": 148,
+      "recipe_id": 9,
+      "ingredient_id": 94,
+      "amount_raw": "7 oz.",
+      "amount_value": 7,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.781861",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 149,
+      "recipe_id": 9,
+      "ingredient_id": 95,
+      "amount_raw": "7 oz.",
+      "amount_value": 7,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782230",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 150,
+      "recipe_id": 9,
+      "ingredient_id": 96,
+      "amount_raw": "2 oz.",
+      "amount_value": 2,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782268",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 151,
+      "recipe_id": 9,
+      "ingredient_id": 97,
+      "amount_raw": "5 oz.",
+      "amount_value": 5,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782298",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 152,
+      "recipe_id": 9,
+      "ingredient_id": 98,
+      "amount_raw": "50 units",
+      "amount_value": 50,
+      "amount_unit": "units",
+      "preparation": null,
+      "notes": "small berries",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782326",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 153,
+      "recipe_id": 9,
+      "ingredient_id": 34,
+      "amount_raw": "1 pound",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782352",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 154,
+      "recipe_id": 9,
+      "ingredient_id": 99,
+      "amount_raw": "5 oz.",
+      "amount_value": 5,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782377",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 155,
+      "recipe_id": 9,
+      "ingredient_id": 100,
+      "amount_raw": "5 oz.",
+      "amount_value": 5,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": "in tubes",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782412",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 156,
+      "recipe_id": 9,
+      "ingredient_id": 101,
+      "amount_raw": "2 oz.",
+      "amount_value": 2,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782438",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 157,
+      "recipe_id": 9,
+      "ingredient_id": 102,
+      "amount_raw": "9 oz.",
+      "amount_value": 9,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782464",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 158,
+      "recipe_id": 9,
+      "ingredient_id": 103,
+      "amount_raw": "4 oz.",
+      "amount_value": 4,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": "root",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782489",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 159,
+      "recipe_id": 9,
+      "ingredient_id": 104,
+      "amount_raw": "3 oz.",
+      "amount_value": 3,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": "seed",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782514",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 160,
+      "recipe_id": 9,
+      "ingredient_id": 105,
+      "amount_raw": "4 oz.",
+      "amount_value": 4,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782540",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 161,
+      "recipe_id": 9,
+      "ingredient_id": 106,
+      "amount_raw": "3 oz.",
+      "amount_value": 3,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782565",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 162,
+      "recipe_id": 9,
+      "ingredient_id": 107,
+      "amount_raw": "2 oz.",
+      "amount_value": 2,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782591",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 163,
+      "recipe_id": 9,
+      "ingredient_id": 108,
+      "amount_raw": "7 oz.",
+      "amount_value": 7,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782623",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 164,
+      "recipe_id": 9,
+      "ingredient_id": 109,
+      "amount_raw": "2 pints",
+      "amount_value": 2,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": "rich",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782649",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 165,
+      "recipe_id": 9,
+      "ingredient_id": 110,
+      "amount_raw": "2 pints",
+      "amount_value": 2,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": "deseeded",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782683",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 166,
+      "recipe_id": 9,
+      "ingredient_id": 111,
+      "amount_raw": "3 oz.",
+      "amount_value": 3,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782709",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 167,
+      "recipe_id": 9,
+      "ingredient_id": 112,
+      "amount_raw": "1 pint",
+      "amount_value": 1,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782735",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 168,
+      "recipe_id": 9,
+      "ingredient_id": 113,
+      "amount_raw": "3 oz.",
+      "amount_value": 3,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": "dried",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782761",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 169,
+      "recipe_id": 9,
+      "ingredient_id": 114,
+      "amount_raw": "7 oz.",
+      "amount_value": 7,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782787",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 170,
+      "recipe_id": 9,
+      "ingredient_id": 115,
+      "amount_raw": "1 pint",
+      "amount_value": 1,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": "rich",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782814",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 171,
+      "recipe_id": 9,
+      "ingredient_id": 116,
+      "amount_raw": "5 pints",
+      "amount_value": 5,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782840",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 172,
+      "recipe_id": 9,
+      "ingredient_id": 117,
+      "amount_raw": "to sufficiency (fragrant wine)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "as much as suffices",
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T15:14:35.782866",
+      "added_by": "oribasius-3.220.t.1"
+    },
+    {
+      "entry_id": 173,
+      "recipe_id": 10,
+      "ingredient_id": 118,
+      "amount_raw": "6 ounces",
+      "amount_value": 6,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.658418",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 174,
+      "recipe_id": 10,
+      "ingredient_id": 114,
+      "amount_raw": "1 pound (liquid storax)",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659082",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 175,
+      "recipe_id": 10,
+      "ingredient_id": 108,
+      "amount_raw": "4 ounces",
+      "amount_value": 4,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659202",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 176,
+      "recipe_id": 10,
+      "ingredient_id": 70,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659265",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 177,
+      "recipe_id": 10,
+      "ingredient_id": 107,
+      "amount_raw": "4 ounces",
+      "amount_value": 4,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659318",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 178,
+      "recipe_id": 10,
+      "ingredient_id": 119,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659365",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 179,
+      "recipe_id": 10,
+      "ingredient_id": 101,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659411",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 180,
+      "recipe_id": 10,
+      "ingredient_id": 120,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659457",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 181,
+      "recipe_id": 10,
+      "ingredient_id": 121,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659502",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 182,
+      "recipe_id": 10,
+      "ingredient_id": 99,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659561",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 183,
+      "recipe_id": 10,
+      "ingredient_id": 122,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659614",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 184,
+      "recipe_id": 10,
+      "ingredient_id": 77,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659661",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 185,
+      "recipe_id": 10,
+      "ingredient_id": 123,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659715",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 186,
+      "recipe_id": 10,
+      "ingredient_id": 106,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659761",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 187,
+      "recipe_id": 10,
+      "ingredient_id": 95,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659807",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 188,
+      "recipe_id": 10,
+      "ingredient_id": 124,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659852",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 189,
+      "recipe_id": 10,
+      "ingredient_id": 125,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659897",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 190,
+      "recipe_id": 10,
+      "ingredient_id": 34,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659943",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 191,
+      "recipe_id": 10,
+      "ingredient_id": 126,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.659988",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 192,
+      "recipe_id": 10,
+      "ingredient_id": 127,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660033",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 193,
+      "recipe_id": 10,
+      "ingredient_id": 98,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "large and small",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660079",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 194,
+      "recipe_id": 10,
+      "ingredient_id": 94,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660124",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 195,
+      "recipe_id": 10,
+      "ingredient_id": 128,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660323",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 196,
+      "recipe_id": 10,
+      "ingredient_id": 102,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660381",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 197,
+      "recipe_id": 10,
+      "ingredient_id": 129,
+      "amount_raw": "4 ounces",
+      "amount_value": 4,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660429",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 198,
+      "recipe_id": 10,
+      "ingredient_id": 104,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660475",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 199,
+      "recipe_id": 10,
+      "ingredient_id": 130,
+      "amount_raw": "1 drachma (optional)",
+      "amount_value": 1,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660523",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 200,
+      "recipe_id": 10,
+      "ingredient_id": 131,
+      "amount_raw": "4 drachmas (optional)",
+      "amount_value": 4,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660571",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 201,
+      "recipe_id": 10,
+      "ingredient_id": 132,
+      "amount_raw": "500 (by count)",
+      "amount_value": 500,
+      "amount_unit": "count",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660617",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 202,
+      "recipe_id": 10,
+      "ingredient_id": 133,
+      "amount_raw": "one and a half ounces",
+      "amount_value": 1.5,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660665",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 203,
+      "recipe_id": 10,
+      "ingredient_id": 109,
+      "amount_raw": "6 ounces",
+      "amount_value": 6,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660712",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 204,
+      "recipe_id": 10,
+      "ingredient_id": 115,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660758",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 205,
+      "recipe_id": 10,
+      "ingredient_id": 134,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660817",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 206,
+      "recipe_id": 10,
+      "ingredient_id": 135,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660864",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 207,
+      "recipe_id": 10,
+      "ingredient_id": 136,
+      "amount_raw": "1 ounce",
+      "amount_value": 1,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660911",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 208,
+      "recipe_id": 10,
+      "ingredient_id": 116,
+      "amount_raw": "one and a half pounds",
+      "amount_value": 1.5,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.660960",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 209,
+      "recipe_id": 10,
+      "ingredient_id": 117,
+      "amount_raw": "to sufficiency (fragrant wine)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:42.661008",
+      "added_by": "aetius-13.116"
+    },
+    {
+      "entry_id": 210,
+      "recipe_id": 11,
+      "ingredient_id": 34,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843459",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 211,
+      "recipe_id": 11,
+      "ingredient_id": 94,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843613",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 212,
+      "recipe_id": 11,
+      "ingredient_id": 95,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843693",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 213,
+      "recipe_id": 11,
+      "ingredient_id": 127,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843762",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 214,
+      "recipe_id": 11,
+      "ingredient_id": 114,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843848",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 215,
+      "recipe_id": 11,
+      "ingredient_id": 108,
+      "amount_raw": "7 drachmas",
+      "amount_value": 7,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843917",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 216,
+      "recipe_id": 11,
+      "ingredient_id": 98,
+      "amount_raw": "50 large + 50 small (count)",
+      "amount_value": 100,
+      "amount_unit": "count",
+      "preparation": null,
+      "notes": "50 large and 50 small berries",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843960",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 217,
+      "recipe_id": 11,
+      "ingredient_id": 136,
+      "amount_raw": "one third",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.843994",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 218,
+      "recipe_id": 11,
+      "ingredient_id": 121,
+      "amount_raw": "one third",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844026",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 219,
+      "recipe_id": 11,
+      "ingredient_id": 129,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844058",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 220,
+      "recipe_id": 11,
+      "ingredient_id": 107,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844090",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 221,
+      "recipe_id": 11,
+      "ingredient_id": 99,
+      "amount_raw": "five twelfths",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844122",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 222,
+      "recipe_id": 11,
+      "ingredient_id": 102,
+      "amount_raw": "five twelfths",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844154",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 223,
+      "recipe_id": 11,
+      "ingredient_id": 104,
+      "amount_raw": "one quarter",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844185",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 224,
+      "recipe_id": 11,
+      "ingredient_id": 106,
+      "amount_raw": "one tenth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844226",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 225,
+      "recipe_id": 11,
+      "ingredient_id": 120,
+      "amount_raw": "one sixth (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844259",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 226,
+      "recipe_id": 11,
+      "ingredient_id": 137,
+      "amount_raw": "five twelfths (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844292",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 227,
+      "recipe_id": 11,
+      "ingredient_id": 119,
+      "amount_raw": "one sixth (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844324",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 228,
+      "recipe_id": 11,
+      "ingredient_id": 101,
+      "amount_raw": "one sixth (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844356",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 229,
+      "recipe_id": 11,
+      "ingredient_id": 138,
+      "amount_raw": "one quarter (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844388",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 230,
+      "recipe_id": 11,
+      "ingredient_id": 125,
+      "amount_raw": "one sixth (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844426",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 231,
+      "recipe_id": 11,
+      "ingredient_id": 135,
+      "amount_raw": "one quarter (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844487",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 232,
+      "recipe_id": 11,
+      "ingredient_id": 70,
+      "amount_raw": "one quarter (optional)",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": "optional (some)",
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844572",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 233,
+      "recipe_id": 11,
+      "ingredient_id": 139,
+      "amount_raw": "2 pounds",
+      "amount_value": 2,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844654",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 234,
+      "recipe_id": 11,
+      "ingredient_id": 140,
+      "amount_raw": "one sixth",
+      "amount_value": null,
+      "amount_unit": null,
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844748",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 235,
+      "recipe_id": 11,
+      "ingredient_id": 112,
+      "amount_raw": "1 pound",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844837",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 236,
+      "recipe_id": 11,
+      "ingredient_id": 141,
+      "amount_raw": "1 pound",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844921",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 237,
+      "recipe_id": 11,
+      "ingredient_id": 142,
+      "amount_raw": "1 pound",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.844991",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 238,
+      "recipe_id": 11,
+      "ingredient_id": 116,
+      "amount_raw": "5 pounds",
+      "amount_value": 5,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.845060",
+      "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 239,
+      "recipe_id": 11,
+      "ingredient_id": 143,
+      "amount_raw": "2 pints (sextarii)",
+      "amount_value": 2,
+      "amount_unit": "pint",
+      "preparation": null,
+      "notes": null,
+      "source_citation": null,
+      "source_span": null,
+      "added_at": "2025-10-04T20:24:46.845155",
+      "added_by": "aetius-13.117"
     }
   ]
 }

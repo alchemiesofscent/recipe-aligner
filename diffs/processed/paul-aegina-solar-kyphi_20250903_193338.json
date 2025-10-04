@@ -51,7 +51,7 @@
   "aliases": [
     {"ingredient_slug": "styrax", "variant_label": "styrax", "language": "en", "source": "transliteration"},
     {"ingredient_slug": "styrax", "variant_label": "storax", "language": "en", "source": "translation"},
-    {"ingredient_slug": "styrax", "variant_label": "Sy", "language": "la", "source": "identification"},
+    {"ingredient_slug": "styrax", "variant_label": "Styrax officinalis", "language": "la", "source": "identification"},
 	{"ingredient_slug": "styrax", "variant_label": "Liquidambar orientalis", "language": "la", "source": "identification"},
     
     {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
