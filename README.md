@@ -4,7 +4,7 @@ A comprehensive web-based tool for aligning and comparing ancient kyphi incense 
 
 ## 🌐 **Live Demo**
 
-Visit the app at: `https://alchemiesofscent.github.io/kyphi-repo/`
+Visit the app at: `https://alchemiesofscent.github.io/recipe-aligner/`
 
 ## ✨ **Key Features**
 
@@ -20,7 +20,7 @@ Visit the app at: `https://alchemiesofscent.github.io/kyphi-repo/`
 ## 📁 **Repository Structure**
 
 ```
-kyphi-repo/
+recipe-aligner/
 ├── docs/                          # 🌐 GitHub Pages site
 │   ├── index.html                # Main aligner web app
 │   ├── kyphi_long.json           # Auto-generated data (don't edit!)
@@ -287,4 +287,4 @@ The system transforms human-friendly slug-based diffs into a normalized database
 
 **Built with ❤️ for digital humanities research**
 
-For support, open an issue or check the [GitHub Discussions](https://github.com/alchemiesofscent/kyphi-repo/discussions) tab.
+For support, open an issue or check the [GitHub Discussions](https://github.com/alchemiesofscent/recipe-aligner/discussions) tab.
