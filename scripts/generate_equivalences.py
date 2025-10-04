@@ -37,50 +37,39 @@ def generate_equivalences():
                     "language": ingredient.get("language", "unknown")
                 })
     
-    # Create equivalence groups for aliases with multiple ingredients
-    equivalence_groups = []
-    
+    # Build mapping for the web app: { canonical_english: [variants...] }
+    # Variants include the canonical English alias and all ingredient labels
+    mapping = {}
     for english_name, ingredient_list in english_aliases.items():
         if len(ingredient_list) > 1:  # Only group if multiple ingredients share this alias
-            # Determine confidence based on alias specificity
-            confidence = "high" if english_name in ["myrrh", "honey", "juniper", "cinnamon"] else "medium"
-            
-            equivalence_groups.append({
-                "canonical_name": english_name,
-                "confidence": confidence,
-                "ingredients": [ing["label"] for ing in ingredient_list],
-                "slugs": [ing["slug"] for ing in ingredient_list],
-                "languages": list(set(ing["language"] for ing in ingredient_list)),
-                "auto_generated": True
-            })
-    
-    # Sort by number of linked ingredients (most connected first)
-    equivalence_groups.sort(key=lambda x: len(x["ingredients"]), reverse=True)
-    
-    return {
-        "version": "auto-generated",
-        "generated_at": datetime.datetime.utcnow().isoformat(),
-        "source": "aliases in MASTER.json",
-        "equivalence_groups": equivalence_groups
-    }
+            variants = {english_name}
+            for ing in ingredient_list:
+                label = (ing.get("label") or "").strip()
+                if label:
+                    variants.add(label)
+            mapping[english_name] = sorted(variants)
+
+    # Optionally, sort keys for stability
+    mapping = {k: mapping[k] for k in sorted(mapping.keys())}
+    return mapping
 
 def main():
     print("Generating equivalences from alias data...")
-    
+
     equivalences = generate_equivalences()
-    
-    # Save to docs/equivalences.json for the web app
+
+    # Save mapping to docs/equivalences.json for the web app
     out_path = os.path.join("docs", "equivalences.json")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(equivalences, f, ensure_ascii=False, indent=2)
     
-    print(f"Generated {len(equivalences['equivalence_groups'])} equivalence groups:")
+    print(f"Generated {len(equivalences)} equivalence groups:")
     
-    for group in equivalences['equivalence_groups']:
-        print(f"  {group['canonical_name']}: {len(group['ingredients'])} ingredients")
-        for ing in group['ingredients']:
-            print(f"    - {ing}")
+    for key, variants in equivalences.items():
+        print(f"  {key}: {len(variants)} variants")
+        for v in variants:
+            print(f"    - {v}")
     
     print(f"\nSaved to {out_path}")
     print(f"Next: Update web app to load from this file")

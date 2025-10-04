@@ -162,20 +162,25 @@ def build_equivalences_interactively():
     
     # Save approved equivalences
     if approved_groups:
-        equivalences = {
-            "version": "1.0",
-            "generated_at": datetime.datetime.utcnow().isoformat(),
-            "method": "interactive_review",
-            "equivalence_groups": approved_groups
-        }
+        # Convert to mapping format used by the web app
+        mapping = {}
+        for group in approved_groups:
+            name = group.get("canonical_name")
+            if not name:
+                continue
+            variants = set([name])
+            for label in group.get("ingredients", []):
+                if label:
+                    variants.add(label)
+            mapping[name] = sorted(variants)
 
         # Save where the web app expects it
         out_path = os.path.join("docs", "equivalences.json")
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(equivalences, f, ensure_ascii=False, indent=2)
+            json.dump(mapping, f, ensure_ascii=False, indent=2)
 
-        print(f"\n✅ Created {len(approved_groups)} equivalence groups")
+        print(f"\n✅ Created {len(mapping)} equivalence groups")
         print(f"Saved to {out_path}")
         print(f"Next: Reload the web app to see changes")
     else:

@@ -1,788 +1,248 @@
 {
-  "version": "auto-generated",
-  "generated_at": "2025-10-04T20:24:54.816250",
-  "source": "aliases in MASTER.json",
-  "equivalence_groups": [
-    {
-      "canonical_name": "storax",
-      "confidence": "medium",
-      "ingredients": [
-        "gnn n(.j) njywbn šwi̯",
-        "gnn",
-        "στρόβιλοι",
-        "στύραξ",
-        "στρόβιλος",
-        "στύρακος"
-      ],
-      "slugs": [
-        "gnn-njywbn",
-        "gnn",
-        "strobiloi",
-        "styrax",
-        "strobilos",
-        "storax"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "myrrh",
-      "confidence": "high",
-      "ingredients": [
-        "ꜥntj.w-šw",
-        "ḫrj",
-        "σμύρνη",
-        "σμύρνα",
-        "σμύρνης"
-      ],
-      "slugs": [
-        "antjw-shw",
-        "xrj",
-        "smyrne",
-        "smyrna",
-        "myrrh"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "juniper berries",
-      "confidence": "medium",
-      "ingredients": [
-        "pr.t-šnj",
-        "prš",
-        "ἀρκευθίδες",
-        "ἀρκευθίς",
-        "ἀρκευθίδας"
-      ],
-      "slugs": [
-        "prt-snj",
-        "prs",
-        "arkevthides",
-        "arkeuthis",
-        "juniper-berries"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "wine",
-      "confidence": "medium",
-      "ingredients": [
-        "jrp",
-        "jr.t Hr.w wḏ.t",
-        "οἶνος",
-        "οἶνος παλαιός",
-        "vini"
-      ],
-      "slugs": [
-        "jrp",
-        "jrt-hr-wdt",
-        "oinos",
-        "oinos-palaios",
-        "wine"
-      ],
-      "languages": [
-        "egy",
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "calamus",
-      "confidence": "medium",
-      "ingredients": [
-        "šwt nmtj",
-        "κάλαμος μυρεψικός",
-        "κάλαμος ἀρωματικός",
-        "κάλαμος"
-      ],
-      "slugs": [
-        "swt-nmtj",
-        "kalamos-myrepsikou",
-        "kalamos-aromatikos",
-        "kalamos"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "cyperus",
-      "confidence": "medium",
-      "ingredients": [
-        "šbn",
-        "κύπειρος",
-        "κύπερος",
-        "κυπέρου"
-      ],
-      "slugs": [
-        "sbn",
-        "kypeiros",
-        "kyperos",
-        "cyperus"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "terebinth resin",
-      "confidence": "medium",
-      "ingredients": [
-        "snṯr",
-        "τερμινθίνη κεκαυμένη",
-        "τερεβινθίνη",
-        "τερμινθίνης"
-      ],
-      "slugs": [
-        "sntr",
-        "terminthine-kekaumene",
-        "terebinthine",
-        "terebinth-resin"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "styrax",
-      "confidence": "medium",
-      "ingredients": [
-        "gnn n(.j) njywbn šwi̯",
-        "gnn",
-        "στύραξ"
-      ],
-      "slugs": [
-        "gnn-njywbn",
-        "gnn",
-        "styrax"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "mastic",
-      "confidence": "medium",
-      "ingredients": [
-        "šbb",
-        "σχῖνος",
-        "mastiches"
-      ],
-      "slugs": [
-        "sbb",
-        "schinos",
-        "mastic"
-      ],
-      "languages": [
-        "egy",
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "raisins",
-      "confidence": "medium",
-      "ingredients": [
-        "sSp m DsDs",
-        "σταφὶς λευκή",
-        "σταφίς"
-      ],
-      "slugs": [
-        "ssp-djsdjs",
-        "stafis-leuke",
-        "staphis"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "honey",
-      "confidence": "high",
-      "ingredients": [
-        "bj.t",
-        "μέλι",
-        "μέλιτος"
-      ],
-      "slugs": [
-        "bjt",
-        "meli",
-        "honey"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "cassia",
-      "confidence": "medium",
-      "ingredients": [
-        "κασία",
-        "κασσία",
-        "casiae"
-      ],
-      "slugs": [
-        "kasia",
-        "kassia",
-        "cassia"
-      ],
-      "languages": [
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "cardamom",
-      "confidence": "medium",
-      "ingredients": [
-        "καρδάμωμον σπέρμα",
-        "καρδάμωμον",
-        "καρδαμώμου"
-      ],
-      "slugs": [
-        "kardamomon-sperma",
-        "kardamomon",
-        "cardamom"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "dried roses",
-      "confidence": "medium",
-      "ingredients": [
-        "ῥόδα ξηρά",
-        "ῥόδων ξηρῶν",
-        "rosarum siccarum"
-      ],
-      "slugs": [
-        "rhoda-xera",
-        "roses-dried",
-        "dried-roses"
-      ],
-      "languages": [
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "frankincense",
-      "confidence": "medium",
-      "ingredients": [
-        "snṯr",
-        "thus"
-      ],
-      "slugs": [
-        "sntr",
-        "frankincense"
-      ],
-      "languages": [
-        "egy",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "mastix",
-      "confidence": "medium",
-      "ingredients": [
-        "šb{.t}",
-        "šbb"
-      ],
-      "slugs": [
-        "sbt",
-        "sbb"
-      ],
-      "languages": [
-        "egy"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "gan",
-      "confidence": "medium",
-      "ingredients": [
-        "gnn n(.j) njywbn šwi̯",
-        "gnn"
-      ],
-      "slugs": [
-        "gnn-njywbn",
-        "gnn"
-      ],
-      "languages": [
-        "egy"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "perfumer's calamus",
-      "confidence": "medium",
-      "ingredients": [
-        "šwt nmtj",
-        "κάλαμος μυρεψικός"
-      ],
-      "slugs": [
-        "swt-nmtj",
-        "kalamos-myrepsikou"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "lentisk",
-      "confidence": "medium",
-      "ingredients": [
-        "šbb",
-        "σχῖνος"
-      ],
-      "slugs": [
-        "sbb",
-        "schinos"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "pine resin",
-      "confidence": "medium",
-      "ingredients": [
-        "qd.t",
-        "ῥητίνη"
-      ],
-      "slugs": [
-        "qdt",
-        "rhetine"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "cinnamon",
-      "confidence": "high",
-      "ingredients": [
-        "tj-šps",
-        "κιννάμωμον"
-      ],
-      "slugs": [
-        "tjsps",
-        "kinnamomon"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "juniper",
-      "confidence": "high",
-      "ingredients": [
-        "prš",
-        "ἀρκευθίδες"
-      ],
-      "slugs": [
-        "prs",
-        "arkevthides"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "yellow nutsedge",
-      "confidence": "medium",
-      "ingredients": [
-        "šbn",
-        "κύπειρος"
-      ],
-      "slugs": [
-        "sbn",
-        "kypeiros"
-      ],
-      "languages": [
-        "egy",
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "fatty raisins",
-      "confidence": "medium",
-      "ingredients": [
-        "σταφὶς λευκή",
-        "σταφίς"
-      ],
-      "slugs": [
-        "stafis-leuke",
-        "staphis"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "resin",
-      "confidence": "medium",
-      "ingredients": [
-        "τερμινθίνη κεκαυμένη",
-        "ῥητίνη"
-      ],
-      "slugs": [
-        "terminthine-kekaumene",
-        "rhetine"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "rush",
-      "confidence": "medium",
-      "ingredients": [
-        "σχοῖνος",
-        "θρύον"
-      ],
-      "slugs": [
-        "schoinos",
-        "thryon"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "saffron",
-      "confidence": "medium",
-      "ingredients": [
-        "κρόκος",
-        "croci"
-      ],
-      "slugs": [
-        "krokos",
-        "saffron"
-      ],
-      "languages": [
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "bdellium",
-      "confidence": "medium",
-      "ingredients": [
-        "βδέλλιον",
-        "Βδελλίου"
-      ],
-      "slugs": [
-        "bdellion",
-        "bdellium"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "spikenard",
-      "confidence": "medium",
-      "ingredients": [
-        "ναρδοστάχυς",
-        "νάρδου στάχυος"
-      ],
-      "slugs": [
-        "nardostachys",
-        "spikenard"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "aromatic calamus",
-      "confidence": "medium",
-      "ingredients": [
-        "κάλαμος ἀρωματικός",
-        "calami aromatici"
-      ],
-      "slugs": [
-        "kalamos-aromatikos",
-        "aromatic-calamus"
-      ],
-      "languages": [
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "sweet flag",
-      "confidence": "medium",
-      "ingredients": [
-        "κάλαμος ἀρωματικός",
-        "κάλαμος"
-      ],
-      "slugs": [
-        "kalamos-aromatikos",
-        "kalamos"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "elecampane",
-      "confidence": "medium",
-      "ingredients": [
-        "ἑλένιον",
-        "ἑλενίου"
-      ],
-      "slugs": [
-        "helenion",
-        "elecampane"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "common juniper",
-      "confidence": "medium",
-      "ingredients": [
-        "ἀρκευθίδες μικραί",
-        "ἄρκευθος ἐλάττων"
-      ],
-      "slugs": [
-        "arkeuthides-mikrai",
-        "arkeuthos-elatton"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "asphodel root",
-      "confidence": "medium",
-      "ingredients": [
-        "ἀσφόδελος ῥίζα",
-        "ἀσφοδέλου ῥίζης"
-      ],
-      "slugs": [
-        "asphodelos-rhiza",
-        "asphodel-root"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "cypress seed",
-      "confidence": "medium",
-      "ingredients": [
-        "κυπάρισσος σπέρμα",
-        "κυπαρίσσου σπέρματος"
-      ],
-      "slugs": [
-        "kyparissos-sperma",
-        "cypress-seed"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "celtic nard",
-      "confidence": "medium",
-      "ingredients": [
-        "νάρδος Κελτική",
-        "νάρδου Κελτικῆς"
-      ],
-      "slugs": [
-        "nardos-keltike",
-        "celtic-nard"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "costus",
-      "confidence": "medium",
-      "ingredients": [
-        "κόστος",
-        "κόστου"
-      ],
-      "slugs": [
-        "kostos",
-        "costus"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "rich figs",
-      "confidence": "medium",
-      "ingredients": [
-        "ἰσχάδες λιπαραί",
-        "ἰσχάδων λιπαρῶν"
-      ],
-      "slugs": [
-        "ischades-liparai",
-        "figs-rich"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "stoneless raisins",
-      "confidence": "medium",
-      "ingredients": [
-        "σταφὶς ἐκγιγαρτισθεῖσα",
-        "σταφὶς ἀγίγαρτος"
-      ],
-      "slugs": [
-        "staphis-ekgigartos",
-        "staphis-agigartos"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "seedless grapes",
-      "confidence": "medium",
-      "ingredients": [
-        "σταφὶς ἐκγιγαρτισθεῖσα",
-        "σταφὶς ἀγίγαρτος"
-      ],
-      "slugs": [
-        "staphis-ekgigartos",
-        "staphis-agigartos"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "turpentine",
-      "confidence": "medium",
-      "ingredients": [
-        "τερεβινθίνη",
-        "ῥητίνη"
-      ],
-      "slugs": [
-        "terebinthine",
-        "rhetine"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "rich dates",
-      "confidence": "medium",
-      "ingredients": [
-        "φοίνικες λιπαροί",
-        "φοινίκων λιπαρῶν"
-      ],
-      "slugs": [
-        "phoinikes-liparoi",
-        "dates-rich"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "fragrant wine",
-      "confidence": "medium",
-      "ingredients": [
-        "οἶνος εὐώδης",
-        "οἴνου εὐώδους"
-      ],
-      "slugs": [
-        "oinos-euodes",
-        "wine-fragrant"
-      ],
-      "languages": [
-        "grc"
-      ],
-      "auto_generated": true
-    },
-    {
-      "canonical_name": "amomum",
-      "confidence": "medium",
-      "ingredients": [
-        "ἄμωμος",
-        "amomi"
-      ],
-      "slugs": [
-        "amomos",
-        "amomum"
-      ],
-      "languages": [
-        "grc",
-        "la"
-      ],
-      "auto_generated": true
-    }
+  "amomum": [
+    "amomi",
+    "amomum",
+    "ἄμωμος"
+  ],
+  "aromatic calamus": [
+    "aromatic calamus",
+    "calami aromatici",
+    "κάλαμος ἀρωματικός"
+  ],
+  "asphodel root": [
+    "asphodel root",
+    "ἀσφοδέλου ῥίζης",
+    "ἀσφόδελος ῥίζα"
+  ],
+  "bdellium": [
+    "bdellium",
+    "Βδελλίου",
+    "βδέλλιον"
+  ],
+  "calamus": [
+    "calamus",
+    "šwt nmtj",
+    "κάλαμος",
+    "κάλαμος μυρεψικός",
+    "κάλαμος ἀρωματικός"
+  ],
+  "cardamom": [
+    "cardamom",
+    "καρδάμωμον",
+    "καρδάμωμον σπέρμα",
+    "καρδαμώμου"
+  ],
+  "cassia": [
+    "casiae",
+    "cassia",
+    "κασία",
+    "κασσία"
+  ],
+  "celtic nard": [
+    "celtic nard",
+    "νάρδος Κελτική",
+    "νάρδου Κελτικῆς"
+  ],
+  "cinnamon": [
+    "cinnamon",
+    "tj-šps",
+    "κιννάμωμον"
+  ],
+  "common juniper": [
+    "common juniper",
+    "ἀρκευθίδες μικραί",
+    "ἄρκευθος ἐλάττων"
+  ],
+  "costus": [
+    "costus",
+    "κόστος",
+    "κόστου"
+  ],
+  "cyperus": [
+    "cyperus",
+    "šbn",
+    "κυπέρου",
+    "κύπειρος",
+    "κύπερος"
+  ],
+  "cypress seed": [
+    "cypress seed",
+    "κυπάρισσος σπέρμα",
+    "κυπαρίσσου σπέρματος"
+  ],
+  "dried roses": [
+    "dried roses",
+    "rosarum siccarum",
+    "ῥόδα ξηρά",
+    "ῥόδων ξηρῶν"
+  ],
+  "elecampane": [
+    "elecampane",
+    "ἑλένιον",
+    "ἑλενίου"
+  ],
+  "fatty raisins": [
+    "fatty raisins",
+    "σταφίς",
+    "σταφὶς λευκή"
+  ],
+  "fragrant wine": [
+    "fragrant wine",
+    "οἴνου εὐώδους",
+    "οἶνος εὐώδης"
+  ],
+  "frankincense": [
+    "frankincense",
+    "snṯr",
+    "thus"
+  ],
+  "gan": [
+    "gan",
+    "gnn",
+    "gnn n(.j) njywbn šwi̯"
+  ],
+  "honey": [
+    "bj.t",
+    "honey",
+    "μέλι",
+    "μέλιτος"
+  ],
+  "juniper": [
+    "juniper",
+    "prš",
+    "ἀρκευθίδες"
+  ],
+  "juniper berries": [
+    "juniper berries",
+    "pr.t-šnj",
+    "prš",
+    "ἀρκευθίδες",
+    "ἀρκευθίς",
+    "ἀρκευθίδας"
+  ],
+  "lentisk": [
+    "lentisk",
+    "šbb",
+    "σχῖνος"
+  ],
+  "mastic": [
+    "mastic",
+    "mastiches",
+    "šbb",
+    "σχῖνος"
+  ],
+  "mastix": [
+    "mastix",
+    "šbb",
+    "šb{.t}"
+  ],
+  "myrrh": [
+    "myrrh",
+    "σμύρνα",
+    "σμύρνη",
+    "σμύρνης",
+    "ḫrj",
+    "ꜥntj.w-šw"
+  ],
+  "perfumer's calamus": [
+    "perfumer's calamus",
+    "šwt nmtj",
+    "κάλαμος μυρεψικός"
+  ],
+  "pine resin": [
+    "pine resin",
+    "qd.t",
+    "ῥητίνη"
+  ],
+  "raisins": [
+    "raisins",
+    "sSp m DsDs",
+    "σταφίς",
+    "σταφὶς λευκή"
+  ],
+  "resin": [
+    "resin",
+    "τερμινθίνη κεκαυμένη",
+    "ῥητίνη"
+  ],
+  "rich dates": [
+    "rich dates",
+    "φοίνικες λιπαροί",
+    "φοινίκων λιπαρῶν"
+  ],
+  "rich figs": [
+    "rich figs",
+    "ἰσχάδες λιπαραί",
+    "ἰσχάδων λιπαρῶν"
+  ],
+  "rush": [
+    "rush",
+    "θρύον",
+    "σχοῖνος"
+  ],
+  "saffron": [
+    "croci",
+    "saffron",
+    "κρόκος"
+  ],
+  "seedless grapes": [
+    "seedless grapes",
+    "σταφὶς ἀγίγαρτος",
+    "σταφὶς ἐκγιγαρτισθεῖσα"
+  ],
+  "spikenard": [
+    "spikenard",
+    "ναρδοστάχυς",
+    "νάρδου στάχυος"
+  ],
+  "stoneless raisins": [
+    "stoneless raisins",
+    "σταφὶς ἀγίγαρτος",
+    "σταφὶς ἐκγιγαρτισθεῖσα"
+  ],
+  "storax": [
+    "gnn",
+    "gnn n(.j) njywbn šwi̯",
+    "storax",
+    "στρόβιλοι",
+    "στρόβιλος",
+    "στύραξ",
+    "στύρακος"
+  ],
+  "styrax": [
+    "gnn",
+    "gnn n(.j) njywbn šwi̯",
+    "styrax",
+    "στύραξ"
+  ],
+  "sweet flag": [
+    "sweet flag",
+    "κάλαμος",
+    "κάλαμος ἀρωματικός"
+  ],
+  "terebinth resin": [
+    "snṯr",
+    "terebinth resin",
+    "τερεβινθίνη",
+    "τερμινθίνη κεκαυμένη",
+    "τερμινθίνης"
+  ],
+  "turpentine": [
+    "turpentine",
+    "τερεβινθίνη",
+    "ῥητίνη"
+  ],
+  "wine": [
+    "jr.t Hr.w wḏ.t",
+    "jrp",
+    "vini",
+    "wine",
+    "οἶνος",
+    "οἶνος παλαιός"
+  ],
+  "yellow nutsedge": [
+    "yellow nutsedge",
+    "šbn",
+    "κύπειρος"
   ]
 }
