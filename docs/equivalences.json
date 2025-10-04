@@ -1,248 +1,129 @@
 {
-  "amomum": [
-    "amomi",
-    "amomum",
-    "ἄμωμος"
-  ],
-  "aromatic calamus": [
-    "aromatic calamus",
-    "calami aromatici",
-    "κάλαμος ἀρωματικός"
-  ],
-  "asphodel root": [
-    "asphodel root",
-    "ἀσφοδέλου ῥίζης",
-    "ἀσφόδελος ῥίζα"
-  ],
-  "bdellium": [
-    "bdellium",
-    "Βδελλίου",
-    "βδέλλιον"
-  ],
-  "calamus": [
-    "calamus",
-    "šwt nmtj",
-    "κάλαμος",
-    "κάλαμος μυρεψικός",
-    "κάλαμος ἀρωματικός"
-  ],
-  "cardamom": [
-    "cardamom",
-    "καρδάμωμον",
-    "καρδάμωμον σπέρμα",
-    "καρδαμώμου"
-  ],
-  "cassia": [
-    "casiae",
-    "cassia",
-    "κασία",
-    "κασσία"
-  ],
-  "celtic nard": [
-    "celtic nard",
-    "νάρδος Κελτική",
-    "νάρδου Κελτικῆς"
-  ],
-  "cinnamon": [
-    "cinnamon",
-    "tj-šps",
-    "κιννάμωμον"
-  ],
-  "common juniper": [
-    "common juniper",
-    "ἀρκευθίδες μικραί",
-    "ἄρκευθος ἐλάττων"
-  ],
-  "costus": [
-    "costus",
-    "κόστος",
-    "κόστου"
-  ],
-  "cyperus": [
-    "cyperus",
-    "šbn",
-    "κυπέρου",
-    "κύπειρος",
-    "κύπερος"
-  ],
-  "cypress seed": [
-    "cypress seed",
-    "κυπάρισσος σπέρμα",
-    "κυπαρίσσου σπέρματος"
-  ],
-  "dried roses": [
-    "dried roses",
-    "rosarum siccarum",
-    "ῥόδα ξηρά",
-    "ῥόδων ξηρῶν"
-  ],
-  "elecampane": [
-    "elecampane",
-    "ἑλένιον",
-    "ἑλενίου"
-  ],
-  "fatty raisins": [
-    "fatty raisins",
-    "σταφίς",
-    "σταφὶς λευκή"
-  ],
-  "fragrant wine": [
-    "fragrant wine",
-    "οἴνου εὐώδους",
-    "οἶνος εὐώδης"
-  ],
-  "frankincense": [
-    "frankincense",
-    "snṯr",
-    "thus"
-  ],
-  "gan": [
-    "gan",
-    "gnn",
-    "gnn n(.j) njywbn šwi̯"
-  ],
-  "honey": [
-    "bj.t",
-    "honey",
-    "μέλι",
-    "μέλιτος"
-  ],
-  "juniper": [
-    "juniper",
-    "prš",
-    "ἀρκευθίδες"
-  ],
-  "juniper berries": [
-    "juniper berries",
-    "pr.t-šnj",
-    "prš",
-    "ἀρκευθίδες",
-    "ἀρκευθίς",
-    "ἀρκευθίδας"
-  ],
-  "lentisk": [
-    "lentisk",
-    "šbb",
-    "σχῖνος"
-  ],
-  "mastic": [
-    "mastic",
-    "mastiches",
-    "šbb",
-    "σχῖνος"
-  ],
-  "mastix": [
-    "mastix",
-    "šbb",
-    "šb{.t}"
-  ],
-  "myrrh": [
-    "myrrh",
-    "σμύρνα",
+  "Myrrh": [
     "σμύρνη",
-    "σμύρνης",
     "ḫrj",
-    "ꜥntj.w-šw"
+    "ªntj.w-šw", 
+    "myrrh",
+    "dried myrrh",
+	"antjw-shw",
+	"ꜥntj.w-šw"
   ],
-  "perfumer's calamus": [
-    "perfumer's calamus",
-    "šwt nmtj",
-    "κάλαμος μυρεψικός"
+  "Cinnamon / Camphor": [
+    "κιννάμωμον",
+    "tj-šps",
+    "cinnamon",
+    "Ceylon cinnamon", 
+    "Chinese cinnamon",
+    "east african camphor wood",
+    "camphor wood"
   ],
-  "pine resin": [
-    "pine resin",
-    "qd.t",
-    "ῥητίνη"
+  "Honey": [
+    "μέλι", 
+    "bj.t",
+    "honey"
   ],
-  "raisins": [
-    "raisins",
-    "sSp m DsDs",
-    "σταφίς",
-    "σταφὶς λευκή"
-  ],
-  "resin": [
-    "resin",
-    "τερμινθίνη κεκαυμένη",
-    "ῥητίνη"
-  ],
-  "rich dates": [
-    "rich dates",
-    "φοίνικες λιπαροί",
-    "φοινίκων λιπαρῶν"
-  ],
-  "rich figs": [
-    "rich figs",
-    "ἰσχάδες λιπαραί",
-    "ἰσχάδων λιπαρῶν"
-  ],
-  "rush": [
-    "rush",
-    "θρύον",
-    "σχοῖνος"
-  ],
-  "saffron": [
-    "croci",
-    "saffron",
-    "κρόκος"
-  ],
-  "seedless grapes": [
-    "seedless grapes",
-    "σταφὶς ἀγίγαρτος",
-    "σταφὶς ἐκγιγαρτισθεῖσα"
-  ],
-  "spikenard": [
-    "spikenard",
-    "ναρδοστάχυς",
-    "νάρδου στάχυος"
-  ],
-  "stoneless raisins": [
-    "stoneless raisins",
-    "σταφὶς ἀγίγαρτος",
-    "σταφὶς ἐκγιγαρτισθεῖσα"
-  ],
-  "storax": [
-    "gnn",
-    "gnn n(.j) njywbn šwi̯",
-    "storax",
-    "στρόβιλοι",
-    "στρόβιλος",
-    "στύραξ",
-    "στύρακος"
-  ],
-  "styrax": [
-    "gnn",
-    "gnn n(.j) njywbn šwi̯",
-    "styrax",
-    "στύραξ"
-  ],
-  "sweet flag": [
-    "sweet flag",
-    "κάλαμος",
-    "κάλαμος ἀρωματικός"
-  ],
-  "terebinth resin": [
-    "snṯr",
-    "terebinth resin",
-    "τερεβινθίνη",
-    "τερμινθίνη κεκαυμένη",
-    "τερμινθίνης"
-  ],
-  "turpentine": [
-    "turpentine",
-    "τερεβινθίνη",
-    "ῥητίνη"
-  ],
-  "wine": [
-    "jr.t Hr.w wḏ.t",
-    "jrp",
-    "vini",
-    "wine",
+  "Generic Wine": [
     "οἶνος",
-    "οἶνος παλαιός"
+    "jrp",
+    "wine"
   ],
-  "yellow nutsedge": [
-    "yellow nutsedge",
+  "Specialty Wines": [
+    "jr.t Hr.w wḏ.t",
+    "wine from Bahriya Oasis",
+    "green eye of Horus wine"
+  ],
+  "Raisins / Grapes": [
+    "sSp m DsDs",
+    "σταφὶς λευκή",
+    "white raisins",
+    "fatty raisins",
+    "raisins",
+    "grapes from Bahriya Oasis"
+  ],
+  "Juniper Berries": [
+    "ἀρκευθίδες",
+    "prš",
+    "pr.t-šnj",
+    "juniper berries",
+    "juniper",
+    "phoenician juniper berries"
+  ],
+  "Cyperus": [
+    "κύπειρος", 
     "šbn",
-    "κύπειρος"
+    "cyperus",
+    "yellow nutsedge"
+  ],
+  "Calamus": [
+    "κάλαμος μυρεψικός",
+    "šwt nmtj", 
+    "perfumer's calamus",
+    "calamus",
+    "feather of Nemti"
+  ],
+  "Terebinth / Frankincense": [
+    "snṯr",
+    "frankincense",
+    "incense",
+    "τερμινθίνη κεκαυμένη",
+    "roasted terebinth resin",
+    "terebinth resin"
+  ],
+  "Pine Resin": [
+    "qd.t",
+    "Aleppo pine resin",
+    "coniferous resin",
+    "pine resin"
+  ],
+  "Mastix": [
+    "šb.t",
+	"šb{.t}",
+    "šbb",
+    "mastix",
+    "mastic",
+    "lentisk"
+  ],
+  "Storax (very uncertain)": [
+    "gnn",
+    "styrax",
+    "storax",
+	"gnn n(.j) njywbn šwi̯"
+  ],
+  "Bdellium": [
+    "βδέλλιον",
+    "bdellium"
+  ],
+  "Onycha": [
+    "ὄνυξ", 
+    "onycha"
+  ],
+  "Cassia": [
+    "κασία",
+    "cassia",
+    "cinnamon bark"
+  ],
+  "Saffron": [
+    "κρόκος", 
+    "saffron"
+  ],
+  "Spikenard": [
+    "ναρδοστάχυς",
+    "spikenard",
+    "nard"
+  ],
+  "Rush": [
+    "σχοῖνος",
+    "schoinos",
+    "rush"
+  ],
+  "Cardamom": [
+    "καρδάμωμον σπέρμα",
+    "cardamom seed",
+    "cardamom"
+  ],
+  "Aspalathus": [
+    "ἀσπάλαθος",
+    "aspalathus",
+    "thorny broom"
   ]
 }
