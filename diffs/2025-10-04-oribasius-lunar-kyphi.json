@@ -10,7 +10,7 @@
  "ingredients": [
     { "slug": "bdellium", "label": "Βδέλλιον", "language": "grc" },
     { "slug": "elecampane", "label": "ἑλένιον", "language": "grc" },
-    { "slug": "schoinos-flower", "label": "σχίνου ἄνθος", "language": "grc" },
+    { "slug": "schinos-flower", "label": "σχίνου ἄνθος", "language": "grc" },
     { "slug": "sphagnon-moss", "label": "σφάγνον", "language": "grc" },
     { "slug": "juniper-berries", "label": "ἀρκευθίς", "language": "grc" },
     { "slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc" },
@@ -64,7 +64,7 @@
   "entries": [
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "bdellium", "amount_raw": "7 oz.", "amount_value": 7, "amount_unit": "oz", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "elecampane", "amount_raw": "7 oz.", "amount_value": 7, "amount_unit": "oz", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
-    { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "schoinos-flower", "amount_raw": "2 oz.", "amount_value": 2, "amount_unit": "oz", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
+    { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "schinos-flower", "amount_raw": "2 oz.", "amount_value": 2, "amount_unit": "oz", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "sphagnon-moss", "amount_raw": "5 oz.", "amount_value": 5, "amount_unit": "oz", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "juniper-berries", "amount_raw": "50 units", "amount_value": 50, "amount_unit": "units", "notes": "small berries", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "aspalathos", "amount_raw": "1 pound", "amount_value": 1, "amount_unit": "pound", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" },
@@ -89,4 +89,3 @@
     { "recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "wine-fragrant", "amount_raw": "to sufficiency (fragrant wine)", "amount_value": null, "amount_unit": null, "notes": "as much as suffices", "source_citation": "Oribasius Syn. Eust. 3.220.t.1" }
   ]
 }
-
