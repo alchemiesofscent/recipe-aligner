@@ -11,6 +11,8 @@ then builds equivalence groups automatically.
 
 import json
 from collections import defaultdict
+import datetime
+import os
 
 def load_master():
     with open("data/MASTER.json", "r", encoding="utf-8") as f:
@@ -57,7 +59,7 @@ def generate_equivalences():
     
     return {
         "version": "auto-generated",
-        "generated_at": "2025-09-02",
+        "generated_at": datetime.datetime.utcnow().isoformat(),
         "source": "aliases in MASTER.json",
         "equivalence_groups": equivalence_groups
     }
@@ -67,8 +69,10 @@ def main():
     
     equivalences = generate_equivalences()
     
-    # Save to data/equivalences.json
-    with open("data/equivalences.json", "w", encoding="utf-8") as f:
+    # Save to docs/equivalences.json for the web app
+    out_path = os.path.join("docs", "equivalences.json")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(equivalences, f, ensure_ascii=False, indent=2)
     
     print(f"Generated {len(equivalences['equivalence_groups'])} equivalence groups:")
@@ -78,7 +82,7 @@ def main():
         for ing in group['ingredients']:
             print(f"    - {ing}")
     
-    print(f"\nSaved to data/equivalences.json")
+    print(f"\nSaved to {out_path}")
     print(f"Next: Update web app to load from this file")
 
 if __name__ == "__main__":

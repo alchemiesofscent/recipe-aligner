@@ -12,6 +12,8 @@ Builds data/equivalences.json based on user decisions.
 import json, re
 from difflib import SequenceMatcher
 from collections import defaultdict
+import datetime
+import os
 
 def load_master():
     with open("data/MASTER.json", "r", encoding="utf-8") as f:
@@ -162,17 +164,20 @@ def build_equivalences_interactively():
     if approved_groups:
         equivalences = {
             "version": "1.0",
-            "generated_at": "2025-09-02",
+            "generated_at": datetime.datetime.utcnow().isoformat(),
             "method": "interactive_review",
             "equivalence_groups": approved_groups
         }
-        
-        with open("data/equivalences.json", "w", encoding="utf-8") as f:
+
+        # Save where the web app expects it
+        out_path = os.path.join("docs", "equivalences.json")
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
             json.dump(equivalences, f, ensure_ascii=False, indent=2)
-        
+
         print(f"\n✅ Created {len(approved_groups)} equivalence groups")
-        print(f"Saved to data/equivalences.json")
-        print(f"Next: Update web app to use these equivalences")
+        print(f"Saved to {out_path}")
+        print(f"Next: Reload the web app to see changes")
     else:
         print("No equivalence groups created")
 

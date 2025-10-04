@@ -1,0 +1,8 @@
+[project]
+name = "recipe-aligner"
+version = "0.0.0"
+description = "Scripts for kyphi recipe data processing and web export"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+

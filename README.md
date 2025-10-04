@@ -23,7 +23,8 @@ Visit the app at: `https://alchemiesofscent.github.io/kyphi-repo/`
 kyphi-repo/
 ├── docs/                          # 🌐 GitHub Pages site
 │   ├── index.html                # Main aligner web app
-│   └── kyphi_long.json           # Auto-generated data (don't edit!)
+│   ├── kyphi_long.json           # Auto-generated data (don't edit!)
+│   └── equivalences.json         # Auto-generated equivalences (don't edit!)
 ├── data/                          # 📚 Core database
 │   ├── MASTER.json               # Canonical database (don't edit by hand!)
 │   ├── schema_master.json        # Schema for MASTER.json
@@ -67,8 +68,8 @@ graph LR
 git clone https://github.com/[username]/[repo-name]
 cd [repo-name]
 
-# Test with sample data
-python scripts/merge_diff.py data/MASTER.json diffs/example_2025-09-01.json "test"
+# Generate equivalences and export web data
+python scripts/generate_equivalences.py        # writes docs/equivalences.json
 python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
 
 # Run locally
@@ -120,15 +121,19 @@ Create `diffs/2025-09-02-my-source.json`:
 ### **Enhanced Scripts with Rich Feedback**
 
 ```bash
-# Validate diff files (comprehensive checking)
+# Validate diff files (comprehensive checking without third-party libs)
 python scripts/validate_diff.py diffs/my_diff.json
 python scripts/validate_diff.py diffs/*.json  # validate all
 
 # Merge with detailed progress reporting  
 python scripts/merge_diff.py data/MASTER.json diffs/my_diff.json "my_source"
 
-# Export with statistics and validation
+# Export with statistics and validation (writes docs/kyphi_long.json)
 python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
+
+# Generate or curate equivalences for the web app
+python scripts/generate_equivalences.py        # auto-generate → docs/equivalences.json
+python scripts/build_equivalences.py           # interactive review → docs/equivalences.json
 
 # Remove entries (undo a diff)
 python scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal_reason"
@@ -186,8 +191,8 @@ python scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal_reaso
 ```
 ## 🛠 **Requirements**
 
-- Python 3.7+
-- `jsonschema` library for validation
+- Python 3.10+
+- No external dependencies required
 
 ## 🔧 **Advanced Features**
 
@@ -283,4 +288,3 @@ The system transforms human-friendly slug-based diffs into a normalized database
 **Built with ❤️ for digital humanities research**
 
 For support, open an issue or check the [GitHub Discussions](https://github.com/alchemiesofscent/kyphi-repo/discussions) tab.
-

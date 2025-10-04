@@ -12,10 +12,17 @@ Much simpler than the complex system - just handles the core linking problem.
 import json, sys
 from difflib import SequenceMatcher
 import re
+import unicodedata
 
 def normalize(text):
     """Simple normalization for matching"""
-    return re.sub(r'[^\w\s]', '', text.lower().strip())
+    if text is None:
+        return ""
+    # Strip diacritics and normalize spacing
+    text = unicodedata.normalize('NFKD', str(text))
+    text = ''.join(c for c in text if not unicodedata.combining(c))
+    text = text.lower().strip()
+    return re.sub(r'[^\w\s]', '', text)
 
 def load_existing_ingredients():
     """Load existing ingredients from master"""

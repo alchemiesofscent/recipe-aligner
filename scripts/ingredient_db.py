@@ -13,6 +13,7 @@ import json, sys, argparse
 from collections import Counter
 from difflib import SequenceMatcher
 import re
+import unicodedata
 
 def load_master():
     with open("data/MASTER.json", "r", encoding="utf-8") as f:
@@ -21,6 +22,11 @@ def load_master():
 def normalize_for_search(text):
     """Normalize text for fuzzy matching"""
     # Remove diacritics and convert to lowercase
+    if text is None:
+        return ""
+    # Decompose characters and strip combining marks (accents)
+    text = unicodedata.normalize('NFKD', str(text))
+    text = ''.join(c for c in text if not unicodedata.combining(c))
     text = text.lower()
     # Remove common punctuation and spaces
     text = re.sub(r'[^\w\s]', '', text)
