@@ -73,21 +73,24 @@
       "slug": "oribasius-lunar-kyphi",
       "label": "Κῦφι τὸ σεληνιακόν",
       "language": "grc",
-      "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220, Section t, Line 1"
+      "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220, Section t, Line 1",
+      "date": 370
     },
     {
       "recipe_id": 10,
       "slug": "aetius-kyphi-36",
       "label": "Cyphi ex rebus XXXVI",
       "language": "la",
-      "source": "Aetius of Amida, Liber XIII, Cap. CXVI (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425"
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVI (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425",
+      "date": 550
     },
     {
       "recipe_id": 11,
       "slug": "aetius-kyphi-28",
       "label": "Cyphi ex rebus XXVIII",
       "language": "la",
-      "source": "Aetius of Amida, Liber XIII, Cap. CXVII (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425"
+      "source": "Aetius of Amida, Liber XIII, Cap. CXVII (Cornarius & da Monte 1533), pp. 412-413; https://www.digitale-sammlungen.de/de/view/bsb00029105?page=424,425",
+      "date": 550
     }
   ],
   "ingredients": [
