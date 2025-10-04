@@ -1911,6 +1911,14 @@
       "preparation": null,
       "notes": null,
       "aliases": "wine"
+    },
+    {
+      "recipe": "Κῦφι τὸ σεληνιακόν",
+      "ingredient": "σχίνου ἄνθος",
+      "amount": "2 oz (2 oz.)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "flower of schinos"
     }
   ],
   "recipe_metadata": {

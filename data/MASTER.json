@@ -948,6 +948,12 @@
       "slug": "wine",
       "label": "vini",
       "language": "la"
+    },
+    {
+      "ingredient_id": 144,
+      "slug": "schinos-flower",
+      "label": "σχίνου ἄνθος",
+      "language": "grc"
     }
   ],
   "aliases": [
@@ -3454,6 +3460,13 @@
       "alias_id": 358,
       "ingredient_id": 143,
       "variant_label": "wine",
+      "language": "en",
+      "source": null
+    },
+    {
+      "alias_id": 359,
+      "ingredient_id": 144,
+      "variant_label": "flower of schinos",
       "language": "en",
       "source": null
     }
@@ -6804,6 +6817,20 @@
       "source_span": null,
       "added_at": "2025-10-04T20:24:46.845155",
       "added_by": "aetius-13.117"
+    },
+    {
+      "entry_id": 240,
+      "recipe_id": 9,
+      "ingredient_id": 144,
+      "amount_raw": "2 oz.",
+      "amount_value": 2,
+      "amount_unit": "oz",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Oribasius Syn. Eust. 3.220.t.1",
+      "source_span": null,
+      "added_at": "2025-10-04T20:35:00.409511",
+      "added_by": "ci"
     }
   ]
 }
