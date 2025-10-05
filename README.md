@@ -131,11 +131,10 @@ python scripts/merge_diff.py data/MASTER.json diffs/my_diff.json "my_source"
 # Export with statistics and validation (writes docs/kyphi_long.json)
 python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
 
-# Generate or curate equivalences for the web app
+# Generate or curate equivalences for the web app (single file)
 python scripts/equivalences.py auto            # draft suggestions → data/equivalences_auto.json
 python scripts/equivalences.py diff            # compare draft vs curated
-python scripts/equivalences.py review          # interactive review + merge to curated (with confirm)
-python scripts/equivalences.py merge --write   # non-interactive merge (alias-map driven)
+python scripts/equivalences.py review          # interactive review; writes to docs/equivalences.json
 
 # Remove entries (undo a diff)
 python scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal_reason"
@@ -196,19 +195,14 @@ python scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal_reaso
 - Python 3.10+
 - No external dependencies required
 
-## 🧭 **Equivalences Workflow (Curated + Assisted)**
+## 🧭 **Equivalences Workflow (Single File)**
 
 - Curated file: `docs/equivalences.json` drives ingredient alignment in the web app and should remain the source of truth.
-- Draft suggestions: `python scripts/equivalences.py auto` writes `data/equivalences_auto.json` (English aliases grouped, plus all seen labels and suggested lemmas).
-- Review changes: `python scripts/equivalences.py diff` shows new groups/variants. Use `python scripts/equivalences.py review` to interactively map English aliases to curated group names and merge variants safely. No files are written unless you confirm at the end.
-- Controlled merge: `python scripts/equivalences.py merge` uses `data/equivalences_alias_map.json` to route draft aliases into curated groups. Dry-run by default — add `--write` to save.
-
-Supporting files:
-- `data/equivalences_alias_map.json` — maps auto English alias → curated group name (e.g., `"wine": "Generic Wine"`). Extend as needed to steer merges.
-- `data/lemma_overrides.json` — nominative-singular overrides (Greek/Latin) used by the tool to unify inflected forms for grouping.
+- Draft suggestions: `python scripts/equivalences.py auto` writes `data/equivalences_auto.json` (English aliases grouped, plus all seen labels).
+- Review changes: `python scripts/equivalences.py diff` shows new groups/variants. Use `python scripts/equivalences.py review` to interactively map English aliases to curated group names or create new groups, and merge variants. The tool asks for confirmation before writing.
 
 Notes:
-- The tools never overwrite `docs/equivalences.json` without explicit confirmation (review) or `--write` (merge).
+- The tools never overwrite `docs/equivalences.json` without explicit confirmation in the review step.
 - `scripts/generate_equivalences.py` and `scripts/build_equivalences.py` are legacy; prefer `scripts/equivalences.py`.
 
 ## 🔧 **Advanced Features**

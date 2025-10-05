@@ -4,6 +4,7 @@
     "ḫrj",
     "ªntj.w-šw", 
     "myrrh",
+    "myrrha",
     "dried myrrh",
 	"antjw-shw",
 	"ꜥntj.w-šw"
@@ -52,7 +53,8 @@
     "pr.t-šnj",
     "juniper berries",
     "juniper",
-    "phoenician juniper berries"
+    "phoenician juniper berries",
+    "baccarum iuniperi"
   ],
   "Cyperus": [
     "κύπειρος", 
@@ -68,7 +70,21 @@
     "perfumer's calamus",
     "calamus",
     "calami aromatici",
-    "feather of Nemti"
+    "feather of Nemti",
+    "extract of the royal reed",
+    "succi hastulae regiae"
+  ],
+  "Elecampane": [
+    "elecampane",
+    "helenium",
+    "helenion",
+    "helenii",
+    "ἑλένιον"
+  ],
+  "Ladanum": [
+    "ladanum",
+    "ladani",
+    "λάδανον"
   ],
   "Terebinth / Frankincense": [
     "snṯr",

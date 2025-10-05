@@ -17,14 +17,10 @@ import os
 from collections import defaultdict
 from typing import Dict, List, Tuple
 
-from lemma import lemmatize, load_overrides
-
 ROOT = os.path.dirname(os.path.dirname(__file__))
 MASTER_PATH = os.path.join(ROOT, 'data', 'MASTER.json')
 AUTO_PATH = os.path.join(ROOT, 'data', 'equivalences_auto.json')
 CURATED_PATH = os.path.join(ROOT, 'docs', 'equivalences.json')
-ALIAS_MAP_PATH = os.path.join(ROOT, 'data', 'equivalences_alias_map.json')
-OVERRIDES_PATH = os.path.join(ROOT, 'data', 'lemma_overrides.json')
 
 
 def load_master() -> dict:
@@ -38,7 +34,6 @@ def nfkc(s: str) -> str:
 
 
 def build_auto(master: dict) -> Tuple[Dict[str, List[str]], Dict[str, str]]:
-    overrides = load_overrides(OVERRIDES_PATH)
     ingredients = {i["ingredient_id"]: i for i in master.get("ingredients", [])}
     aliases = master.get("aliases", [])
 
@@ -56,7 +51,6 @@ def build_auto(master: dict) -> Tuple[Dict[str, List[str]], Dict[str, str]]:
 
     # Build mapping: english key -> variants (english + all labels seen)
     mapping: Dict[str, List[str]] = {}
-    lemma_map: Dict[str, str] = {}
     for key, ings in english_groups.items():
         if len(ings) < 2:
             # Only consider groups that actually connect multiple ingredients
@@ -66,14 +60,9 @@ def build_auto(master: dict) -> Tuple[Dict[str, List[str]], Dict[str, str]]:
             label = nfkc(ing.get('label', '')).strip()
             if label:
                 variants.add(label)
-                lang = (ing.get('language') or '').lower()
-                lemma = lemmatize(label, lang, overrides)
-                if lemma and lemma != label:
-                    variants.add(lemma)
-                    lemma_map[label] = lemma
         mapping[key] = sorted(variants)
 
-    return mapping, lemma_map
+    return mapping, {}
 
 
 def write_json(path: str, obj: dict) -> None:
@@ -93,7 +82,7 @@ def cmd_auto(_: argparse.Namespace) -> None:
     }
     write_json(AUTO_PATH, payload)
     print(f"Wrote draft equivalences to {AUTO_PATH}")
-    print(f"Groups: {len(mapping)} | Lemmas: {len(lemma_map)}")
+    print(f"Groups: {len(mapping)}")
 
 
 def load_curated() -> dict:
@@ -142,15 +131,13 @@ def cmd_review(ns: argparse.Namespace) -> None:
     auto = json.load(open(AUTO_PATH, 'r', encoding='utf-8'))
     mapping = auto.get('mapping', {})
     curated = load_curated()
-    alias_map = json.load(open(ALIAS_MAP_PATH, 'r', encoding='utf-8')) if os.path.exists(ALIAS_MAP_PATH) else {}
-
     # Destination starts from curated; we'll mutate in-memory until write
     dest = {k: list(v) for k, v in curated.items()}
 
-    # Unmapped english keys
+    # English keys from auto
     curated_keys = list(dest.keys())
     curated_lcase = {k.lower(): k for k in curated_keys}
-    pending = [k for k in sorted(mapping.keys()) if k.lower() not in {x.lower() for x in alias_map.keys()}]
+    pending = sorted(mapping.keys())
 
     print(f"Pending alias keys (no mapping to curated): {len(pending)}")
     if not pending:
@@ -173,8 +160,8 @@ def cmd_review(ns: argparse.Namespace) -> None:
             print(f"  {i}. {name}")
 
         print("\nChoose target group:")
-        print("  - enter number to map and merge into an existing curated group")
-        print("  - 'n <New Group Name>' to create a new curated group")
+        print("  - enter number to merge variants into an existing curated group")
+        print("  - 'n <New Group Name>' to create a new curated group and merge variants")
         print("  - 's' to skip, 'q' to quit review")
 
         choice = _prompt("> ")
@@ -205,7 +192,7 @@ def cmd_review(ns: argparse.Namespace) -> None:
                 continue
 
         # Map and merge
-        alias_map[en_key] = target
+        # Merge variants into target curated group
         added = [v for v in variants if v not in set(dest.get(target, []))]
         if added:
             dest[target].extend(added)
@@ -214,52 +201,13 @@ def cmd_review(ns: argparse.Namespace) -> None:
     # Confirmation to write changes
     print("\nReview complete.")
     print("This will update:")
-    print(f"  - {ALIAS_MAP_PATH}")
     print(f"  - {CURATED_PATH}")
     yn = _prompt("Write changes? (y/N): ")
     if yn.lower() == 'y':
-        write_json(ALIAS_MAP_PATH, alias_map)
         write_json(CURATED_PATH, dest)
         print("Saved updates.")
     else:
         print("No changes were written.")
-
-
-def cmd_merge(ns: argparse.Namespace) -> None:
-    if not os.path.exists(AUTO_PATH):
-        print("No draft found. Run: python scripts/equivalences.py auto")
-        return
-    auto = json.load(open(AUTO_PATH, 'r', encoding='utf-8'))
-    mapping = auto.get('mapping', {})
-    curated = load_curated()
-    alias_map = json.load(open(ALIAS_MAP_PATH, 'r', encoding='utf-8')) if os.path.exists(ALIAS_MAP_PATH) else {}
-
-    # Build destination starting from curated
-    dest = {k: list(v) for k, v in curated.items()}
-    pending = []
-
-    # Merge mapping into curated using alias_map (english alias -> curated key)
-    for en_key, variants in mapping.items():
-        target = alias_map.get(en_key)
-        if not target:
-            pending.append(en_key)
-            continue
-        existing = set(dest.get(target, []))
-        added = [v for v in variants if v not in existing]
-        if added:
-            dest.setdefault(target, []).extend(added)
-            print(f"Merged {en_key} -> {target}: +{len(added)} variants")
-
-    if pending:
-        print("\nAliases with no mapping to curated groups (add to data/equivalences_alias_map.json):")
-        for k in sorted(pending):
-            print(f"  - {k}")
-
-    if ns.write:
-        write_json(CURATED_PATH, dest)
-        print(f"Saved merged equivalences to {CURATED_PATH}")
-    else:
-        print("\nDry run only (no changes written). Use --write to save.")
 
 
 def main():
@@ -271,10 +219,6 @@ def main():
 
     d = sub.add_parser('diff', help='Show differences between draft and curated')
     d.set_defaults(func=cmd_diff)
-
-    m = sub.add_parser('merge', help='Merge draft into curated using alias map')
-    m.add_argument('--write', action='store_true', help='Write merged result to docs/equivalences.json')
-    m.set_defaults(func=cmd_merge)
 
     r = sub.add_parser('review', help='Interactive review to map aliases to curated groups and merge variants')
     r.set_defaults(func=cmd_review)
