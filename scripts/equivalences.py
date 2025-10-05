@@ -128,6 +128,103 @@ def cmd_diff(_: argparse.Namespace) -> None:
                 print(f"      - {v}")
 
 
+def _prompt(prompt: str) -> str:
+    try:
+        return input(prompt).strip()
+    except EOFError:
+        return ''
+
+
+def cmd_review(ns: argparse.Namespace) -> None:
+    if not os.path.exists(AUTO_PATH):
+        print("No draft found. Run: python scripts/equivalences.py auto")
+        return
+    auto = json.load(open(AUTO_PATH, 'r', encoding='utf-8'))
+    mapping = auto.get('mapping', {})
+    curated = load_curated()
+    alias_map = json.load(open(ALIAS_MAP_PATH, 'r', encoding='utf-8')) if os.path.exists(ALIAS_MAP_PATH) else {}
+
+    # Destination starts from curated; we'll mutate in-memory until write
+    dest = {k: list(v) for k, v in curated.items()}
+
+    # Unmapped english keys
+    curated_keys = list(dest.keys())
+    curated_lcase = {k.lower(): k for k in curated_keys}
+    pending = [k for k in sorted(mapping.keys()) if k.lower() not in {x.lower() for x in alias_map.keys()}]
+
+    print(f"Pending alias keys (no mapping to curated): {len(pending)}")
+    if not pending:
+        print("Nothing to review. You can run 'merge --write' if desired.")
+        return
+
+    for idx, en_key in enumerate(pending, 1):
+        variants = mapping[en_key]
+        print("\n" + "-"*60)
+        print(f"[{idx}/{len(pending)}] English alias: '{en_key}'")
+        print(f"Variants ({len(variants)}):")
+        for v in variants[:12]:
+            print(f"  - {v}")
+        if len(variants) > 12:
+            print(f"  ... (+{len(variants)-12} more)")
+
+        # Show curated choices
+        print("\nCurated groups:")
+        for i, name in enumerate(curated_keys, 1):
+            print(f"  {i}. {name}")
+
+        print("\nChoose target group:")
+        print("  - enter number to map and merge into an existing curated group")
+        print("  - 'n <New Group Name>' to create a new curated group")
+        print("  - 's' to skip, 'q' to quit review")
+
+        choice = _prompt("> ")
+        if choice.lower() == 'q':
+            print("Stopping review.")
+            break
+        if choice.lower() == 's' or choice == '':
+            print("Skipped.")
+            continue
+        target = None
+        if choice.isdigit():
+            i = int(choice)
+            if 1 <= i <= len(curated_keys):
+                target = curated_keys[i-1]
+        elif choice.lower().startswith('n '):
+            target = choice[2:].strip()
+            if not target:
+                print("No name provided; skipping.")
+                continue
+            if target not in dest:
+                dest[target] = []
+                curated_keys.append(target)
+        else:
+            # Try exact match (case-insensitive)
+            target = curated_lcase.get(choice.lower())
+            if not target:
+                print("Unrecognized choice; skipping.")
+                continue
+
+        # Map and merge
+        alias_map[en_key] = target
+        added = [v for v in variants if v not in set(dest.get(target, []))]
+        if added:
+            dest[target].extend(added)
+        print(f"Mapped '{en_key}' -> '{target}' (+{len(added)} variants)")
+
+    # Confirmation to write changes
+    print("\nReview complete.")
+    print("This will update:")
+    print(f"  - {ALIAS_MAP_PATH}")
+    print(f"  - {CURATED_PATH}")
+    yn = _prompt("Write changes? (y/N): ")
+    if yn.lower() == 'y':
+        write_json(ALIAS_MAP_PATH, alias_map)
+        write_json(CURATED_PATH, dest)
+        print("Saved updates.")
+    else:
+        print("No changes were written.")
+
+
 def cmd_merge(ns: argparse.Namespace) -> None:
     if not os.path.exists(AUTO_PATH):
         print("No draft found. Run: python scripts/equivalences.py auto")
@@ -179,10 +276,12 @@ def main():
     m.add_argument('--write', action='store_true', help='Write merged result to docs/equivalences.json')
     m.set_defaults(func=cmd_merge)
 
+    r = sub.add_parser('review', help='Interactive review to map aliases to curated groups and merge variants')
+    r.set_defaults(func=cmd_review)
+
     ns = p.parse_args()
     ns.func(ns)
 
 
 if __name__ == '__main__':
     main()
-
