@@ -20,12 +20,16 @@
   "Honey": [
     "μέλι", 
     "bj.t",
-    "honey"
+    "honey",
+    "mellis"
   ],
   "Generic Wine": [
     "οἶνος",
     "jrp",
-    "wine"
+    "wine",
+    "vini",
+    "fragrant wine",
+    "vini odorati"
   ],
   "Specialty Wines": [
     "jr.t Hr.w wḏ.t",
@@ -38,7 +42,9 @@
     "white raisins",
     "fatty raisins",
     "raisins",
-    "grapes from Bahriya Oasis"
+    "grapes from Bahriya Oasis",
+    "uvarum passarum pinguium",
+    "carunculae uvarum passarum"
   ],
   "Juniper Berries": [
     "ἀρκευθίδες",
@@ -52,6 +58,8 @@
     "κύπειρος", 
     "šbn",
     "cyperus",
+    "cyperi",
+    "cyperorum",
     "yellow nutsedge"
   ],
   "Calamus": [
@@ -59,6 +67,7 @@
     "šwt nmtj", 
     "perfumer's calamus",
     "calamus",
+    "calami aromatici",
     "feather of Nemti"
   ],
   "Terebinth / Frankincense": [
@@ -67,7 +76,10 @@
     "incense",
     "τερμινθίνη κεκαυμένη",
     "roasted terebinth resin",
-    "terebinth resin"
+    "terebinth resin",
+    "thus",
+    "terebinthinae",
+    "terebinthinae depuratae"
   ],
   "Pine Resin": [
     "qd.t",
@@ -80,6 +92,7 @@
 	"šb{.t}",
     "šbb",
     "mastix",
+    "mastiches",
     "mastic",
     "lentisk"
   ],
@@ -87,11 +100,14 @@
     "gnn",
     "styrax",
     "storax",
+    "styracis",
+    "styracis pinguis",
 	"gnn n(.j) njywbn šwi̯"
   ],
   "Bdellium": [
     "βδέλλιον",
-    "bdellium"
+    "bdellium",
+    "bdellii"
   ],
   "Onycha": [
     "ὄνυξ", 
@@ -100,30 +116,36 @@
   "Cassia": [
     "κασία",
     "cassia",
+    "casiae",
     "cinnamon bark"
   ],
   "Saffron": [
     "κρόκος", 
-    "saffron"
+    "saffron",
+    "croci"
   ],
   "Spikenard": [
     "ναρδοστάχυς",
     "spikenard",
+    "spicae nardi",
     "nard"
   ],
   "Rush": [
     "σχοῖνος",
     "schoinos",
-    "rush"
+    "rush",
+    "floris iunci odorati"
   ],
   "Cardamom": [
     "καρδάμωμον σπέρμα",
     "cardamom seed",
-    "cardamom"
+    "cardamom",
+    "cardamomi"
   ],
   "Aspalathus": [
     "ἀσπάλαθος",
     "aspalathus",
+    "aspalathi",
     "thorny broom"
   ]
 }
