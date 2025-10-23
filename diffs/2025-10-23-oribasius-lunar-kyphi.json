@@ -1,0 +1,110 @@
+{
+  "recipes": [
+    {"slug": "oribasius-lunar-kyphi", "label": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)", "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220", "language": "grc", "date": 350}
+  ],
+  "ingredients": [
+    {"slug": "bdellion", "label": "βδέλλιον", "language": "grc"},
+    {"slug": "helenion", "label": "ἑλένιον", "language": "grc"},
+    {"slug": "schoinos-anthos", "label": "σχοῖνος ἄνθος", "language": "grc"},
+    {"slug": "sphagnon", "label": "σφάγνον", "language": "grc"},
+    {"slug": "arkeuthides-mikrai", "label": "ἀρκευθίδες μικραί", "language": "grc"},
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "kardamomon", "label": "καρδάμωμον", "language": "grc"},
+    {"slug": "kassia-syrigx", "label": "κασσία σύριγξ", "language": "grc"},
+    {"slug": "nardostachys", "label": "ναρδοστάχυς", "language": "grc"},
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "asphodelos-rhiza", "label": "ἀσφόδελος ῥίζα", "language": "grc"},
+    {"slug": "kyparissos-sperma", "label": "κυπάρισσος σπέρμα", "language": "grc"},
+    {"slug": "brathys", "label": "βράθυς", "language": "grc"},
+    {"slug": "nardos-keltike", "label": "νάρδος Κελτική", "language": "grc"},
+    {"slug": "kostos", "label": "κόστος", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "ischades-liparai", "label": "ἰσχάδες λιπαραί", "language": "grc"},
+    {"slug": "staphis-ekgigartos", "label": "σταφὶς ἐκγιγαρτισθεῖσα", "language": "grc"},
+    {"slug": "strobiloi", "label": "στρόβιλοι", "language": "grc"},
+    {"slug": "terebinthine", "label": "τερεβινθίνη", "language": "grc"},
+    {"slug": "rhoda-xera", "label": "ῥόδα ξηρά", "language": "grc"},
+    {"slug": "styrax", "label": "στύραξ", "language": "grc"},
+    {"slug": "phoinikes-liparoi", "label": "φοίνικες λιπαροί", "language": "grc"},
+    {"slug": "meli", "label": "μέλι", "language": "grc"},
+    {"slug": "oinos-euodes", "label": "οἶνος εὐώδης", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "bdellion", "variant_label": "bdellium", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "helenion", "variant_label": "elecampane", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "schoinos-anthos", "variant_label": "flower of schoinos", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "sphagnon", "variant_label": "sphagnon moss", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "small juniper berries", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathos", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kardamomon", "variant_label": "cardamom", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kassia-syrigx", "variant_label": "cassia in tubes", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "nardostachys", "variant_label": "spikenard", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "root of asphodel", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "seed of cypress", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "brathys", "variant_label": "brathyos", "language": "en", "source": "transliteration"},
+
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Celtic nard", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kostos", "variant_label": "costus", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "ischades-liparai", "variant_label": "rich figs", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "staphis-ekgigartos", "variant_label": "deseeded raisins", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "strobiloi", "variant_label": "pinecones", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "terebinthine", "variant_label": "terebinth resin", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "rhoda-xera", "variant_label": "dried roses", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "styrax", "variant_label": "storax", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "rich dates", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "meli", "variant_label": "honey", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "oinos-euodes", "variant_label": "fragrant wine", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "bdellion", "amount_raw": "𐆄 <ζ>", "amount_value": 7, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "helenion", "amount_raw": "𐆄 <ζ>", "amount_value": 7, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "schoinos-anthos", "amount_raw": "𐆄 <β>", "amount_value": 2, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "sphagnon", "amount_raw": "𐆄 <ε>", "amount_value": 5, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "arkeuthides-mikrai", "amount_raw": "<ν>", "amount_value": 50, "amount_unit": "unit", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "aspalathos", "amount_raw": "𐆄 𐅶", "amount_value": 1, "amount_unit": "pound", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "kardamomon", "amount_raw": "𐆄 <ε>", "amount_value": 5, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "kassia-syrigx", "amount_raw": "𐆄 <ε>", "amount_value": 5, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "nardostachys", "amount_raw": "𐆄 <β>", "amount_value": 2, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "kyperos", "amount_raw": "𐆄 <θ>", "amount_value": 9, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "asphodelos-rhiza", "amount_raw": "𐆄 <δ>", "amount_value": 4, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "kyparissos-sperma", "amount_raw": "𐆄 <γ>", "amount_value": 3, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "brathys", "amount_raw": "𐆄 <δ>", "amount_value": 4, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "nardos-keltike", "amount_raw": "𐆄 <γ>", "amount_value": 3, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "kostos", "amount_raw": "𐆄 <β>", "amount_value": 2, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "smyrne", "amount_raw": "𐆄 <ζ>", "amount_value": 7, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "ischades-liparai", "amount_raw": "𐆃 <β>", "amount_value": 2, "amount_unit": "pint", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "staphis-ekgigartos", "amount_raw": "𐆃 <β>", "amount_value": 2, "amount_unit": "pint", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "strobiloi", "amount_raw": "𐆄 <γ>", "amount_value": 3, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "terebinthine", "amount_raw": "𐆃 <α>", "amount_value": 1, "amount_unit": "pint", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "rhoda-xera", "amount_raw": "𐆄 <γ>", "amount_value": 3, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "styrax", "amount_raw": "𐆄 <ζ>", "amount_value": 7, "amount_unit": "ounce", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "phoinikes-liparoi", "amount_raw": "𐆃 <α>", "amount_value": 1, "amount_unit": "pint", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "meli", "amount_raw": "𐆃 <ε>", "amount_value": 5, "amount_unit": "pint", "preparation": null, "notes": null, "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"},
+    {"recipe_slug": "oribasius-lunar-kyphi", "ingredient_slug": "oinos-euodes", "amount_raw": "τὸ ἀρκοῦν", "amount_value": null, "amount_unit": null, "preparation": null, "notes": "as much as suffices", "source_citation": "Oribasius, Synopsis ad Eustathium 3.220", "source_span": "3.220"}
+  ]
+}
