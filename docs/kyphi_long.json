@@ -286,7 +286,7 @@
       "amount": "2.5 drachm (βʹ 𐅶ʹʹ)",
       "preparation": "mixed with other dry ingredients",
       "notes": "textual uncertainty - additional notation unclear",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Rufus of Ephesus, via Damocrates and Galen",
@@ -486,7 +486,7 @@
       "amount": "1 mina (μνᾶν μίαν)",
       "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
       "notes": "aspalathus, one mina",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Dioscorides, De Materia Medica 1.25",
@@ -550,7 +550,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "sphagnum moss, unique botanical component, 5 ounces",
-      "aliases": "sphagnum moss, moss, hypnos"
+      "aliases": "sphagnum moss, moss, hypnos, sphagnon moss"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -574,7 +574,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -582,7 +582,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "cassia quill, likely variety of cinnamon bark, 5 ounces",
-      "aliases": "cassia quill, quill of cassia, cassia bark"
+      "aliases": "cassia quill, quill of cassia, cassia bark, cassia in tubes"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -606,7 +606,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "asphodel root, Mediterranean bulb plant, 4 ounces",
-      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -614,7 +614,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "tamarisk, salt-tolerant shrub, 4 ounces",
-      "aliases": "tamarisk, salt cedar, brathy"
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -622,7 +622,7 @@
       "amount": "3 ounce (𐆄 γ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "cypress seeds, aromatic tree seeds, 3 ounces",
-      "aliases": "cypress seed, Mediterranean cypress"
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -694,7 +694,7 @@
       "amount": "2 pound (λι. β)",
       "preparation": "seeds removed",
       "notes": "stoneless raisins, processed grape sweetener, 2 pounds",
-      "aliases": "stoneless raisins, seedless grapes, pitted raisins"
+      "aliases": "stoneless raisins, seedless grapes, pitted raisins, deseeded raisins"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -702,7 +702,7 @@
       "amount": "8 ounce (𐆄 η)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "storax/pine cones, coniferous aromatic, 8 ounces",
-      "aliases": "storax, pine cones, conifer cones"
+      "aliases": "storax, pine cones, conifer cones, pinecones"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -782,7 +782,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "thorny shrub, multiple botanical identifications, 7 ounces",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -814,7 +814,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "cypress seeds, aromatic tree seeds, 7 ounces",
-      "aliases": "cypress seed, Mediterranean cypress"
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -886,7 +886,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "sphagnum moss, 5 ounces",
-      "aliases": "sphagnum moss, moss, hypnos"
+      "aliases": "sphagnum moss, moss, hypnos, sphagnon moss"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -942,7 +942,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "tamarisk, 4 ounces",
-      "aliases": "tamarisk, salt cedar, brathy"
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -950,7 +950,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "root or juice alternative",
       "notes": "asphodel root, 4 ounces",
-      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -974,7 +974,7 @@
       "amount": "2 ounce (𐆄 β)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "schoinos flowers, 2 ounces",
-      "aliases": "schoinos flower, rush flower"
+      "aliases": "schoinos flower, rush flower, flower of schoinos"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -1102,7 +1102,7 @@
       "amount": null,
       "preparation": "mixed with sacred writings read during preparation",
       "notes": "multiple botanical identifications: camelthorn (Alhagi), thorny trefoil (Calycotome), Genista species, or rooibos",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Plutarch, Isis and Osiris 383E-384C",
@@ -1182,7 +1182,7 @@
       "amount": "7 ounce (οὐγγίας ζʹ)",
       "preparation": null,
       "notes": "aspalathus, 7 ounces",
-      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1246,7 +1246,7 @@
       "amount": "4 ounce (οὐγγίας δʹ)",
       "preparation": null,
       "notes": "asphodel, 4 ounces",
-      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1254,7 +1254,7 @@
       "amount": "4 ounce (οὐγγίας δʹ)",
       "preparation": null,
       "notes": "brathy, 4 ounces",
-      "aliases": "tamarisk, salt cedar, brathy"
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1286,7 +1286,7 @@
       "amount": "3 ounce (οὐγγίας γʹ)",
       "preparation": null,
       "notes": "cypress seed, 3 ounces",
-      "aliases": "cypress seed, Mediterranean cypress"
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1302,7 +1302,7 @@
       "amount": "3 ounce (οὐγγίας γʹ)",
       "preparation": "ἤ τοῦ ὕπνου",
       "notes": "sphagnum moss or hypnos as alternative, 3 ounces",
-      "aliases": "sphagnum moss, moss, hypnos"
+      "aliases": "sphagnum moss, moss, hypnos, sphagnon moss"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1326,7 +1326,7 @@
       "amount": "1 ounce (οὐγγίαν αʹ)",
       "preparation": null,
       "notes": "schoinos flower, 1 ounce",
-      "aliases": "schoinos flower, rush flower"
+      "aliases": "schoinos flower, rush flower, flower of schoinos"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
@@ -1462,7 +1462,7 @@
       "amount": "1 ounce (οὐγγίαν αʹ)",
       "preparation": null,
       "notes": "brathy, 1 ounce",
-      "aliases": "tamarisk, salt cedar, brathy"
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
@@ -1502,7 +1502,7 @@
       "amount": "1 ounce (οὐγγίαν αʹ)",
       "preparation": "ἢ ἀσπαλάθου",
       "notes": "schoinos flower or aspalathus as alternative, 1 ounce",
-      "aliases": "schoinos flower, rush flower"
+      "aliases": "schoinos flower, rush flower, flower of schoinos"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
@@ -1574,7 +1574,7 @@
       "amount": "1 ounce (𐅻 αʹ / οὐγγίαν αʹ)",
       "preparation": null,
       "notes": "cypress seed, variant readings in manuscripts",
-      "aliases": "cypress seed, Mediterranean cypress"
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
@@ -1638,7 +1638,7 @@
       "amount": "1 ounce (χυλοῦ οὐγγίαν αʹ)",
       "preparation": null,
       "notes": "asphodel juice, 1 ounce",
-      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
     },
     {
       "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
@@ -1654,6 +1654,206 @@
       "amount": "τὸ ἱκανὸν",
       "preparation": null,
       "notes": "fragrant wine, sufficient amount",
+      "aliases": "fragrant wine, aromatic wine, perfumed wine"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "βδέλλιον",
+      "amount": "7 ounce (𐆄 <ζ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ἑλένιον",
+      "amount": "7 ounce (𐆄 <ζ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "σχοῖνος ἄνθος",
+      "amount": "2 ounce (𐆄 <β>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "schoinos flower, rush flower, flower of schoinos"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "σφάγνον",
+      "amount": "5 ounce (𐆄 <ε>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "sphagnum moss, moss, hypnos, sphagnon moss"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ἀρκευθίδες μικραί",
+      "amount": "50 unit (<ν>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "small juniper berries, common juniper"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "1 pound (𐆄 𐅶)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "καρδάμωμον",
+      "amount": "5 ounce (𐆄 <ε>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "κασσία σύριγξ",
+      "amount": "5 ounce (𐆄 <ε>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cassia quill, quill of cassia, cassia bark, cassia in tubes"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "2 ounce (𐆄 <β>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "κύπερος",
+      "amount": "9 ounce (𐆄 <θ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "4 ounce (𐆄 <δ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "3 ounce (𐆄 <γ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "βράθυς",
+      "amount": "4 ounce (𐆄 <δ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "3 ounce (𐆄 <γ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "κόστος",
+      "amount": "2 ounce (𐆄 <β>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "costus, costus root"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "σμύρνη",
+      "amount": "7 ounce (𐆄 <ζ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ἰσχάδες λιπαραί",
+      "amount": "2 pint (𐆃 <β>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fatty figs, rich figs"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "σταφὶς ἐκγιγαρτισθεῖσα",
+      "amount": "2 pint (𐆃 <β>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "stoneless raisins, seedless grapes, pitted raisins, deseeded raisins"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "στρόβιλοι",
+      "amount": "3 ounce (𐆄 <γ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "storax, pine cones, conifer cones, pinecones"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "τερεβινθίνη",
+      "amount": "1 pint (𐆃 <α>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "turpentine, terebinth resin, purified terebinth"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "ῥόδα ξηρά",
+      "amount": "3 ounce (𐆄 <γ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "dried roses, rose petals"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "στύραξ",
+      "amount": "7 ounce (𐆄 <ζ>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "styrax, storax"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "φοίνικες λιπαροί",
+      "amount": "1 pint (𐆃 <α>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fatty dates, rich dates, date flesh"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "μέλι",
+      "amount": "5 pint (𐆃 <ε>)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)",
+      "ingredient": "οἶνος εὐώδης",
+      "amount": "τὸ ἀρκοῦν",
+      "preparation": null,
+      "notes": "as much as suffices",
       "aliases": "fragrant wine, aromatic wine, perfumed wine"
     }
   ],
@@ -1716,6 +1916,12 @@
       "date": 550,
       "slug": "aetius-kyphi-36",
       "source": "Aetius of Amida, Libri medicinales, Biblioteca Medicea Laurenziana Plut. 75.2, f. 198r (recipe 116)",
+      "language": "grc"
+    },
+    "Oribasius, Lunar Kyphi (Synopsis ad Eustathium 3.220)": {
+      "date": 350,
+      "slug": "oribasius-lunar-kyphi",
+      "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220",
       "language": "grc"
     }
   }
