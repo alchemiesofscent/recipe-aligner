@@ -267,11 +267,22 @@
     {
       "recipe_slug": "aetius-kyphi-36",
       "ingredient_slug": "schoinos-anthos",
-      "amount_raw": "οὐγγίαν αʹ",
+      "amount_raw": "ἀνὰ οὐγγίαν αʹ",
       "amount_value": 1,
       "amount_unit": "ounce",
-      "preparation": "ἢ ἀσπαλάθου",
-      "notes": "schoinos flower or aspalathus as alternative, 1 ounce",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to aspalathos",
+      "source_citation": "Aetius, Plut. 75.2, f. 198r",
+      "source_span": "198r"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-36",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "ἀνὰ οὐγγίαν αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to schoinos flower",
       "source_citation": "Aetius, Plut. 75.2, f. 198r",
       "source_span": "198r"
     },

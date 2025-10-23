@@ -5584,11 +5584,11 @@
       "entry_id": 188,
       "recipe_id": 10,
       "ingredient_id": 80,
-      "amount_raw": "οὐγγίαν αʹ",
+      "amount_raw": "ἀνὰ οὐγγίαν αʹ",
       "amount_value": 1,
       "amount_unit": "ounce",
-      "preparation": "ἢ ἀσπαλάθου",
-      "notes": "schoinos flower or aspalathus as alternative, 1 ounce",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to aspalathos",
       "source_citation": "Aetius, Plut. 75.2, f. 198r",
       "source_span": "198r",
       "added_at": "2025-10-23T12:50:20.025503",
@@ -6209,6 +6209,34 @@
       "source_span": "3.220",
       "added_at": "2025-10-23T12:57:53.333389",
       "added_by": "ci"
+    },
+    {
+      "entry_id": 233,
+      "recipe_id": 9,
+      "ingredient_id": 36,
+      "amount_raw": "αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "listed as optional (ἐν ἄλλῳ - in another variant)",
+      "source_citation": "Aetius, Plut. 75.2, f. 198r",
+      "source_span": "198r",
+      "added_at": "2025-10-23T13:10:00.000000",
+      "added_by": "manual-amendment"
+    },
+    {
+      "entry_id": 234,
+      "recipe_id": 10,
+      "ingredient_id": 34,
+      "amount_raw": "ἀνὰ οὐγγίαν αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to schoinos flower",
+      "source_citation": "Aetius, Plut. 75.2, f. 198r",
+      "source_span": "198r",
+      "added_at": "2025-10-23T13:10:00.000000",
+      "added_by": "manual-amendment"
     }
   ]
 }

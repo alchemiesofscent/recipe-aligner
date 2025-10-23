@@ -397,6 +397,17 @@
       "notes": "wine, 2 xestes (pints)",
       "source_citation": "Aetius, Plut. 75.2, f. 198v",
       "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "kasia",
+      "amount_raw": "αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "listed as optional (ἐν ἄλλῳ - in another variant)",
+      "source_citation": "Aetius, Plut. 75.2, f. 198r",
+      "source_span": "198r"
     }
   ]
 }

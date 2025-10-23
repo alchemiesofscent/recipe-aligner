@@ -1499,9 +1499,9 @@
     {
       "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
       "ingredient": "σχοῖνος ἄνθος",
-      "amount": "1 ounce (οὐγγίαν αʹ)",
-      "preparation": "ἢ ἀσπαλάθου",
-      "notes": "schoinos flower or aspalathus as alternative, 1 ounce",
+      "amount": "1 ounce (ἀνὰ οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to aspalathos",
       "aliases": "schoinos flower, rush flower, flower of schoinos"
     },
     {
@@ -1855,6 +1855,22 @@
       "preparation": null,
       "notes": "as much as suffices",
       "aliases": "fragrant wine, aromatic wine, perfumed wine"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "κασία",
+      "amount": "1 ounce (αʹ)",
+      "preparation": null,
+      "notes": "listed as optional (ἐν ἄλλῳ - in another variant)",
+      "aliases": "cassia, cinnamon bark"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "1 ounce (ἀνὰ οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "listed as alternative (ἢ - or) to schoinos flower",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
     }
   ],
   "recipe_metadata": {
