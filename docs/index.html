@@ -152,6 +152,57 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 /* Footer */
 .footer{ text-align:center; padding:16px; color:var(--muted); font-size:12px; border-top:1px solid var(--border); }
 
+/* Control Groups */
+.control-groups{ display:flex; gap:12px; flex-wrap:wrap; }
+.control-group{
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:12px;
+  background:color-mix(in oklab, var(--card) 50%, transparent);
+  flex:1 1 auto;
+  min-width:200px;
+}
+.control-group-header{
+  font-size:11px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--muted);
+  margin-bottom:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.control-group-content{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+
+/* Mobile: collapsible control groups */
+@media (max-width: 768px) {
+  .control-groups{ flex-direction:column; }
+  .control-group{ min-width:100%; }
+
+  .control-group.collapsible .control-group-header{
+    cursor:pointer;
+    user-select:none;
+  }
+
+  .control-group.collapsible .control-group-header::after{
+    content:'▼';
+    font-size:10px;
+    transition:transform 0.2s;
+  }
+
+  .control-group.collapsible.collapsed .control-group-header::after{
+    transform:rotate(-90deg);
+  }
+
+  .control-group.collapsible.collapsed .control-group-content{
+    display:none;
+  }
+}
+
+/* Buttons in control groups */
+.control-group .btn{ white-space:nowrap; }
+
 </style>
 </head>
 <body>
@@ -167,35 +218,52 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
       </div>
 
       <div class="controls">
-        <input id="searchInput" class="search-input" 
+        <input id="searchInput" class="search-input"
                placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts..." />
-        
-        <div class="toggle-group">
-          <label class="toggle">
-            <input type="checkbox" id="smartAlignment" /> Smart alignment
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showAmounts" checked /> Amounts
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showPrep" checked /> Preparation
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showNotes" /> Notes
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showAliases" checked /> Show aliases
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showDates" checked /> Show dates
-          </label>
-        </div>
 
-        <div style="display: flex; gap: 8px;">
-          <button id="selectAll" class="btn">Select all</button>
-          <button id="selectNone" class="btn">Select none</button>
-          <button id="exportCSV" class="btn">Export CSV</button>
-          <button id="exportJSON" class="btn">Export JSON</button>
+        <div class="control-groups">
+          <!-- View Options Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">View Options</div>
+            <div class="control-group-content">
+              <label class="toggle">
+                <input type="checkbox" id="smartAlignment" /> Smart alignment
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showAmounts" checked /> Amounts
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showPrep" checked /> Preparation
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showNotes" /> Notes
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showAliases" checked /> Aliases
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showDates" checked /> Dates
+              </label>
+            </div>
+          </div>
+
+          <!-- Recipe Selection Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">Recipe Selection</div>
+            <div class="control-group-content">
+              <button id="selectAll" class="btn">Select all</button>
+              <button id="selectNone" class="btn">Select none</button>
+            </div>
+          </div>
+
+          <!-- Export Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">Export</div>
+            <div class="control-group-content">
+              <button id="exportCSV" class="btn">Export CSV</button>
+              <button id="exportJSON" class="btn">Export JSON</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -390,13 +458,59 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     $('#exportCSV').addEventListener('click', () => exportData('csv'));
     $('#exportJSON').addEventListener('click', () => exportData('json'));
 
-themeToggle.addEventListener('click', () => {
-  const html = document.documentElement;
-  const current = html.getAttribute('data-theme');
-  const newTheme = current === 'dark' ? 'light' : 'dark';
-  html.setAttribute('data-theme', newTheme);
-  $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
-});
+    themeToggle.addEventListener('click', () => {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const newTheme = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+    });
+
+    // Mobile collapsible control groups
+    initCollapsibleGroups();
+  }
+
+  function initCollapsibleGroups() {
+    const controlGroups = document.querySelectorAll('.control-group.collapsible');
+
+    // Check if mobile view
+    const isMobile = () => window.innerWidth <= 768;
+
+    // Initialize collapsed state on mobile
+    const initializeCollapsedState = () => {
+      controlGroups.forEach(group => {
+        if (isMobile()) {
+          // On mobile, collapse all groups by default
+          group.classList.add('collapsed');
+        } else {
+          // On desktop, ensure all groups are expanded
+          group.classList.remove('collapsed');
+        }
+      });
+    };
+
+    // Add click handlers to headers
+    controlGroups.forEach(group => {
+      const header = group.querySelector('.control-group-header');
+      if (header) {
+        header.addEventListener('click', () => {
+          // Only toggle on mobile
+          if (isMobile()) {
+            group.classList.toggle('collapsed');
+          }
+        });
+      }
+    });
+
+    // Initialize on load
+    initializeCollapsedState();
+
+    // Re-initialize on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(initializeCollapsedState, 150);
+    });
   }
 
 function renderRecipeChips() {
