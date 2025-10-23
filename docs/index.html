@@ -176,28 +176,73 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 }
 .control-group-content{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
 
-/* Smart Alignment - Featured Group */
+/* Smart Alignment - Featured Group as Clickable Card */
 .control-group.smart-alignment{
   flex:1 1 100%;
-  border:2px solid var(--accent);
-  background:color-mix(in oklab, var(--accent) 5%, var(--card));
+  border:2px solid var(--border);
+  background:var(--card);
   padding:16px;
+  cursor:pointer;
+  user-select:none;
+  transition:all 0.2s ease;
+  position:relative;
+}
+.control-group.smart-alignment:hover{
+  border-color:color-mix(in oklab, var(--accent) 50%, var(--border));
+  transform:translateY(-1px);
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+.control-group.smart-alignment.active{
+  border:2px solid var(--accent);
+  background:color-mix(in oklab, var(--accent) 8%, var(--card));
+}
+.control-group.smart-alignment.active .control-group-header{
+  color:var(--accent);
 }
 .control-group.smart-alignment .control-group-header{
   font-size:13px;
-  color:var(--accent);
+  color:var(--muted);
   margin-bottom:6px;
+  transition:color 0.2s ease;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:8px;
+}
+.control-group.smart-alignment .control-group-header::before{
+  content:'○';
+  font-size:18px;
+  color:var(--border);
+  transition:all 0.2s ease;
+}
+.control-group.smart-alignment.active .control-group-header::before{
+  content:'●';
+  color:var(--accent);
 }
 .smart-alignment-description{
   font-size:12px;
   color:var(--muted);
   line-height:1.5;
-  margin-bottom:10px;
+  margin-bottom:0;
 }
-.control-group.smart-alignment .toggle{
-  font-size:13px;
-  font-weight:500;
-  color:var(--fg);
+.control-group.smart-alignment .control-group-content{
+  display:none; /* Hide the checkbox completely */
+}
+.smart-alignment-status{
+  position:absolute;
+  top:16px;
+  right:16px;
+  font-size:11px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--muted);
+  opacity:0.6;
+  transition:all 0.2s ease;
+}
+.control-group.smart-alignment.active .smart-alignment-status{
+  color:var(--accent);
+  opacity:1;
 }
 
 /* Mobile: collapsible control groups */
@@ -222,6 +267,11 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 
   .control-group.collapsible.collapsed .control-group-content{
     display:none;
+  }
+
+  /* Smart Alignment is always expanded on mobile (not collapsible) */
+  .control-group.smart-alignment .smart-alignment-description{
+    display:block;
   }
 }
 
@@ -248,15 +298,14 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 
         <div class="control-groups">
           <!-- Smart Alignment - Featured Group -->
-          <div class="control-group smart-alignment collapsible">
+          <div class="control-group smart-alignment" id="smartAlignmentCard">
+            <div class="smart-alignment-status">Off</div>
             <div class="control-group-header">Smart Alignment</div>
             <div class="smart-alignment-description">
               Groups ingredient variants together by identifying equivalent terms across recipes (e.g., "myrrh", "σμύρνη", "smyrna").
             </div>
             <div class="control-group-content">
-              <label class="toggle">
-                <input type="checkbox" id="smartAlignment" /> Enable Smart Alignment
-              </label>
+              <input type="checkbox" id="smartAlignment" style="display:none;" />
             </div>
           </div>
 
@@ -467,6 +516,7 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     smartAlignment.addEventListener('change', () => {
       console.log('Smart alignment toggled:', smartAlignment.checked);
       console.log('Current equivalences:', equivalences);
+      updateSmartAlignmentCard();
       render();
     });
     showAmounts.addEventListener('change', render);
@@ -501,8 +551,46 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
       $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
     });
 
+    // Smart Alignment clickable card
+    initSmartAlignmentCard();
+
     // Mobile collapsible control groups
     initCollapsibleGroups();
+  }
+
+  function initSmartAlignmentCard() {
+    const card = $('#smartAlignmentCard');
+    const checkbox = $('#smartAlignment');
+
+    if (!card || !checkbox) return;
+
+    // Click handler for the card - works the same on desktop and mobile
+    card.addEventListener('click', (e) => {
+      // Toggle the checkbox
+      checkbox.checked = !checkbox.checked;
+
+      // Trigger change event to update the table
+      checkbox.dispatchEvent(new Event('change'));
+    });
+
+    // Initialize card state
+    updateSmartAlignmentCard();
+  }
+
+  function updateSmartAlignmentCard() {
+    const card = $('#smartAlignmentCard');
+    const checkbox = $('#smartAlignment');
+    const statusLabel = card?.querySelector('.smart-alignment-status');
+
+    if (!card || !checkbox || !statusLabel) return;
+
+    if (checkbox.checked) {
+      card.classList.add('active');
+      statusLabel.textContent = 'On';
+    } else {
+      card.classList.remove('active');
+      statusLabel.textContent = 'Off';
+    }
   }
 
   function initCollapsibleGroups() {
@@ -528,9 +616,10 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     controlGroups.forEach(group => {
       const header = group.querySelector('.control-group-header');
       if (header) {
-        header.addEventListener('click', () => {
+        header.addEventListener('click', (e) => {
           // Only toggle on mobile
           if (isMobile()) {
+            e.stopPropagation();
             group.classList.toggle('collapsed');
           }
         });
