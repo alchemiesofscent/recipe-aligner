@@ -1,286 +1,233 @@
-# Kyphi Recipe Aligner
+# Recipe Aligner
 
-A comprehensive web-based tool for aligning and comparing ancient kyphi incense recipes across different sources, with a professional data workflow powered by GitHub automation.
+A web-based research tool for aligning and comparing historic Kyphi incense recipes across multiple sources, backed by structured JSON data and automation helpers for keeping the dataset consistent.
 
-## 🌐 **Live Demo**
+## 🌐 Live Demo
 
-Visit the app at: `https://alchemiesofscent.github.io/kyphi-repo/`
+Visit: `https://alchemiesofscent.github.io/recipe-aligner/`
 
-## ✨ **Key Features**
+## ✨ Key Features
 
-- **🔍 Interactive Search**: Find ingredients across recipes with live search and filtering
-- **📊 Smart Alignment**: Compare recipe variations side-by-side in a clean table view  
-- **🤖 Automated Workflow**: CI/CD pipeline handles validation, merging, and deployment
-- **🗂️ Data Integrity**: Prevents duplicates and maintains referential integrity
-- **📱 Mobile-Friendly**: Responsive design works on all devices
-- **🌍 Unicode Support**: Proper handling of ancient Greek, Arabic, and other scripts
-- **📤 Export Options**: Download data as CSV or JSON with one click
-- **🔄 Version Control**: Full audit trail of all changes via Git
+- 🔍 Interactive search and filtering across recipes and ingredients
+- 📊 Side-by-side alignment table with sticky headers for long recipe lists
+- 📚 Clean data pipeline that keeps diff files, the master dataset, and published exports in sync
+- 🤖 Automated validation scripts plus GitHub Actions integration for pull requests
+- 📤 One-click CSV/JSON exports tailored for downstream analysis
+- 📱 Responsive UI that works well on desktop and mobile
 
-## 📁 **Repository Structure**
+## 📁 Repository Structure
 
 ```
-kyphi-repo/
-├── docs/                          # 🌐 GitHub Pages site
-│   ├── index.html                # Main aligner web app
-│   └── kyphi_long.json           # Auto-generated data (don't edit!)
-├── data/                          # 📚 Core database
-│   ├── MASTER.json               # Canonical database (don't edit by hand!)
-│   ├── schema_master.json        # Schema for MASTER.json
-│   └── schema_diff.json          # Schema for diff files
-├── diffs/                         # 📥 Ingestion files
-│   ├── 2025-09-01-rufus.json     # Example diff file
-│   └── processed/                # Auto-archived completed diffs
-├── scripts/                       # 🛠️ Data processing tools
-│   ├── merge_diff.py             # Merges diffs into MASTER.json (enhanced!)
-│   ├── export_long.py            # Exports MASTER to web format (enhanced!)
-│   ├── remove_diff.py            # Removes diffs from MASTER.json (new!)
-│   └── validate_diff.py          # Local validation tool (new!)
+recipe-aligner/
+├── docs/                          # GitHub Pages site (served from /docs)
+│   ├── index.html                 # Front-end application
+│   ├── kyphi_long.json            # Published dataset used by the app (auto-generated)
+│   └── equivalences.json          # Ingredient equivalence metadata (auto-generated)
+├── data/                          # Authoritative data under version control
+│   ├── MASTER.json                # Canonical dataset (don't edit by hand)
+│   ├── schema_master.json         # JSON Schema for MASTER.json
+│   ├── schema_diff.json           # JSON Schema for incoming diffs
+│   └── 20250903 kyphi recipes raw data.txt  # Source transcription notes
+├── diffs/                         # Incoming data additions
+│   └── processed/                 # Archived diffs after merge
+├── scripts/                       # Data management utilities
+│   ├── merge_diff.py              # Apply a diff file to MASTER.json
+│   ├── export_long.py             # Export MASTER.json to docs/kyphi_long.json
+│   ├── remove_diff.py             # Remove a previously merged diff
+│   ├── validate_diff.py           # Validate diff files against schema
+│   ├── build_equivalences.py      # Rebuild docs/equivalences.json from MASTER.json
+│   ├── generate_equivalences.py   # Helper for ingredient linking workflows
+│   ├── ingredient_db.py           # Ingredient database helpers
+│   ├── link_ingredients.py        # Link ingredient variants across recipes
+│   └── diagnose_json.py, fix_json.py  # JSON cleanup helpers
 └── .github/workflows/
-    └── ci.yml                    # GitHub Actions workflow (enhanced!)
+    └── validate.yml               # CI validation for pull requests
 ```
 
-## 🔄 **Workflow Overview**
+## 🔄 Workflow Overview
 
-### **1. Data Ingestion**
+### 1. Data Ingestion
 ```mermaid
 graph LR
     A[Create Diff JSON] --> B[Validate Locally]
     B --> C[Open Pull Request]
     C --> D[CI Validates & Previews]
-    D --> E[Merge to Main]
-    E --> F[Auto-Deploy to GitHub Pages]
+    D --> E[Merge to main]
+    E --> F[Export & Deploy]
 ```
 
-### **2. Step-by-Step Process**
-1. **📝 Create diff files** following the schema (see examples below)
-2. **✅ Validate locally** using `python scripts/validate_diff.py diffs/my_diff.json`
-3. **📋 Open Pull Request** - CI shows validation results and merge preview  
-4. **🔍 Review & merge** - changes are automatically applied and deployed
-5. **🌐 Visit live site** - updates appear within minutes
+### 2. Step-by-Step
+1. 📝 Create diff files that follow the schema (see template below)
+2. ✅ Validate locally: `python scripts/validate_diff.py diffs/my_diff.json`
+3. 📋 Open a pull request — CI runs `scripts/validate_diff.py` automatically
+4. 🔍 Review and merge — merged diffs update MASTER.json
+5. 🌐 Regenerate exports for the live site: `python scripts/export_long.py data/MASTER.json docs/kyphi_long.json`
+6. 🧭 (Optional) Refresh equivalence data: `python scripts/build_equivalences.py`
 
-## 🚀 **Quick Start**
+## 🚀 Quick Start
 
-### **Setup Repository**
 ```bash
-# Clone and setup
-git clone https://github.com/[username]/[repo-name]
-cd [repo-name]
+# Clone and enter the project
+git clone https://github.com/alchemiesofscent/recipe-aligner.git
+cd recipe-aligner
 
-# Test with sample data
-python scripts/merge_diff.py data/MASTER.json diffs/example_2025-09-01.json "test"
+# (Optional) Activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt  # if present
+
+# Validate example diffs
+python scripts/validate_diff.py diffs/*.json
+
+# Merge a diff into MASTER.json (dry-run recommended!)
+python scripts/merge_diff.py data/MASTER.json diffs/example.json "example-source"
+
+# Export the dataset used by the app
 python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
+python scripts/build_equivalences.py  # regenerate equivalence helper data
 
-# Run locally
-cd docs && python -m http.server 8000
-# Visit http://localhost:8000
+# Run the static site locally
+cd docs
+python -m http.server 8000
+# Visit http://localhost:8000 in your browser
 ```
 
-### **Enable GitHub Pages**
-1. Go to repo **Settings → Pages**  
+### Enable GitHub Pages
+1. Settings → Pages
 2. Source: **Deploy from branch**
-3. Branch: **main** / Folder: **/ docs**
-4. Save and wait ~5 minutes for deployment
+3. Branch: **main**, Folder: **/docs**
+4. Save; deployment finishes in a few minutes
 
-### **Your First Diff**
-Create `diffs/2025-09-02-my-source.json`:
+## 📋 Diff File Template (`diffs/YYYY-MM-DD-source.json`)
 
-```json
-{
-  "recipes": [{
-    "slug": "dioscorides-kyphi", 
-    "label": "Dioscorides Kyphi",
-    "source": "De Materia Medica",
-    "language": "ancient_greek"
-  }],
-  "ingredients": [{
-    "slug": "myrrh",
-    "label": "σμύρνα", 
-    "language": "grc"
-  }],
-  "aliases": [{
-    "ingredient_slug": "myrrh",
-    "variant_label": "myrrh",
-    "language": "en"
-  }],
-  "entries": [{
-    "recipe_slug": "dioscorides-kyphi",
-    "ingredient_slug": "myrrh",
-    "amount_raw": "δραχμὰς 16",
-    "amount_value": 16,
-    "amount_unit": "drachm",
-    "preparation": "powdered",
-    "notes": "best quality"
-  }]
-}
-```
-
-## 🛠️ **Local Development Tools**
-
-### **Enhanced Scripts with Rich Feedback**
-
-```bash
-# Validate diff files (comprehensive checking)
-python scripts/validate_diff.py diffs/my_diff.json
-python scripts/validate_diff.py diffs/*.json  # validate all
-
-# Merge with detailed progress reporting  
-python scripts/merge_diff.py data/MASTER.json diffs/my_diff.json "my_source"
-
-# Export with statistics and validation
-python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
-
-# Remove entries (undo a diff)
-python scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal_reason"
-```
-
-### **All Scripts Now Provide:**
-- ✅ **Rich visual feedback** with emojis and progress indicators
-- 📊 **Detailed statistics** (before/after counts, summaries)
-- ⚠️ **Clear error messages** with specific guidance
-- 💡 **Helpful suggestions** for improvements
-- 🔍 **Data quality checks** (duplicates, missing fields, etc.)
-
-## 📋 **Data Schema Reference**
-
-### **Diff Format (`diffs/*.json`)**
 ```json
 {
   "recipes": [
     {
-      "slug": "unique-recipe-id",      // required: URL-safe identifier
-      "label": "Display Name",         // required: human-readable name
-      "language": "en",                // optional: ISO language code  
-      "source": "Book/Author"          // optional: citation
+      "slug": "dioscorides-kyphi",
+      "label": "Dioscorides Kyphi",
+      "source": "De Materia Medica",
+      "language": "grc"
     }
   ],
   "ingredients": [
     {
-      "slug": "unique-ingredient-id",  // required: URL-safe identifier
-      "label": "Display Name",         // required: human-readable name
-      "language": "grc"                // optional: ISO language code
+      "slug": "myrrh",
+      "label": "σμύρνα",
+      "language": "grc"
     }
   ],
   "aliases": [
     {
-      "ingredient_slug": "myrrh",      // required: references ingredients
-      "variant_label": "sweet myrrh",  // required: alternative name
-      "language": "en",                // optional: language of variant
-      "source": "Translation"          // optional: source of variant
+      "ingredient_slug": "myrrh",
+      "variant_label": "myrrh",
+      "language": "en"
     }
   ],
   "entries": [
     {
-      "recipe_slug": "recipe-id",      // required: references recipes
-      "ingredient_slug": "myrrh",      // required: references ingredients  
-      "amount_raw": "2 drachms",       // optional: original text
-      "amount_value": 2,               // optional: numeric value
-      "amount_unit": "drachm",         // optional: unit of measurement
-      "preparation": "ground fine",    // optional: preparation method
-      "notes": "best quality only",    // optional: additional notes
-      "source_citation": "Book 1.64",  // optional: specific citation
-      "source_span": "lines 12-15"    // optional: location in source
+      "recipe_slug": "dioscorides-kyphi",
+      "ingredient_slug": "myrrh",
+      "amount_raw": "δραχμὰς 16",
+      "amount_value": 16,
+      "amount_unit": "drachm",
+      "preparation": "powdered",
+      "notes": "best quality"
     }
   ]
 }
 ```
-## 🛠 **Requirements**
 
-- Python 3.7+
-- `jsonschema` library for validation
+## 🛠 Local Development Tools
 
-## 🔧 **Advanced Features**
+### 🚀 Quick Ingestion (Recommended)
 
-### **Data Management**
-- **🔄 Smart Deduplication**: Prevents duplicate entries across all entity types
-- **🆔 Stable IDs**: Each entity gets permanent numeric IDs for reliable referencing  
-- **📅 Provenance Tracking**: Records when/how each entry was added
-- **🗑️ Safe Removal**: Remove diffs without breaking references
-- **✅ Referential Integrity**: Validates all slug references
+Use the Claude Code slash command for interactive recipe ingestion:
 
-### **Web App Enhancements**
-- **🔍 Live Search**: Real-time filtering with visual feedback
-- **📊 Dynamic Table**: Recipe selection with ingredient alignment
-- **📤 Fixed CSV Export**: Now generates proper CSV format (was broken!)
-- **💬 Toast Notifications**: Success/error messages for user actions
-- **🎨 Better UX**: Loading states, empty states, error recovery
-- **📱 Mobile Responsive**: Works great on phones and tablets
-
-### **CI/CD Pipeline**  
-- **✅ Schema Validation**: Ensures all diffs conform to expected structure
-- **🧪 Dry-Run Preview**: Shows exactly what changes will happen before merge
-- **📊 Statistics Reporting**: Before/after counts in CI logs
-- **📁 Auto-Archiving**: Moves processed diffs to `diffs/processed/` 
-- **🚀 Zero-Downtime Deployment**: Changes appear live within minutes
-
-## 🐛 **Troubleshooting**
-
-### **Common Issues**
 ```bash
-# JSON validation errors
-python scripts/validate_diff.py diffs/my_diff.json
-
-# Reference errors (unknown slugs)
-# Check that recipe_slug/ingredient_slug exist in recipes/ingredients arrays
-
-# Empty web app
-python scripts/export_long.py data/MASTER.json docs/kyphi_long.json
-cd docs && python -m http.server 8000
-
-# CI failing
-# Check GitHub Actions tab for detailed error logs
+/ingest-recipe
 ```
 
-### **Data Quality Checks**
-- ⚠️ **Duplicate slugs** within a single diff
-- ❌ **Missing required fields** (slug, label)
-- 🔗 **Broken references** (unknown recipe_slug/ingredient_slug)
-- 📝 **Short labels** (< 2-3 characters)
-- 🌍 **Missing language tags** for non-ASCII content
+This will guide you through:
+- Parsing recipe text
+- Matching ingredients with fuzzy search
+- Updating equivalence groups
+- Generating validated diff JSON
+- Committing to git
 
-## 🤝 **Contributing**
+### 🔧 Manual Workflow
 
-### **For Recipe Data**
-1. **Fork** the repository
-2. **Create** a new diff file in `diffs/YYYY-MM-DD-source.json`
-3. **Validate** locally: `python scripts/validate_diff.py diffs/your_diff.json`
-4. **Open** a Pull Request with description of the source
-5. **Review** CI results and address any issues
-6. **Merge** when approved - changes deploy automatically!
+```bash
+# Helper tools for ingredient matching
+python3 scripts/assist_ingestion.py --fuzzy-match "myrrh"
+python3 scripts/assist_ingestion.py --validate-slug "smyrne"
+python3 scripts/assist_ingestion.py --suggest-slug "σμύρνη" --lang grc
+python3 scripts/assist_ingestion.py --equivalence-for "myrrh"
 
-### **For Code Improvements**
-- All scripts have comprehensive error handling and user feedback
-- Web app includes fallbacks and graceful error recovery  
-- CI pipeline provides detailed validation and preview
-- Follow existing patterns for consistency
+# Equivalence management
+python3 scripts/update_equivalences.py --suggest-for-diff diffs/new.json
+python3 scripts/update_equivalences.py --validate
+python3 scripts/update_equivalences.py --interactive
 
-## 📊 **System Architecture**
+# Validate and process diffs
+python3 scripts/validate_diff.py diffs/my_diff.json
+python3 scripts/merge_diff.py data/MASTER.json diffs/my_diff.json "source"
+
+# Export data for the web app
+python3 scripts/export_long.py data/MASTER.json docs/kyphi_long.json
+
+# Remove a diff if you need to undo it
+python3 scripts/remove_diff.py data/MASTER.json diffs/my_diff.json "removal-notes"
+```
+
+All scripts surface progress indicators, helpful diagnostics, and validation hints to keep the dataset healthy.
+
+## 🧱 Data Requirements
+
+- Python 3.8+
+- `jsonschema` library (`pip install jsonschema`)
+
+## 📦 What the CI Checks
+
+- JSON Schema validation for new diff files
+- Referential integrity between recipes, ingredients, aliases, and entries
+- Duplicate slug detection inside diffs
+- Summary statistics to highlight the impact of changes
+
+## 🧭 System Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Diff Files    │───▶│   MASTER.json    │───▶│  Web App Data   │
-│  (Slug-based)   │    │   (ID-based)     │    │ (Label-based)   │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+┌─────────────────┐    ┌──────────────────┐    ┌────────────────────┐
+│   Diff Files    │───▶│   MASTER.json    │───▶│  Web App Exports   │
+│  (human input)  │    │ (canonical store)│    │ (kyphi_long.json)  │
+└─────────────────┘    └──────────────────┘    └────────────────────┘
         ▲                        ▲                        ▲
         │                        │                        │
-   📝 Human Input           🤖 CI Pipeline          🌐 GitHub Pages
+   Contributors             Automation scripts        GitHub Pages
 
-Schema Validation ──▶ Deduplication ──▶ ID Assignment ──▶ Export ──▶ Deploy
+Schema Validation ─▶ Merge ─▶ Equivalence Build ─▶ Export ─▶ Deploy
 ```
 
-The system transforms human-friendly slug-based diffs into a normalized database with stable numeric IDs, then exports a flattened view perfect for web consumption.
+## 🤝 Contributing
 
-## 📈 **Roadmap**
+### Adding Recipe Data
+- Fork the repository and create `diffs/YYYY-MM-DD-source.json`
+- Run `python scripts/validate_diff.py diffs/your_diff.json`
+- Open a pull request summarizing the source
+- Review CI feedback, iterate, and merge when ready
 
-- [ ] **Search improvements**: Fuzzy matching, advanced filters
-- [ ] **Data visualization**: Charts showing ingredient frequency, recipe relationships  
-- [ ] **API endpoint**: Programmatic access to the dataset
-- [ ] **Bulk import**: Tools for processing large datasets
-- [ ] **Mobile app**: Native iOS/Android companion
+### Improving Tooling or UI
+- Follow the patterns used in existing scripts and front-end assets
+- Prefer incremental pull requests with clear testing notes
+- Update documentation and schemas when adding new fields or behaviors
+
+## 🐛 Troubleshooting
+
+- Validation failing: run `python scripts/validate_diff.py ...` to see detailed errors
+- Unknown slugs: ensure `recipe_slug` and `ingredient_slug` exist in the diff payload
+- Blank app: regenerate exports with `python scripts/export_long.py` and restart the local server
+- CI failures: inspect the **Actions** tab for log output from `validate.yml`
 
 ---
 
-**Built with ❤️ for digital humanities research**
-
-For support, open an issue or check the [GitHub Discussions](https://github.com/alchemiesofscent/kyphi-repo/discussions) tab.
-
+Built with ❤️ for digital humanities research. For support or discussion, open an issue or visit [GitHub Discussions](https://github.com/alchemiesofscent/recipe-aligner/discussions).
