@@ -40,11 +40,12 @@ body{
 .title-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
 h1{ margin:0; font-size:18px; letter-spacing:.2px; }
 .stats{ color:var(--muted); font-size:12px; }
-.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; margin-bottom:12px; }
 .search-input{
-  flex:1 1 300px; padding:10px 12px; border-radius:8px;
+  flex:1 1 100%; padding:10px 12px; border-radius:8px;
   border:1px solid var(--border); background:var(--card); color:var(--fg);
   font-size:14px;
+  order:-1; /* Ensure search bar appears first on mobile */
 }
 .toggle-group{ display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
 .toggle{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); cursor:pointer; }
@@ -152,6 +153,131 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 /* Footer */
 .footer{ text-align:center; padding:16px; color:var(--muted); font-size:12px; border-top:1px solid var(--border); }
 
+/* Control Groups */
+.control-groups{ display:flex; gap:12px; flex-wrap:wrap; flex:1 1 100%; order:1; }
+.control-group{
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:12px;
+  background:color-mix(in oklab, var(--card) 50%, transparent);
+  flex:1 1 auto;
+  min-width:200px;
+}
+.control-group-header{
+  font-size:11px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--muted);
+  margin-bottom:8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.control-group-content{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+
+/* Smart Alignment - Featured Group as Clickable Card */
+.control-group.smart-alignment{
+  flex:1 1 100%;
+  border:2px solid var(--border);
+  background:var(--card);
+  padding:16px;
+  cursor:pointer;
+  user-select:none;
+  transition:all 0.2s ease;
+  position:relative;
+}
+.control-group.smart-alignment:hover{
+  border-color:color-mix(in oklab, var(--accent) 50%, var(--border));
+  transform:translateY(-1px);
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+.control-group.smart-alignment.active{
+  border:2px solid var(--accent);
+  background:color-mix(in oklab, var(--accent) 8%, var(--card));
+}
+.control-group.smart-alignment.active .control-group-header{
+  color:var(--accent);
+}
+.control-group.smart-alignment .control-group-header{
+  font-size:13px;
+  color:var(--muted);
+  margin-bottom:6px;
+  transition:color 0.2s ease;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap:8px;
+}
+.control-group.smart-alignment .control-group-header::before{
+  content:'○';
+  font-size:18px;
+  color:var(--border);
+  transition:all 0.2s ease;
+}
+.control-group.smart-alignment.active .control-group-header::before{
+  content:'●';
+  color:var(--accent);
+}
+.smart-alignment-description{
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.5;
+  margin-bottom:0;
+}
+.control-group.smart-alignment .control-group-content{
+  display:none; /* Hide the checkbox completely */
+}
+.smart-alignment-status{
+  position:absolute;
+  top:16px;
+  right:16px;
+  font-size:11px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  color:var(--muted);
+  opacity:0.6;
+  transition:all 0.2s ease;
+}
+.control-group.smart-alignment.active .smart-alignment-status{
+  color:var(--accent);
+  opacity:1;
+}
+
+/* Mobile: collapsible control groups */
+@media (max-width: 768px) {
+  .control-groups{ flex-direction:column; }
+  .control-group{ min-width:100%; }
+
+  .control-group.collapsible .control-group-header{
+    cursor:pointer;
+    user-select:none;
+  }
+
+  .control-group.collapsible .control-group-header::after{
+    content:'▼';
+    font-size:10px;
+    transition:transform 0.2s;
+  }
+
+  .control-group.collapsible.collapsed .control-group-header::after{
+    transform:rotate(-90deg);
+  }
+
+  .control-group.collapsible.collapsed .control-group-content{
+    display:none;
+  }
+
+  /* Smart Alignment is always expanded on mobile (not collapsible) */
+  .control-group.smart-alignment .smart-alignment-description{
+    display:block;
+  }
+}
+
+/* Buttons in control groups */
+.control-group .btn{ white-space:nowrap; }
+
 </style>
 </head>
 <body>
@@ -167,35 +293,61 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
       </div>
 
       <div class="controls">
-        <input id="searchInput" class="search-input" 
+        <input id="searchInput" class="search-input"
                placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts..." />
-        
-        <div class="toggle-group">
-          <label class="toggle">
-            <input type="checkbox" id="smartAlignment" /> Smart alignment
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showAmounts" checked /> Amounts
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showPrep" checked /> Preparation
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showNotes" /> Notes
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showAliases" checked /> Show aliases
-          </label>
-          <label class="toggle">
-            <input type="checkbox" id="showDates" checked /> Show dates
-          </label>
-        </div>
 
-        <div style="display: flex; gap: 8px;">
-          <button id="selectAll" class="btn">Select all</button>
-          <button id="selectNone" class="btn">Select none</button>
-          <button id="exportCSV" class="btn">Export CSV</button>
-          <button id="exportJSON" class="btn">Export JSON</button>
+        <div class="control-groups">
+          <!-- Smart Alignment - Featured Group -->
+          <div class="control-group smart-alignment" id="smartAlignmentCard">
+            <div class="smart-alignment-status">Off</div>
+            <div class="control-group-header">Smart Alignment</div>
+            <div class="smart-alignment-description">
+              Groups ingredient variants together by identifying equivalent terms across recipes (e.g., "myrrh", "σμύρνη", "smyrna").
+            </div>
+            <div class="control-group-content">
+              <input type="checkbox" id="smartAlignment" style="display:none;" />
+            </div>
+          </div>
+
+          <!-- View Options Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">View Options</div>
+            <div class="control-group-content">
+              <label class="toggle">
+                <input type="checkbox" id="showAmounts" checked /> Amounts
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showPrep" checked /> Preparation
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showNotes" /> Notes
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showAliases" checked /> Aliases
+              </label>
+              <label class="toggle">
+                <input type="checkbox" id="showDates" checked /> Dates
+              </label>
+            </div>
+          </div>
+
+          <!-- Recipe Selection Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">Recipe Selection</div>
+            <div class="control-group-content">
+              <button id="selectAll" class="btn">Select all</button>
+              <button id="selectNone" class="btn">Select none</button>
+            </div>
+          </div>
+
+          <!-- Export Group -->
+          <div class="control-group collapsible">
+            <div class="control-group-header">Export</div>
+            <div class="control-group-content">
+              <button id="exportCSV" class="btn">Export CSV</button>
+              <button id="exportJSON" class="btn">Export JSON</button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -318,8 +470,8 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     selectedRecipes = new Set(allRecipes);
     equivalences = processEquivalences(eq);
 
-    // Set initial state
-    smartAlignment.checked = Object.keys(equivalences).length > 0;
+    // Set initial state - Smart Alignment OFF by default
+    smartAlignment.checked = false;
 
     // Render and attach events
     renderRecipeChips();
@@ -364,6 +516,7 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     smartAlignment.addEventListener('change', () => {
       console.log('Smart alignment toggled:', smartAlignment.checked);
       console.log('Current equivalences:', equivalences);
+      updateSmartAlignmentCard();
       render();
     });
     showAmounts.addEventListener('change', render);
@@ -390,13 +543,98 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     $('#exportCSV').addEventListener('click', () => exportData('csv'));
     $('#exportJSON').addEventListener('click', () => exportData('json'));
 
-themeToggle.addEventListener('click', () => {
-  const html = document.documentElement;
-  const current = html.getAttribute('data-theme');
-  const newTheme = current === 'dark' ? 'light' : 'dark';
-  html.setAttribute('data-theme', newTheme);
-  $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
-});
+    themeToggle.addEventListener('click', () => {
+      const html = document.documentElement;
+      const current = html.getAttribute('data-theme');
+      const newTheme = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      $('#themeIcon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+    });
+
+    // Smart Alignment clickable card
+    initSmartAlignmentCard();
+
+    // Mobile collapsible control groups
+    initCollapsibleGroups();
+  }
+
+  function initSmartAlignmentCard() {
+    const card = $('#smartAlignmentCard');
+    const checkbox = $('#smartAlignment');
+
+    if (!card || !checkbox) return;
+
+    // Click handler for the card - works the same on desktop and mobile
+    card.addEventListener('click', (e) => {
+      // Toggle the checkbox
+      checkbox.checked = !checkbox.checked;
+
+      // Trigger change event to update the table
+      checkbox.dispatchEvent(new Event('change'));
+    });
+
+    // Initialize card state
+    updateSmartAlignmentCard();
+  }
+
+  function updateSmartAlignmentCard() {
+    const card = $('#smartAlignmentCard');
+    const checkbox = $('#smartAlignment');
+    const statusLabel = card?.querySelector('.smart-alignment-status');
+
+    if (!card || !checkbox || !statusLabel) return;
+
+    if (checkbox.checked) {
+      card.classList.add('active');
+      statusLabel.textContent = 'On';
+    } else {
+      card.classList.remove('active');
+      statusLabel.textContent = 'Off';
+    }
+  }
+
+  function initCollapsibleGroups() {
+    const controlGroups = document.querySelectorAll('.control-group.collapsible');
+
+    // Check if mobile view
+    const isMobile = () => window.innerWidth <= 768;
+
+    // Initialize collapsed state on mobile
+    const initializeCollapsedState = () => {
+      controlGroups.forEach(group => {
+        if (isMobile()) {
+          // On mobile, collapse all groups by default
+          group.classList.add('collapsed');
+        } else {
+          // On desktop, ensure all groups are expanded
+          group.classList.remove('collapsed');
+        }
+      });
+    };
+
+    // Add click handlers to headers
+    controlGroups.forEach(group => {
+      const header = group.querySelector('.control-group-header');
+      if (header) {
+        header.addEventListener('click', (e) => {
+          // Only toggle on mobile
+          if (isMobile()) {
+            e.stopPropagation();
+            group.classList.toggle('collapsed');
+          }
+        });
+      }
+    });
+
+    // Initialize on load
+    initializeCollapsedState();
+
+    // Re-initialize on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(initializeCollapsedState, 150);
+    });
   }
 
 function renderRecipeChips() {
