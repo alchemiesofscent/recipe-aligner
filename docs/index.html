@@ -40,11 +40,12 @@ body{
 .title-row{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
 h1{ margin:0; font-size:18px; letter-spacing:.2px; }
 .stats{ color:var(--muted); font-size:12px; }
-.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:flex-start; margin-bottom:12px; }
 .search-input{
-  flex:1 1 300px; padding:10px 12px; border-radius:8px;
+  flex:1 1 100%; padding:10px 12px; border-radius:8px;
   border:1px solid var(--border); background:var(--card); color:var(--fg);
   font-size:14px;
+  order:-1; /* Ensure search bar appears first on mobile */
 }
 .toggle-group{ display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
 .toggle{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--muted); cursor:pointer; }
@@ -153,7 +154,7 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
 .footer{ text-align:center; padding:16px; color:var(--muted); font-size:12px; border-top:1px solid var(--border); }
 
 /* Control Groups */
-.control-groups{ display:flex; gap:12px; flex-wrap:wrap; }
+.control-groups{ display:flex; gap:12px; flex-wrap:wrap; flex:1 1 100%; order:1; }
 .control-group{
   border:1px solid var(--border);
   border-radius:8px;
@@ -174,6 +175,30 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
   justify-content:space-between;
 }
 .control-group-content{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+
+/* Smart Alignment - Featured Group */
+.control-group.smart-alignment{
+  flex:1 1 100%;
+  border:2px solid var(--accent);
+  background:color-mix(in oklab, var(--accent) 5%, var(--card));
+  padding:16px;
+}
+.control-group.smart-alignment .control-group-header{
+  font-size:13px;
+  color:var(--accent);
+  margin-bottom:6px;
+}
+.smart-alignment-description{
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.5;
+  margin-bottom:10px;
+}
+.control-group.smart-alignment .toggle{
+  font-size:13px;
+  font-weight:500;
+  color:var(--fg);
+}
 
 /* Mobile: collapsible control groups */
 @media (max-width: 768px) {
@@ -222,13 +247,23 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
                placeholder="Search ingredients, aliases (e.g., 'myrrh'), notes, amounts..." />
 
         <div class="control-groups">
+          <!-- Smart Alignment - Featured Group -->
+          <div class="control-group smart-alignment collapsible">
+            <div class="control-group-header">Smart Alignment</div>
+            <div class="smart-alignment-description">
+              Groups ingredient variants together by identifying equivalent terms across recipes (e.g., "myrrh", "σμύρνη", "smyrna").
+            </div>
+            <div class="control-group-content">
+              <label class="toggle">
+                <input type="checkbox" id="smartAlignment" /> Enable Smart Alignment
+              </label>
+            </div>
+          </div>
+
           <!-- View Options Group -->
           <div class="control-group collapsible">
             <div class="control-group-header">View Options</div>
             <div class="control-group-content">
-              <label class="toggle">
-                <input type="checkbox" id="smartAlignment" /> Smart alignment
-              </label>
               <label class="toggle">
                 <input type="checkbox" id="showAmounts" checked /> Amounts
               </label>
@@ -386,8 +421,8 @@ tbody tr:nth-child(even) td:first-child{ background:var(--rowB); }
     selectedRecipes = new Set(allRecipes);
     equivalences = processEquivalences(eq);
 
-    // Set initial state
-    smartAlignment.checked = Object.keys(equivalences).length > 0;
+    // Set initial state - Smart Alignment OFF by default
+    smartAlignment.checked = false;
 
     // Render and attach events
     renderRecipeChips();
