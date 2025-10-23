@@ -1,0 +1,402 @@
+{
+  "recipes": [
+    {
+      "slug": "aetius-kyphi-28",
+      "label": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "source": "Aetius of Amida, Libri medicinales, Biblioteca Medicea Laurenziana Plut. 75.2, f. 198v (recipe 117)",
+      "language": "grc",
+      "date": 550
+    }
+  ],
+  "ingredients": [
+    {"slug": "aspalathos", "label": "ἀσπάλαθος", "language": "grc"},
+    {"slug": "bdellion", "label": "βδέλλιον", "language": "grc"},
+    {"slug": "helenion", "label": "ἑλένιον", "language": "grc"},
+    {"slug": "ladanon", "label": "λάδανον", "language": "grc"},
+    {"slug": "styrax", "label": "στύραξ", "language": "grc"},
+    {"slug": "smyrne", "label": "σμύρνη", "language": "grc"},
+    {"slug": "arkeuthides-megalai", "label": "ἀρκευθίδες μεγάλαι", "language": "grc"},
+    {"slug": "arkeuthides-mikrai", "label": "ἀρκευθίδες μικραί", "language": "grc"},
+    {"slug": "asphodelos-rhiza", "label": "ἀσφόδελος", "language": "grc"},
+    {"slug": "brathys", "label": "βράθυς", "language": "grc"},
+    {"slug": "krokos", "label": "κρόκος", "language": "grc"},
+    {"slug": "kardamomon", "label": "καρδάμωμον", "language": "grc"},
+    {"slug": "kyperos", "label": "κύπερος", "language": "grc"},
+    {"slug": "kyparissos-sperma", "label": "κυπάρισσος σπέρμα", "language": "grc"},
+    {"slug": "nardos-keltike", "label": "νάρδος Κελτική", "language": "grc"},
+    {"slug": "sphagnon", "label": "σφάγνον", "language": "grc"},
+    {"slug": "nardostachys", "label": "ναρδοστάχυς", "language": "grc"},
+    {"slug": "kasia", "label": "κασία", "language": "grc"},
+    {"slug": "rhoda-xera", "label": "ῥόδα ξηρά", "language": "grc"},
+    {"slug": "schoinos-anthos", "label": "σχοῖνος ἄνθος", "language": "grc"},
+    {"slug": "strobilos", "label": "στρόβιλος", "language": "grc"},
+    {"slug": "phyllon", "label": "φύλλον", "language": "grc"},
+    {"slug": "ischades", "label": "ἰσχάδες", "language": "grc"},
+    {"slug": "staphis", "label": "σταφίς", "language": "grc"},
+    {"slug": "terebinthine", "label": "τερεβινθίνη", "language": "grc"},
+    {"slug": "phoinikes-liparoi", "label": "φοίνικες λιπαροί", "language": "grc"},
+    {"slug": "meli", "label": "μέλι", "language": "grc"},
+    {"slug": "oinos", "label": "οἶνος", "language": "grc"}
+  ],
+  "aliases": [
+    {"ingredient_slug": "aspalathos", "variant_label": "aspalathus", "language": "en", "source": "transliteration"},
+
+    {"ingredient_slug": "bdellion", "variant_label": "bdellium", "language": "en", "source": "transliteration"},
+
+    {"ingredient_slug": "helenion", "variant_label": "elecampane", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "ladanon", "variant_label": "labdanum", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "styrax", "variant_label": "storax", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "smyrne", "variant_label": "myrrh", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "arkeuthides-megalai", "variant_label": "large juniper berries", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "arkeuthides-mikrai", "variant_label": "small juniper berries", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "asphodel", "language": "en", "source": "translation"},
+    {"ingredient_slug": "asphodelos-rhiza", "variant_label": "asphodel root", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "brathys", "variant_label": "brathy", "language": "en", "source": "transliteration"},
+
+    {"ingredient_slug": "krokos", "variant_label": "saffron", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kardamomon", "variant_label": "cardamom", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kyperos", "variant_label": "cyperus", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kyparissos-sperma", "variant_label": "cypress seed", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "nardos-keltike", "variant_label": "Celtic nard", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "sphagnon", "variant_label": "sphagnum moss", "language": "en", "source": "translation"},
+    {"ingredient_slug": "sphagnon", "variant_label": "hypnos", "language": "en", "source": "variant"},
+
+    {"ingredient_slug": "nardostachys", "variant_label": "spikenard", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "kasia", "variant_label": "cassia", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "rhoda-xera", "variant_label": "dried roses", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "schoinos-anthos", "variant_label": "schoinos flower", "language": "en", "source": "translation"},
+    {"ingredient_slug": "schoinos-anthos", "variant_label": "rush flower", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "strobilos", "variant_label": "pine cone", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "phyllon", "variant_label": "leaf", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phyllon", "variant_label": "malabathrum", "language": "en", "source": "identification"},
+
+    {"ingredient_slug": "ischades", "variant_label": "figs", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "staphis", "variant_label": "fatty raisins", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "terebinthine", "variant_label": "terebinth resin", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "fatty dates", "language": "en", "source": "translation"},
+    {"ingredient_slug": "phoinikes-liparoi", "variant_label": "date flesh", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "meli", "variant_label": "honey", "language": "en", "source": "translation"},
+
+    {"ingredient_slug": "oinos", "variant_label": "wine", "language": "en", "source": "translation"}
+  ],
+  "entries": [
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "aspalathus, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "bdellion",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "bdellium, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "helenion",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "elecampane, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "ladanon",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "labdanum, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "styrax",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "storax, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "οὐγγίας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "myrrh, 7 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "arkeuthides-megalai",
+      "amount_raw": "νʹ",
+      "amount_value": 50,
+      "amount_unit": "count",
+      "preparation": null,
+      "notes": "large juniper berries, 50 by count",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "arkeuthides-mikrai",
+      "amount_raw": "νʹ",
+      "amount_value": 50,
+      "amount_unit": "count",
+      "preparation": null,
+      "notes": "small juniper berries, 50 by count",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "asphodelos-rhiza",
+      "amount_raw": "οὐγγίας δʹ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "asphodel, 4 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "brathys",
+      "amount_raw": "οὐγγίας δʹ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "brathy, 4 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "krokos",
+      "amount_raw": "οὐγγίαν αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "saffron, 1 ounce",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "kardamomon",
+      "amount_raw": "οὐγγίας θʹ",
+      "amount_value": 9,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "cardamom, 9 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "kyperos",
+      "amount_raw": "οὐγγίας θʹ",
+      "amount_value": 9,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "cyperus, 9 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "kyparissos-sperma",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "cypress seed, 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "nardos-keltike",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "Celtic nard, 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "sphagnon",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": "ἤ τοῦ ὕπνου",
+      "notes": "sphagnum moss or hypnos as alternative, 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "nardostachys",
+      "amount_raw": "οὐγγίας αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "spikenard, 1 ounce; variant reading also includes cassia 1 ounce",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "rhoda-xera",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "dried roses, 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "schoinos-anthos",
+      "amount_raw": "οὐγγίαν αʹ",
+      "amount_value": 1,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "schoinos flower, 1 ounce",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "strobilos",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "pine cone, 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "phyllon",
+      "amount_raw": "οὐγγίας γʹ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "leaf (malabathrum), 3 ounces",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "ischades",
+      "amount_raw": "λίτραν αʹ",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "figs, 1 pound",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "staphis",
+      "amount_raw": "λίτραν αʹ",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "fatty raisins, 1 pound",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "terebinthine",
+      "amount_raw": "λίτρας ζʹ",
+      "amount_value": 7,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "terebinth resin, 7 pounds",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "phoinikes-liparoi",
+      "amount_raw": "σαρκὸν λίτραν αʹ",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "fatty date flesh, 1 pound",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "meli",
+      "amount_raw": "λίτρας εʹ",
+      "amount_value": 5,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "honey, 5 pounds",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    },
+    {
+      "recipe_slug": "aetius-kyphi-28",
+      "ingredient_slug": "oinos",
+      "amount_raw": "ξέστας βʹ",
+      "amount_value": 2,
+      "amount_unit": "xestes",
+      "preparation": null,
+      "notes": "wine, 2 xestes (pints)",
+      "source_citation": "Aetius, Plut. 75.2, f. 198v",
+      "source_span": "198v"
+    }
+  ]
+}
