@@ -67,6 +67,33 @@ For EACH ingredient mentioned in the recipe:
 - Preparation notes
 - Any context
 
+**⚠️ CRITICAL: Detect Optional/Alternative Markers**
+
+Before processing, check the original text for these Greek markers:
+
+1. **"ἐν ἄλλῳ"** (in another [variant])
+   - Indicates an optional ingredient in alternative recipe versions
+   - Action: Create entry with note: "listed as optional (ἐν ἄλλῳ - in another variant)"
+   - Example: "ἐν ἄλλῳ καὶ κασίας αʹ" → cassia is optional
+
+2. **"ἢ"** (or) between two ingredients
+   - Indicates alternative ingredients (both should be included as separate entries)
+   - Action: Create TWO separate entries, each with note: "listed as alternative (ἢ - or) to [other ingredient]"
+   - Example: "σχοίνου ἄνθους ἢ ἀσπαλάθου ἀνὰ οὐγγίαν αʹ" → create entries for BOTH schoinos AND aspalathos
+
+3. **"καὶ"** (also/and)
+   - Usually indicates addition, but in context with "ἐν ἄλλῳ" indicates optional addition
+   - Action: If paired with "ἐν ἄλλῳ", mark as optional
+
+4. **Other markers to watch:**
+   - "ἀντὶ" (instead of) → alternative
+   - "ἢ ἄλλως" (or otherwise) → variant
+
+**Validation Rule:**
+- Each ingredient mentioned in the original text MUST have a corresponding entry
+- If text says "X or Y", create entries for BOTH X and Y
+- Count ingredients in text vs. entries in JSON - they must match!
+
 ### B. Find existing slug OR create new one
 
 **First, try fuzzy matching**:
@@ -237,6 +264,20 @@ Now construct the diff file following data/schema_diff.json:
   ]
 }
 ```
+
+**⚠️ CRITICAL VALIDATION Before Proceeding**:
+
+Count the number of unique ingredient slugs in the `entries` array. This MUST equal the total number of distinct ingredients mentioned in the original recipe text.
+
+```
+Validation checklist:
+☐ Did I create entries for ALL ingredients in the original text?
+☐ Did I create separate entries for alternatives (e.g., "X or Y")?
+☐ Did I include optional ingredients (e.g., "ἐν ἄλλῳ")?
+☐ Does entries.length match the ingredient count from the source?
+```
+
+If counts don't match, GO BACK to Step 4 and find the missing ingredients!
 
 **Important**:
 - `amount_raw`: the exact text from the recipe (null if not specified)

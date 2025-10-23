@@ -62,7 +62,19 @@ jobs:
             exit 1
           fi
           echo "Export complete"
-      
+
+      - name: Validate recipe completeness
+        if: steps.check_files.outputs.files_exist == 'true'
+        run: |
+          echo "Checking recipe completeness..."
+          if ! python scripts/validate_completeness.py data/MASTER.json; then
+            echo "⚠️  Warning: Recipe completeness validation found issues"
+            echo "This is a warning only - CI will continue"
+          else
+            echo "✅ Recipe completeness validation passed"
+          fi
+        continue-on-error: true
+
       - name: Check for changes
         if: steps.check_files.outputs.files_exist == 'true'
         id: check_changes
