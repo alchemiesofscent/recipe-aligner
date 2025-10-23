@@ -462,7 +462,7 @@
       "amount": "12 mina (μνᾶς δεκαδύο)",
       "preparation": "deseed, chop and grind with wine and myrrh first",
       "notes": "fatty raisins with seeds removed, forms base paste",
-      "aliases": "raisins, fatty raisins, grapes"
+      "aliases": "raisins, fatty raisins, grapes, raisin flesh"
     },
     {
       "recipe": "Dioscorides, De Materia Medica 1.25",
@@ -478,7 +478,7 @@
       "amount": "1 mina (μνᾶν μίαν)",
       "preparation": "chop and sift with other dry ingredients, mix with wine-myrrh-raisin paste",
       "notes": "aromatic calamus, one mina",
-      "aliases": "aromatic calamus, sweet flag, calamus"
+      "aliases": "aromatic calamus, sweet flag, calamus, aromatic reed"
     },
     {
       "recipe": "Dioscorides, De Materia Medica 1.25",
@@ -550,7 +550,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "sphagnum moss, unique botanical component, 5 ounces",
-      "aliases": "sphagnum moss, moss"
+      "aliases": "sphagnum moss, moss, hypnos"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -606,7 +606,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "asphodel root, Mediterranean bulb plant, 4 ounces",
-      "aliases": "asphodel root, white asphodel"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -614,7 +614,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "tamarisk, salt-tolerant shrub, 4 ounces",
-      "aliases": "tamarisk, salt cedar"
+      "aliases": "tamarisk, salt cedar, brathy"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -710,7 +710,7 @@
       "amount": "1 pound (λι. α)",
       "preparation": "one of the 28 lunar ingredients",
       "notes": "turpentine resin, terebinth tree exudate, 1 pound",
-      "aliases": "turpentine, terebinth resin"
+      "aliases": "turpentine, terebinth resin, purified terebinth"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -726,7 +726,7 @@
       "amount": "1 pound (λι. α)",
       "preparation": "fatty/rich preparation",
       "notes": "fatty dates, rich sweet fruit component, 1 pound",
-      "aliases": "fatty dates, rich dates"
+      "aliases": "fatty dates, rich dates, date flesh"
     },
     {
       "recipe": "Paul of Aegina, Lunar Kyphi (28 ingredients)",
@@ -806,7 +806,7 @@
       "amount": "7 ounce (𐆄 ζ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "aromatic leaves, possibly malabathrum, 7 ounces",
-      "aliases": "leaves, malabathrum"
+      "aliases": "leaves, malabathrum, leaf"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -886,7 +886,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "sphagnum moss, 5 ounces",
-      "aliases": "sphagnum moss, moss"
+      "aliases": "sphagnum moss, moss, hypnos"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -910,7 +910,7 @@
       "amount": "5 ounce (𐆄 ε)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "aromatic calamus, 5 ounces",
-      "aliases": "aromatic calamus, sweet flag, calamus"
+      "aliases": "aromatic calamus, sweet flag, calamus, aromatic reed"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -942,7 +942,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "tamarisk, 4 ounces",
-      "aliases": "tamarisk, salt cedar"
+      "aliases": "tamarisk, salt cedar, brathy"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -950,7 +950,7 @@
       "amount": "4 ounce (𐆄 δ)",
       "preparation": "root or juice alternative",
       "notes": "asphodel root, 4 ounces",
-      "aliases": "asphodel root, white asphodel"
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -1006,7 +1006,7 @@
       "amount": "1 pound (λι. α)",
       "preparation": "one of the 36 solar ingredients",
       "notes": "turpentine resin, 1 pound",
-      "aliases": "turpentine, terebinth resin"
+      "aliases": "turpentine, terebinth resin, purified terebinth"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -1022,7 +1022,7 @@
       "amount": "2 pound (λι. β)",
       "preparation": "dried preparation",
       "notes": "dried figs, 2 pounds",
-      "aliases": "dried figs"
+      "aliases": "dried figs, figs"
     },
     {
       "recipe": "Paul of Aegina, Solar Kyphi (Great Kyphi of 36 ingredients)",
@@ -1070,7 +1070,7 @@
       "amount": null,
       "preparation": "mixed with sacred writings read during preparation",
       "notes": "one of sixteen ingredients, dried grapes/raisins, no specific quantity given",
-      "aliases": "raisins, fatty raisins, grapes"
+      "aliases": "raisins, fatty raisins, grapes, raisin flesh"
     },
     {
       "recipe": "Plutarch, Isis and Osiris 383E-384C",
@@ -1175,6 +1175,486 @@
       "preparation": "mixed with sacred writings read during preparation",
       "notes": "aromatic root, likely Acorus calamus (sweet flag), used for fragrance and medicine",
       "aliases": "calamus, sweet flag, sweet root"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "aspalathus, 7 ounces",
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "βδέλλιον",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "bdellium, 7 ounces",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἑλένιον",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "elecampane, 7 ounces",
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "λάδανον",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "labdanum, 7 ounces",
+      "aliases": "labdanum, rockrose resin"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "στύραξ",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "storax, 7 ounces",
+      "aliases": "styrax, storax"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "σμύρνη",
+      "amount": "7 ounce (οὐγγίας ζʹ)",
+      "preparation": null,
+      "notes": "myrrh, 7 ounces",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἀρκευθίδες μεγάλαι",
+      "amount": "50 count (νʹ)",
+      "preparation": null,
+      "notes": "large juniper berries, 50 by count",
+      "aliases": "large juniper berries"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἀρκευθίδες μικραί",
+      "amount": "50 count (νʹ)",
+      "preparation": null,
+      "notes": "small juniper berries, 50 by count",
+      "aliases": "small juniper berries, common juniper"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "4 ounce (οὐγγίας δʹ)",
+      "preparation": null,
+      "notes": "asphodel, 4 ounces",
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "βράθυς",
+      "amount": "4 ounce (οὐγγίας δʹ)",
+      "preparation": null,
+      "notes": "brathy, 4 ounces",
+      "aliases": "tamarisk, salt cedar, brathy"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "κρόκος",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "saffron, 1 ounce",
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "καρδάμωμον",
+      "amount": "9 ounce (οὐγγίας θʹ)",
+      "preparation": null,
+      "notes": "cardamom, 9 ounces",
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "κύπερος",
+      "amount": "9 ounce (οὐγγίας θʹ)",
+      "preparation": null,
+      "notes": "cyperus, 9 ounces",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "cypress seed, 3 ounces",
+      "aliases": "cypress seed, Mediterranean cypress"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "Celtic nard, 3 ounces",
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "σφάγνον",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": "ἤ τοῦ ὕπνου",
+      "notes": "sphagnum moss or hypnos as alternative, 3 ounces",
+      "aliases": "sphagnum moss, moss, hypnos"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "1 ounce (οὐγγίας αʹ)",
+      "preparation": null,
+      "notes": "spikenard, 1 ounce; variant reading also includes cassia 1 ounce",
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ῥόδα ξηρά",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "dried roses, 3 ounces",
+      "aliases": "dried roses, rose petals"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "σχοῖνος ἄνθος",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "schoinos flower, 1 ounce",
+      "aliases": "schoinos flower, rush flower"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "στρόβιλος",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "pine cone, 3 ounces",
+      "aliases": "storax, pine cone"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "φύλλον",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "leaf (malabathrum), 3 ounces",
+      "aliases": "leaves, malabathrum, leaf"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "ἰσχάδες",
+      "amount": "1 pound (λίτραν αʹ)",
+      "preparation": null,
+      "notes": "figs, 1 pound",
+      "aliases": "dried figs, figs"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "σταφίς",
+      "amount": "1 pound (λίτραν αʹ)",
+      "preparation": null,
+      "notes": "fatty raisins, 1 pound",
+      "aliases": "raisins, fatty raisins, grapes, raisin flesh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "τερεβινθίνη",
+      "amount": "7 pound (λίτρας ζʹ)",
+      "preparation": null,
+      "notes": "terebinth resin, 7 pounds",
+      "aliases": "turpentine, terebinth resin, purified terebinth"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "φοίνικες λιπαροί",
+      "amount": "1 pound (σαρκὸν λίτραν αʹ)",
+      "preparation": null,
+      "notes": "fatty date flesh, 1 pound",
+      "aliases": "fatty dates, rich dates, date flesh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "μέλι",
+      "amount": "5 pound (λίτρας εʹ)",
+      "preparation": null,
+      "notes": "honey, 5 pounds",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 28 Ingredients",
+      "ingredient": "οἶνος",
+      "amount": "2 xestes (ξέστας βʹ)",
+      "preparation": null,
+      "notes": "wine, 2 xestes (pints)",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "λίβανος",
+      "amount": "6 ounce (οὐγγίας ϛʹ)",
+      "preparation": null,
+      "notes": "frankincense, 6 ounces",
+      "aliases": "frankincense, incense"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "στύραξ λιπαρός",
+      "amount": "1 pound (λίτραν αʹ)",
+      "preparation": null,
+      "notes": "fatty styrax, 1 pound",
+      "aliases": "fatty styrax, rich storax"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "σμύρνη",
+      "amount": "4 ounce (οὐγγίας δʹ)",
+      "preparation": null,
+      "notes": "myrrh, 4 ounces",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "φύλλον",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "leaf (malabathrum), 3 ounces",
+      "aliases": "leaves, malabathrum, leaf"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κόστος",
+      "amount": "4 ounce (οὐγγίας δʹ)",
+      "preparation": null,
+      "notes": "costus, 4 ounces",
+      "aliases": "costus, costus root"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἄμωμος",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "amomum, 3 ounces",
+      "aliases": "amomum, black cardamom"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ναρδοστάχυς",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "spikenard, 3 ounces",
+      "aliases": "spikenard, nard, Himalayan spikenard"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κασία",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "cassia, 3 ounces",
+      "aliases": "cassia, cinnamon bark"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "βράθυς",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "brathy, 1 ounce",
+      "aliases": "tamarisk, salt cedar, brathy"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "καρδάμωμον",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "cardamom, 1 ounce",
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "καρποβάλσαμον",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "balsam fruit, 1 ounce",
+      "aliases": "balm fruit, balsam fruit"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "Celtic nard, 1 ounce",
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἑλένιον",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "elecampane, 1 ounce",
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "σχοῖνος ἄνθος",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": "ἢ ἀσπαλάθου",
+      "notes": "schoinos flower or aspalathus as alternative, 1 ounce",
+      "aliases": "schoinos flower, rush flower"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "μαστιχή",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "mastic, 3 ounces",
+      "aliases": "mastic"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "λάδανον",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "labdanum, 3 ounces",
+      "aliases": "labdanum, rockrose resin"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἀρκευθίδες μεγάλαι",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "large juniper berries, 1 ounce",
+      "aliases": "large juniper berries"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἀρκευθίδες μικραί",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "small juniper berries, 1 ounce",
+      "aliases": "small juniper berries, common juniper"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "βδέλλιον",
+      "amount": "2 ounce (οὐγγίαν βʹ)",
+      "preparation": null,
+      "notes": "bdellium, 2 ounces",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "σέσελι",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "seseli, 1 ounce",
+      "aliases": "celery seed, seseli, hartwort, carrot family"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κύπερος",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "cyperus, 1 ounce",
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κρόκος",
+      "amount": "4 ounce (οὐγγίας δʹ)",
+      "preparation": null,
+      "notes": "saffron, 4 ounces",
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "1 ounce (𐅻 αʹ / οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "cypress seed, variant readings in manuscripts",
+      "aliases": "cypress seed, Mediterranean cypress"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "κάλαμος ἀρωματικός",
+      "amount": "4 𐅻 (𐅻 δʹ)",
+      "preparation": null,
+      "notes": "aromatic reed, 4 𐅻",
+      "aliases": "aromatic calamus, sweet flag, calamus, aromatic reed"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ῥόδα χλωρά",
+      "amount": "500 count (ἀριθμῷ φʹ)",
+      "preparation": null,
+      "notes": "fresh roses, 500 by count",
+      "aliases": "fresh roses, green roses"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "τερεβινθίνη",
+      "amount": "1 ounce (οὐγγίαν αʹ)",
+      "preparation": "κεκαθαρμένας",
+      "notes": "purified terebinth resin, 1 ounce",
+      "aliases": "turpentine, terebinth resin, purified terebinth"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἰσχάδες λιπαραί",
+      "amount": "6 ounce (οὐγγίας ϛʹ)",
+      "preparation": null,
+      "notes": "fatty figs, 6 ounces",
+      "aliases": "fatty figs, rich figs"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "φοίνικες λιπαροί",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "fatty dates, 3 ounces",
+      "aliases": "fatty dates, rich dates, date flesh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "σταφίς",
+      "amount": "3 ounce (σαρκὸν οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "raisin flesh, 3 ounces",
+      "aliases": "raisins, fatty raisins, grapes, raisin flesh"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "στρόβιλος",
+      "amount": "3 ounce (οὐγγίας γʹ)",
+      "preparation": null,
+      "notes": "pine cone, 3 ounces",
+      "aliases": "storax, pine cone"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "1 ounce (χυλοῦ οὐγγίαν αʹ)",
+      "preparation": null,
+      "notes": "asphodel juice, 1 ounce",
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "μέλι",
+      "amount": "1 pound (λίτραν αʹ)",
+      "preparation": null,
+      "notes": "honey, 1 pound",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Aetius of Amida, Kyphi of 36 Ingredients",
+      "ingredient": "οἶνος εὐώδης",
+      "amount": "τὸ ἱκανὸν",
+      "preparation": null,
+      "notes": "fragrant wine, sufficient amount",
+      "aliases": "fragrant wine, aromatic wine, perfumed wine"
     }
   ],
   "recipe_metadata": {
@@ -1224,6 +1704,18 @@
       "date": 80,
       "slug": "plutarch-isis-osiris",
       "source": "Plutarch, Isis and Osiris 383E.1-384C.1",
+      "language": "grc"
+    },
+    "Aetius of Amida, Kyphi of 28 Ingredients": {
+      "date": 550,
+      "slug": "aetius-kyphi-28",
+      "source": "Aetius of Amida, Libri medicinales, Biblioteca Medicea Laurenziana Plut. 75.2, f. 198v (recipe 117)",
+      "language": "grc"
+    },
+    "Aetius of Amida, Kyphi of 36 Ingredients": {
+      "date": 550,
+      "slug": "aetius-kyphi-36",
+      "source": "Aetius of Amida, Libri medicinales, Biblioteca Medicea Laurenziana Plut. 75.2, f. 198r (recipe 116)",
       "language": "grc"
     }
   }
