@@ -1,0 +1,328 @@
+{
+  "recipes": [
+    {
+      "slug": "philae-kyphi",
+      "label": "Philae Kyphi",
+      "source": "Philae",
+      "language": "egy",
+      "date": -300
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "dba",
+      "label": "dbꜥ",
+      "language": "egy"
+    },
+    {
+      "slug": "sbw",
+      "label": "šb.w",
+      "language": "egy"
+    },
+    {
+      "slug": "jrt-hr-bnrt",
+      "label": "jrt-Ḥr bnr.t",
+      "language": "egy"
+    }
+  ],
+  "aliases": [
+    {
+      "ingredient_slug": "gnn",
+      "variant_label": "gꜣnn",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "swt-nmtj",
+      "variant_label": "šw.t-Nmtj",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "sbb",
+      "variant_label": "plante chebeb",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "graisse de l'arbre qedet",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "qedet resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "qedet fat",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "dba",
+      "variant_label": "plante aromatique djebâ",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "mrḥ.t n.t nꜤr",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "huile/graisse du poisson nâr",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "catfish oil",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "silure",
+      "language": "fr",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "sbw",
+      "variant_label": "plante chebou",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "ssp-djsdjs",
+      "variant_label": "šsp n Dsds",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "ssp-djsdjs",
+      "variant_label": "vin de l'Oasis de Baharia",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "ssp-djsdjs",
+      "variant_label": "wine from Bahriya Oasis",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrt-hr-wdt",
+      "variant_label": "jrt-Ḥr wꜣḏ",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "jrt-hr-wdt",
+      "variant_label": "œil d'Horus frais",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrt-hr-wdt",
+      "variant_label": "fresh eye of Horus",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrt-hr-bnrt",
+      "variant_label": "œil d'Horus doux",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrt-hr-bnrt",
+      "variant_label": "sweet eye of Horus",
+      "language": "en",
+      "source": "translation"
+    }
+  ],
+  "entries": [
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "gnn",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "roseau aromatique (gꜣnn)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "swt-nmtj",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante « plume de Nemty » (šw.t-Nmtj)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "sbb",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante chebeb (šbb)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "qdt",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "graisse de l'arbre qedet (qd.t)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "tjsps",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "tichepès (tjšps)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "agy",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante aromatique âgaîou (ꜥgꜣjw)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "dba",
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante aromatique djebâ (dbꜥ)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "prs",
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "baies de genévrier (prš)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "mrht-nr",
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "huile/graisse du poisson nâr (silure) (mrḥ.t n.t nꜤr)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "pqr",
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante aromatique peqer (pqr)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "sbw",
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante chebou (šb.w)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "jrp",
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin (jrp)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "ssp-djsdjs",
+      "amount_raw": "6 ⅔ hins",
+      "amount_value": 6.67,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin de l'Oasis de Baharia (šsp n Dsds)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "jrt-hr-wdt",
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "œil d'Horus frais (jrt-Ḥr wꜣḏ)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "sntr",
+      "amount_raw": "13 debens 3 ⅓ qites",
+      "amount_value": 13.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "résine de térébinthe (snṯr)",
+      "source_citation": "Philae",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "philae-kyphi",
+      "ingredient_slug": "jrt-hr-bnrt",
+      "amount_raw": "6 ⅔ hins",
+      "amount_value": 6.67,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "œil d'Horus doux (jrt-Ḥr bnr.t), c'est-à-dire du miel",
+      "source_citation": "Philae",
+      "source_span": null
+    }
+  ]
+}

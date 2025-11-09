@@ -19,10 +19,12 @@
     "camphor wood"
   ],
   "Honey": [
-    "μέλι", 
+    "μέλι",
     "bj.t",
     "honey",
-	"μέλι ἀπηφρισμένον"
+	"μέλι ἀπηφρισμένον",
+    "jrt-Ḥr bnr.t",
+    "sweet eye of Horus"
   ],
   "Generic Wine": [
     "οἶνος",
@@ -262,5 +264,21 @@
   "Moschlius (?)": [
     "μόσχλιον",
     "moschlius"
+  ],
+  "Djebâ": [
+    "dbꜥ",
+    "dba",
+    "plante djebâ",
+    "produit djerem"
+  ],
+  "Gaïou from Oasis": [
+    "gꜣjw n Wḥꜣ.t",
+    "gajw-n-what",
+    "produit gaïou de l'Oasis"
+  ],
+  "Chebou": [
+    "šb.w",
+    "sbw",
+    "plante chebou"
   ]
 }

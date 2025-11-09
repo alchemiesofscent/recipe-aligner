@@ -1,0 +1,394 @@
+{
+  "recipes": [
+    {
+      "slug": "edfu-west-wall",
+      "label": "Edfu, West Wall",
+      "source": "Edfu II, 211-212, Aufrère Text",
+      "language": "egy",
+      "date": -200
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "dba",
+      "label": "dbꜥ",
+      "language": "egy"
+    },
+    {
+      "slug": "gajw-n-what",
+      "label": "gꜣjw n Wḥꜣ.t",
+      "language": "egy"
+    }
+  ],
+  "aliases": [
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "ꜥdꜣ n qd",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "résine de pin d'Alep",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "qdt",
+      "variant_label": "Aleppo pine resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "tjsps",
+      "variant_label": "tichepès",
+      "language": "fr",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "tjsps",
+      "variant_label": "nedjem wood",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "gnn",
+      "variant_label": "acore",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "gnn",
+      "variant_label": "roseau aromatique",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "gnn",
+      "variant_label": "aromatic reed",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "swt-nmtj",
+      "variant_label": "plume de Nemty",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "agy",
+      "variant_label": "ꜥgꜣjw",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "agy",
+      "variant_label": "âgaîou",
+      "language": "fr",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "sbb",
+      "variant_label": "plante cheb",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "sbb",
+      "variant_label": "plante fedou",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "dba",
+      "variant_label": "plante djebâ",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "dba",
+      "variant_label": "produit djerem",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "prs",
+      "variant_label": "baies de genévrier",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "mrḥ.t n ꜥrw",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "résine de conifère",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "graines de pin",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "mrht-nr",
+      "variant_label": "pine nuts",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "pqr",
+      "variant_label": "plante aromatique peqer",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "gajw-n-what",
+      "variant_label": "produit gaïou de l'Oasis",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrp",
+      "variant_label": "vin",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "jrp",
+      "variant_label": "vin de l'Oasis",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "ssp-djsdjs",
+      "variant_label": "raisins secs de l'Oasis de Baharia",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "sntr",
+      "variant_label": "snṯr wꜣḏ",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "ingredient_slug": "sntr",
+      "variant_label": "résine de térébinthe fraîche",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "sntr",
+      "variant_label": "fresh terebinth resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "bjt",
+      "variant_label": "miel",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "xrj",
+      "variant_label": "ḥrj",
+      "language": "egy",
+      "source": "variant"
+    }
+  ],
+  "entries": [
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "qdt",
+      "amount_raw": "3 debens 3 ⅓ qites",
+      "amount_value": 3.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "Aleppo pine resin (ꜥdꜣ n qd)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "tjsps",
+      "amount_raw": "3 debens 3 ⅓ qites",
+      "amount_value": 3.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "tichepès / bois d'arbre nedjem",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "gnn",
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "acore / roseau aromatique",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "swt-nmtj",
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante « plume de Nemty »",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "agy",
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "âgaîou (ꜥgꜣjw)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "sbb",
+      "amount_raw": "2 debens",
+      "amount_value": 2,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante cheb (šb) / plante fedou",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "dba",
+      "amount_raw": "1 deben",
+      "amount_value": 1,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante djebâ / produit djerem",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "prs",
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "baies de genévrier",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "mrht-nr",
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "résine de conifère (mrḥ.t n ꜥrw) / graines de pin",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "pqr",
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante aromatique peqer",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "gajw-n-what",
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "produit gaïou de l'Oasis",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "jrp",
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin (regular wine)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "jrp",
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin de l'Oasis (Oasis wine)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "ssp-djsdjs",
+      "amount_raw": "20 hins",
+      "amount_value": 20,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "raisins secs de l'Oasis de Baharia",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "sntr",
+      "amount_raw": "10 debens",
+      "amount_value": 10,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "résine de térébinthe fraîche (snṯr wꜣḏ)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "bjt",
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "miel",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    },
+    {
+      "recipe_slug": "edfu-west-wall",
+      "ingredient_slug": "xrj",
+      "amount_raw": "10 debens",
+      "amount_value": 10,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "myrrh (ḥrj)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null
+    }
+  ]
+}
