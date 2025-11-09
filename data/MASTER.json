@@ -99,6 +99,22 @@
       "source": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
       "language": "grc",
       "date": 100
+    },
+    {
+      "recipe_id": 13,
+      "slug": "edfu-west-wall",
+      "label": "Edfu, West Wall",
+      "source": "Edfu II, 211-212, Aufrère Text",
+      "language": "egy",
+      "date": -200
+    },
+    {
+      "recipe_id": 14,
+      "slug": "philae-kyphi",
+      "label": "Philae Kyphi",
+      "source": "Philae",
+      "language": "egy",
+      "date": -300
     }
   ],
   "ingredients": [
@@ -755,6 +771,30 @@
       "slug": "styrax-kalamites",
       "label": "στύραξ καλαμίτης",
       "language": "grc"
+    },
+    {
+      "ingredient_id": 110,
+      "slug": "dba",
+      "label": "dbꜥ",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 111,
+      "slug": "gajw-n-what",
+      "label": "gꜣjw n Wḥꜣ.t",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 112,
+      "slug": "sbw",
+      "label": "šb.w",
+      "language": "egy"
+    },
+    {
+      "ingredient_id": 113,
+      "slug": "jrt-hr-bnrt",
+      "label": "jrt-Ḥr bnr.t",
+      "language": "egy"
     }
   ],
   "aliases": [
@@ -3163,6 +3203,335 @@
       "alias_id": 344,
       "ingredient_id": 109,
       "variant_label": "storax calamites",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 345,
+      "ingredient_id": 17,
+      "variant_label": "ꜥdꜣ n qd",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 346,
+      "ingredient_id": 17,
+      "variant_label": "résine de pin d'Alep",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 347,
+      "ingredient_id": 5,
+      "variant_label": "tichepès",
+      "language": "fr",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 348,
+      "ingredient_id": 5,
+      "variant_label": "nedjem wood",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "alias_id": 349,
+      "ingredient_id": 13,
+      "variant_label": "acore",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 350,
+      "ingredient_id": 13,
+      "variant_label": "aromatic reed",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 351,
+      "ingredient_id": 12,
+      "variant_label": "plume de Nemty",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 352,
+      "ingredient_id": 16,
+      "variant_label": "ꜥgꜣjw",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 353,
+      "ingredient_id": 16,
+      "variant_label": "âgaîou",
+      "language": "fr",
+      "source": "transliteration"
+    },
+    {
+      "alias_id": 354,
+      "ingredient_id": 15,
+      "variant_label": "plante cheb",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 355,
+      "ingredient_id": 15,
+      "variant_label": "plante fedou",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "alias_id": 356,
+      "ingredient_id": 110,
+      "variant_label": "plante djebâ",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 357,
+      "ingredient_id": 110,
+      "variant_label": "produit djerem",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "alias_id": 358,
+      "ingredient_id": 18,
+      "variant_label": "baies de genévrier",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 359,
+      "ingredient_id": 19,
+      "variant_label": "mrḥ.t n ꜥrw",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 360,
+      "ingredient_id": 19,
+      "variant_label": "résine de conifère",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 361,
+      "ingredient_id": 19,
+      "variant_label": "graines de pin",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "alias_id": 362,
+      "ingredient_id": 19,
+      "variant_label": "pine nuts",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "alias_id": 363,
+      "ingredient_id": 20,
+      "variant_label": "plante aromatique peqer",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 364,
+      "ingredient_id": 111,
+      "variant_label": "produit gaïou de l'Oasis",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 365,
+      "ingredient_id": 11,
+      "variant_label": "vin",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 366,
+      "ingredient_id": 11,
+      "variant_label": "vin de l'Oasis",
+      "language": "fr",
+      "source": "variant"
+    },
+    {
+      "alias_id": 367,
+      "ingredient_id": 22,
+      "variant_label": "raisins secs de l'Oasis de Baharia",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 368,
+      "ingredient_id": 3,
+      "variant_label": "snṯr wꜣḏ",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 369,
+      "ingredient_id": 3,
+      "variant_label": "résine de térébinthe fraîche",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 370,
+      "ingredient_id": 3,
+      "variant_label": "fresh terebinth resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 371,
+      "ingredient_id": 23,
+      "variant_label": "miel",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 372,
+      "ingredient_id": 24,
+      "variant_label": "ḥrj",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 373,
+      "ingredient_id": 13,
+      "variant_label": "gꜣnn",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 374,
+      "ingredient_id": 12,
+      "variant_label": "šw.t-Nmtj",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 375,
+      "ingredient_id": 15,
+      "variant_label": "plante chebeb",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 376,
+      "ingredient_id": 17,
+      "variant_label": "graisse de l'arbre qedet",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 377,
+      "ingredient_id": 17,
+      "variant_label": "qedet resin",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 378,
+      "ingredient_id": 17,
+      "variant_label": "qedet fat",
+      "language": "en",
+      "source": "variant"
+    },
+    {
+      "alias_id": 379,
+      "ingredient_id": 110,
+      "variant_label": "plante aromatique djebâ",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 380,
+      "ingredient_id": 19,
+      "variant_label": "mrḥ.t n.t nꜤr",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 381,
+      "ingredient_id": 19,
+      "variant_label": "huile/graisse du poisson nâr",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 382,
+      "ingredient_id": 19,
+      "variant_label": "catfish oil",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 383,
+      "ingredient_id": 19,
+      "variant_label": "silure",
+      "language": "fr",
+      "source": "identification"
+    },
+    {
+      "alias_id": 384,
+      "ingredient_id": 112,
+      "variant_label": "plante chebou",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 385,
+      "ingredient_id": 22,
+      "variant_label": "šsp n Dsds",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 386,
+      "ingredient_id": 22,
+      "variant_label": "vin de l'Oasis de Baharia",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 387,
+      "ingredient_id": 25,
+      "variant_label": "jrt-Ḥr wꜣḏ",
+      "language": "egy",
+      "source": "variant"
+    },
+    {
+      "alias_id": 388,
+      "ingredient_id": 25,
+      "variant_label": "œil d'Horus frais",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 389,
+      "ingredient_id": 25,
+      "variant_label": "fresh eye of Horus",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "alias_id": 390,
+      "ingredient_id": 113,
+      "variant_label": "œil d'Horus doux",
+      "language": "fr",
+      "source": "translation"
+    },
+    {
+      "alias_id": 391,
+      "ingredient_id": 113,
+      "variant_label": "sweet eye of Horus",
       "language": "en",
       "source": "translation"
     }
@@ -7072,6 +7441,454 @@
       "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
       "source_span": "p.17,25",
       "added_at": "2025-11-09T20:33:16.696610",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 280,
+      "recipe_id": 13,
+      "ingredient_id": 17,
+      "amount_raw": "3 debens 3 ⅓ qites",
+      "amount_value": 3.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "Aleppo pine resin (ꜥdꜣ n qd)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800070",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 281,
+      "recipe_id": 13,
+      "ingredient_id": 5,
+      "amount_raw": "3 debens 3 ⅓ qites",
+      "amount_value": 3.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "tichepès / bois d'arbre nedjem",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800129",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 282,
+      "recipe_id": 13,
+      "ingredient_id": 13,
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "acore / roseau aromatique",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800183",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 283,
+      "recipe_id": 13,
+      "ingredient_id": 12,
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante « plume de Nemty »",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800227",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 284,
+      "recipe_id": 13,
+      "ingredient_id": 16,
+      "amount_raw": "2 debens 5 qites",
+      "amount_value": 2.5,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "âgaîou (ꜥgꜣjw)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800271",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 285,
+      "recipe_id": 13,
+      "ingredient_id": 15,
+      "amount_raw": "2 debens",
+      "amount_value": 2,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante cheb (šb) / plante fedou",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800311",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 286,
+      "recipe_id": 13,
+      "ingredient_id": 110,
+      "amount_raw": "1 deben",
+      "amount_value": 1,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante djebâ / produit djerem",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800349",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 287,
+      "recipe_id": 13,
+      "ingredient_id": 18,
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "baies de genévrier",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800389",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 288,
+      "recipe_id": 13,
+      "ingredient_id": 19,
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "résine de conifère (mrḥ.t n ꜥrw) / graines de pin",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800431",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 289,
+      "recipe_id": 13,
+      "ingredient_id": 20,
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante aromatique peqer",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800469",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 290,
+      "recipe_id": 13,
+      "ingredient_id": 111,
+      "amount_raw": "2 hins",
+      "amount_value": 2,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "produit gaïou de l'Oasis",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800508",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 291,
+      "recipe_id": 13,
+      "ingredient_id": 11,
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin (regular wine)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800547",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 292,
+      "recipe_id": 13,
+      "ingredient_id": 22,
+      "amount_raw": "20 hins",
+      "amount_value": 20,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "raisins secs de l'Oasis de Baharia",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800589",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 293,
+      "recipe_id": 13,
+      "ingredient_id": 3,
+      "amount_raw": "10 debens",
+      "amount_value": 10,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "résine de térébinthe fraîche (snṯr wꜣḏ)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800630",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 294,
+      "recipe_id": 13,
+      "ingredient_id": 23,
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "miel",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800677",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 295,
+      "recipe_id": 13,
+      "ingredient_id": 24,
+      "amount_raw": "10 debens",
+      "amount_value": 10,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "myrrh (ḥrj)",
+      "source_citation": "Edfu II, 211-212",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.800717",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 296,
+      "recipe_id": 14,
+      "ingredient_id": 13,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "roseau aromatique (gꜣnn)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873708",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 297,
+      "recipe_id": 14,
+      "ingredient_id": 12,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante « plume de Nemty » (šw.t-Nmtj)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873771",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 298,
+      "recipe_id": 14,
+      "ingredient_id": 15,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante chebeb (šbb)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873826",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 299,
+      "recipe_id": 14,
+      "ingredient_id": 17,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "graisse de l'arbre qedet (qd.t)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873856",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 300,
+      "recipe_id": 14,
+      "ingredient_id": 5,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "tichepès (tjšps)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873883",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 301,
+      "recipe_id": 14,
+      "ingredient_id": 16,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante aromatique âgaîou (ꜥgꜣjw)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873907",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 302,
+      "recipe_id": 14,
+      "ingredient_id": 110,
+      "amount_raw": "3 debens",
+      "amount_value": 3,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "plante aromatique djebâ (dbꜥ)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873952",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 303,
+      "recipe_id": 14,
+      "ingredient_id": 18,
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "baies de genévrier (prš)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.873975",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 304,
+      "recipe_id": 14,
+      "ingredient_id": 19,
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "huile/graisse du poisson nâr (silure) (mrḥ.t n.t nꜤr)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874001",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 305,
+      "recipe_id": 14,
+      "ingredient_id": 20,
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante aromatique peqer (pqr)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874025",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 306,
+      "recipe_id": 14,
+      "ingredient_id": 112,
+      "amount_raw": "3 hins",
+      "amount_value": 3,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "plante chebou (šb.w)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874049",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 307,
+      "recipe_id": 14,
+      "ingredient_id": 11,
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin (jrp)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874073",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 308,
+      "recipe_id": 14,
+      "ingredient_id": 22,
+      "amount_raw": "6 ⅔ hins",
+      "amount_value": 6.67,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "vin de l'Oasis de Baharia (šsp n Dsds)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874114",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 309,
+      "recipe_id": 14,
+      "ingredient_id": 25,
+      "amount_raw": "5 hins",
+      "amount_value": 5,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "œil d'Horus frais (jrt-Ḥr wꜣḏ)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874138",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 310,
+      "recipe_id": 14,
+      "ingredient_id": 3,
+      "amount_raw": "13 debens 3 ⅓ qites",
+      "amount_value": 13.33,
+      "amount_unit": "deben",
+      "preparation": null,
+      "notes": "résine de térébinthe (snṯr)",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874162",
+      "added_by": "ci"
+    },
+    {
+      "entry_id": 311,
+      "recipe_id": 14,
+      "ingredient_id": 113,
+      "amount_raw": "6 ⅔ hins",
+      "amount_value": 6.67,
+      "amount_unit": "hin",
+      "preparation": null,
+      "notes": "œil d'Horus doux (jrt-Ḥr bnr.t), c'est-à-dire du miel",
+      "source_citation": "Philae",
+      "source_span": null,
+      "added_at": "2025-11-09T23:32:50.874187",
       "added_by": "ci"
     }
   ]

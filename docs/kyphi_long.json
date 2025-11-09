@@ -22,7 +22,7 @@
       "amount": "null",
       "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
       "notes": "frankincense",
-      "aliases": "frankincense, incense, terebinth resin"
+      "aliases": "frankincense, incense, terebinth resin, fresh terebinth resin"
     },
     {
       "recipe": "Ebers Papyrus, Recipe 852",
@@ -38,7 +38,7 @@
       "amount": "null",
       "preparation": "all ingredients ground fine, processed into homogeneous mass, placed on fire",
       "notes": "in recipe as ḫt n(.j) tj-šps (wood of tjsps); cinnamon or east african camphor wood (?)",
-      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor, nedjem wood"
     },
     {
       "recipe": "Ebers Papyrus, Recipe 852",
@@ -102,7 +102,7 @@
       "amount": "3 dbn (3 dbn)",
       "preparation": "ground finely with first 7 ingredients",
       "notes": "botanical identification uncertain",
-      "aliases": "styrax, storax, gan"
+      "aliases": "styrax, storax, gan, aromatic reed"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -134,7 +134,7 @@
       "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
       "preparation": "ground finely with first 7 ingredients",
       "notes": "coniferous resin from Syria",
-      "aliases": "Aleppo pine resin, coniferous resin, pine resin"
+      "aliases": "Aleppo pine resin, coniferous resin, pine resin, qedet resin, qedet fat"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -142,7 +142,7 @@
       "amount": "3.33 dbn (3 dbn 3 1/3 qdt)",
       "preparation": "ground finely with first 7 ingredients",
       "notes": "multiple botanical identifications proposed",
-      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor, nedjem wood"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -158,7 +158,7 @@
       "amount": "3 hin (3 hin)",
       "preparation": "added with additional aromatics in step 7",
       "notes": "reading variant 1: mrḥ.t nꜤr",
-      "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea"
+      "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea, pine nuts, catfish oil"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -190,7 +190,7 @@
       "amount": "5 hin (5 hin)",
       "preparation": "added as fresh wine in step 13",
       "notes": "green eye of Horus - type of wine",
-      "aliases": "green eye of Horus wine, wine"
+      "aliases": "green eye of Horus wine, wine, fresh eye of Horus"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -198,7 +198,7 @@
       "amount": "13.33 dbn (13 dbn 3 1/3 qdt)",
       "preparation": "added in step 19 after filtering",
       "notes": "frankincense or terebinth resin - identification debated",
-      "aliases": "frankincense, incense, terebinth resin"
+      "aliases": "frankincense, incense, terebinth resin, fresh terebinth resin"
     },
     {
       "recipe": "Edfu, South Wall",
@@ -374,7 +374,7 @@
       "amount": null,
       "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
       "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
-      "aliases": "frankincense, incense, terebinth resin"
+      "aliases": "frankincense, incense, terebinth resin, fresh terebinth resin"
     },
     {
       "recipe": "Ebers Papyrus, Recipe 853",
@@ -390,7 +390,7 @@
       "amount": null,
       "preparation": "ingredients from recipe 852 placed in honey, cooked, mixed, formed into pellets",
       "notes": "same ingredients as recipe 852, but processed differently for fumigation and breath freshening",
-      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor"
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor, nedjem wood"
     },
     {
       "recipe": "Ebers Papyrus, Recipe 853",
@@ -2231,6 +2231,262 @@
       "preparation": null,
       "notes": "good quality (καλός)",
       "aliases": "wine"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "qd.t",
+      "amount": "3.33 deben (3 debens 3 ⅓ qites)",
+      "preparation": null,
+      "notes": "Aleppo pine resin (ꜥdꜣ n qd)",
+      "aliases": "Aleppo pine resin, coniferous resin, pine resin, qedet resin, qedet fat"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "tj-šps",
+      "amount": "3.33 deben (3 debens 3 ⅓ qites)",
+      "preparation": null,
+      "notes": "tichepès / bois d'arbre nedjem",
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor, nedjem wood"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "gnn",
+      "amount": "2.5 deben (2 debens 5 qites)",
+      "preparation": null,
+      "notes": "acore / roseau aromatique",
+      "aliases": "styrax, storax, gan, aromatic reed"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "šwt nmtj",
+      "amount": "2.5 deben (2 debens 5 qites)",
+      "preparation": null,
+      "notes": "plante « plume de Nemty »",
+      "aliases": "feather of Nemti, calamus, perfumer's calamus, creeping cinquefoil, camel grass"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "ogꜢy",
+      "amount": "2.5 deben (2 debens 5 qites)",
+      "preparation": null,
+      "notes": "âgaîou (ꜥgꜣjw)",
+      "aliases": "gum arabic, tragacanth"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "šbb",
+      "amount": "2 deben (2 debens)",
+      "preparation": null,
+      "notes": "plante cheb (šb) / plante fedou",
+      "aliases": "mastix, mastic, lentisk"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "dbꜥ",
+      "amount": "1 deben (1 deben)",
+      "preparation": null,
+      "notes": "plante djebâ / produit djerem",
+      "aliases": ""
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "prš",
+      "amount": "2 hin (2 hins)",
+      "preparation": null,
+      "notes": "baies de genévrier",
+      "aliases": "juniper berries, juniper, fir tree cone, red ochre"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "mrḥ.t nꜤr",
+      "amount": "2 hin (2 hins)",
+      "preparation": null,
+      "notes": "résine de conifère (mrḥ.t n ꜥrw) / graines de pin",
+      "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea, pine nuts, catfish oil"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "pqr",
+      "amount": "2 hin (2 hins)",
+      "preparation": null,
+      "notes": "plante aromatique peqer",
+      "aliases": ""
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "gꜣjw n Wḥꜣ.t",
+      "amount": "2 hin (2 hins)",
+      "preparation": null,
+      "notes": "produit gaïou de l'Oasis",
+      "aliases": ""
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "jrp",
+      "amount": "5 hin (5 hins)",
+      "preparation": null,
+      "notes": "vin (regular wine)",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "sSp m DsDs",
+      "amount": "20 hin (20 hins)",
+      "preparation": null,
+      "notes": "raisins secs de l'Oasis de Baharia",
+      "aliases": "wine from Bahriya Oasis, grapes from Bahriya Oasis, raisins"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "snṯr",
+      "amount": "10 deben (10 debens)",
+      "preparation": null,
+      "notes": "résine de térébinthe fraîche (snṯr wꜣḏ)",
+      "aliases": "frankincense, incense, terebinth resin, fresh terebinth resin"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "bj.t",
+      "amount": "5 hin (5 hins)",
+      "preparation": null,
+      "notes": "miel",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Edfu, West Wall",
+      "ingredient": "ḫrj",
+      "amount": "10 deben (10 debens)",
+      "preparation": null,
+      "notes": "myrrh (ḥrj)",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "gnn",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "roseau aromatique (gꜣnn)",
+      "aliases": "styrax, storax, gan, aromatic reed"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "šwt nmtj",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "plante « plume de Nemty » (šw.t-Nmtj)",
+      "aliases": "feather of Nemti, calamus, perfumer's calamus, creeping cinquefoil, camel grass"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "šbb",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "plante chebeb (šbb)",
+      "aliases": "mastix, mastic, lentisk"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "qd.t",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "graisse de l'arbre qedet (qd.t)",
+      "aliases": "Aleppo pine resin, coniferous resin, pine resin, qedet resin, qedet fat"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "tj-šps",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "tichepès (tjšps)",
+      "aliases": "east african camphor wood, camphor wood, cinnamon, Ceylon cinnamon, Chinese cinnamon, camphor, east african camphor, nedjem wood"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "ogꜢy",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "plante aromatique âgaîou (ꜥgꜣjw)",
+      "aliases": "gum arabic, tragacanth"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "dbꜥ",
+      "amount": "3 deben (3 debens)",
+      "preparation": null,
+      "notes": "plante aromatique djebâ (dbꜥ)",
+      "aliases": ""
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "prš",
+      "amount": "3 hin (3 hins)",
+      "preparation": null,
+      "notes": "baies de genévrier (prš)",
+      "aliases": "juniper berries, juniper, fir tree cone, red ochre"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "mrḥ.t nꜤr",
+      "amount": "3 hin (3 hins)",
+      "preparation": null,
+      "notes": "huile/graisse du poisson nâr (silure) (mrḥ.t n.t nꜤr)",
+      "aliases": "nerium, pomegranate, parasol pine, pistacia, juniper phoenicea, pine nuts, catfish oil"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "pqr",
+      "amount": "3 hin (3 hins)",
+      "preparation": null,
+      "notes": "plante aromatique peqer (pqr)",
+      "aliases": ""
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "šb.w",
+      "amount": "3 hin (3 hins)",
+      "preparation": null,
+      "notes": "plante chebou (šb.w)",
+      "aliases": ""
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "jrp",
+      "amount": "5 hin (5 hins)",
+      "preparation": null,
+      "notes": "vin (jrp)",
+      "aliases": "wine"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "sSp m DsDs",
+      "amount": "6.67 hin (6 ⅔ hins)",
+      "preparation": null,
+      "notes": "vin de l'Oasis de Baharia (šsp n Dsds)",
+      "aliases": "wine from Bahriya Oasis, grapes from Bahriya Oasis, raisins"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "jr.t Hr.w wḏ.t",
+      "amount": "5 hin (5 hins)",
+      "preparation": null,
+      "notes": "œil d'Horus frais (jrt-Ḥr wꜣḏ)",
+      "aliases": "green eye of Horus wine, wine, fresh eye of Horus"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "snṯr",
+      "amount": "13.33 deben (13 debens 3 ⅓ qites)",
+      "preparation": null,
+      "notes": "résine de térébinthe (snṯr)",
+      "aliases": "frankincense, incense, terebinth resin, fresh terebinth resin"
+    },
+    {
+      "recipe": "Philae Kyphi",
+      "ingredient": "jrt-Ḥr bnr.t",
+      "amount": "6.67 hin (6 ⅔ hins)",
+      "preparation": null,
+      "notes": "œil d'Horus doux (jrt-Ḥr bnr.t), c'est-à-dire du miel",
+      "aliases": "sweet eye of Horus"
     }
   ],
   "recipe_metadata": {
@@ -2305,6 +2561,18 @@
       "slug": "archigenes-kyphi",
       "source": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
       "language": "grc"
+    },
+    "Edfu, West Wall": {
+      "date": -200,
+      "slug": "edfu-west-wall",
+      "source": "Edfu II, 211-212, Aufrère Text",
+      "language": "egy"
+    },
+    "Philae Kyphi": {
+      "date": -300,
+      "slug": "philae-kyphi",
+      "source": "Philae",
+      "language": "egy"
     }
   }
 }
