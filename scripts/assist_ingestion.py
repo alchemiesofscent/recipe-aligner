@@ -37,12 +37,12 @@ def load_master():
 
 
 def load_context():
-    """Load context_slugs.json"""
+    """Load context_slugs.json (optional; falls back to MASTER.json if not found)"""
     try:
         with open("data/context_slugs.json", "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print("⚠️  context_slugs.json not found, using MASTER.json")
+        # Normal fallback: context_slugs.json is optional
         master = load_master()
         return {
             "recipes": master.get("recipes", []),

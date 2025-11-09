@@ -261,7 +261,7 @@ Your diff file should follow this structure:
     }
   ],
   "ingredients": [
-    // ONLY new ingredients not in context_slugs.json
+    // ONLY new ingredients not already in MASTER.json
     {
       "slug": "new-ingredient-slug",
       "label": "Original label",
@@ -333,7 +333,7 @@ Your diff file should follow this structure:
 **Problem**: Alias or entry references an ingredient that doesn't exist.
 
 **Solution**:
-1. Check slug is in `context_slugs.json`:
+1. Check slug exists in MASTER.json:
    ```bash
    python3 scripts/assist_ingestion.py --validate-slug "your-slug"
    ```
@@ -392,7 +392,7 @@ Your diff file should follow this structure:
 ### ❌ DON'T
 
 - Create slugs without checking existing ones
-- Hallucinate slugs (always use context_slugs.json)
+- Hallucinate slugs (always validate against MASTER.json)
 - Skip equivalence updates for new ingredients
 - Use empty strings for missing data (use null)
 - Commit without validation

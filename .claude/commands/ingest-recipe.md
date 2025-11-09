@@ -232,7 +232,7 @@ Now construct the diff file following data/schema_diff.json:
     }
   ],
   "ingredients": [
-    // ONLY include NEW ingredients (not in context_slugs.json)
+    // ONLY include NEW ingredients (not already in MASTER.json)
     {
       "slug": "new-ingredient-slug",
       "label": "Label",
@@ -364,7 +364,7 @@ Tell the user:
    - "Myrrh" group includes: smyrne, smyrna, xrj, antjw-shw, plus aliases
 
 3. **Always validate slugs** before using them
-   - Check context_slugs.json via fuzzy matching
+   - Check existing ingredients via fuzzy matching
    - Don't hallucinate slugs!
 
 4. **Aliases are flexible**
@@ -382,7 +382,7 @@ Tell the user:
 ## TROUBLESHOOTING
 
 **"Validation failed - unknown ingredient_slug"**
-- Check that ingredient slug exists in context_slugs.json OR is in the diff's "ingredients" array
+- Check that ingredient slug exists in MASTER.json OR is in the diff's "ingredients" array
 
 **"Aliases reference unknown ingredients"**
 - Make sure alias.ingredient_slug matches either existing or new ingredient
