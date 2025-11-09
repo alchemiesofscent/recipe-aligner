@@ -21,9 +21,27 @@ def load_schema():
     if not os.path.exists(schema_path):
         print(f"❌ Schema not found: {schema_path}")
         return None
-    
+
     with open(schema_path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+def load_master_data():
+    """Load existing recipes and ingredients from MASTER.json"""
+    master_path = "data/MASTER.json"
+    if not os.path.exists(master_path):
+        print(f"⚠️  MASTER.json not found, skipping existing data check")
+        return {"recipes": [], "ingredients": []}
+
+    try:
+        with open(master_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return {
+                "recipes": data.get("recipes", []),
+                "ingredients": data.get("ingredients", [])
+            }
+    except Exception as e:
+        print(f"⚠️  Error loading MASTER.json: {e}")
+        return {"recipes": [], "ingredients": []}
 
 def validate_json_schema(data, schema):
     """Basic JSON schema validation without jsonschema library"""
@@ -121,10 +139,16 @@ def validate_diff(diff_path):
     
     # 4. Check references
     print(f"\n🔗 Checking references...")
-    
-    recipe_slug_set = set(recipe_slugs)
-    ingredient_slug_set = set(ingredient_slugs)
-    
+
+    # Load existing data from MASTER.json
+    master_data = load_master_data()
+    existing_recipe_slugs = {r["slug"] for r in master_data["recipes"]}
+    existing_ingredient_slugs = {i["slug"] for i in master_data["ingredients"]}
+
+    # Combine new + existing slugs for reference validation
+    recipe_slug_set = set(recipe_slugs) | existing_recipe_slugs
+    ingredient_slug_set = set(ingredient_slugs) | existing_ingredient_slugs
+
     # Check alias references
     bad_alias_refs = []
     for alias in aliases:

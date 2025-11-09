@@ -1,0 +1,680 @@
+{
+  "recipes": [
+    {
+      "slug": "archigenes-kyphi",
+      "label": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "source": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "language": "grc",
+      "date": 100
+    }
+  ],
+  "ingredients": [
+    {
+      "slug": "lithos-gagates",
+      "label": "λίθος γαγάτης",
+      "language": "grc"
+    },
+    {
+      "slug": "peganon-sperma",
+      "label": "πήγανον σπέρμα",
+      "language": "grc"
+    },
+    {
+      "slug": "karyon",
+      "label": "κάρυον",
+      "language": "grc"
+    },
+    {
+      "slug": "asaron",
+      "label": "ἄσαρον",
+      "language": "grc"
+    },
+    {
+      "slug": "peykedanon",
+      "label": "πευκέδανον",
+      "language": "grc"
+    },
+    {
+      "slug": "ligaia-sperma",
+      "label": "λιγαία σπέρμα",
+      "language": "grc"
+    },
+    {
+      "slug": "paionia",
+      "label": "παιωνία",
+      "language": "grc"
+    },
+    {
+      "slug": "konyze",
+      "label": "κονύζη",
+      "language": "grc"
+    },
+    {
+      "slug": "diktamnon",
+      "label": "δίκταμνον",
+      "language": "grc"
+    },
+    {
+      "slug": "pitys-phloios",
+      "label": "πίτυς φλοιός",
+      "language": "grc"
+    },
+    {
+      "slug": "moschlion",
+      "label": "μόσχλιον",
+      "language": "grc"
+    },
+    {
+      "slug": "styrax-kalamites",
+      "label": "στύραξ καλαμίτης",
+      "language": "grc"
+    }
+  ],
+  "aliases": [
+    {
+      "ingredient_slug": "lithos-gagates",
+      "variant_label": "jet",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "lithos-gagates",
+      "variant_label": "gagates",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "peganon-sperma",
+      "variant_label": "rue seed",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "karyon",
+      "variant_label": "walnut",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "karyon",
+      "variant_label": "nut",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "asaron",
+      "variant_label": "asarum",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "asaron",
+      "variant_label": "wild ginger",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "peykedanon",
+      "variant_label": "peucedanum",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "peykedanon",
+      "variant_label": "hog's fennel",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "ligaia-sperma",
+      "variant_label": "ligusticum seed",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "ligaia-sperma",
+      "variant_label": "lovage seed",
+      "language": "en",
+      "source": "identification"
+    },
+    {
+      "ingredient_slug": "paionia",
+      "variant_label": "peony",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "konyze",
+      "variant_label": "fleabane",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "konyze",
+      "variant_label": "conyza",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "diktamnon",
+      "variant_label": "dittany",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "pitys-phloios",
+      "variant_label": "pine bark",
+      "language": "en",
+      "source": "translation"
+    },
+    {
+      "ingredient_slug": "moschlion",
+      "variant_label": "moschlius",
+      "language": "en",
+      "source": "transliteration"
+    },
+    {
+      "ingredient_slug": "styrax-kalamites",
+      "variant_label": "storax calamites",
+      "language": "en",
+      "source": "translation"
+    }
+  ],
+  "entries": [
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "lithos-gagates",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,15"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "helenion",
+      "amount_raw": "𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,16"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "aspalathos",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": "bark",
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,17"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "asphodelos-rhiza",
+      "amount_raw": "𐆄 δ",
+      "amount_value": 4,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,18"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "brathys",
+      "amount_raw": "𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,19"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "arkeuthis",
+      "amount_raw": "φλέρια ρ",
+      "amount_value": 100,
+      "amount_unit": "berry",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,20"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "bdellion",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "rock bdellium (πετραική)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,21"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "ischades-liparai",
+      "amount_raw": "𐆄 β",
+      "amount_value": 2,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "dry, untouched (ἀτέγκτων)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,22"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "ammoniakos-thymiama",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,23"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "onyx",
+      "amount_raw": "ἀνὰ 𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "Indian (Ἰνδικός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "peganon-sperma",
+      "amount_raw": "ἀνὰ 𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "kostos",
+      "amount_raw": "ἀνὰ 𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "wild (ἄγριος)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "karyon",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,25"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "kardamomon",
+      "amount_raw": "ἀνὰ 𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,26"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "kyperos",
+      "amount_raw": "ἀνὰ 𐆄 ε",
+      "amount_value": 5,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,26"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "krokos",
+      "amount_raw": "κο. ε",
+      "amount_value": 5,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,27"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "kyparissos-sperma",
+      "amount_raw": "𐆄 γ",
+      "amount_value": 3,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,28"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "ladanon",
+      "amount_raw": "κο. ζ",
+      "amount_value": 7,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,29"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "styrax-kalamites",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,30"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "asaron",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,31"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "nardos-keltike",
+      "amount_raw": "ἀνὰ κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,32"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "rhoda-xera",
+      "amount_raw": "ἀνὰ κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,32"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "smyrne",
+      "amount_raw": "𐆄 ζ",
+      "amount_value": 7,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "Troglodyte (τρωγλοδῦτις)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,33"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "amomos",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "peykedanon",
+      "amount_raw": "𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,25"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "ligaia-sperma",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,26"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "splagchnon",
+      "amount_raw": "κο. ε",
+      "amount_value": 5,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,27"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "schoinos-anthos",
+      "amount_raw": "κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,28"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "strobilos",
+      "amount_raw": "κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": "clean, pure (καθαρός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,29"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "staphis-agigartos",
+      "amount_raw": "𐅻 β",
+      "amount_value": 2,
+      "amount_unit": "drachma",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,30"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "terebinthine",
+      "amount_raw": "λι. τ𐅵",
+      "amount_value": 1.333,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,31"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "phyllon",
+      "amount_raw": "κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,32"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "paionia",
+      "amount_raw": "κο. α",
+      "amount_value": 1,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,33"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "phoinikes-liparoi",
+      "amount_raw": "λι. α",
+      "amount_value": 1,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "konyze",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": "aromatic (ἀρωματικός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,25"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "mastiche",
+      "amount_raw": "κο. ε",
+      "amount_value": 5,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,26"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "diktamnon",
+      "amount_raw": "κο. η",
+      "amount_value": 8,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,27"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "libanos",
+      "amount_raw": "κο. γ",
+      "amount_value": 3,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,28"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "pitys-phloios",
+      "amount_raw": "κο. ε",
+      "amount_value": 5,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,29"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "kalamos-aromatikos",
+      "amount_raw": "𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,30"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "iris",
+      "amount_raw": "κο. δ",
+      "amount_value": 4,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": "Illyrian (Ἰλλυρικός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,31"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "moschlion",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,32"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "karpobalsamom",
+      "amount_raw": "𐆄 ς",
+      "amount_value": 6,
+      "amount_unit": "ounce",
+      "preparation": null,
+      "notes": null,
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,33"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "meli",
+      "amount_raw": "λι. ς",
+      "amount_value": 6,
+      "amount_unit": "pound",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,24"
+    },
+    {
+      "recipe_slug": "archigenes-kyphi",
+      "ingredient_slug": "oinos",
+      "amount_raw": "κο. ς",
+      "amount_value": 6,
+      "amount_unit": "grain",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "source_citation": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
+      "source_span": "p.17,25"
+    }
+  ]
+}

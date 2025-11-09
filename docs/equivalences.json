@@ -111,7 +111,9 @@
 	"στύραξ",
 	"στύραξ λιπαρός",
 	"styrax-liparos",
-	"fatty styrax"
+	"fatty styrax",
+	"στύραξ καλαμίτης",
+	"storax calamites"
   ],
   "Bdellium": [
     "βδέλλιον",
@@ -210,5 +212,55 @@
   ],
   "Gum Arabic (?)": [
     "ogꜢy"
+  ],
+  "Jet": [
+    "λίθος γαγάτης",
+    "jet",
+    "gagates"
+  ],
+  "Rue": [
+    "πήγανον σπέρμα",
+    "rue seed"
+  ],
+  "Walnut": [
+    "κάρυον",
+    "walnut",
+    "nut"
+  ],
+  "Asarum": [
+    "ἄσαρον",
+    "asarum",
+    "wild ginger"
+  ],
+  "Peucedanum": [
+    "πευκέδανον",
+    "peucedanum",
+    "hog's fennel"
+  ],
+  "Lovage / Ligusticum": [
+    "λιγαία σπέρμα",
+    "ligusticum seed",
+    "lovage seed"
+  ],
+  "Peony": [
+    "παιωνία",
+    "peony"
+  ],
+  "Fleabane": [
+    "κονύζη",
+    "fleabane",
+    "conyza"
+  ],
+  "Dittany": [
+    "δίκταμνον",
+    "dittany"
+  ],
+  "Pine Bark": [
+    "πίτυς φλοιός",
+    "pine bark"
+  ],
+  "Moschlius (?)": [
+    "μόσχλιον",
+    "moschlius"
   ]
 }
