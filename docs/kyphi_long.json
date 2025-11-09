@@ -1871,6 +1871,366 @@
       "preparation": null,
       "notes": "listed as alternative (ἢ - or) to schoinos flower",
       "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "λίθος γαγάτης",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "jet, gagates"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἑλένιον",
+      "amount": "6 ounce (𐆄 ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "calamint, elecampane"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἀσπάλαθος",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": "bark",
+      "notes": null,
+      "aliases": "aspalathus, thorny broom, rooibos, camelthorn, thorny trefoil, broom species, aspalathos"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἀσφόδελος ῥίζα",
+      "amount": "4 ounce (𐆄 δ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "asphodel root, white asphodel, asphodel, asphodel juice, root of asphodel"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "βράθυς",
+      "amount": "6 ounce (𐆄 ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "tamarisk, salt cedar, brathy, brathyos"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἀρκευθίς",
+      "amount": "100 berry (φλέρια ρ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "juniper berries, full-grown juniper berries, arkeuthos"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "βδέλλιον",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": null,
+      "notes": "rock bdellium (πετραική)",
+      "aliases": "bdellium, African myrrh"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἰσχάδες λιπαραί",
+      "amount": "2 ounce (𐆄 β)",
+      "preparation": null,
+      "notes": "dry, untouched (ἀτέγκτων)",
+      "aliases": "fatty figs, rich figs"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἀμμωνιακὸς θυμίαμα",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "ammoniac resin, gum ammoniac"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ὄνυξ",
+      "amount": "6 ounce (ἀνὰ 𐆄 ς)",
+      "preparation": null,
+      "notes": "Indian (Ἰνδικός)",
+      "aliases": "onycha"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "πήγανον σπέρμα",
+      "amount": "6 ounce (ἀνὰ 𐆄 ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "rue seed"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κόστος",
+      "amount": "6 ounce (ἀνὰ 𐆄 ς)",
+      "preparation": null,
+      "notes": "wild (ἄγριος)",
+      "aliases": "costus, costus root"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κάρυον",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "walnut, nut"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "καρδάμωμον",
+      "amount": "5 ounce (ἀνὰ 𐆄 ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cardamom, green cardamom"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κύπερος",
+      "amount": "5 ounce (ἀνὰ 𐆄 ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cyperus, galingale, nut sedge, tiger nut"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κρόκος",
+      "amount": "5 grain (κο. ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "saffron"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κυπάρισσος σπέρμα",
+      "amount": "3 ounce (𐆄 γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "cypress seed, Mediterranean cypress, seed of cypress"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "λάδανον",
+      "amount": "7 grain (κο. ζ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "labdanum, rockrose resin"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "στύραξ καλαμίτης",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "storax calamites"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἄσαρον",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "asarum, wild ginger"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "νάρδος Κελτική",
+      "amount": "3 grain (ἀνὰ κο. γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "Celtic nard, Alpine valerian"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ῥόδα ξηρά",
+      "amount": "3 grain (ἀνὰ κο. γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "dried roses, rose petals"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "σμύρνη",
+      "amount": "7 ounce (𐆄 ζ)",
+      "preparation": null,
+      "notes": "Troglodyte (τρωγλοδῦτις)",
+      "aliases": "myrrh"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἄμωμος",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "amomum, black cardamom"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "πευκέδανον",
+      "amount": "6 ounce (𐆄 ς)",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "aliases": "peucedanum, hog's fennel"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "λιγαία σπέρμα",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "ligusticum seed, lovage seed"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "σπλάγχνον",
+      "amount": "5 grain (κο. ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "bryon, tree-moss"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "σχοῖνος ἄνθος",
+      "amount": "3 grain (κο. γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "schoinos flower, rush flower, flower of schoinos"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "στρόβιλος",
+      "amount": "3 grain (κο. γ)",
+      "preparation": null,
+      "notes": "clean, pure (καθαρός)",
+      "aliases": "storax, pine cone"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "σταφὶς ἀγίγαρτος",
+      "amount": "2 drachma (𐅻 β)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "stoneless raisins, seedless grapes"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "τερεβινθίνη",
+      "amount": "1.333 pound (λι. τ𐅵)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "turpentine, terebinth resin, purified terebinth"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "φύλλον",
+      "amount": "3 grain (κο. γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "leaves, malabathrum, leaf"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "παιωνία",
+      "amount": "1 grain (κο. α)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "peony"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "φοίνικες λιπαροί",
+      "amount": "1 pound (λι. α)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "fatty dates, rich dates, date flesh"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κονύζη",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": "aromatic (ἀρωματικός)",
+      "aliases": "fleabane, conyza"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "μαστιχή",
+      "amount": "5 grain (κο. ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "mastic"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "δίκταμνον",
+      "amount": "8 grain (κο. η)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "dittany"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "λίβανος",
+      "amount": "3 grain (κο. γ)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "frankincense, incense"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "πίτυς φλοιός",
+      "amount": "5 grain (κο. ε)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "pine bark"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "κάλαμος ἀρωματικός",
+      "amount": "6 ounce (𐆄 ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "aromatic calamus, sweet flag, calamus, aromatic reed"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "ἴρις",
+      "amount": "4 grain (κο. δ)",
+      "preparation": null,
+      "notes": "Illyrian (Ἰλλυρικός)",
+      "aliases": "iris, orris root"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "μόσχλιον",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "moschlius"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "καρποβάλσαμον",
+      "amount": "6 ounce (𐆄 ς)",
+      "preparation": null,
+      "notes": null,
+      "aliases": "balm fruit, balsam fruit"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "μέλι",
+      "amount": "6 pound (λι. ς)",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "aliases": "honey"
+    },
+    {
+      "recipe": "Archigenes, Pal. Gr. 199 fol. 406v",
+      "ingredient": "οἶνος",
+      "amount": "6 grain (κο. ς)",
+      "preparation": null,
+      "notes": "good quality (καλός)",
+      "aliases": "wine"
     }
   ],
   "recipe_metadata": {
@@ -1938,6 +2298,12 @@
       "date": 350,
       "slug": "oribasius-lunar-kyphi",
       "source": "Oribasius, Synopsis ad Eustathium filium, Book 3, Chapter 220",
+      "language": "grc"
+    },
+    "Archigenes, Pal. Gr. 199 fol. 406v": {
+      "date": 100,
+      "slug": "archigenes-kyphi",
+      "source": "Archigenes (Pal. Gr. 199 fol. 406v, ed. Brescia p.17,14-33)",
       "language": "grc"
     }
   }
